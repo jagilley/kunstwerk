@@ -4,6 +4,7 @@ import os
 import subprocess
 from pathlib import Path
 from typing import Optional
+from config_parser import parse_opera_config
 
 def run_command(cmd: str, error_msg: str) -> None:
     result = subprocess.run(cmd, shell=True)
