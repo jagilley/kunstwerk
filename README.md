@@ -25,7 +25,7 @@ This is the repo behind the [YouTube channel of the same name](https://www.youtu
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd gotterdammerung
+cd kunstwerk
 ```
 
 2. Install dependencies:
@@ -64,19 +64,21 @@ characters:
   # Add other characters...
 ```
 
-2. Download and separate audio:
+2. Process the opera:
 ```bash
-./separate.sh your_config.yaml
+python kunstwerk.py configs/your_config.yaml
 ```
 
-3. Transcribe the audio:
+You can also skip certain steps if you've already completed them:
 ```bash
-python transcribe.py your_config.yaml
-```
+# Skip download/separation if you already have the audio files:
+python kunstwerk.py configs/your_config.yaml --skip-download
 
-4. Generate the video:
-```bash
-python make_video.py your_config.yaml
+# Skip transcription if you already have the transcriptions:
+python kunstwerk.py configs/your_config.yaml --skip-transcribe
+
+# Skip both download and transcription:
+python kunstwerk.py configs/your_config.yaml --skip-download --skip-transcribe
 ```
 
 ## Configuration Options
