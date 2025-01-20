@@ -65,8 +65,8 @@ def translate_chunk(
             )
     
     raise ValueError(
-        f"Failed to get valid translation after {max_attempts} attempts. " + \
-        f"Source has {chunk_text.count('\n')} newlines, " + \
+        f"Failed to get valid translation after {max_attempts} attempts. "
+        f"Source has {chunk_text.count('\n')} newlines, "
         f"translation has {translation.count('\n')} newlines."
     )
 
