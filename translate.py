@@ -1,7 +1,9 @@
+#!/usr/bin/env python3
 from typing import List, Tuple, Iterator
 import anthropic
 from pathlib import Path
 import os
+import argparse
 from tqdm import tqdm
 from config_parser import parse_opera_config, OperaConfig
 
@@ -45,12 +47,12 @@ def translate_chunk(
     )
     return message.content[0].text
 
-def translate_libretto(config: OperaConfig, target_lang: str) -> List[Tuple[str, str]]:
+def translate_libretto(config: OperaConfig, target_lang: str, force: bool = False) -> List[Tuple[str, str]]:
     """Translates entire libretto and returns original/translation pairs"""
     # Check if translation already exists
     target_path = Path(f"libretti/{config.file_prefix}_{target_lang}.txt")
-    if target_path.exists():
-        print(f"Translation to {target_lang} already exists at {target_path}")
+    if target_path.exists() and not force:
+        print(f"Translation to {target_lang} already exists at {target_path}. Use --force to overwrite.")
         return []
 
     client = anthropic.Anthropic(
@@ -86,3 +88,22 @@ def translate_libretto(config: OperaConfig, target_lang: str) -> List[Tuple[str,
         f.write("\n\n".join(translated_lines))
         
     return list(zip(source_lines, translated_lines))
+
+def main():
+    parser = argparse.ArgumentParser(description="Translate opera libretti using Claude")
+    parser.add_argument("config", help="Path to the opera configuration YAML file")
+    parser.add_argument("target_lang", help="Target language code (e.g., 'en' for English)")
+    parser.add_argument("--force", action="store_true", help="Overwrite existing translation file")
+    
+    args = parser.parse_args()
+    
+    try:
+        config = parse_opera_config(args.config)
+        translate_libretto(config, args.target_lang, args.force)
+        print("\nTranslation completed successfully.")
+    except Exception as e:
+        print(f"\nError: {str(e)}")
+        exit(1)
+
+if __name__ == "__main__":
+    main()

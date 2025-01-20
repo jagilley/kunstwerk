@@ -13,6 +13,7 @@ class OperaConfig:
     character_names: List[str]
     secondary_color: str
     playlist_url: str
+    translation_file: Optional[str]
     video_width: int = 3840
     video_height: int = 2160
     font_size: int = 96
@@ -36,5 +37,6 @@ def parse_opera_config(yaml_path: str) -> OperaConfig:
         video_height=config.get('video_height', 2160),
         font_size=config.get('font_size', 96),
         res_divisor=config.get('res_divisor', 1),
-        playlist_url=config['playlist_url']
+        playlist_url=config['playlist_url'],
+        translation_file=config.get('translation_file')
     )
