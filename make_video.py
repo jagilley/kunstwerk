@@ -29,49 +29,18 @@ CHARACTER_NAMES = [
     *[name.upper() for name in config.character_names]
 ]
 
-def plot_length_ratios(lines_de, lines_en):
-    length_ratios = [len(de) / len(en) for de, en in zip(lines_de, lines_en)]
-    # print a chart of length_ratios
 
-    # Plot the length ratios
-    plt.figure(figsize=(10, 5))
-    plt.plot(length_ratios)
-    plt.title(f'Length Ratios of {config.language} and en Lines')
-    plt.xlabel('Line Number')
-    plt.ylabel('Length Ratio')
-    plt.grid(True)
-    plt.show()
+def pair_libretto_lines_simple(source_text, target_text):
+    """Pair corresponding lines from source and target texts."""
+    lines_source = [line for line in source_text.split("\n\n") if line.strip()]
+    lines_target = [line for line in target_text.split("\n\n") if line.strip()]
 
-    # Find the index where the length ratios start to deviate significantly
-    threshold = 1.5  # Adjust this threshold as needed
-    deviation_index = next((i for i, ratio in enumerate(length_ratios) if abs(ratio - 1) > threshold), None)
+    if len(lines_source) != len(lines_target):
+        raise ValueError(
+            f"Number of lines doesn't match: {len(lines_source)} source lines vs {len(lines_target)} target lines"
+        )
 
-    if deviation_index is not None:
-        print(f"Significant deviation starts at line {deviation_index}")
-        print(f"{config.language} line: {lines_de[deviation_index]}")
-        print(f"en line: {lines_en[deviation_index]}")
-    else:
-        print("No significant deviation found.")
-
-def pair_libretto_lines_simple(german_text, english_text):
-    lines_de = german_text.split("\n\n")
-    lines_en = english_text.split("\n\n")
-
-    # Remove empty lines
-    lines_de = [line for line in lines_de if line.strip()]
-    lines_en = [line for line in lines_en if line.strip()]
-
-    print(len(lines_de), len(lines_en))
-
-    # print the average length of each german line
-    print(sum(len(line) for line in lines_de) / len(lines_de))
-    print(sum(len(line) for line in lines_en) / len(lines_en))
-
-    print(len(lines_de), len(lines_en))
-
-    plot_length_ratios(lines_de, lines_en)
-
-    return list(zip(lines_de, lines_en))
+    return list(zip(lines_source, lines_target))
 
 
 with open(f"libretti/{config.file_prefix}_{config.language}.txt", "r", encoding="utf-8") as f:
@@ -506,42 +475,6 @@ def detect_low_alignment(smoothed: np.ndarray, overall_avg: float, threshold: fl
         
     return low_periods
 
-def plot_aligned_words(aligned_words: List[AlignedWord]):
-    aligned = [i.start is not None and i.end is not None for i in aligned_words]
-    aligned_int = [1 if x else 0 for x in aligned]
-    overall_avg = np.mean(aligned_int)
-
-    window_size = 20
-    smoothed = np.convolve(aligned_int, np.ones(window_size)/window_size, mode='valid')
-
-    low_periods = detect_low_alignment(smoothed, overall_avg)
-
-    plt.figure(figsize=(12, 6))
-    plt.plot(smoothed, label='Alignment Rate (Moving Average)')
-    plt.axhline(y=overall_avg, color='r', linestyle='--', label='Overall Average')
-    
-    for start, end in low_periods:
-        plt.axvspan(start, end, color='red', alpha=0.2)
-    
-    plt.fill_between(range(len(smoothed)), smoothed, alpha=0.3)
-    plt.ylim(0, 1.1)
-    plt.xlabel('Word Position')
-    plt.ylabel('Proportion Aligned')
-    plt.title('Word Alignment Distribution')
-    plt.legend()
-    plt.grid(True, alpha=0.3)
-    
-    if low_periods:
-        print(f"Warning: Found {len(low_periods)} periods of low alignment (>500 words below average)")
-        for start, end in low_periods:
-            print(f"Low alignment period: words {start} to {end}")
-
-            # print the first 20 words of the low alignment period
-            print(f"First 20 words: {[aligned_words[i].word for i in range(start, min(start+20, end))]}")
-    
-    plt.show()
-
-plot_aligned_words(aligned_words)
 
 
 # write aligned words to csv
