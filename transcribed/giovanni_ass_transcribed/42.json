@@ -1,0 +1,349 @@
+{
+  "text": "E vieni alla finestra, oh mio tesoro, e vieni a consolare il pianto mio. Se neghi a me ridar qualche ristoro, da volte agli occhi tuoi morir voglio. Tu che hai la botta dolce pi\u00f9 che il miele, tu che il zucchero porti in mezzo il cuore. Non esser gioia mia, Lasciati almeno vedermi, o bello, muore!",
+  "language": "it",
+  "duration": 108.6790022675737,
+  "words": [
+    {
+      "start": 9.15,
+      "end": 9.23,
+      "word": "E",
+      "confidence": 0.515
+    },
+    {
+      "start": 9.27,
+      "end": 9.47,
+      "word": "vieni",
+      "confidence": 0.312
+    },
+    {
+      "start": 9.49,
+      "end": 9.57,
+      "word": "alla",
+      "confidence": 0.072
+    },
+    {
+      "start": 9.59,
+      "end": 10.191,
+      "word": "finestra,",
+      "confidence": 0.376
+    },
+    {
+      "start": 10.211,
+      "end": 10.271,
+      "word": "oh",
+      "confidence": 0.117
+    },
+    {
+      "start": 10.351,
+      "end": 10.411,
+      "word": "mio",
+      "confidence": 0.239
+    },
+    {
+      "start": 10.431,
+      "end": 10.691,
+      "word": "tesoro,",
+      "confidence": 0.547
+    },
+    {
+      "start": 10.731,
+      "end": 10.752,
+      "word": "e",
+      "confidence": 0.019
+    },
+    {
+      "start": 10.772,
+      "end": 11.012,
+      "word": "vieni",
+      "confidence": 0.22
+    },
+    {
+      "start": 11.052,
+      "end": 11.072,
+      "word": "a",
+      "confidence": 0.026
+    },
+    {
+      "start": 11.112,
+      "end": 11.692,
+      "word": "consolare",
+      "confidence": 0.46
+    },
+    {
+      "start": 11.712,
+      "end": 11.792,
+      "word": "il",
+      "confidence": 0.293
+    },
+    {
+      "start": 11.812,
+      "end": 12.053,
+      "word": "pianto",
+      "confidence": 0.458
+    },
+    {
+      "start": 12.133,
+      "end": 12.193,
+      "word": "mio.",
+      "confidence": 0.05
+    },
+    {
+      "start": 33.263,
+      "end": 33.383,
+      "word": "Se",
+      "confidence": 0.442
+    },
+    {
+      "start": 33.443,
+      "end": 33.684,
+      "word": "neghi",
+      "confidence": 0.426
+    },
+    {
+      "start": 33.704,
+      "end": 33.744,
+      "word": "a",
+      "confidence": 0.392
+    },
+    {
+      "start": 33.764,
+      "end": 33.824,
+      "word": "me",
+      "confidence": 0.336
+    },
+    {
+      "start": 33.864,
+      "end": 34.024,
+      "word": "ridar",
+      "confidence": 0.338
+    },
+    {
+      "start": 34.084,
+      "end": 34.324,
+      "word": "qualche",
+      "confidence": 0.301
+    },
+    {
+      "start": 34.384,
+      "end": 34.865,
+      "word": "ristoro,",
+      "confidence": 0.502
+    },
+    {
+      "start": 34.885,
+      "end": 34.985,
+      "word": "da",
+      "confidence": 0.545
+    },
+    {
+      "start": 35.065,
+      "end": 35.826,
+      "word": "volte",
+      "confidence": 0.661
+    },
+    {
+      "start": 35.846,
+      "end": 36.246,
+      "word": "agli",
+      "confidence": 0.574
+    },
+    {
+      "start": 36.306,
+      "end": 37.387,
+      "word": "occhi",
+      "confidence": 0.462
+    },
+    {
+      "start": 37.447,
+      "end": 37.768,
+      "word": "tuoi",
+      "confidence": 0.554
+    },
+    {
+      "start": 37.828,
+      "end": 38.128,
+      "word": "morir",
+      "confidence": 0.466
+    },
+    {
+      "start": 38.188,
+      "end": 38.388,
+      "word": "voglio.",
+      "confidence": 0.341
+    },
+    {
+      "start": 58.26,
+      "end": 58.3,
+      "word": "Tu",
+      "confidence": 0.002
+    },
+    {
+      "start": 58.5,
+      "end": 58.56,
+      "word": "che",
+      "confidence": 0.259
+    },
+    {
+      "start": 58.66,
+      "end": 58.78,
+      "word": "hai",
+      "confidence": 0.304
+    },
+    {
+      "start": 58.9,
+      "end": 59.661,
+      "word": "la",
+      "confidence": 0.66
+    },
+    {
+      "start": 59.701,
+      "end": 59.841,
+      "word": "botta",
+      "confidence": 0.191
+    },
+    {
+      "start": 59.861,
+      "end": 60.061,
+      "word": "dolce",
+      "confidence": 0.555
+    },
+    {
+      "start": 60.121,
+      "end": 60.181,
+      "word": "pi\u00f9",
+      "confidence": 0.13
+    },
+    {
+      "start": 60.201,
+      "end": 60.361,
+      "word": "che",
+      "confidence": 0.378
+    },
+    {
+      "start": 60.402,
+      "end": 60.522,
+      "word": "il",
+      "confidence": 0.507
+    },
+    {
+      "start": 60.622,
+      "end": 60.842,
+      "word": "miele,",
+      "confidence": 0.438
+    },
+    {
+      "start": 61.042,
+      "end": 61.302,
+      "word": "tu",
+      "confidence": 0.74
+    },
+    {
+      "start": 61.362,
+      "end": 61.422,
+      "word": "che",
+      "confidence": 0.18
+    },
+    {
+      "start": 61.442,
+      "end": 61.482,
+      "word": "il",
+      "confidence": 0.19
+    },
+    {
+      "start": 61.522,
+      "end": 62.123,
+      "word": "zucchero",
+      "confidence": 0.488
+    },
+    {
+      "start": 62.183,
+      "end": 62.463,
+      "word": "porti",
+      "confidence": 0.619
+    },
+    {
+      "start": 62.543,
+      "end": 62.603,
+      "word": "in",
+      "confidence": 0.282
+    },
+    {
+      "start": 62.643,
+      "end": 62.903,
+      "word": "mezzo",
+      "confidence": 0.545
+    },
+    {
+      "start": 62.923,
+      "end": 62.963,
+      "word": "il",
+      "confidence": 0.039
+    },
+    {
+      "start": 63.003,
+      "end": 63.283,
+      "word": "cuore.",
+      "confidence": 0.439
+    },
+    {
+      "start": 63.343,
+      "end": 63.444,
+      "word": "Non",
+      "confidence": 0.535
+    },
+    {
+      "start": 63.544,
+      "end": 63.924,
+      "word": "esser",
+      "confidence": 0.495
+    },
+    {
+      "start": 64.004,
+      "end": 64.483,
+      "word": "gioia",
+      "confidence": 0.55
+    },
+    {
+      "start": 64.544,
+      "end": 64.623,
+      "word": "mia,",
+      "confidence": 0.172
+    },
+    {
+      "start": 88.636,
+      "end": 88.816,
+      "word": "Lasciati",
+      "confidence": 0.072
+    },
+    {
+      "start": 88.836,
+      "end": 88.996,
+      "word": "almeno",
+      "confidence": 0.117
+    },
+    {
+      "start": 89.017,
+      "end": 89.477,
+      "word": "vedermi,",
+      "confidence": 0.425
+    },
+    {
+      "start": 89.537,
+      "end": 89.557,
+      "word": "o",
+      "confidence": 0.21
+    },
+    {
+      "start": 89.577,
+      "end": 89.998,
+      "word": "bello,",
+      "confidence": 0.446
+    },
+    {
+      "start": 90.018,
+      "end": 90.238,
+      "word": "muore!",
+      "confidence": 0.279
+    }
+  ]
+}

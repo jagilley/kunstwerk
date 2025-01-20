@@ -1,0 +1,11 @@
+.aider*
+.env
+.venv
+__pycache__
+output
+audio
+sep
+images
+*.csv
+.DS_Store
+**/.DS_Store

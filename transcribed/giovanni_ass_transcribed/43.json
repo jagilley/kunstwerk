@@ -1,0 +1,37 @@
+{
+  "text": "Veggente alla finestra! Sar\u00e0 adesso!",
+  "language": "it",
+  "duration": 4.956009070294785,
+  "words": [
+    {
+      "start": 0.418,
+      "end": 1.02,
+      "word": "Veggente",
+      "confidence": 0.69
+    },
+    {
+      "start": 1.04,
+      "end": 1.24,
+      "word": "alla",
+      "confidence": 0.544
+    },
+    {
+      "start": 1.36,
+      "end": 2.082,
+      "word": "finestra!",
+      "confidence": 0.77
+    },
+    {
+      "start": 2.543,
+      "end": 2.864,
+      "word": "Sar\u00e0",
+      "confidence": 0.447
+    },
+    {
+      "start": 2.884,
+      "end": 3.305,
+      "word": "adesso!",
+      "confidence": 0.878
+    }
+  ]
+}

@@ -1,0 +1,625 @@
+{
+  "text": "Mi pare che oggi il demonio si liberta d'opporsi ai miei piacevoli progressi. Fanno mal tutti quanti. Ancora, idolo mio, son vani pianti. Di vendetta si parli. Ah, Don Giovanni! Mancava questo inver. Signore, a tempo ve li troviamo. Avete cuore, avete anima generosa. Sta a vedere che il diavolo le ha detto qualche cosa. Che domanda? Perch\u00e9? Bisogna abbiamo della vostra amicizia. Mi torna al fiato il corpo. Comandate i congiunti, i parenti, questa mano, questo ferro, i beni. Il sangue spegner\u00f2 per servirvi. Ma voi, bella donna, perch\u00e9 cos\u00ec piangete? Il cruele chif\u00f9n che osa la calma turbar del viver vostro!",
+  "language": "it",
+  "duration": 69.44698412698413,
+  "words": [
+    {
+      "start": 1.882,
+      "end": 1.922,
+      "word": "Mi",
+      "confidence": 0.054
+    },
+    {
+      "start": 1.942,
+      "end": 2.282,
+      "word": "pare",
+      "confidence": 0.116
+    },
+    {
+      "start": 2.302,
+      "end": 2.442,
+      "word": "che",
+      "confidence": 0.081
+    },
+    {
+      "start": 2.462,
+      "end": 2.562,
+      "word": "oggi",
+      "confidence": 0.092
+    },
+    {
+      "start": 2.582,
+      "end": 2.622,
+      "word": "il",
+      "confidence": 0.078
+    },
+    {
+      "start": 2.642,
+      "end": 3.103,
+      "word": "demonio",
+      "confidence": 0.176
+    },
+    {
+      "start": 3.123,
+      "end": 3.243,
+      "word": "si",
+      "confidence": 0.208
+    },
+    {
+      "start": 3.263,
+      "end": 3.983,
+      "word": "liberta",
+      "confidence": 0.278
+    },
+    {
+      "start": 4.003,
+      "end": 4.563,
+      "word": "d'opporsi",
+      "confidence": 0.465
+    },
+    {
+      "start": 4.603,
+      "end": 4.683,
+      "word": "ai",
+      "confidence": 0.35
+    },
+    {
+      "start": 4.703,
+      "end": 5.003,
+      "word": "miei",
+      "confidence": 0.502
+    },
+    {
+      "start": 5.043,
+      "end": 5.604,
+      "word": "piacevoli",
+      "confidence": 0.546
+    },
+    {
+      "start": 5.684,
+      "end": 6.264,
+      "word": "progressi.",
+      "confidence": 0.852
+    },
+    {
+      "start": 6.784,
+      "end": 7.144,
+      "word": "Fanno",
+      "confidence": 0.893
+    },
+    {
+      "start": 7.184,
+      "end": 7.445,
+      "word": "mal",
+      "confidence": 0.627
+    },
+    {
+      "start": 7.525,
+      "end": 7.825,
+      "word": "tutti",
+      "confidence": 0.852
+    },
+    {
+      "start": 7.885,
+      "end": 8.265,
+      "word": "quanti.",
+      "confidence": 0.816
+    },
+    {
+      "start": 11.746,
+      "end": 12.927,
+      "word": "Ancora,",
+      "confidence": 0.833
+    },
+    {
+      "start": 13.107,
+      "end": 13.507,
+      "word": "idolo",
+      "confidence": 0.748
+    },
+    {
+      "start": 13.567,
+      "end": 14.308,
+      "word": "mio,",
+      "confidence": 0.754
+    },
+    {
+      "start": 14.708,
+      "end": 14.948,
+      "word": "son",
+      "confidence": 0.833
+    },
+    {
+      "start": 15.028,
+      "end": 15.268,
+      "word": "vani",
+      "confidence": 0.856
+    },
+    {
+      "start": 15.328,
+      "end": 16.409,
+      "word": "pianti.",
+      "confidence": 0.768
+    },
+    {
+      "start": 16.709,
+      "end": 16.809,
+      "word": "Di",
+      "confidence": 0.574
+    },
+    {
+      "start": 16.849,
+      "end": 17.589,
+      "word": "vendetta",
+      "confidence": 0.731
+    },
+    {
+      "start": 17.709,
+      "end": 17.809,
+      "word": "si",
+      "confidence": 0.796
+    },
+    {
+      "start": 17.869,
+      "end": 18.389,
+      "word": "parli.",
+      "confidence": 0.941
+    },
+    {
+      "start": 19.61,
+      "end": 19.69,
+      "word": "Ah,",
+      "confidence": 0.456
+    },
+    {
+      "start": 20.59,
+      "end": 20.75,
+      "word": "Don",
+      "confidence": 0.783
+    },
+    {
+      "start": 20.83,
+      "end": 21.531,
+      "word": "Giovanni!",
+      "confidence": 0.659
+    },
+    {
+      "start": 22.791,
+      "end": 23.192,
+      "word": "Mancava",
+      "confidence": 0.54
+    },
+    {
+      "start": 23.252,
+      "end": 23.492,
+      "word": "questo",
+      "confidence": 0.814
+    },
+    {
+      "start": 23.552,
+      "end": 24.072,
+      "word": "inver.",
+      "confidence": 0.852
+    },
+    {
+      "start": 25.553,
+      "end": 26.473,
+      "word": "Signore,",
+      "confidence": 0.638
+    },
+    {
+      "start": 26.533,
+      "end": 26.573,
+      "word": "a",
+      "confidence": 0.491
+    },
+    {
+      "start": 27.333,
+      "end": 27.774,
+      "word": "tempo",
+      "confidence": 0.67
+    },
+    {
+      "start": 27.834,
+      "end": 27.954,
+      "word": "ve",
+      "confidence": 0.659
+    },
+    {
+      "start": 27.974,
+      "end": 28.034,
+      "word": "li",
+      "confidence": 0.257
+    },
+    {
+      "start": 28.114,
+      "end": 28.474,
+      "word": "troviamo.",
+      "confidence": 0.223
+    },
+    {
+      "start": 29.328,
+      "end": 29.608,
+      "word": "Avete",
+      "confidence": 0.557
+    },
+    {
+      "start": 29.748,
+      "end": 30.508,
+      "word": "cuore,",
+      "confidence": 0.596
+    },
+    {
+      "start": 30.928,
+      "end": 31.188,
+      "word": "avete",
+      "confidence": 0.815
+    },
+    {
+      "start": 31.228,
+      "end": 31.648,
+      "word": "anima",
+      "confidence": 0.492
+    },
+    {
+      "start": 31.708,
+      "end": 33.489,
+      "word": "generosa.",
+      "confidence": 0.724
+    },
+    {
+      "start": 33.849,
+      "end": 34.149,
+      "word": "Sta",
+      "confidence": 0.888
+    },
+    {
+      "start": 34.209,
+      "end": 34.249,
+      "word": "a",
+      "confidence": 0.498
+    },
+    {
+      "start": 34.309,
+      "end": 34.569,
+      "word": "vedere",
+      "confidence": 0.57
+    },
+    {
+      "start": 34.609,
+      "end": 34.709,
+      "word": "che",
+      "confidence": 0.388
+    },
+    {
+      "start": 34.749,
+      "end": 34.829,
+      "word": "il",
+      "confidence": 0.534
+    },
+    {
+      "start": 34.849,
+      "end": 35.249,
+      "word": "diavolo",
+      "confidence": 0.549
+    },
+    {
+      "start": 35.289,
+      "end": 35.349,
+      "word": "le",
+      "confidence": 0.408
+    },
+    {
+      "start": 35.369,
+      "end": 35.429,
+      "word": "ha",
+      "confidence": 0.328
+    },
+    {
+      "start": 35.469,
+      "end": 35.749,
+      "word": "detto",
+      "confidence": 0.902
+    },
+    {
+      "start": 35.829,
+      "end": 36.109,
+      "word": "qualche",
+      "confidence": 0.606
+    },
+    {
+      "start": 36.189,
+      "end": 36.569,
+      "word": "cosa.",
+      "confidence": 0.887
+    },
+    {
+      "start": 37.309,
+      "end": 37.51,
+      "word": "Che",
+      "confidence": 0.656
+    },
+    {
+      "start": 37.59,
+      "end": 38.05,
+      "word": "domanda?",
+      "confidence": 0.864
+    },
+    {
+      "start": 38.41,
+      "end": 38.89,
+      "word": "Perch\u00e9?",
+      "confidence": 0.605
+    },
+    {
+      "start": 40.99,
+      "end": 41.53,
+      "word": "Bisogna",
+      "confidence": 0.731
+    },
+    {
+      "start": 41.61,
+      "end": 42.11,
+      "word": "abbiamo",
+      "confidence": 0.525
+    },
+    {
+      "start": 42.15,
+      "end": 42.35,
+      "word": "della",
+      "confidence": 0.563
+    },
+    {
+      "start": 42.39,
+      "end": 43.011,
+      "word": "vostra",
+      "confidence": 0.698
+    },
+    {
+      "start": 43.091,
+      "end": 44.491,
+      "word": "amicizia.",
+      "confidence": 0.741
+    },
+    {
+      "start": 45.151,
+      "end": 45.231,
+      "word": "Mi",
+      "confidence": 0.782
+    },
+    {
+      "start": 45.271,
+      "end": 45.571,
+      "word": "torna",
+      "confidence": 0.503
+    },
+    {
+      "start": 45.591,
+      "end": 45.631,
+      "word": "al",
+      "confidence": 0.016
+    },
+    {
+      "start": 45.731,
+      "end": 45.931,
+      "word": "fiato",
+      "confidence": 0.508
+    },
+    {
+      "start": 46.071,
+      "end": 46.131,
+      "word": "il",
+      "confidence": 0.49
+    },
+    {
+      "start": 46.251,
+      "end": 46.791,
+      "word": "corpo.",
+      "confidence": 0.841
+    },
+    {
+      "start": 47.511,
+      "end": 48.632,
+      "word": "Comandate",
+      "confidence": 0.829
+    },
+    {
+      "start": 48.892,
+      "end": 48.932,
+      "word": "i",
+      "confidence": 0.806
+    },
+    {
+      "start": 48.992,
+      "end": 49.692,
+      "word": "congiunti,",
+      "confidence": 0.86
+    },
+    {
+      "start": 49.912,
+      "end": 49.952,
+      "word": "i",
+      "confidence": 0.717
+    },
+    {
+      "start": 50.012,
+      "end": 50.512,
+      "word": "parenti,",
+      "confidence": 0.866
+    },
+    {
+      "start": 50.732,
+      "end": 51.032,
+      "word": "questa",
+      "confidence": 0.772
+    },
+    {
+      "start": 51.092,
+      "end": 51.472,
+      "word": "mano,",
+      "confidence": 0.534
+    },
+    {
+      "start": 51.592,
+      "end": 51.872,
+      "word": "questo",
+      "confidence": 0.825
+    },
+    {
+      "start": 52.052,
+      "end": 52.472,
+      "word": "ferro,",
+      "confidence": 0.667
+    },
+    {
+      "start": 52.772,
+      "end": 52.832,
+      "word": "i",
+      "confidence": 0.476
+    },
+    {
+      "start": 52.872,
+      "end": 53.252,
+      "word": "beni.",
+      "confidence": 0.866
+    },
+    {
+      "start": 53.672,
+      "end": 53.772,
+      "word": "Il",
+      "confidence": 0.95
+    },
+    {
+      "start": 53.933,
+      "end": 54.433,
+      "word": "sangue",
+      "confidence": 0.516
+    },
+    {
+      "start": 54.473,
+      "end": 55.133,
+      "word": "spegner\u00f2",
+      "confidence": 0.784
+    },
+    {
+      "start": 55.193,
+      "end": 55.333,
+      "word": "per",
+      "confidence": 0.919
+    },
+    {
+      "start": 55.493,
+      "end": 55.733,
+      "word": "servirvi.",
+      "confidence": 0.289
+    },
+    {
+      "start": 57.822,
+      "end": 57.923,
+      "word": "Ma",
+      "confidence": 0.505
+    },
+    {
+      "start": 57.983,
+      "end": 58.603,
+      "word": "voi,",
+      "confidence": 0.74
+    },
+    {
+      "start": 58.804,
+      "end": 59.224,
+      "word": "bella",
+      "confidence": 0.637
+    },
+    {
+      "start": 59.264,
+      "end": 60.406,
+      "word": "donna,",
+      "confidence": 0.794
+    },
+    {
+      "start": 60.867,
+      "end": 61.728,
+      "word": "perch\u00e9",
+      "confidence": 0.787
+    },
+    {
+      "start": 61.848,
+      "end": 62.248,
+      "word": "cos\u00ec",
+      "confidence": 0.756
+    },
+    {
+      "start": 62.328,
+      "end": 63.51,
+      "word": "piangete?",
+      "confidence": 0.8
+    },
+    {
+      "start": 64.171,
+      "end": 64.37,
+      "word": "Il",
+      "confidence": 0.86
+    },
+    {
+      "start": 64.471,
+      "end": 65.212,
+      "word": "cruele",
+      "confidence": 0.715
+    },
+    {
+      "start": 65.292,
+      "end": 65.793,
+      "word": "chif\u00f9n",
+      "confidence": 0.729
+    },
+    {
+      "start": 65.853,
+      "end": 65.973,
+      "word": "che",
+      "confidence": 0.808
+    },
+    {
+      "start": 66.054,
+      "end": 66.194,
+      "word": "osa",
+      "confidence": 0.953
+    },
+    {
+      "start": 66.274,
+      "end": 66.354,
+      "word": "la",
+      "confidence": 0.866
+    },
+    {
+      "start": 66.394,
+      "end": 66.774,
+      "word": "calma",
+      "confidence": 0.817
+    },
+    {
+      "start": 66.835,
+      "end": 67.415,
+      "word": "turbar",
+      "confidence": 0.747
+    },
+    {
+      "start": 67.455,
+      "end": 67.616,
+      "word": "del",
+      "confidence": 0.861
+    },
+    {
+      "start": 67.796,
+      "end": 68.236,
+      "word": "viver",
+      "confidence": 0.638
+    },
+    {
+      "start": 68.256,
+      "end": 68.757,
+      "word": "vostro!",
+      "confidence": 0.534
+    }
+  ]
+}

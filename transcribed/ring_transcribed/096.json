@@ -1,0 +1,34 @@
+{
+  "duration": 136.3300018310547,
+  "language": "german",
+  "text": "Untertitel der Amara.org-Community",
+  "segments": null,
+  "words": [
+    {
+      "end": 136.3000030517578,
+      "start": 134.89999389648438,
+      "word": "Untertitel"
+    },
+    {
+      "end": 136.3000030517578,
+      "start": 136.3000030517578,
+      "word": "der"
+    },
+    {
+      "end": 136.3000030517578,
+      "start": 136.3000030517578,
+      "word": "Amara"
+    },
+    {
+      "end": 136.3000030517578,
+      "start": 136.3000030517578,
+      "word": "org"
+    },
+    {
+      "end": 136.3000030517578,
+      "start": 136.3000030517578,
+      "word": "Community"
+    }
+  ],
+  "task": "transcribe"
+}

@@ -1,0 +1,613 @@
+{
+  "text": "Auf, ihr frohen flink Unfreuden, sollt ich sagen von Hetz Tristan. Bei einem Herrn soll dich zu seid im Gedicht Marke zu stehen. Nicht m\u00f6chtest nach Zucht und Furcht geschehen, empfing ich S\u00f6hne nicht zuvor f\u00fcr ungesehnte Schuld und Welt ist gut nicht woll ich mich bereite, ans Land eh zu begleiten, nicht w\u00fcrdig zu sehen, vor K\u00f6nig Marke zu stehen un vergeben nach Zucht und Bogen nicht zu f\u00fchren f\u00fcr ungebiste Schuld. Bibet ihm meine Huld nicht bewisst, was sag ich ihm nun? Wart, wie er mich h\u00f6rt. Wenn du dir alles klug erweckt oder fremdes Land hin \u0178ousand on.",
+  "language": "de",
+  "duration": 499.0570068027211,
+  "words": [
+    {
+      "start": 0.32,
+      "end": 0.86,
+      "word": "Auf,",
+      "confidence": 0.66598
+    },
+    {
+      "start": 2.35,
+      "end": 2.71,
+      "word": "ihr",
+      "confidence": 0.34864
+    },
+    {
+      "start": 2.75,
+      "end": 5.17,
+      "word": "frohen",
+      "confidence": 0.16313
+    },
+    {
+      "start": 12.19,
+      "end": 13.05,
+      "word": "flink",
+      "confidence": 0.40335
+    },
+    {
+      "start": 15.15,
+      "end": 18.022,
+      "word": "Unfreuden,",
+      "confidence": 0.0888
+    },
+    {
+      "start": 18.126,
+      "end": 19.182,
+      "word": "sollt",
+      "confidence": 0.48316
+    },
+    {
+      "start": 19.206,
+      "end": 19.39,
+      "word": "ich",
+      "confidence": 0.924
+    },
+    {
+      "start": 19.43,
+      "end": 20.238,
+      "word": "sagen",
+      "confidence": 0.72292
+    },
+    {
+      "start": 20.374,
+      "end": 20.67,
+      "word": "von",
+      "confidence": 0.62213
+    },
+    {
+      "start": 20.71,
+      "end": 21.478,
+      "word": "Hetz",
+      "confidence": 0.14245
+    },
+    {
+      "start": 21.534,
+      "end": 22.91,
+      "word": "Tristan.",
+      "confidence": 0.27827
+    },
+    {
+      "start": 23.03,
+      "end": 23.622,
+      "word": "Bei",
+      "confidence": 0.36253
+    },
+    {
+      "start": 23.766,
+      "end": 24.19,
+      "word": "einem",
+      "confidence": 0.40542
+    },
+    {
+      "start": 24.27,
+      "end": 25.17,
+      "word": "Herrn",
+      "confidence": 0.44576
+    },
+    {
+      "start": 91.62,
+      "end": 92.292,
+      "word": "soll",
+      "confidence": 0.88964
+    },
+    {
+      "start": 92.436,
+      "end": 92.86,
+      "word": "dich",
+      "confidence": 0.90812
+    },
+    {
+      "start": 92.94,
+      "end": 93.18,
+      "word": "zu",
+      "confidence": 0.71275
+    },
+    {
+      "start": 93.22,
+      "end": 93.86,
+      "word": "seid",
+      "confidence": 0.22565
+    },
+    {
+      "start": 93.94,
+      "end": 94.348,
+      "word": "im",
+      "confidence": 0.6496
+    },
+    {
+      "start": 94.444,
+      "end": 98.5,
+      "word": "Gedicht",
+      "confidence": 0.21529
+    },
+    {
+      "start": 98.58,
+      "end": 99.388,
+      "word": "Marke",
+      "confidence": 0.47686
+    },
+    {
+      "start": 99.444,
+      "end": 99.708,
+      "word": "zu",
+      "confidence": 0.90365
+    },
+    {
+      "start": 99.764,
+      "end": 100.72,
+      "word": "stehen.",
+      "confidence": 0.47451
+    },
+    {
+      "start": 101.98,
+      "end": 102.58,
+      "word": "Nicht",
+      "confidence": 0.98519
+    },
+    {
+      "start": 102.7,
+      "end": 103.532,
+      "word": "m\u00f6chtest",
+      "confidence": 0.45278
+    },
+    {
+      "start": 103.596,
+      "end": 103.844,
+      "word": "nach",
+      "confidence": 0.83788
+    },
+    {
+      "start": 103.892,
+      "end": 104.78,
+      "word": "Zucht",
+      "confidence": 0.40119
+    },
+    {
+      "start": 104.86,
+      "end": 105.172,
+      "word": "und",
+      "confidence": 0.99891
+    },
+    {
+      "start": 105.236,
+      "end": 106.204,
+      "word": "Furcht",
+      "confidence": 0.25509
+    },
+    {
+      "start": 106.252,
+      "end": 107.322,
+      "word": "geschehen,",
+      "confidence": 0.38097
+    },
+    {
+      "start": 107.516,
+      "end": 108.638,
+      "word": "empfing",
+      "confidence": 0.50676
+    },
+    {
+      "start": 108.814,
+      "end": 109.174,
+      "word": "ich",
+      "confidence": 0.6024
+    },
+    {
+      "start": 109.222,
+      "end": 109.83,
+      "word": "S\u00f6hne",
+      "confidence": 0.09566
+    },
+    {
+      "start": 109.87,
+      "end": 110.166,
+      "word": "nicht",
+      "confidence": 0.77861
+    },
+    {
+      "start": 110.238,
+      "end": 111.17,
+      "word": "zuvor",
+      "confidence": 0.43009
+    },
+    {
+      "start": 112.91,
+      "end": 113.486,
+      "word": "f\u00fcr",
+      "confidence": 0.93239
+    },
+    {
+      "start": 113.598,
+      "end": 116.086,
+      "word": "ungesehnte",
+      "confidence": 0.15092
+    },
+    {
+      "start": 116.278,
+      "end": 117.89,
+      "word": "Schuld",
+      "confidence": 0.56589
+    },
+    {
+      "start": 132.75,
+      "end": 133.302,
+      "word": "und",
+      "confidence": 0.71869
+    },
+    {
+      "start": 133.406,
+      "end": 134.326,
+      "word": "Welt",
+      "confidence": 0.57861
+    },
+    {
+      "start": 134.398,
+      "end": 134.75,
+      "word": "ist",
+      "confidence": 0.98568
+    },
+    {
+      "start": 134.83,
+      "end": 135.45,
+      "word": "gut",
+      "confidence": 0.99944
+    },
+    {
+      "start": 139.36,
+      "end": 140.1,
+      "word": "nicht",
+      "confidence": 0.99182
+    },
+    {
+      "start": 140.4,
+      "end": 140.904,
+      "word": "woll",
+      "confidence": 0.53992
+    },
+    {
+      "start": 140.952,
+      "end": 141.136,
+      "word": "ich",
+      "confidence": 0.79824
+    },
+    {
+      "start": 141.168,
+      "end": 141.408,
+      "word": "mich",
+      "confidence": 0.98406
+    },
+    {
+      "start": 141.464,
+      "end": 142.34,
+      "word": "bereite,",
+      "confidence": 0.51989
+    },
+    {
+      "start": 143.44,
+      "end": 143.896,
+      "word": "ans",
+      "confidence": 0.99327
+    },
+    {
+      "start": 143.968,
+      "end": 144.58,
+      "word": "Land",
+      "confidence": 0.71362
+    },
+    {
+      "start": 145.04,
+      "end": 145.552,
+      "word": "eh",
+      "confidence": 0.11127
+    },
+    {
+      "start": 145.616,
+      "end": 145.912,
+      "word": "zu",
+      "confidence": 0.44029
+    },
+    {
+      "start": 145.976,
+      "end": 147.66,
+      "word": "begleiten,",
+      "confidence": 0.50198
+    },
+    {
+      "start": 148.44,
+      "end": 149.232,
+      "word": "nicht",
+      "confidence": 0.99108
+    },
+    {
+      "start": 149.416,
+      "end": 150.56,
+      "word": "w\u00fcrdig",
+      "confidence": 0.1357
+    },
+    {
+      "start": 150.64,
+      "end": 150.856,
+      "word": "zu",
+      "confidence": 0.87981
+    },
+    {
+      "start": 150.888,
+      "end": 151.98,
+      "word": "sehen,",
+      "confidence": 0.11827
+    },
+    {
+      "start": 154.04,
+      "end": 154.688,
+      "word": "vor",
+      "confidence": 0.70033
+    },
+    {
+      "start": 154.824,
+      "end": 156.088,
+      "word": "K\u00f6nig",
+      "confidence": 0.89927
+    },
+    {
+      "start": 156.184,
+      "end": 157.024,
+      "word": "Marke",
+      "confidence": 0.8859
+    },
+    {
+      "start": 157.072,
+      "end": 157.328,
+      "word": "zu",
+      "confidence": 0.78587
+    },
+    {
+      "start": 157.384,
+      "end": 158.26,
+      "word": "stehen",
+      "confidence": 0.66348
+    },
+    {
+      "start": 163.36,
+      "end": 163.864,
+      "word": "un",
+      "confidence": 0.61533
+    },
+    {
+      "start": 163.952,
+      "end": 165.056,
+      "word": "vergeben",
+      "confidence": 0.34324
+    },
+    {
+      "start": 165.128,
+      "end": 165.48,
+      "word": "nach",
+      "confidence": 0.9777
+    },
+    {
+      "start": 165.56,
+      "end": 166.44,
+      "word": "Zucht",
+      "confidence": 0.42878
+    },
+    {
+      "start": 166.56,
+      "end": 166.888,
+      "word": "und",
+      "confidence": 0.99446
+    },
+    {
+      "start": 166.944,
+      "end": 167.52,
+      "word": "Bogen",
+      "confidence": 0.26381
+    },
+    {
+      "start": 167.6,
+      "end": 167.912,
+      "word": "nicht",
+      "confidence": 0.63828
+    },
+    {
+      "start": 167.976,
+      "end": 168.272,
+      "word": "zu",
+      "confidence": 0.98636
+    },
+    {
+      "start": 168.336,
+      "end": 170.22,
+      "word": "f\u00fchren",
+      "confidence": 0.15847
+    },
+    {
+      "start": 171.0,
+      "end": 171.528,
+      "word": "f\u00fcr",
+      "confidence": 0.99421
+    },
+    {
+      "start": 171.624,
+      "end": 173.74,
+      "word": "ungebiste",
+      "confidence": 0.22806
+    },
+    {
+      "start": 174.32,
+      "end": 175.98,
+      "word": "Schuld.",
+      "confidence": 0.50159
+    },
+    {
+      "start": 178.72,
+      "end": 180.74,
+      "word": "Bibet",
+      "confidence": 0.05261
+    },
+    {
+      "start": 181.48,
+      "end": 182.16,
+      "word": "ihm",
+      "confidence": 0.51417
+    },
+    {
+      "start": 182.28,
+      "end": 182.976,
+      "word": "meine",
+      "confidence": 0.63491
+    },
+    {
+      "start": 183.048,
+      "end": 183.86,
+      "word": "Huld",
+      "confidence": 0.87954
+    },
+    {
+      "start": 184.24,
+      "end": 184.648,
+      "word": "nicht",
+      "confidence": 0.76206
+    },
+    {
+      "start": 184.704,
+      "end": 185.344,
+      "word": "bewisst,",
+      "confidence": 0.26975
+    },
+    {
+      "start": 185.432,
+      "end": 185.776,
+      "word": "was",
+      "confidence": 0.65262
+    },
+    {
+      "start": 185.848,
+      "end": 186.12,
+      "word": "sag",
+      "confidence": 0.5388
+    },
+    {
+      "start": 186.16,
+      "end": 186.312,
+      "word": "ich",
+      "confidence": 0.99993
+    },
+    {
+      "start": 186.336,
+      "end": 186.8,
+      "word": "ihm",
+      "confidence": 0.92339
+    },
+    {
+      "start": 186.92,
+      "end": 187.296,
+      "word": "nun?",
+      "confidence": 0.88757
+    },
+    {
+      "start": 187.368,
+      "end": 187.952,
+      "word": "Wart,",
+      "confidence": 0.47341
+    },
+    {
+      "start": 188.056,
+      "end": 188.344,
+      "word": "wie",
+      "confidence": 0.46459
+    },
+    {
+      "start": 188.392,
+      "end": 188.6,
+      "word": "er",
+      "confidence": 0.94269
+    },
+    {
+      "start": 188.64,
+      "end": 188.864,
+      "word": "mich",
+      "confidence": 0.99858
+    },
+    {
+      "start": 188.912,
+      "end": 189.82,
+      "word": "h\u00f6rt.",
+      "confidence": 0.57436
+    },
+    {
+      "start": 324.68,
+      "end": 325.16,
+      "word": "Wenn",
+      "confidence": 0.69931
+    },
+    {
+      "start": 325.24,
+      "end": 325.48,
+      "word": "du",
+      "confidence": 0.56287
+    },
+    {
+      "start": 325.52,
+      "end": 325.888,
+      "word": "dir",
+      "confidence": 0.97082
+    },
+    {
+      "start": 325.984,
+      "end": 326.8,
+      "word": "alles",
+      "confidence": 0.98595
+    },
+    {
+      "start": 326.88,
+      "end": 327.768,
+      "word": "klug",
+      "confidence": 0.64203
+    },
+    {
+      "start": 327.944,
+      "end": 329.58,
+      "word": "erweckt",
+      "confidence": 0.3855
+    },
+    {
+      "start": 332.24,
+      "end": 332.98,
+      "word": "oder",
+      "confidence": 0.95223
+    },
+    {
+      "start": 334.32,
+      "end": 335.528,
+      "word": "fremdes",
+      "confidence": 0.69393
+    },
+    {
+      "start": 335.624,
+      "end": 336.26,
+      "word": "Land",
+      "confidence": 0.88013
+    },
+    {
+      "start": 336.68,
+      "end": 337.42,
+      "word": "hin",
+      "confidence": 0.18937
+    },
+    {
+      "start": 459.93,
+      "end": 460.268,
+      "word": "\u0178ousand",
+      "confidence": 0.51219
+    },
+    {
+      "start": 460.314,
+      "end": 460.4,
+      "word": "on.",
+      "confidence": 0.7541
+    }
+  ]
+}

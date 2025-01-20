@@ -1,0 +1,1231 @@
+{
+  "text": "La ci darem la mano, la mi dirai di s\u00ec, che l\u00ec non \u00e8 lontano, partiam ben via da qui. Vorrei, e non vorrei, Mi trema un poco il cuore, felice e vero sarei, ma pu\u00f2 burlarmi ancora. Vieni, mio bel giletto. Mi fa piet\u00e0, Masetto. Io canger\u00f2 tua sorte. Presto, non son pi\u00f9 forte. Non son pi\u00f9 forte. Vieni. Vieni a ci dare la mano. Vorrei e non vorrei. Ma mi direi di s\u00ec. Mi trema molto il cuore. Partiamo, ben mio, da qui. Vieni mio bel diretto, io canger\u00f2 tua sorte. Non sono pi\u00f9 forte, non sono pi\u00f9 forte, non sono pi\u00f9 forte. Andiamo, andiamo, Andiamo, andiamo, mio bene, a risolarvi il pene di un'innocente amor. Andiamo, andiamo, mio bene, a risolarvi il pene di un'innocente amor. Andiamo! Andiamo! Andiamo! Andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo, andiamo",
+  "language": "it",
+  "duration": 207.8790022675737,
+  "words": [
+    {
+      "start": 0.486,
+      "end": 0.526,
+      "word": "La",
+      "confidence": 0.036
+    },
+    {
+      "start": 0.566,
+      "end": 0.686,
+      "word": "ci",
+      "confidence": 0.481
+    },
+    {
+      "start": 0.726,
+      "end": 0.946,
+      "word": "darem",
+      "confidence": 0.34
+    },
+    {
+      "start": 0.966,
+      "end": 1.026,
+      "word": "la",
+      "confidence": 0.207
+    },
+    {
+      "start": 1.066,
+      "end": 1.166,
+      "word": "mano,",
+      "confidence": 0.274
+    },
+    {
+      "start": 1.267,
+      "end": 1.447,
+      "word": "la",
+      "confidence": 0.653
+    },
+    {
+      "start": 1.487,
+      "end": 1.567,
+      "word": "mi",
+      "confidence": 0.611
+    },
+    {
+      "start": 1.627,
+      "end": 2.167,
+      "word": "dirai",
+      "confidence": 0.573
+    },
+    {
+      "start": 2.267,
+      "end": 2.447,
+      "word": "di",
+      "confidence": 0.366
+    },
+    {
+      "start": 2.467,
+      "end": 2.507,
+      "word": "s\u00ec,",
+      "confidence": 0.001
+    },
+    {
+      "start": 2.527,
+      "end": 2.587,
+      "word": "che",
+      "confidence": 0.025
+    },
+    {
+      "start": 2.607,
+      "end": 2.647,
+      "word": "l\u00ec",
+      "confidence": 0.007
+    },
+    {
+      "start": 2.667,
+      "end": 2.747,
+      "word": "non",
+      "confidence": 0.483
+    },
+    {
+      "start": 2.767,
+      "end": 2.787,
+      "word": "\u00e8",
+      "confidence": 0.0
+    },
+    {
+      "start": 2.807,
+      "end": 3.208,
+      "word": "lontano,",
+      "confidence": 0.507
+    },
+    {
+      "start": 3.288,
+      "end": 4.468,
+      "word": "partiam",
+      "confidence": 0.666
+    },
+    {
+      "start": 4.528,
+      "end": 4.608,
+      "word": "ben",
+      "confidence": 0.196
+    },
+    {
+      "start": 4.689,
+      "end": 4.969,
+      "word": "via",
+      "confidence": 0.566
+    },
+    {
+      "start": 5.049,
+      "end": 5.329,
+      "word": "da",
+      "confidence": 0.69
+    },
+    {
+      "start": 5.409,
+      "end": 5.489,
+      "word": "qui.",
+      "confidence": 0.11
+    },
+    {
+      "start": 5.569,
+      "end": 5.949,
+      "word": "Vorrei,",
+      "confidence": 0.499
+    },
+    {
+      "start": 6.029,
+      "end": 6.069,
+      "word": "e",
+      "confidence": 0.659
+    },
+    {
+      "start": 6.149,
+      "end": 6.269,
+      "word": "non",
+      "confidence": 0.47
+    },
+    {
+      "start": 6.329,
+      "end": 7.03,
+      "word": "vorrei,",
+      "confidence": 0.542
+    },
+    {
+      "start": 28.999,
+      "end": 29.199,
+      "word": "Mi",
+      "confidence": 0.427
+    },
+    {
+      "start": 29.579,
+      "end": 29.94,
+      "word": "trema",
+      "confidence": 0.553
+    },
+    {
+      "start": 30.02,
+      "end": 30.12,
+      "word": "un",
+      "confidence": 0.515
+    },
+    {
+      "start": 30.26,
+      "end": 30.8,
+      "word": "poco",
+      "confidence": 0.66
+    },
+    {
+      "start": 30.86,
+      "end": 30.92,
+      "word": "il",
+      "confidence": 0.247
+    },
+    {
+      "start": 30.98,
+      "end": 31.381,
+      "word": "cuore,",
+      "confidence": 0.531
+    },
+    {
+      "start": 31.421,
+      "end": 31.721,
+      "word": "felice",
+      "confidence": 0.404
+    },
+    {
+      "start": 31.841,
+      "end": 31.861,
+      "word": "e",
+      "confidence": 0.067
+    },
+    {
+      "start": 31.961,
+      "end": 32.18,
+      "word": "vero",
+      "confidence": 0.543
+    },
+    {
+      "start": 32.262,
+      "end": 32.762,
+      "word": "sarei,",
+      "confidence": 0.548
+    },
+    {
+      "start": 34.083,
+      "end": 34.403,
+      "word": "ma",
+      "confidence": 0.7
+    },
+    {
+      "start": 34.463,
+      "end": 34.583,
+      "word": "pu\u00f2",
+      "confidence": 0.362
+    },
+    {
+      "start": 34.684,
+      "end": 36.045,
+      "word": "burlarmi",
+      "confidence": 0.54
+    },
+    {
+      "start": 36.065,
+      "end": 36.305,
+      "word": "ancora.",
+      "confidence": 0.326
+    },
+    {
+      "start": 52.304,
+      "end": 52.524,
+      "word": "Vieni,",
+      "confidence": 0.379
+    },
+    {
+      "start": 52.544,
+      "end": 52.824,
+      "word": "mio",
+      "confidence": 0.492
+    },
+    {
+      "start": 52.844,
+      "end": 53.044,
+      "word": "bel",
+      "confidence": 0.301
+    },
+    {
+      "start": 53.084,
+      "end": 53.604,
+      "word": "giletto.",
+      "confidence": 0.668
+    },
+    {
+      "start": 53.644,
+      "end": 53.744,
+      "word": "Mi",
+      "confidence": 0.483
+    },
+    {
+      "start": 53.824,
+      "end": 53.964,
+      "word": "fa",
+      "confidence": 0.634
+    },
+    {
+      "start": 54.004,
+      "end": 54.244,
+      "word": "piet\u00e0,",
+      "confidence": 0.335
+    },
+    {
+      "start": 54.304,
+      "end": 54.745,
+      "word": "Masetto.",
+      "confidence": 0.455
+    },
+    {
+      "start": 54.825,
+      "end": 55.065,
+      "word": "Io",
+      "confidence": 0.434
+    },
+    {
+      "start": 55.125,
+      "end": 55.405,
+      "word": "canger\u00f2",
+      "confidence": 0.35
+    },
+    {
+      "start": 55.445,
+      "end": 55.585,
+      "word": "tua",
+      "confidence": 0.258
+    },
+    {
+      "start": 55.625,
+      "end": 55.925,
+      "word": "sorte.",
+      "confidence": 0.588
+    },
+    {
+      "start": 55.965,
+      "end": 57.285,
+      "word": "Presto,",
+      "confidence": 0.688
+    },
+    {
+      "start": 57.385,
+      "end": 57.485,
+      "word": "non",
+      "confidence": 0.364
+    },
+    {
+      "start": 57.545,
+      "end": 57.625,
+      "word": "son",
+      "confidence": 0.173
+    },
+    {
+      "start": 57.685,
+      "end": 57.765,
+      "word": "pi\u00f9",
+      "confidence": 0.164
+    },
+    {
+      "start": 57.825,
+      "end": 58.025,
+      "word": "forte.",
+      "confidence": 0.407
+    },
+    {
+      "start": 58.305,
+      "end": 58.665,
+      "word": "Non",
+      "confidence": 0.746
+    },
+    {
+      "start": 59.366,
+      "end": 59.446,
+      "word": "son",
+      "confidence": 0.167
+    },
+    {
+      "start": 59.506,
+      "end": 59.586,
+      "word": "pi\u00f9",
+      "confidence": 0.171
+    },
+    {
+      "start": 59.626,
+      "end": 60.466,
+      "word": "forte.",
+      "confidence": 0.389
+    },
+    {
+      "start": 60.486,
+      "end": 60.686,
+      "word": "Vieni.",
+      "confidence": 0.378
+    },
+    {
+      "start": 79.928,
+      "end": 80.148,
+      "word": "Vieni",
+      "confidence": 0.367
+    },
+    {
+      "start": 80.168,
+      "end": 80.188,
+      "word": "a",
+      "confidence": 0.008
+    },
+    {
+      "start": 80.228,
+      "end": 80.308,
+      "word": "ci",
+      "confidence": 0.471
+    },
+    {
+      "start": 80.328,
+      "end": 81.209,
+      "word": "dare",
+      "confidence": 0.587
+    },
+    {
+      "start": 81.249,
+      "end": 81.389,
+      "word": "la",
+      "confidence": 0.38
+    },
+    {
+      "start": 81.429,
+      "end": 81.629,
+      "word": "mano.",
+      "confidence": 0.44
+    },
+    {
+      "start": 81.649,
+      "end": 81.829,
+      "word": "Vorrei",
+      "confidence": 0.292
+    },
+    {
+      "start": 81.849,
+      "end": 81.869,
+      "word": "e",
+      "confidence": 0.009
+    },
+    {
+      "start": 81.909,
+      "end": 82.029,
+      "word": "non",
+      "confidence": 0.325
+    },
+    {
+      "start": 82.069,
+      "end": 82.329,
+      "word": "vorrei.",
+      "confidence": 0.537
+    },
+    {
+      "start": 82.41,
+      "end": 82.51,
+      "word": "Ma",
+      "confidence": 0.542
+    },
+    {
+      "start": 82.59,
+      "end": 82.69,
+      "word": "mi",
+      "confidence": 0.694
+    },
+    {
+      "start": 82.77,
+      "end": 83.05,
+      "word": "direi",
+      "confidence": 0.529
+    },
+    {
+      "start": 83.13,
+      "end": 83.25,
+      "word": "di",
+      "confidence": 0.691
+    },
+    {
+      "start": 83.31,
+      "end": 83.39,
+      "word": "s\u00ec.",
+      "confidence": 0.477
+    },
+    {
+      "start": 83.43,
+      "end": 83.47,
+      "word": "Mi",
+      "confidence": 0.262
+    },
+    {
+      "start": 83.49,
+      "end": 83.73,
+      "word": "trema",
+      "confidence": 0.414
+    },
+    {
+      "start": 83.79,
+      "end": 83.99,
+      "word": "molto",
+      "confidence": 0.397
+    },
+    {
+      "start": 84.01,
+      "end": 84.051,
+      "word": "il",
+      "confidence": 0.011
+    },
+    {
+      "start": 84.091,
+      "end": 84.311,
+      "word": "cuore.",
+      "confidence": 0.496
+    },
+    {
+      "start": 84.331,
+      "end": 84.631,
+      "word": "Partiamo,",
+      "confidence": 0.292
+    },
+    {
+      "start": 84.711,
+      "end": 84.831,
+      "word": "ben",
+      "confidence": 0.189
+    },
+    {
+      "start": 84.851,
+      "end": 84.931,
+      "word": "mio,",
+      "confidence": 0.208
+    },
+    {
+      "start": 84.971,
+      "end": 85.051,
+      "word": "da",
+      "confidence": 0.567
+    },
+    {
+      "start": 85.111,
+      "end": 85.191,
+      "word": "qui.",
+      "confidence": 0.168
+    },
+    {
+      "start": 111.957,
+      "end": 112.117,
+      "word": "Vieni",
+      "confidence": 0.205
+    },
+    {
+      "start": 112.137,
+      "end": 112.217,
+      "word": "mio",
+      "confidence": 0.108
+    },
+    {
+      "start": 112.237,
+      "end": 112.337,
+      "word": "bel",
+      "confidence": 0.195
+    },
+    {
+      "start": 112.357,
+      "end": 112.537,
+      "word": "diretto,",
+      "confidence": 0.141
+    },
+    {
+      "start": 112.557,
+      "end": 112.597,
+      "word": "io",
+      "confidence": 0.038
+    },
+    {
+      "start": 112.617,
+      "end": 112.818,
+      "word": "canger\u00f2",
+      "confidence": 0.201
+    },
+    {
+      "start": 112.838,
+      "end": 112.918,
+      "word": "tua",
+      "confidence": 0.091
+    },
+    {
+      "start": 112.938,
+      "end": 113.058,
+      "word": "sorte.",
+      "confidence": 0.127
+    },
+    {
+      "start": 113.078,
+      "end": 113.138,
+      "word": "Non",
+      "confidence": 0.083
+    },
+    {
+      "start": 113.158,
+      "end": 113.278,
+      "word": "sono",
+      "confidence": 0.158
+    },
+    {
+      "start": 113.298,
+      "end": 113.398,
+      "word": "pi\u00f9",
+      "confidence": 0.197
+    },
+    {
+      "start": 113.518,
+      "end": 113.898,
+      "word": "forte,",
+      "confidence": 0.326
+    },
+    {
+      "start": 113.958,
+      "end": 114.098,
+      "word": "non",
+      "confidence": 0.276
+    },
+    {
+      "start": 114.158,
+      "end": 114.238,
+      "word": "sono",
+      "confidence": 0.017
+    },
+    {
+      "start": 114.318,
+      "end": 114.539,
+      "word": "pi\u00f9",
+      "confidence": 0.582
+    },
+    {
+      "start": 114.639,
+      "end": 116.82,
+      "word": "forte,",
+      "confidence": 0.676
+    },
+    {
+      "start": 116.88,
+      "end": 117.42,
+      "word": "non",
+      "confidence": 0.799
+    },
+    {
+      "start": 118.201,
+      "end": 118.661,
+      "word": "sono",
+      "confidence": 0.672
+    },
+    {
+      "start": 118.701,
+      "end": 118.821,
+      "word": "pi\u00f9",
+      "confidence": 0.293
+    },
+    {
+      "start": 118.901,
+      "end": 119.141,
+      "word": "forte.",
+      "confidence": 0.329
+    },
+    {
+      "start": 119.161,
+      "end": 119.441,
+      "word": "Andiamo,",
+      "confidence": 0.351
+    },
+    {
+      "start": 119.622,
+      "end": 119.962,
+      "word": "andiamo,",
+      "confidence": 0.388
+    },
+    {
+      "start": 147.243,
+      "end": 147.723,
+      "word": "Andiamo,",
+      "confidence": 0.171
+    },
+    {
+      "start": 147.743,
+      "end": 147.983,
+      "word": "andiamo,",
+      "confidence": 0.157
+    },
+    {
+      "start": 148.023,
+      "end": 148.323,
+      "word": "mio",
+      "confidence": 0.466
+    },
+    {
+      "start": 148.343,
+      "end": 148.483,
+      "word": "bene,",
+      "confidence": 0.229
+    },
+    {
+      "start": 148.503,
+      "end": 148.523,
+      "word": "a",
+      "confidence": 0.013
+    },
+    {
+      "start": 148.543,
+      "end": 148.923,
+      "word": "risolarvi",
+      "confidence": 0.391
+    },
+    {
+      "start": 149.003,
+      "end": 149.144,
+      "word": "il",
+      "confidence": 0.595
+    },
+    {
+      "start": 149.184,
+      "end": 149.444,
+      "word": "pene",
+      "confidence": 0.449
+    },
+    {
+      "start": 149.564,
+      "end": 149.664,
+      "word": "di",
+      "confidence": 0.573
+    },
+    {
+      "start": 149.704,
+      "end": 150.384,
+      "word": "un'innocente",
+      "confidence": 0.52
+    },
+    {
+      "start": 150.464,
+      "end": 150.664,
+      "word": "amor.",
+      "confidence": 0.276
+    },
+    {
+      "start": 150.984,
+      "end": 151.224,
+      "word": "Andiamo,",
+      "confidence": 0.366
+    },
+    {
+      "start": 151.244,
+      "end": 151.584,
+      "word": "andiamo,",
+      "confidence": 0.393
+    },
+    {
+      "start": 151.604,
+      "end": 151.704,
+      "word": "mio",
+      "confidence": 0.209
+    },
+    {
+      "start": 151.724,
+      "end": 152.164,
+      "word": "bene,",
+      "confidence": 0.531
+    },
+    {
+      "start": 152.244,
+      "end": 152.264,
+      "word": "a",
+      "confidence": 0.052
+    },
+    {
+      "start": 152.284,
+      "end": 152.604,
+      "word": "risolarvi",
+      "confidence": 0.33
+    },
+    {
+      "start": 152.624,
+      "end": 152.664,
+      "word": "il",
+      "confidence": 0.005
+    },
+    {
+      "start": 152.684,
+      "end": 152.905,
+      "word": "pene",
+      "confidence": 0.301
+    },
+    {
+      "start": 152.945,
+      "end": 153.005,
+      "word": "di",
+      "confidence": 0.431
+    },
+    {
+      "start": 153.125,
+      "end": 153.585,
+      "word": "un'innocente",
+      "confidence": 0.443
+    },
+    {
+      "start": 153.605,
+      "end": 153.845,
+      "word": "amor.",
+      "confidence": 0.548
+    },
+    {
+      "start": 175.306,
+      "end": 175.486,
+      "word": "Andiamo!",
+      "confidence": 0.156
+    },
+    {
+      "start": 175.506,
+      "end": 175.646,
+      "word": "Andiamo!",
+      "confidence": 0.032
+    },
+    {
+      "start": 175.666,
+      "end": 175.807,
+      "word": "Andiamo!",
+      "confidence": 0.026
+    },
+    {
+      "start": 175.827,
+      "end": 175.967,
+      "word": "Andiamo,",
+      "confidence": 0.025
+    },
+    {
+      "start": 175.987,
+      "end": 176.187,
+      "word": "andiamo,",
+      "confidence": 0.221
+    },
+    {
+      "start": 176.207,
+      "end": 176.367,
+      "word": "andiamo,",
+      "confidence": 0.082
+    },
+    {
+      "start": 176.387,
+      "end": 176.567,
+      "word": "andiamo,",
+      "confidence": 0.158
+    },
+    {
+      "start": 176.587,
+      "end": 176.747,
+      "word": "andiamo,",
+      "confidence": 0.088
+    },
+    {
+      "start": 176.768,
+      "end": 176.948,
+      "word": "andiamo,",
+      "confidence": 0.148
+    },
+    {
+      "start": 177.008,
+      "end": 177.168,
+      "word": "andiamo,",
+      "confidence": 0.081
+    },
+    {
+      "start": 177.188,
+      "end": 178.93,
+      "word": "andiamo,",
+      "confidence": 0.484
+    },
+    {
+      "start": 178.95,
+      "end": 179.17,
+      "word": "andiamo,",
+      "confidence": 0.192
+    },
+    {
+      "start": 179.19,
+      "end": 179.33,
+      "word": "andiamo,",
+      "confidence": 0.08
+    },
+    {
+      "start": 179.41,
+      "end": 179.59,
+      "word": "andiamo,",
+      "confidence": 0.215
+    },
+    {
+      "start": 179.61,
+      "end": 179.831,
+      "word": "andiamo,",
+      "confidence": 0.274
+    },
+    {
+      "start": 179.851,
+      "end": 180.071,
+      "word": "andiamo,",
+      "confidence": 0.288
+    },
+    {
+      "start": 180.091,
+      "end": 180.431,
+      "word": "andiamo,",
+      "confidence": 0.288
+    },
+    {
+      "start": 182.453,
+      "end": 182.654,
+      "word": "andiamo,",
+      "confidence": 0.172
+    },
+    {
+      "start": 182.674,
+      "end": 182.814,
+      "word": "andiamo,",
+      "confidence": 0.009
+    },
+    {
+      "start": 182.834,
+      "end": 182.974,
+      "word": "andiamo,",
+      "confidence": 0.034
+    },
+    {
+      "start": 182.994,
+      "end": 183.154,
+      "word": "andiamo,",
+      "confidence": 0.08
+    },
+    {
+      "start": 183.174,
+      "end": 183.434,
+      "word": "andiamo,",
+      "confidence": 0.208
+    },
+    {
+      "start": 183.454,
+      "end": 184.135,
+      "word": "andiamo,",
+      "confidence": 0.217
+    },
+    {
+      "start": 185.997,
+      "end": 186.217,
+      "word": "andiamo,",
+      "confidence": 0.181
+    },
+    {
+      "start": 186.237,
+      "end": 186.377,
+      "word": "andiamo,",
+      "confidence": 0.021
+    },
+    {
+      "start": 186.437,
+      "end": 186.638,
+      "word": "andiamo,",
+      "confidence": 0.22
+    },
+    {
+      "start": 186.678,
+      "end": 187.098,
+      "word": "andiamo,",
+      "confidence": 0.626
+    },
+    {
+      "start": 187.118,
+      "end": 187.258,
+      "word": "andiamo,",
+      "confidence": 0.009
+    },
+    {
+      "start": 187.278,
+      "end": 187.418,
+      "word": "andiamo,",
+      "confidence": 0.032
+    },
+    {
+      "start": 187.479,
+      "end": 187.619,
+      "word": "andiamo,",
+      "confidence": 0.013
+    },
+    {
+      "start": 187.639,
+      "end": 188.56,
+      "word": "andiamo,",
+      "confidence": 0.575
+    },
+    {
+      "start": 188.64,
+      "end": 188.9,
+      "word": "andiamo,",
+      "confidence": 0.339
+    },
+    {
+      "start": 188.92,
+      "end": 189.08,
+      "word": "andiamo,",
+      "confidence": 0.107
+    },
+    {
+      "start": 189.1,
+      "end": 189.26,
+      "word": "andiamo,",
+      "confidence": 0.108
+    },
+    {
+      "start": 189.28,
+      "end": 189.601,
+      "word": "andiamo,",
+      "confidence": 0.32
+    },
+    {
+      "start": 189.621,
+      "end": 189.801,
+      "word": "andiamo,",
+      "confidence": 0.125
+    },
+    {
+      "start": 189.821,
+      "end": 190.001,
+      "word": "andiamo,",
+      "confidence": 0.154
+    },
+    {
+      "start": 190.021,
+      "end": 190.161,
+      "word": "andiamo,",
+      "confidence": 0.038
+    },
+    {
+      "start": 190.181,
+      "end": 190.362,
+      "word": "andiamo,",
+      "confidence": 0.158
+    },
+    {
+      "start": 190.382,
+      "end": 190.562,
+      "word": "andiamo,",
+      "confidence": 0.23
+    },
+    {
+      "start": 190.582,
+      "end": 190.762,
+      "word": "andiamo,",
+      "confidence": 0.187
+    },
+    {
+      "start": 190.782,
+      "end": 190.942,
+      "word": "andiamo,",
+      "confidence": 0.072
+    },
+    {
+      "start": 190.962,
+      "end": 191.102,
+      "word": "andiamo,",
+      "confidence": 0.018
+    },
+    {
+      "start": 191.122,
+      "end": 191.302,
+      "word": "andiamo,",
+      "confidence": 0.088
+    },
+    {
+      "start": 191.322,
+      "end": 192.043,
+      "word": "andiamo,",
+      "confidence": 0.473
+    },
+    {
+      "start": 192.063,
+      "end": 192.263,
+      "word": "andiamo,",
+      "confidence": 0.157
+    },
+    {
+      "start": 192.283,
+      "end": 192.524,
+      "word": "andiamo,",
+      "confidence": 0.24
+    },
+    {
+      "start": 192.544,
+      "end": 192.724,
+      "word": "andiamo,",
+      "confidence": 0.13
+    },
+    {
+      "start": 192.744,
+      "end": 192.984,
+      "word": "andiamo,",
+      "confidence": 0.199
+    },
+    {
+      "start": 193.004,
+      "end": 193.144,
+      "word": "andiamo,",
+      "confidence": 0.106
+    },
+    {
+      "start": 193.164,
+      "end": 193.405,
+      "word": "andiamo,",
+      "confidence": 0.182
+    },
+    {
+      "start": 193.425,
+      "end": 193.565,
+      "word": "andiamo,",
+      "confidence": 0.032
+    },
+    {
+      "start": 193.585,
+      "end": 193.925,
+      "word": "andiamo,",
+      "confidence": 0.469
+    },
+    {
+      "start": 193.985,
+      "end": 194.165,
+      "word": "andiamo,",
+      "confidence": 0.125
+    },
+    {
+      "start": 194.185,
+      "end": 194.346,
+      "word": "andiamo,",
+      "confidence": 0.1
+    },
+    {
+      "start": 194.366,
+      "end": 194.506,
+      "word": "andiamo,",
+      "confidence": 0.065
+    },
+    {
+      "start": 194.586,
+      "end": 194.786,
+      "word": "andiamo,",
+      "confidence": 0.277
+    },
+    {
+      "start": 194.806,
+      "end": 195.046,
+      "word": "andiamo,",
+      "confidence": 0.357
+    },
+    {
+      "start": 195.066,
+      "end": 195.267,
+      "word": "andiamo,",
+      "confidence": 0.265
+    },
+    {
+      "start": 195.287,
+      "end": 195.507,
+      "word": "andiamo,",
+      "confidence": 0.246
+    },
+    {
+      "start": 195.527,
+      "end": 195.727,
+      "word": "andiamo,",
+      "confidence": 0.219
+    },
+    {
+      "start": 195.767,
+      "end": 195.907,
+      "word": "andiamo,",
+      "confidence": 0.026
+    },
+    {
+      "start": 195.927,
+      "end": 196.067,
+      "word": "andiamo,",
+      "confidence": 0.026
+    },
+    {
+      "start": 196.087,
+      "end": 196.268,
+      "word": "andiamo,",
+      "confidence": 0.183
+    },
+    {
+      "start": 196.288,
+      "end": 196.448,
+      "word": "andiamo,",
+      "confidence": 0.07
+    },
+    {
+      "start": 196.468,
+      "end": 196.708,
+      "word": "andiamo,",
+      "confidence": 0.401
+    },
+    {
+      "start": 196.728,
+      "end": 196.888,
+      "word": "andiamo,",
+      "confidence": 0.144
+    },
+    {
+      "start": 196.908,
+      "end": 197.048,
+      "word": "andiamo,",
+      "confidence": 0.013
+    },
+    {
+      "start": 197.068,
+      "end": 197.209,
+      "word": "andiamo,",
+      "confidence": 0.016
+    },
+    {
+      "start": 197.229,
+      "end": 197.369,
+      "word": "andiamo,",
+      "confidence": 0.038
+    },
+    {
+      "start": 197.389,
+      "end": 197.529,
+      "word": "andiamo,",
+      "confidence": 0.134
+    },
+    {
+      "start": 197.589,
+      "end": 197.969,
+      "word": "andiamo,",
+      "confidence": 0.334
+    },
+    {
+      "start": 197.989,
+      "end": 198.25,
+      "word": "andiamo,",
+      "confidence": 0.357
+    },
+    {
+      "start": 198.27,
+      "end": 198.45,
+      "word": "andiamo,",
+      "confidence": 0.141
+    },
+    {
+      "start": 198.47,
+      "end": 198.61,
+      "word": "andiamo",
+      "confidence": 0.003
+    }
+  ]
+}

@@ -1,0 +1,745 @@
+{
+  "text": "Oh, sai che l'onore la terra mi emolse? Tu, traditore, in un'altra terra mi mettoste, e mi porti dentro. Tuo cuore, la piede di tuo cuore, rompento la pioggia del misero seno. L'ira del sangue, coperto, coperto e grido, E te ne avrei con giusto furore! Con giusto furore! Ora sai che il mone... ...rapporta le molestie... ...che i traditori... E malgrado che m'avrei ritolso in peccati piedi, addirittura a lei dei tuoi cori. Riempito di piana, di ria, di sangue, Vendetto ti chiedo, fidato d\u00f2, a fede il tuo cor. Vendetto ti chiedo, fidato d\u00f2, a fede il tuo cor. Vendetto ti chiedo, fidato d\u00f2, Ah! Tuo pap\u00e0! Ma chi \u00e8 il tuo pap\u00e0? Ma chi \u00e8 il tuo pap\u00e0? Venite! Venite!",
+  "language": "it",
+  "duration": 179.88897959183674,
+  "words": [
+    {
+      "start": 0.148,
+      "end": 3.55,
+      "word": "Oh,",
+      "confidence": 0.716
+    },
+    {
+      "start": 3.69,
+      "end": 4.791,
+      "word": "sai",
+      "confidence": 0.722
+    },
+    {
+      "start": 4.871,
+      "end": 5.131,
+      "word": "che",
+      "confidence": 0.58
+    },
+    {
+      "start": 5.191,
+      "end": 5.531,
+      "word": "l'onore",
+      "confidence": 0.539
+    },
+    {
+      "start": 5.591,
+      "end": 5.651,
+      "word": "la",
+      "confidence": 0.278
+    },
+    {
+      "start": 5.751,
+      "end": 6.011,
+      "word": "terra",
+      "confidence": 0.342
+    },
+    {
+      "start": 6.031,
+      "end": 6.111,
+      "word": "mi",
+      "confidence": 0.344
+    },
+    {
+      "start": 6.171,
+      "end": 6.472,
+      "word": "emolse?",
+      "confidence": 0.408
+    },
+    {
+      "start": 6.512,
+      "end": 6.592,
+      "word": "Tu,",
+      "confidence": 0.458
+    },
+    {
+      "start": 6.632,
+      "end": 7.132,
+      "word": "traditore,",
+      "confidence": 0.519
+    },
+    {
+      "start": 7.972,
+      "end": 8.012,
+      "word": "in",
+      "confidence": 0.011
+    },
+    {
+      "start": 8.032,
+      "end": 9.413,
+      "word": "un'altra",
+      "confidence": 0.555
+    },
+    {
+      "start": 9.433,
+      "end": 10.014,
+      "word": "terra",
+      "confidence": 0.544
+    },
+    {
+      "start": 10.274,
+      "end": 10.354,
+      "word": "mi",
+      "confidence": 0.461
+    },
+    {
+      "start": 10.414,
+      "end": 10.774,
+      "word": "mettoste,",
+      "confidence": 0.427
+    },
+    {
+      "start": 10.894,
+      "end": 10.914,
+      "word": "e",
+      "confidence": 0.553
+    },
+    {
+      "start": 11.034,
+      "end": 11.074,
+      "word": "mi",
+      "confidence": 0.381
+    },
+    {
+      "start": 11.154,
+      "end": 11.514,
+      "word": "porti",
+      "confidence": 0.516
+    },
+    {
+      "start": 12.395,
+      "end": 13.796,
+      "word": "dentro.",
+      "confidence": 0.604
+    },
+    {
+      "start": 30.148,
+      "end": 30.528,
+      "word": "Tuo",
+      "confidence": 0.292
+    },
+    {
+      "start": 30.568,
+      "end": 36.15,
+      "word": "cuore,",
+      "confidence": 0.401
+    },
+    {
+      "start": 36.17,
+      "end": 36.23,
+      "word": "la",
+      "confidence": 0.342
+    },
+    {
+      "start": 36.29,
+      "end": 36.731,
+      "word": "piede",
+      "confidence": 0.632
+    },
+    {
+      "start": 36.771,
+      "end": 36.991,
+      "word": "di",
+      "confidence": 0.69
+    },
+    {
+      "start": 37.051,
+      "end": 37.131,
+      "word": "tuo",
+      "confidence": 0.123
+    },
+    {
+      "start": 37.191,
+      "end": 37.391,
+      "word": "cuore,",
+      "confidence": 0.472
+    },
+    {
+      "start": 37.431,
+      "end": 37.851,
+      "word": "rompento",
+      "confidence": 0.522
+    },
+    {
+      "start": 37.931,
+      "end": 38.031,
+      "word": "la",
+      "confidence": 0.529
+    },
+    {
+      "start": 38.091,
+      "end": 38.811,
+      "word": "pioggia",
+      "confidence": 0.579
+    },
+    {
+      "start": 39.312,
+      "end": 39.412,
+      "word": "del",
+      "confidence": 0.311
+    },
+    {
+      "start": 39.492,
+      "end": 39.892,
+      "word": "misero",
+      "confidence": 0.506
+    },
+    {
+      "start": 40.172,
+      "end": 40.372,
+      "word": "seno.",
+      "confidence": 0.287
+    },
+    {
+      "start": 40.472,
+      "end": 40.672,
+      "word": "L'ira",
+      "confidence": 0.429
+    },
+    {
+      "start": 40.692,
+      "end": 40.812,
+      "word": "del",
+      "confidence": 0.333
+    },
+    {
+      "start": 40.872,
+      "end": 41.112,
+      "word": "sangue,",
+      "confidence": 0.224
+    },
+    {
+      "start": 41.132,
+      "end": 41.332,
+      "word": "coperto,",
+      "confidence": 0.351
+    },
+    {
+      "start": 41.372,
+      "end": 41.833,
+      "word": "coperto",
+      "confidence": 0.436
+    },
+    {
+      "start": 41.853,
+      "end": 41.873,
+      "word": "e",
+      "confidence": 0.005
+    },
+    {
+      "start": 41.933,
+      "end": 42.173,
+      "word": "grido,",
+      "confidence": 0.698
+    },
+    {
+      "start": 59.814,
+      "end": 60.175,
+      "word": "E",
+      "confidence": 0.805
+    },
+    {
+      "start": 60.315,
+      "end": 60.435,
+      "word": "te",
+      "confidence": 0.542
+    },
+    {
+      "start": 60.555,
+      "end": 61.255,
+      "word": "ne",
+      "confidence": 0.726
+    },
+    {
+      "start": 61.275,
+      "end": 61.535,
+      "word": "avrei",
+      "confidence": 0.38
+    },
+    {
+      "start": 61.576,
+      "end": 61.696,
+      "word": "con",
+      "confidence": 0.463
+    },
+    {
+      "start": 61.916,
+      "end": 62.236,
+      "word": "giusto",
+      "confidence": 0.46
+    },
+    {
+      "start": 62.256,
+      "end": 62.496,
+      "word": "furore!",
+      "confidence": 0.374
+    },
+    {
+      "start": 62.556,
+      "end": 62.656,
+      "word": "Con",
+      "confidence": 0.441
+    },
+    {
+      "start": 62.716,
+      "end": 63.197,
+      "word": "giusto",
+      "confidence": 0.485
+    },
+    {
+      "start": 63.277,
+      "end": 63.817,
+      "word": "furore!",
+      "confidence": 0.682
+    },
+    {
+      "start": 63.897,
+      "end": 64.057,
+      "word": "Ora",
+      "confidence": 0.445
+    },
+    {
+      "start": 64.077,
+      "end": 64.357,
+      "word": "sai",
+      "confidence": 0.445
+    },
+    {
+      "start": 64.376,
+      "end": 64.477,
+      "word": "che",
+      "confidence": 0.296
+    },
+    {
+      "start": 64.557,
+      "end": 64.617,
+      "word": "il",
+      "confidence": 0.249
+    },
+    {
+      "start": 64.657,
+      "end": 64.797,
+      "word": "mone...",
+      "confidence": 0.414
+    },
+    {
+      "start": 64.837,
+      "end": 65.117,
+      "word": "...rapporta",
+      "confidence": 0.288
+    },
+    {
+      "start": 65.318,
+      "end": 65.578,
+      "word": "le",
+      "confidence": 0.395
+    },
+    {
+      "start": 65.638,
+      "end": 70.141,
+      "word": "molestie...",
+      "confidence": 0.616
+    },
+    {
+      "start": 70.441,
+      "end": 70.741,
+      "word": "...che",
+      "confidence": 0.45
+    },
+    {
+      "start": 70.801,
+      "end": 70.821,
+      "word": "i",
+      "confidence": 0.026
+    },
+    {
+      "start": 70.841,
+      "end": 71.662,
+      "word": "traditori...",
+      "confidence": 0.54
+    },
+    {
+      "start": 89.775,
+      "end": 89.815,
+      "word": "E",
+      "confidence": 0.553
+    },
+    {
+      "start": 90.196,
+      "end": 93.137,
+      "word": "malgrado",
+      "confidence": 0.535
+    },
+    {
+      "start": 93.157,
+      "end": 93.698,
+      "word": "che",
+      "confidence": 0.452
+    },
+    {
+      "start": 93.718,
+      "end": 94.498,
+      "word": "m'avrei",
+      "confidence": 0.475
+    },
+    {
+      "start": 94.678,
+      "end": 95.139,
+      "word": "ritolso",
+      "confidence": 0.543
+    },
+    {
+      "start": 95.259,
+      "end": 95.599,
+      "word": "in",
+      "confidence": 0.754
+    },
+    {
+      "start": 95.639,
+      "end": 96.039,
+      "word": "peccati",
+      "confidence": 0.41
+    },
+    {
+      "start": 96.139,
+      "end": 96.48,
+      "word": "piedi,",
+      "confidence": 0.486
+    },
+    {
+      "start": 96.92,
+      "end": 98.721,
+      "word": "addirittura",
+      "confidence": 0.602
+    },
+    {
+      "start": 98.821,
+      "end": 98.841,
+      "word": "a",
+      "confidence": 0.064
+    },
+    {
+      "start": 98.921,
+      "end": 99.161,
+      "word": "lei",
+      "confidence": 0.445
+    },
+    {
+      "start": 99.201,
+      "end": 99.362,
+      "word": "dei",
+      "confidence": 0.612
+    },
+    {
+      "start": 99.382,
+      "end": 99.542,
+      "word": "tuoi",
+      "confidence": 0.397
+    },
+    {
+      "start": 99.562,
+      "end": 99.782,
+      "word": "cori.",
+      "confidence": 0.51
+    },
+    {
+      "start": 99.842,
+      "end": 100.542,
+      "word": "Riempito",
+      "confidence": 0.462
+    },
+    {
+      "start": 100.602,
+      "end": 100.662,
+      "word": "di",
+      "confidence": 0.484
+    },
+    {
+      "start": 101.343,
+      "end": 101.623,
+      "word": "piana,",
+      "confidence": 0.368
+    },
+    {
+      "start": 101.643,
+      "end": 101.723,
+      "word": "di",
+      "confidence": 0.316
+    },
+    {
+      "start": 101.743,
+      "end": 101.803,
+      "word": "ria,",
+      "confidence": 0.16
+    },
+    {
+      "start": 101.823,
+      "end": 101.863,
+      "word": "di",
+      "confidence": 0.072
+    },
+    {
+      "start": 101.883,
+      "end": 102.043,
+      "word": "sangue,",
+      "confidence": 0.172
+    },
+    {
+      "start": 121.653,
+      "end": 122.013,
+      "word": "Vendetto",
+      "confidence": 0.431
+    },
+    {
+      "start": 122.053,
+      "end": 122.133,
+      "word": "ti",
+      "confidence": 0.444
+    },
+    {
+      "start": 122.173,
+      "end": 122.593,
+      "word": "chiedo,",
+      "confidence": 0.469
+    },
+    {
+      "start": 122.673,
+      "end": 123.073,
+      "word": "fidato",
+      "confidence": 0.562
+    },
+    {
+      "start": 123.294,
+      "end": 123.374,
+      "word": "d\u00f2,",
+      "confidence": 0.469
+    },
+    {
+      "start": 123.474,
+      "end": 123.514,
+      "word": "a",
+      "confidence": 0.459
+    },
+    {
+      "start": 124.394,
+      "end": 124.634,
+      "word": "fede",
+      "confidence": 0.458
+    },
+    {
+      "start": 124.654,
+      "end": 124.754,
+      "word": "il",
+      "confidence": 0.439
+    },
+    {
+      "start": 124.834,
+      "end": 124.914,
+      "word": "tuo",
+      "confidence": 0.152
+    },
+    {
+      "start": 124.974,
+      "end": 125.955,
+      "word": "cor.",
+      "confidence": 0.661
+    },
+    {
+      "start": 125.995,
+      "end": 126.415,
+      "word": "Vendetto",
+      "confidence": 0.484
+    },
+    {
+      "start": 126.455,
+      "end": 126.535,
+      "word": "ti",
+      "confidence": 0.49
+    },
+    {
+      "start": 126.595,
+      "end": 131.117,
+      "word": "chiedo,",
+      "confidence": 0.26
+    },
+    {
+      "start": 131.177,
+      "end": 131.577,
+      "word": "fidato",
+      "confidence": 0.446
+    },
+    {
+      "start": 131.657,
+      "end": 132.277,
+      "word": "d\u00f2,",
+      "confidence": 0.64
+    },
+    {
+      "start": 132.337,
+      "end": 132.357,
+      "word": "a",
+      "confidence": 0.1
+    },
+    {
+      "start": 132.417,
+      "end": 132.857,
+      "word": "fede",
+      "confidence": 0.514
+    },
+    {
+      "start": 132.897,
+      "end": 133.117,
+      "word": "il",
+      "confidence": 0.581
+    },
+    {
+      "start": 133.177,
+      "end": 133.437,
+      "word": "tuo",
+      "confidence": 0.662
+    },
+    {
+      "start": 133.537,
+      "end": 134.038,
+      "word": "cor.",
+      "confidence": 0.745
+    },
+    {
+      "start": 134.478,
+      "end": 135.518,
+      "word": "Vendetto",
+      "confidence": 0.608
+    },
+    {
+      "start": 135.558,
+      "end": 135.658,
+      "word": "ti",
+      "confidence": 0.522
+    },
+    {
+      "start": 135.718,
+      "end": 135.938,
+      "word": "chiedo,",
+      "confidence": 0.458
+    },
+    {
+      "start": 136.018,
+      "end": 136.599,
+      "word": "fidato",
+      "confidence": 0.349
+    },
+    {
+      "start": 136.779,
+      "end": 136.859,
+      "word": "d\u00f2,",
+      "confidence": 0.31
+    },
+    {
+      "start": 148.613,
+      "end": 149.113,
+      "word": "Ah!",
+      "confidence": 0.564
+    },
+    {
+      "start": 149.173,
+      "end": 149.934,
+      "word": "Tuo",
+      "confidence": 0.309
+    },
+    {
+      "start": 150.034,
+      "end": 150.254,
+      "word": "pap\u00e0!",
+      "confidence": 0.321
+    },
+    {
+      "start": 151.355,
+      "end": 151.415,
+      "word": "Ma",
+      "confidence": 0.352
+    },
+    {
+      "start": 151.535,
+      "end": 151.615,
+      "word": "chi",
+      "confidence": 0.193
+    },
+    {
+      "start": 151.635,
+      "end": 151.655,
+      "word": "\u00e8",
+      "confidence": 0.004
+    },
+    {
+      "start": 151.715,
+      "end": 151.755,
+      "word": "il",
+      "confidence": 0.088
+    },
+    {
+      "start": 151.775,
+      "end": 151.875,
+      "word": "tuo",
+      "confidence": 0.338
+    },
+    {
+      "start": 151.896,
+      "end": 152.116,
+      "word": "pap\u00e0?",
+      "confidence": 0.419
+    },
+    {
+      "start": 152.136,
+      "end": 152.176,
+      "word": "Ma",
+      "confidence": 0.036
+    },
+    {
+      "start": 152.216,
+      "end": 152.276,
+      "word": "chi",
+      "confidence": 0.11
+    },
+    {
+      "start": 152.296,
+      "end": 152.336,
+      "word": "\u00e8",
+      "confidence": 0.368
+    },
+    {
+      "start": 152.436,
+      "end": 152.516,
+      "word": "il",
+      "confidence": 0.487
+    },
+    {
+      "start": 152.536,
+      "end": 152.696,
+      "word": "tuo",
+      "confidence": 0.306
+    },
+    {
+      "start": 152.716,
+      "end": 153.417,
+      "word": "pap\u00e0?",
+      "confidence": 0.583
+    },
+    {
+      "start": 153.477,
+      "end": 153.697,
+      "word": "Venite!",
+      "confidence": 0.35
+    },
+    {
+      "start": 153.777,
+      "end": 154.097,
+      "word": "Venite!",
+      "confidence": 0.519
+    }
+  ]
+}

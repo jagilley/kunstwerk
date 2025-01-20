@@ -1,0 +1,475 @@
+{
+  "text": "Fermati il scegneroto! Il cielo mi fece odiare i tuoi perfidi! Io sono a tempo di salvare questa misera innocente dal tuo barbaro artiglio. Meschino, cosa sento? Amor consiglio, idol mio, non vedete che io voglio divertirmi? Divertirti? \u00c8 vero, divertirti! Io sono crudene come tu ti diverti! Ma, signor Cavaliere, \u00e8 vero quel che la dice? La povera infelice di me innamorata che per piet\u00e0 deggio fingere amore, io solo per mia disgrazia, uomo di buon cuore,",
+  "language": "it",
+  "duration": 47.45201814058957,
+  "words": [
+    {
+      "start": 0.528,
+      "end": 1.029,
+      "word": "Fermati",
+      "confidence": 0.346
+    },
+    {
+      "start": 1.069,
+      "end": 1.109,
+      "word": "il",
+      "confidence": 0.075
+    },
+    {
+      "start": 1.189,
+      "end": 2.25,
+      "word": "scegneroto!",
+      "confidence": 0.366
+    },
+    {
+      "start": 2.55,
+      "end": 2.63,
+      "word": "Il",
+      "confidence": 0.305
+    },
+    {
+      "start": 2.731,
+      "end": 3.031,
+      "word": "cielo",
+      "confidence": 0.407
+    },
+    {
+      "start": 3.071,
+      "end": 3.151,
+      "word": "mi",
+      "confidence": 0.283
+    },
+    {
+      "start": 3.171,
+      "end": 3.391,
+      "word": "fece",
+      "confidence": 0.452
+    },
+    {
+      "start": 3.411,
+      "end": 3.731,
+      "word": "odiare",
+      "confidence": 0.614
+    },
+    {
+      "start": 3.751,
+      "end": 3.771,
+      "word": "i",
+      "confidence": 0.086
+    },
+    {
+      "start": 3.812,
+      "end": 3.952,
+      "word": "tuoi",
+      "confidence": 0.232
+    },
+    {
+      "start": 3.972,
+      "end": 5.153,
+      "word": "perfidi!",
+      "confidence": 0.615
+    },
+    {
+      "start": 5.553,
+      "end": 5.753,
+      "word": "Io",
+      "confidence": 0.642
+    },
+    {
+      "start": 5.853,
+      "end": 6.074,
+      "word": "sono",
+      "confidence": 0.584
+    },
+    {
+      "start": 6.094,
+      "end": 6.114,
+      "word": "a",
+      "confidence": 0.002
+    },
+    {
+      "start": 6.134,
+      "end": 6.474,
+      "word": "tempo",
+      "confidence": 0.694
+    },
+    {
+      "start": 6.494,
+      "end": 6.554,
+      "word": "di",
+      "confidence": 0.177
+    },
+    {
+      "start": 6.634,
+      "end": 6.954,
+      "word": "salvare",
+      "confidence": 0.828
+    },
+    {
+      "start": 6.994,
+      "end": 7.275,
+      "word": "questa",
+      "confidence": 0.749
+    },
+    {
+      "start": 7.355,
+      "end": 7.795,
+      "word": "misera",
+      "confidence": 0.647
+    },
+    {
+      "start": 7.835,
+      "end": 8.816,
+      "word": "innocente",
+      "confidence": 0.738
+    },
+    {
+      "start": 9.257,
+      "end": 9.417,
+      "word": "dal",
+      "confidence": 0.665
+    },
+    {
+      "start": 9.497,
+      "end": 9.717,
+      "word": "tuo",
+      "confidence": 0.618
+    },
+    {
+      "start": 9.897,
+      "end": 10.217,
+      "word": "barbaro",
+      "confidence": 0.37
+    },
+    {
+      "start": 10.298,
+      "end": 11.419,
+      "word": "artiglio.",
+      "confidence": 0.771
+    },
+    {
+      "start": 11.579,
+      "end": 12.099,
+      "word": "Meschino,",
+      "confidence": 0.524
+    },
+    {
+      "start": 12.179,
+      "end": 12.339,
+      "word": "cosa",
+      "confidence": 0.81
+    },
+    {
+      "start": 12.44,
+      "end": 12.92,
+      "word": "sento?",
+      "confidence": 0.713
+    },
+    {
+      "start": 13.4,
+      "end": 13.641,
+      "word": "Amor",
+      "confidence": 0.534
+    },
+    {
+      "start": 13.721,
+      "end": 14.381,
+      "word": "consiglio,",
+      "confidence": 0.765
+    },
+    {
+      "start": 15.042,
+      "end": 15.402,
+      "word": "idol",
+      "confidence": 0.62
+    },
+    {
+      "start": 15.442,
+      "end": 15.683,
+      "word": "mio,",
+      "confidence": 0.642
+    },
+    {
+      "start": 15.743,
+      "end": 16.003,
+      "word": "non",
+      "confidence": 0.687
+    },
+    {
+      "start": 16.043,
+      "end": 16.463,
+      "word": "vedete",
+      "confidence": 0.628
+    },
+    {
+      "start": 16.683,
+      "end": 16.764,
+      "word": "che",
+      "confidence": 0.17
+    },
+    {
+      "start": 17.104,
+      "end": 17.244,
+      "word": "io",
+      "confidence": 0.639
+    },
+    {
+      "start": 17.284,
+      "end": 17.824,
+      "word": "voglio",
+      "confidence": 0.406
+    },
+    {
+      "start": 17.845,
+      "end": 18.185,
+      "word": "divertirmi?",
+      "confidence": 0.295
+    },
+    {
+      "start": 20.633,
+      "end": 25.577,
+      "word": "Divertirti?",
+      "confidence": 0.599
+    },
+    {
+      "start": 25.597,
+      "end": 25.617,
+      "word": "\u00c8",
+      "confidence": 0.02
+    },
+    {
+      "start": 25.677,
+      "end": 25.937,
+      "word": "vero,",
+      "confidence": 0.436
+    },
+    {
+      "start": 26.017,
+      "end": 26.837,
+      "word": "divertirti!",
+      "confidence": 0.56
+    },
+    {
+      "start": 27.238,
+      "end": 27.438,
+      "word": "Io",
+      "confidence": 0.786
+    },
+    {
+      "start": 27.518,
+      "end": 27.638,
+      "word": "sono",
+      "confidence": 0.541
+    },
+    {
+      "start": 27.758,
+      "end": 28.358,
+      "word": "crudene",
+      "confidence": 0.74
+    },
+    {
+      "start": 28.458,
+      "end": 28.638,
+      "word": "come",
+      "confidence": 0.827
+    },
+    {
+      "start": 28.678,
+      "end": 28.738,
+      "word": "tu",
+      "confidence": 0.318
+    },
+    {
+      "start": 28.779,
+      "end": 28.859,
+      "word": "ti",
+      "confidence": 0.194
+    },
+    {
+      "start": 28.879,
+      "end": 29.739,
+      "word": "diverti!",
+      "confidence": 0.55
+    },
+    {
+      "start": 30.039,
+      "end": 30.239,
+      "word": "Ma,",
+      "confidence": 0.852
+    },
+    {
+      "start": 30.359,
+      "end": 30.84,
+      "word": "signor",
+      "confidence": 0.694
+    },
+    {
+      "start": 30.94,
+      "end": 31.86,
+      "word": "Cavaliere,",
+      "confidence": 0.7
+    },
+    {
+      "start": 32.201,
+      "end": 32.32,
+      "word": "\u00e8",
+      "confidence": 0.716
+    },
+    {
+      "start": 32.521,
+      "end": 33.061,
+      "word": "vero",
+      "confidence": 0.6
+    },
+    {
+      "start": 33.121,
+      "end": 33.401,
+      "word": "quel",
+      "confidence": 0.527
+    },
+    {
+      "start": 33.421,
+      "end": 33.541,
+      "word": "che",
+      "confidence": 0.753
+    },
+    {
+      "start": 33.742,
+      "end": 33.822,
+      "word": "la",
+      "confidence": 0.69
+    },
+    {
+      "start": 33.862,
+      "end": 34.362,
+      "word": "dice?",
+      "confidence": 0.695
+    },
+    {
+      "start": 34.422,
+      "end": 34.482,
+      "word": "La",
+      "confidence": 0.53
+    },
+    {
+      "start": 35.242,
+      "end": 35.523,
+      "word": "povera",
+      "confidence": 0.356
+    },
+    {
+      "start": 35.583,
+      "end": 36.663,
+      "word": "infelice",
+      "confidence": 0.732
+    },
+    {
+      "start": 36.743,
+      "end": 36.803,
+      "word": "di",
+      "confidence": 0.694
+    },
+    {
+      "start": 36.843,
+      "end": 36.924,
+      "word": "me",
+      "confidence": 0.506
+    },
+    {
+      "start": 36.984,
+      "end": 37.964,
+      "word": "innamorata",
+      "confidence": 0.753
+    },
+    {
+      "start": 38.464,
+      "end": 38.665,
+      "word": "che",
+      "confidence": 0.48
+    },
+    {
+      "start": 38.745,
+      "end": 38.885,
+      "word": "per",
+      "confidence": 0.795
+    },
+    {
+      "start": 39.005,
+      "end": 39.645,
+      "word": "piet\u00e0",
+      "confidence": 0.728
+    },
+    {
+      "start": 39.705,
+      "end": 40.206,
+      "word": "deggio",
+      "confidence": 0.806
+    },
+    {
+      "start": 40.226,
+      "end": 40.966,
+      "word": "fingere",
+      "confidence": 0.754
+    },
+    {
+      "start": 40.986,
+      "end": 41.666,
+      "word": "amore,",
+      "confidence": 0.813
+    },
+    {
+      "start": 42.247,
+      "end": 42.447,
+      "word": "io",
+      "confidence": 0.874
+    },
+    {
+      "start": 42.587,
+      "end": 42.947,
+      "word": "solo",
+      "confidence": 0.709
+    },
+    {
+      "start": 43.027,
+      "end": 43.167,
+      "word": "per",
+      "confidence": 0.855
+    },
+    {
+      "start": 43.327,
+      "end": 43.528,
+      "word": "mia",
+      "confidence": 0.814
+    },
+    {
+      "start": 43.568,
+      "end": 44.668,
+      "word": "disgrazia,",
+      "confidence": 0.828
+    },
+    {
+      "start": 45.049,
+      "end": 45.509,
+      "word": "uomo",
+      "confidence": 0.508
+    },
+    {
+      "start": 45.609,
+      "end": 45.729,
+      "word": "di",
+      "confidence": 0.779
+    },
+    {
+      "start": 45.809,
+      "end": 46.109,
+      "word": "buon",
+      "confidence": 0.619
+    },
+    {
+      "start": 46.189,
+      "end": 46.329,
+      "word": "cuore,",
+      "confidence": 0.391
+    }
+  ]
+}

@@ -1,0 +1,1291 @@
+{
+  "text": "Heine, wie der weihte ich was Licht. Was Licht. Dieses Licht, wie lang verlosch es nicht. Die Sonne sank, der Tag verging zweitausendein. Doch seine Neid erstickten nicht, sein scheuchen Zeichen z\u00fcndete an und streckt an der liebsten T\u00fcre, das nicht ich zu ihr f\u00fchre, aus der liebsten rund, bis die Burg sich wird schuld nicht mit, nicht ich froh mit eures Wort und Schutz nicht letzten Tage verlassen geht eine Not, geht seine fein, geh nicht weggeteilt. Ein Sitz in der Nacht, der Mangel bracht, hielt ihn Liebchen am Haus, streck mit ruhend ihn aus. Was mir das Auge so entz\u00fcckt, mein Herze tief zur Herde dr\u00fcckt im lichten Tage des Schein her. 10. Hielt mich der Wahn gefangen, was dort in keuscher Nacht dunkel verschlossen wacht, was ohne wiss und warm ich d\u00e4mme, dort empfangen ein Bild, das meine Augen zuschauen, sich nicht getrauten. Von des Tagesschein betroffen lag mir sasch und offen, was mir so richtig schien und das mittig h\u00e4lt vor allem, vor allem Volke blieb ich laut erinnert dem Neid, den mir der Tag erweckt, dem Eifer, die mein Gl\u00fcck erschl\u00e4gt, der Missgunst, die mir ehren. Und nun begann zu schwellen die ne Blut, die Schloss und Tr\u00e4ume schloss, um ehrum zu wahlen. Nach ihr hab ich zu baden.",
+  "language": "de",
+  "duration": 555.2489795918367,
+  "words": [
+    {
+      "start": 195.38,
+      "end": 196.72,
+      "word": "Heine,",
+      "confidence": 0.19367
+    },
+    {
+      "start": 198.06,
+      "end": 198.492,
+      "word": "wie",
+      "confidence": 0.19348
+    },
+    {
+      "start": 198.556,
+      "end": 198.78,
+      "word": "der",
+      "confidence": 0.3256
+    },
+    {
+      "start": 198.82,
+      "end": 200.68,
+      "word": "weihte",
+      "confidence": 0.11645
+    },
+    {
+      "start": 206.18,
+      "end": 206.92,
+      "word": "ich",
+      "confidence": 0.65103
+    },
+    {
+      "start": 207.38,
+      "end": 207.812,
+      "word": "was",
+      "confidence": 0.45806
+    },
+    {
+      "start": 207.876,
+      "end": 208.6,
+      "word": "Licht.",
+      "confidence": 0.43304
+    },
+    {
+      "start": 209.26,
+      "end": 209.692,
+      "word": "Was",
+      "confidence": 0.54849
+    },
+    {
+      "start": 209.756,
+      "end": 210.48,
+      "word": "Licht.",
+      "confidence": 0.36743
+    },
+    {
+      "start": 211.82,
+      "end": 212.34,
+      "word": "Dieses",
+      "confidence": 0.73012
+    },
+    {
+      "start": 212.38,
+      "end": 213.12,
+      "word": "Licht,",
+      "confidence": 0.75512
+    },
+    {
+      "start": 213.46,
+      "end": 213.892,
+      "word": "wie",
+      "confidence": 0.86532
+    },
+    {
+      "start": 213.956,
+      "end": 214.396,
+      "word": "lang",
+      "confidence": 0.96652
+    },
+    {
+      "start": 214.508,
+      "end": 215.196,
+      "word": "verlosch",
+      "confidence": 0.2704
+    },
+    {
+      "start": 215.228,
+      "end": 215.516,
+      "word": "es",
+      "confidence": 0.98654
+    },
+    {
+      "start": 215.588,
+      "end": 216.2,
+      "word": "nicht.",
+      "confidence": 0.99414
+    },
+    {
+      "start": 217.06,
+      "end": 217.42,
+      "word": "Die",
+      "confidence": 0.6571
+    },
+    {
+      "start": 217.46,
+      "end": 218.236,
+      "word": "Sonne",
+      "confidence": 0.37734
+    },
+    {
+      "start": 218.308,
+      "end": 218.916,
+      "word": "sank,",
+      "confidence": 0.48653
+    },
+    {
+      "start": 218.988,
+      "end": 219.196,
+      "word": "der",
+      "confidence": 0.9982
+    },
+    {
+      "start": 219.228,
+      "end": 220.04,
+      "word": "Tag",
+      "confidence": 0.38667
+    },
+    {
+      "start": 220.38,
+      "end": 221.388,
+      "word": "verging",
+      "confidence": 0.91272
+    },
+    {
+      "start": 221.524,
+      "end": 221.774,
+      "word": "zweitausendein.",
+      "confidence": 0.92124
+    },
+    {
+      "start": 221.812,
+      "end": 222.114,
+      "word": "Doch",
+      "confidence": 0.98466
+    },
+    {
+      "start": 222.162,
+      "end": 222.53,
+      "word": "seine",
+      "confidence": 0.88422
+    },
+    {
+      "start": 222.57,
+      "end": 223.138,
+      "word": "Neid",
+      "confidence": 0.35192
+    },
+    {
+      "start": 223.194,
+      "end": 224.186,
+      "word": "erstickten",
+      "confidence": 0.35795
+    },
+    {
+      "start": 224.258,
+      "end": 224.658,
+      "word": "nicht,",
+      "confidence": 0.99606
+    },
+    {
+      "start": 224.754,
+      "end": 225.106,
+      "word": "sein",
+      "confidence": 0.99717
+    },
+    {
+      "start": 225.178,
+      "end": 226.05,
+      "word": "scheuchen",
+      "confidence": 0.33716
+    },
+    {
+      "start": 226.09,
+      "end": 226.826,
+      "word": "Zeichen",
+      "confidence": 0.51213
+    },
+    {
+      "start": 226.898,
+      "end": 227.778,
+      "word": "z\u00fcndete",
+      "confidence": 0.78444
+    },
+    {
+      "start": 227.834,
+      "end": 228.43,
+      "word": "an",
+      "confidence": 0.98367
+    },
+    {
+      "start": 229.01,
+      "end": 229.418,
+      "word": "und",
+      "confidence": 0.9965
+    },
+    {
+      "start": 229.474,
+      "end": 230.042,
+      "word": "streckt",
+      "confidence": 0.26125
+    },
+    {
+      "start": 230.066,
+      "end": 230.226,
+      "word": "an",
+      "confidence": 0.49941
+    },
+    {
+      "start": 230.258,
+      "end": 230.426,
+      "word": "der",
+      "confidence": 0.99603
+    },
+    {
+      "start": 230.458,
+      "end": 231.29,
+      "word": "liebsten",
+      "confidence": 0.5438
+    },
+    {
+      "start": 231.33,
+      "end": 232.618,
+      "word": "T\u00fcre,",
+      "confidence": 0.40676
+    },
+    {
+      "start": 232.754,
+      "end": 233.098,
+      "word": "das",
+      "confidence": 0.45383
+    },
+    {
+      "start": 233.154,
+      "end": 233.562,
+      "word": "nicht",
+      "confidence": 0.92474
+    },
+    {
+      "start": 233.666,
+      "end": 233.906,
+      "word": "ich",
+      "confidence": 0.81628
+    },
+    {
+      "start": 233.938,
+      "end": 234.226,
+      "word": "zu",
+      "confidence": 0.94988
+    },
+    {
+      "start": 234.298,
+      "end": 234.674,
+      "word": "ihr",
+      "confidence": 0.54449
+    },
+    {
+      "start": 234.762,
+      "end": 235.978,
+      "word": "f\u00fchre,",
+      "confidence": 0.27708
+    },
+    {
+      "start": 236.074,
+      "end": 236.33,
+      "word": "aus",
+      "confidence": 0.38932
+    },
+    {
+      "start": 236.37,
+      "end": 236.642,
+      "word": "der",
+      "confidence": 0.60905
+    },
+    {
+      "start": 236.706,
+      "end": 237.562,
+      "word": "liebsten",
+      "confidence": 0.36019
+    },
+    {
+      "start": 237.626,
+      "end": 238.31,
+      "word": "rund,",
+      "confidence": 0.23648
+    },
+    {
+      "start": 240.97,
+      "end": 241.33,
+      "word": "bis",
+      "confidence": 0.87788
+    },
+    {
+      "start": 241.37,
+      "end": 241.594,
+      "word": "die",
+      "confidence": 0.99608
+    },
+    {
+      "start": 241.642,
+      "end": 242.13,
+      "word": "Burg",
+      "confidence": 0.40448
+    },
+    {
+      "start": 242.17,
+      "end": 242.514,
+      "word": "sich",
+      "confidence": 0.61368
+    },
+    {
+      "start": 242.602,
+      "end": 243.114,
+      "word": "wird",
+      "confidence": 0.35936
+    },
+    {
+      "start": 243.242,
+      "end": 243.85,
+      "word": "schuld",
+      "confidence": 0.74342
+    },
+    {
+      "start": 243.89,
+      "end": 244.498,
+      "word": "nicht",
+      "confidence": 0.33759
+    },
+    {
+      "start": 244.674,
+      "end": 245.13,
+      "word": "mit,",
+      "confidence": 0.98075
+    },
+    {
+      "start": 245.21,
+      "end": 245.83,
+      "word": "nicht",
+      "confidence": 0.23179
+    },
+    {
+      "start": 246.17,
+      "end": 246.53,
+      "word": "ich",
+      "confidence": 0.3897
+    },
+    {
+      "start": 246.57,
+      "end": 246.946,
+      "word": "froh",
+      "confidence": 0.31141
+    },
+    {
+      "start": 246.978,
+      "end": 247.266,
+      "word": "mit",
+      "confidence": 0.4784
+    },
+    {
+      "start": 247.338,
+      "end": 247.754,
+      "word": "eures",
+      "confidence": 0.33858
+    },
+    {
+      "start": 247.802,
+      "end": 248.386,
+      "word": "Wort",
+      "confidence": 0.52497
+    },
+    {
+      "start": 248.418,
+      "end": 248.61,
+      "word": "und",
+      "confidence": 0.91967
+    },
+    {
+      "start": 248.65,
+      "end": 249.35,
+      "word": "Schutz",
+      "confidence": 0.2908
+    },
+    {
+      "start": 280.46,
+      "end": 280.916,
+      "word": "nicht",
+      "confidence": 0.73735
+    },
+    {
+      "start": 280.988,
+      "end": 281.588,
+      "word": "letzten",
+      "confidence": 0.16996
+    },
+    {
+      "start": 281.684,
+      "end": 282.276,
+      "word": "Tage",
+      "confidence": 0.93009
+    },
+    {
+      "start": 282.348,
+      "end": 283.16,
+      "word": "verlassen",
+      "confidence": 0.33481
+    },
+    {
+      "start": 283.9,
+      "end": 284.404,
+      "word": "geht",
+      "confidence": 0.43815
+    },
+    {
+      "start": 284.452,
+      "end": 284.708,
+      "word": "eine",
+      "confidence": 0.53265
+    },
+    {
+      "start": 284.764,
+      "end": 285.268,
+      "word": "Not,",
+      "confidence": 0.99811
+    },
+    {
+      "start": 285.404,
+      "end": 285.844,
+      "word": "geht",
+      "confidence": 0.36842
+    },
+    {
+      "start": 285.892,
+      "end": 286.196,
+      "word": "seine",
+      "confidence": 0.46319
+    },
+    {
+      "start": 286.228,
+      "end": 286.964,
+      "word": "fein,",
+      "confidence": 0.24662
+    },
+    {
+      "start": 287.132,
+      "end": 287.476,
+      "word": "geh",
+      "confidence": 0.35678
+    },
+    {
+      "start": 287.508,
+      "end": 287.7,
+      "word": "nicht",
+      "confidence": 0.99727
+    },
+    {
+      "start": 287.74,
+      "end": 288.532,
+      "word": "weggeteilt.",
+      "confidence": 0.33626
+    },
+    {
+      "start": 288.596,
+      "end": 289.2,
+      "word": "Ein",
+      "confidence": 0.74586
+    },
+    {
+      "start": 290.58,
+      "end": 291.14,
+      "word": "Sitz",
+      "confidence": 0.35422
+    },
+    {
+      "start": 291.22,
+      "end": 291.412,
+      "word": "in",
+      "confidence": 0.98825
+    },
+    {
+      "start": 291.436,
+      "end": 291.572,
+      "word": "der",
+      "confidence": 0.71957
+    },
+    {
+      "start": 291.596,
+      "end": 292.26,
+      "word": "Nacht,",
+      "confidence": 0.53249
+    },
+    {
+      "start": 292.34,
+      "end": 292.96,
+      "word": "der",
+      "confidence": 0.4108
+    },
+    {
+      "start": 293.82,
+      "end": 294.804,
+      "word": "Mangel",
+      "confidence": 0.11576
+    },
+    {
+      "start": 294.892,
+      "end": 295.88,
+      "word": "bracht,",
+      "confidence": 0.24542
+    },
+    {
+      "start": 296.74,
+      "end": 297.468,
+      "word": "hielt",
+      "confidence": 0.05953
+    },
+    {
+      "start": 297.524,
+      "end": 297.692,
+      "word": "ihn",
+      "confidence": 0.36394
+    },
+    {
+      "start": 297.716,
+      "end": 298.364,
+      "word": "Liebchen",
+      "confidence": 0.20104
+    },
+    {
+      "start": 298.412,
+      "end": 298.644,
+      "word": "am",
+      "confidence": 0.79087
+    },
+    {
+      "start": 298.692,
+      "end": 299.36,
+      "word": "Haus,",
+      "confidence": 0.51274
+    },
+    {
+      "start": 299.98,
+      "end": 300.86,
+      "word": "streck",
+      "confidence": 0.71557
+    },
+    {
+      "start": 300.94,
+      "end": 301.252,
+      "word": "mit",
+      "confidence": 0.59248
+    },
+    {
+      "start": 301.316,
+      "end": 301.932,
+      "word": "ruhend",
+      "confidence": 0.3821
+    },
+    {
+      "start": 301.956,
+      "end": 302.204,
+      "word": "ihn",
+      "confidence": 0.87419
+    },
+    {
+      "start": 302.252,
+      "end": 302.84,
+      "word": "aus.",
+      "confidence": 0.99501
+    },
+    {
+      "start": 363.63,
+      "end": 364.182,
+      "word": "Was",
+      "confidence": 0.89722
+    },
+    {
+      "start": 364.286,
+      "end": 364.958,
+      "word": "mir",
+      "confidence": 0.72433
+    },
+    {
+      "start": 365.134,
+      "end": 365.614,
+      "word": "das",
+      "confidence": 0.99857
+    },
+    {
+      "start": 365.702,
+      "end": 366.622,
+      "word": "Auge",
+      "confidence": 0.99268
+    },
+    {
+      "start": 366.726,
+      "end": 367.398,
+      "word": "so",
+      "confidence": 0.99717
+    },
+    {
+      "start": 367.574,
+      "end": 369.358,
+      "word": "entz\u00fcckt,",
+      "confidence": 0.58974
+    },
+    {
+      "start": 369.454,
+      "end": 369.902,
+      "word": "mein",
+      "confidence": 0.99509
+    },
+    {
+      "start": 370.006,
+      "end": 370.766,
+      "word": "Herze",
+      "confidence": 0.63793
+    },
+    {
+      "start": 370.838,
+      "end": 371.318,
+      "word": "tief",
+      "confidence": 0.9441
+    },
+    {
+      "start": 371.374,
+      "end": 371.758,
+      "word": "zur",
+      "confidence": 0.98072
+    },
+    {
+      "start": 371.854,
+      "end": 373.478,
+      "word": "Herde",
+      "confidence": 0.59469
+    },
+    {
+      "start": 373.574,
+      "end": 374.718,
+      "word": "dr\u00fcckt",
+      "confidence": 0.48793
+    },
+    {
+      "start": 374.854,
+      "end": 375.222,
+      "word": "im",
+      "confidence": 0.95885
+    },
+    {
+      "start": 375.286,
+      "end": 376.094,
+      "word": "lichten",
+      "confidence": 0.49001
+    },
+    {
+      "start": 376.142,
+      "end": 376.702,
+      "word": "Tage",
+      "confidence": 0.68785
+    },
+    {
+      "start": 376.766,
+      "end": 376.99,
+      "word": "des",
+      "confidence": 0.62533
+    },
+    {
+      "start": 377.03,
+      "end": 377.69,
+      "word": "Schein",
+      "confidence": 0.37725
+    },
+    {
+      "start": 418.51,
+      "end": 418.942,
+      "word": "her.",
+      "confidence": 0.62122
+    },
+    {
+      "start": 419.006,
+      "end": 420.63,
+      "word": "10.",
+      "confidence": 0.03
+    },
+    {
+      "start": 420.67,
+      "end": 421.078,
+      "word": "Hielt",
+      "confidence": 0.50891
+    },
+    {
+      "start": 421.134,
+      "end": 421.446,
+      "word": "mich",
+      "confidence": 0.99604
+    },
+    {
+      "start": 421.518,
+      "end": 421.918,
+      "word": "der",
+      "confidence": 0.67153
+    },
+    {
+      "start": 422.014,
+      "end": 422.686,
+      "word": "Wahn",
+      "confidence": 0.18037
+    },
+    {
+      "start": 422.758,
+      "end": 424.33,
+      "word": "gefangen,",
+      "confidence": 0.24079
+    },
+    {
+      "start": 459.02,
+      "end": 459.596,
+      "word": "was",
+      "confidence": 0.5095
+    },
+    {
+      "start": 459.708,
+      "end": 460.244,
+      "word": "dort",
+      "confidence": 0.91086
+    },
+    {
+      "start": 460.292,
+      "end": 460.596,
+      "word": "in",
+      "confidence": 0.72115
+    },
+    {
+      "start": 460.668,
+      "end": 461.756,
+      "word": "keuscher",
+      "confidence": 0.55618
+    },
+    {
+      "start": 461.868,
+      "end": 463.524,
+      "word": "Nacht",
+      "confidence": 0.9867
+    },
+    {
+      "start": 463.692,
+      "end": 464.652,
+      "word": "dunkel",
+      "confidence": 0.42424
+    },
+    {
+      "start": 464.716,
+      "end": 466.02,
+      "word": "verschlossen",
+      "confidence": 0.83496
+    },
+    {
+      "start": 466.1,
+      "end": 466.88,
+      "word": "wacht,",
+      "confidence": 0.68578
+    },
+    {
+      "start": 467.42,
+      "end": 467.972,
+      "word": "was",
+      "confidence": 0.99908
+    },
+    {
+      "start": 468.076,
+      "end": 468.932,
+      "word": "ohne",
+      "confidence": 0.7001
+    },
+    {
+      "start": 469.036,
+      "end": 469.524,
+      "word": "wiss",
+      "confidence": 0.61672
+    },
+    {
+      "start": 469.612,
+      "end": 470.028,
+      "word": "und",
+      "confidence": 0.99923
+    },
+    {
+      "start": 470.124,
+      "end": 471.68,
+      "word": "warm",
+      "confidence": 0.32592
+    },
+    {
+      "start": 471.98,
+      "end": 472.532,
+      "word": "ich",
+      "confidence": 0.98938
+    },
+    {
+      "start": 472.636,
+      "end": 473.828,
+      "word": "d\u00e4mme,",
+      "confidence": 0.24961
+    },
+    {
+      "start": 473.924,
+      "end": 474.764,
+      "word": "dort",
+      "confidence": 0.57546
+    },
+    {
+      "start": 474.852,
+      "end": 476.48,
+      "word": "empfangen",
+      "confidence": 0.26639
+    },
+    {
+      "start": 480.83,
+      "end": 481.622,
+      "word": "ein",
+      "confidence": 0.97453
+    },
+    {
+      "start": 481.806,
+      "end": 482.65,
+      "word": "Bild,",
+      "confidence": 0.5777
+    },
+    {
+      "start": 484.91,
+      "end": 485.486,
+      "word": "das",
+      "confidence": 0.70963
+    },
+    {
+      "start": 485.598,
+      "end": 486.63,
+      "word": "meine",
+      "confidence": 0.99617
+    },
+    {
+      "start": 486.75,
+      "end": 488.43,
+      "word": "Augen",
+      "confidence": 0.74458
+    },
+    {
+      "start": 488.55,
+      "end": 491.014,
+      "word": "zuschauen,",
+      "confidence": 0.11798
+    },
+    {
+      "start": 491.142,
+      "end": 491.718,
+      "word": "sich",
+      "confidence": 0.87062
+    },
+    {
+      "start": 491.854,
+      "end": 492.53,
+      "word": "nicht",
+      "confidence": 0.99753
+    },
+    {
+      "start": 493.23,
+      "end": 495.57,
+      "word": "getrauten.",
+      "confidence": 0.35286
+    },
+    {
+      "start": 496.87,
+      "end": 497.374,
+      "word": "Von",
+      "confidence": 0.64172
+    },
+    {
+      "start": 497.462,
+      "end": 497.854,
+      "word": "des",
+      "confidence": 0.89678
+    },
+    {
+      "start": 497.942,
+      "end": 500.45,
+      "word": "Tagesschein",
+      "confidence": 0.52598
+    },
+    {
+      "start": 500.87,
+      "end": 502.326,
+      "word": "betroffen",
+      "confidence": 0.83961
+    },
+    {
+      "start": 502.518,
+      "end": 502.99,
+      "word": "lag",
+      "confidence": 0.8086
+    },
+    {
+      "start": 503.03,
+      "end": 503.374,
+      "word": "mir",
+      "confidence": 0.67597
+    },
+    {
+      "start": 503.462,
+      "end": 504.31,
+      "word": "sasch",
+      "confidence": 0.20486
+    },
+    {
+      "start": 504.47,
+      "end": 504.79,
+      "word": "und",
+      "confidence": 0.65694
+    },
+    {
+      "start": 504.83,
+      "end": 505.65,
+      "word": "offen,",
+      "confidence": 0.7706
+    },
+    {
+      "start": 506.65,
+      "end": 507.13,
+      "word": "was",
+      "confidence": 0.99049
+    },
+    {
+      "start": 507.21,
+      "end": 507.522,
+      "word": "mir",
+      "confidence": 0.99055
+    },
+    {
+      "start": 507.586,
+      "end": 507.93,
+      "word": "so",
+      "confidence": 0.63208
+    },
+    {
+      "start": 508.01,
+      "end": 508.858,
+      "word": "richtig",
+      "confidence": 0.18609
+    },
+    {
+      "start": 508.914,
+      "end": 509.338,
+      "word": "schien",
+      "confidence": 0.29148
+    },
+    {
+      "start": 509.434,
+      "end": 510.07,
+      "word": "und",
+      "confidence": 0.74732
+    },
+    {
+      "start": 510.89,
+      "end": 511.37,
+      "word": "das",
+      "confidence": 0.83645
+    },
+    {
+      "start": 511.45,
+      "end": 512.234,
+      "word": "mittig",
+      "confidence": 0.1703
+    },
+    {
+      "start": 512.322,
+      "end": 512.682,
+      "word": "h\u00e4lt",
+      "confidence": 0.59967
+    },
+    {
+      "start": 512.746,
+      "end": 513.066,
+      "word": "vor",
+      "confidence": 0.84652
+    },
+    {
+      "start": 513.138,
+      "end": 513.99,
+      "word": "allem,",
+      "confidence": 0.39758
+    },
+    {
+      "start": 515.81,
+      "end": 516.29,
+      "word": "vor",
+      "confidence": 0.75613
+    },
+    {
+      "start": 516.37,
+      "end": 516.97,
+      "word": "allem",
+      "confidence": 0.72101
+    },
+    {
+      "start": 517.05,
+      "end": 517.698,
+      "word": "Volke",
+      "confidence": 0.44657
+    },
+    {
+      "start": 517.794,
+      "end": 518.442,
+      "word": "blieb",
+      "confidence": 0.19048
+    },
+    {
+      "start": 518.546,
+      "end": 518.786,
+      "word": "ich",
+      "confidence": 0.70772
+    },
+    {
+      "start": 518.818,
+      "end": 519.266,
+      "word": "laut",
+      "confidence": 0.73464
+    },
+    {
+      "start": 519.378,
+      "end": 525.75,
+      "word": "erinnert",
+      "confidence": 0.2275
+    },
+    {
+      "start": 527.17,
+      "end": 527.53,
+      "word": "dem",
+      "confidence": 0.98025
+    },
+    {
+      "start": 527.57,
+      "end": 528.41,
+      "word": "Neid,",
+      "confidence": 0.55017
+    },
+    {
+      "start": 528.57,
+      "end": 528.986,
+      "word": "den",
+      "confidence": 0.99313
+    },
+    {
+      "start": 529.058,
+      "end": 529.338,
+      "word": "mir",
+      "confidence": 0.97666
+    },
+    {
+      "start": 529.394,
+      "end": 529.658,
+      "word": "der",
+      "confidence": 0.99736
+    },
+    {
+      "start": 529.714,
+      "end": 530.314,
+      "word": "Tag",
+      "confidence": 0.64023
+    },
+    {
+      "start": 530.402,
+      "end": 531.424,
+      "word": "erweckt,",
+      "confidence": 0.24755
+    },
+    {
+      "start": 531.602,
+      "end": 532.036,
+      "word": "dem",
+      "confidence": 0.70342
+    },
+    {
+      "start": 532.108,
+      "end": 532.996,
+      "word": "Eifer,",
+      "confidence": 0.69637
+    },
+    {
+      "start": 533.148,
+      "end": 533.436,
+      "word": "die",
+      "confidence": 0.86797
+    },
+    {
+      "start": 533.468,
+      "end": 533.636,
+      "word": "mein",
+      "confidence": 0.96501
+    },
+    {
+      "start": 533.668,
+      "end": 534.36,
+      "word": "Gl\u00fcck",
+      "confidence": 0.78247
+    },
+    {
+      "start": 534.86,
+      "end": 536.0,
+      "word": "erschl\u00e4gt,",
+      "confidence": 0.32281
+    },
+    {
+      "start": 536.42,
+      "end": 536.732,
+      "word": "der",
+      "confidence": 0.96331
+    },
+    {
+      "start": 536.756,
+      "end": 537.524,
+      "word": "Missgunst,",
+      "confidence": 0.73678
+    },
+    {
+      "start": 537.572,
+      "end": 537.852,
+      "word": "die",
+      "confidence": 0.54369
+    },
+    {
+      "start": 537.916,
+      "end": 538.26,
+      "word": "mir",
+      "confidence": 0.9743
+    },
+    {
+      "start": 538.34,
+      "end": 539.476,
+      "word": "ehren.",
+      "confidence": 0.41605
+    },
+    {
+      "start": 539.588,
+      "end": 539.86,
+      "word": "Und",
+      "confidence": 0.999
+    },
+    {
+      "start": 539.9,
+      "end": 540.196,
+      "word": "nun",
+      "confidence": 0.68078
+    },
+    {
+      "start": 540.268,
+      "end": 540.924,
+      "word": "begann",
+      "confidence": 0.5193
+    },
+    {
+      "start": 540.972,
+      "end": 541.228,
+      "word": "zu",
+      "confidence": 0.98934
+    },
+    {
+      "start": 541.284,
+      "end": 542.68,
+      "word": "schwellen",
+      "confidence": 0.34267
+    },
+    {
+      "start": 543.18,
+      "end": 543.516,
+      "word": "die",
+      "confidence": 0.89661
+    },
+    {
+      "start": 543.548,
+      "end": 543.716,
+      "word": "ne",
+      "confidence": 0.31283
+    },
+    {
+      "start": 543.748,
+      "end": 544.18,
+      "word": "Blut,",
+      "confidence": 0.40335
+    },
+    {
+      "start": 544.26,
+      "end": 544.452,
+      "word": "die",
+      "confidence": 0.45162
+    },
+    {
+      "start": 544.476,
+      "end": 545.24,
+      "word": "Schloss",
+      "confidence": 0.42999
+    },
+    {
+      "start": 545.62,
+      "end": 545.956,
+      "word": "und",
+      "confidence": 0.99537
+    },
+    {
+      "start": 545.988,
+      "end": 546.612,
+      "word": "Tr\u00e4ume",
+      "confidence": 0.38759
+    },
+    {
+      "start": 546.676,
+      "end": 547.204,
+      "word": "schloss,",
+      "confidence": 0.96353
+    },
+    {
+      "start": 547.292,
+      "end": 547.564,
+      "word": "um",
+      "confidence": 0.94927
+    },
+    {
+      "start": 547.612,
+      "end": 548.588,
+      "word": "ehrum",
+      "confidence": 0.20546
+    },
+    {
+      "start": 548.644,
+      "end": 548.908,
+      "word": "zu",
+      "confidence": 0.78587
+    },
+    {
+      "start": 548.964,
+      "end": 550.172,
+      "word": "wahlen.",
+      "confidence": 0.12342
+    },
+    {
+      "start": 550.276,
+      "end": 550.66,
+      "word": "Nach",
+      "confidence": 0.69319
+    },
+    {
+      "start": 550.74,
+      "end": 551.004,
+      "word": "ihr",
+      "confidence": 0.77086
+    },
+    {
+      "start": 551.052,
+      "end": 551.332,
+      "word": "hab",
+      "confidence": 0.70669
+    },
+    {
+      "start": 551.396,
+      "end": 551.812,
+      "word": "ich",
+      "confidence": 0.55577
+    },
+    {
+      "start": 551.916,
+      "end": 552.156,
+      "word": "zu",
+      "confidence": 0.75816
+    },
+    {
+      "start": 552.188,
+      "end": 553.78,
+      "word": "baden.",
+      "confidence": 0.20942
+    }
+  ]
+}

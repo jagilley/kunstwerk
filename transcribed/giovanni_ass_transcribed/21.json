@@ -1,0 +1,2461 @@
+{
+  "text": "Non decider\u00f2 di te riprodurr\u00f2, e gi\u00e0 te l'ho detto l'uomo mio, e vuol credermi ancora. aspetto nobile e voce maestra. Il suo amore, l'amore \u00e8 pi\u00f9 di piet\u00e0, \u00e8 pi\u00f9 di piet\u00e0, Da povera ragazza e pazza amici miei, e pazza amici miei, lasciatemi con lei, forse si calmer\u00e0, forse si calmer\u00e0. Non credete al perfido! E pazza, non vadate! Restate, amore, restate! Ma chi si creder\u00e0? E pazza! Ma chi si creder\u00e0? Restate! Ma chi si creder\u00e0? Si creder\u00e0! Non creder\u00e0 al perfido! Restate! Che l'uomo non io lo spengono! Che l'uomo non io lo spengono! Che l'uomo non io lo spengono! L'alba girale mi spegne. L'alba girale mi spegne. L'alba girale mi spegne. L'alba girale mi spegne. L'alba girale mi spegne. L'alba girale mi spegne. L'alba girale mi spegne. L'alba girale mi spegne. L'alba girale mi spegne. L'alba girale mi spegne. L'alba girale mi spegne. L'alba girale mi spegne. L'alba girale mi spegne. L'alba girale mi spegne. L'alba girale mi spegne. L'alba girale mi spegne. L'alba girale mi spegne. L'alba girale mi spegne. L'alba girale mi spegne. L'alba girale mi spegne. L'alba Io di qua non vado via se non scopro questo affare. All'aria di Ponzini ha il suo voce, il suo parlare. Se ben vado, si potr\u00e0 qualche cosa sospettare. Quel che fosse, dovremmo giudicare. Dunque quella \u00e8 cazzarella. Dunque quella \u00e8 traditore. Infelice. Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Vittima! Voglio un'altra palestra! Voglio un'altra palestra! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La scatola \u00e8 venerata! La Sotto zitto che la gente, perdono la prudenza, guardano all'intorno, sperano scendere, state un poco pi\u00f9 prudente, che le colpe di mio Stato, vi farete vitoria.",
+  "language": "it",
+  "duration": 263.3239909297052,
+  "words": [
+    {
+      "start": 0.008,
+      "end": 0.068,
+      "word": "Non",
+      "confidence": 0.051
+    },
+    {
+      "start": 0.088,
+      "end": 0.248,
+      "word": "decider\u00f2",
+      "confidence": 0.036
+    },
+    {
+      "start": 0.268,
+      "end": 0.308,
+      "word": "di",
+      "confidence": 0.036
+    },
+    {
+      "start": 0.328,
+      "end": 0.368,
+      "word": "te",
+      "confidence": 0.046
+    },
+    {
+      "start": 0.388,
+      "end": 0.588,
+      "word": "riprodurr\u00f2,",
+      "confidence": 0.031
+    },
+    {
+      "start": 0.608,
+      "end": 0.628,
+      "word": "e",
+      "confidence": 0.07
+    },
+    {
+      "start": 0.648,
+      "end": 0.708,
+      "word": "gi\u00e0",
+      "confidence": 0.018
+    },
+    {
+      "start": 0.728,
+      "end": 0.768,
+      "word": "te",
+      "confidence": 0.039
+    },
+    {
+      "start": 0.788,
+      "end": 0.849,
+      "word": "l'ho",
+      "confidence": 0.029
+    },
+    {
+      "start": 0.869,
+      "end": 0.969,
+      "word": "detto",
+      "confidence": 0.03
+    },
+    {
+      "start": 0.989,
+      "end": 1.849,
+      "word": "l'uomo",
+      "confidence": 0.326
+    },
+    {
+      "start": 1.889,
+      "end": 2.009,
+      "word": "mio,",
+      "confidence": 0.259
+    },
+    {
+      "start": 2.089,
+      "end": 2.189,
+      "word": "e",
+      "confidence": 0.702
+    },
+    {
+      "start": 2.229,
+      "end": 2.71,
+      "word": "vuol",
+      "confidence": 0.552
+    },
+    {
+      "start": 2.91,
+      "end": 3.59,
+      "word": "credermi",
+      "confidence": 0.65
+    },
+    {
+      "start": 3.61,
+      "end": 4.11,
+      "word": "ancora.",
+      "confidence": 0.341
+    },
+    {
+      "start": 28.92,
+      "end": 29.561,
+      "word": "aspetto",
+      "confidence": 0.522
+    },
+    {
+      "start": 29.641,
+      "end": 30.001,
+      "word": "nobile",
+      "confidence": 0.465
+    },
+    {
+      "start": 30.041,
+      "end": 30.061,
+      "word": "e",
+      "confidence": 0.09
+    },
+    {
+      "start": 30.101,
+      "end": 30.341,
+      "word": "voce",
+      "confidence": 0.52
+    },
+    {
+      "start": 30.381,
+      "end": 30.961,
+      "word": "maestra.",
+      "confidence": 0.619
+    },
+    {
+      "start": 32.503,
+      "end": 32.662,
+      "word": "Il",
+      "confidence": 0.399
+    },
+    {
+      "start": 32.683,
+      "end": 32.762,
+      "word": "suo",
+      "confidence": 0.25
+    },
+    {
+      "start": 32.783,
+      "end": 33.103,
+      "word": "amore,",
+      "confidence": 0.491
+    },
+    {
+      "start": 33.163,
+      "end": 33.523,
+      "word": "l'amore",
+      "confidence": 0.411
+    },
+    {
+      "start": 33.543,
+      "end": 33.563,
+      "word": "\u00e8",
+      "confidence": 0.001
+    },
+    {
+      "start": 33.603,
+      "end": 33.663,
+      "word": "pi\u00f9",
+      "confidence": 0.069
+    },
+    {
+      "start": 33.723,
+      "end": 33.843,
+      "word": "di",
+      "confidence": 0.572
+    },
+    {
+      "start": 33.923,
+      "end": 34.124,
+      "word": "piet\u00e0,",
+      "confidence": 0.331
+    },
+    {
+      "start": 34.204,
+      "end": 34.244,
+      "word": "\u00e8",
+      "confidence": 0.324
+    },
+    {
+      "start": 34.284,
+      "end": 34.404,
+      "word": "pi\u00f9",
+      "confidence": 0.344
+    },
+    {
+      "start": 34.424,
+      "end": 34.524,
+      "word": "di",
+      "confidence": 0.504
+    },
+    {
+      "start": 34.564,
+      "end": 34.764,
+      "word": "piet\u00e0,",
+      "confidence": 0.171
+    },
+    {
+      "start": 55.79,
+      "end": 55.85,
+      "word": "Da",
+      "confidence": 0.366
+    },
+    {
+      "start": 55.97,
+      "end": 57.111,
+      "word": "povera",
+      "confidence": 0.563
+    },
+    {
+      "start": 57.271,
+      "end": 57.871,
+      "word": "ragazza",
+      "confidence": 0.851
+    },
+    {
+      "start": 58.571,
+      "end": 58.752,
+      "word": "e",
+      "confidence": 0.54
+    },
+    {
+      "start": 58.912,
+      "end": 59.612,
+      "word": "pazza",
+      "confidence": 0.879
+    },
+    {
+      "start": 59.632,
+      "end": 60.072,
+      "word": "amici",
+      "confidence": 0.637
+    },
+    {
+      "start": 60.773,
+      "end": 60.973,
+      "word": "miei,",
+      "confidence": 0.408
+    },
+    {
+      "start": 61.573,
+      "end": 61.673,
+      "word": "e",
+      "confidence": 0.855
+    },
+    {
+      "start": 61.893,
+      "end": 62.633,
+      "word": "pazza",
+      "confidence": 0.821
+    },
+    {
+      "start": 62.753,
+      "end": 63.314,
+      "word": "amici",
+      "confidence": 0.72
+    },
+    {
+      "start": 63.374,
+      "end": 64.233,
+      "word": "miei,",
+      "confidence": 0.808
+    },
+    {
+      "start": 66.275,
+      "end": 67.976,
+      "word": "lasciatemi",
+      "confidence": 0.685
+    },
+    {
+      "start": 68.036,
+      "end": 68.576,
+      "word": "con",
+      "confidence": 0.621
+    },
+    {
+      "start": 68.616,
+      "end": 69.056,
+      "word": "lei,",
+      "confidence": 0.696
+    },
+    {
+      "start": 69.157,
+      "end": 69.517,
+      "word": "forse",
+      "confidence": 0.684
+    },
+    {
+      "start": 69.537,
+      "end": 69.577,
+      "word": "si",
+      "confidence": 0.027
+    },
+    {
+      "start": 69.657,
+      "end": 73.198,
+      "word": "calmer\u00e0,",
+      "confidence": 0.752
+    },
+    {
+      "start": 73.298,
+      "end": 73.899,
+      "word": "forse",
+      "confidence": 0.714
+    },
+    {
+      "start": 73.919,
+      "end": 74.039,
+      "word": "si",
+      "confidence": 0.264
+    },
+    {
+      "start": 74.119,
+      "end": 75.64,
+      "word": "calmer\u00e0.",
+      "confidence": 0.61
+    },
+    {
+      "start": 83.006,
+      "end": 83.086,
+      "word": "Non",
+      "confidence": 0.138
+    },
+    {
+      "start": 83.146,
+      "end": 83.426,
+      "word": "credete",
+      "confidence": 0.18
+    },
+    {
+      "start": 83.486,
+      "end": 83.566,
+      "word": "al",
+      "confidence": 0.174
+    },
+    {
+      "start": 83.586,
+      "end": 83.806,
+      "word": "perfido!",
+      "confidence": 0.135
+    },
+    {
+      "start": 83.846,
+      "end": 83.886,
+      "word": "E",
+      "confidence": 0.255
+    },
+    {
+      "start": 83.906,
+      "end": 84.046,
+      "word": "pazza,",
+      "confidence": 0.078
+    },
+    {
+      "start": 84.086,
+      "end": 84.206,
+      "word": "non",
+      "confidence": 0.216
+    },
+    {
+      "start": 84.246,
+      "end": 84.486,
+      "word": "vadate!",
+      "confidence": 0.211
+    },
+    {
+      "start": 84.526,
+      "end": 84.846,
+      "word": "Restate,",
+      "confidence": 0.415
+    },
+    {
+      "start": 84.906,
+      "end": 85.186,
+      "word": "amore,",
+      "confidence": 0.417
+    },
+    {
+      "start": 85.226,
+      "end": 85.547,
+      "word": "restate!",
+      "confidence": 0.417
+    },
+    {
+      "start": 85.567,
+      "end": 85.607,
+      "word": "Ma",
+      "confidence": 0.05
+    },
+    {
+      "start": 85.707,
+      "end": 85.807,
+      "word": "chi",
+      "confidence": 0.307
+    },
+    {
+      "start": 85.847,
+      "end": 85.947,
+      "word": "si",
+      "confidence": 0.526
+    },
+    {
+      "start": 85.967,
+      "end": 86.227,
+      "word": "creder\u00e0?",
+      "confidence": 0.382
+    },
+    {
+      "start": 86.307,
+      "end": 86.347,
+      "word": "E",
+      "confidence": 0.429
+    },
+    {
+      "start": 86.487,
+      "end": 87.127,
+      "word": "pazza!",
+      "confidence": 0.759
+    },
+    {
+      "start": 87.167,
+      "end": 87.447,
+      "word": "Ma",
+      "confidence": 0.572
+    },
+    {
+      "start": 87.527,
+      "end": 88.107,
+      "word": "chi",
+      "confidence": 0.705
+    },
+    {
+      "start": 88.487,
+      "end": 88.627,
+      "word": "si",
+      "confidence": 0.671
+    },
+    {
+      "start": 90.067,
+      "end": 90.628,
+      "word": "creder\u00e0?",
+      "confidence": 0.489
+    },
+    {
+      "start": 90.668,
+      "end": 90.968,
+      "word": "Restate!",
+      "confidence": 0.509
+    },
+    {
+      "start": 91.188,
+      "end": 91.408,
+      "word": "Ma",
+      "confidence": 0.371
+    },
+    {
+      "start": 91.568,
+      "end": 91.648,
+      "word": "chi",
+      "confidence": 0.199
+    },
+    {
+      "start": 91.708,
+      "end": 91.768,
+      "word": "si",
+      "confidence": 0.254
+    },
+    {
+      "start": 91.788,
+      "end": 92.168,
+      "word": "creder\u00e0?",
+      "confidence": 0.571
+    },
+    {
+      "start": 92.228,
+      "end": 92.368,
+      "word": "Si",
+      "confidence": 0.572
+    },
+    {
+      "start": 92.448,
+      "end": 92.968,
+      "word": "creder\u00e0!",
+      "confidence": 0.284
+    },
+    {
+      "start": 93.008,
+      "end": 93.128,
+      "word": "Non",
+      "confidence": 0.333
+    },
+    {
+      "start": 93.168,
+      "end": 93.608,
+      "word": "creder\u00e0",
+      "confidence": 0.45
+    },
+    {
+      "start": 93.708,
+      "end": 93.748,
+      "word": "al",
+      "confidence": 0.24
+    },
+    {
+      "start": 93.788,
+      "end": 94.348,
+      "word": "perfido!",
+      "confidence": 0.482
+    },
+    {
+      "start": 94.408,
+      "end": 95.268,
+      "word": "Restate!",
+      "confidence": 0.679
+    },
+    {
+      "start": 95.288,
+      "end": 95.469,
+      "word": "Che",
+      "confidence": 0.422
+    },
+    {
+      "start": 95.529,
+      "end": 95.769,
+      "word": "l'uomo",
+      "confidence": 0.341
+    },
+    {
+      "start": 95.809,
+      "end": 95.949,
+      "word": "non",
+      "confidence": 0.438
+    },
+    {
+      "start": 96.049,
+      "end": 96.109,
+      "word": "io",
+      "confidence": 0.234
+    },
+    {
+      "start": 96.169,
+      "end": 96.249,
+      "word": "lo",
+      "confidence": 0.293
+    },
+    {
+      "start": 96.329,
+      "end": 96.969,
+      "word": "spengono!",
+      "confidence": 0.484
+    },
+    {
+      "start": 97.069,
+      "end": 97.149,
+      "word": "Che",
+      "confidence": 0.242
+    },
+    {
+      "start": 97.189,
+      "end": 97.509,
+      "word": "l'uomo",
+      "confidence": 0.637
+    },
+    {
+      "start": 97.549,
+      "end": 97.629,
+      "word": "non",
+      "confidence": 0.158
+    },
+    {
+      "start": 97.709,
+      "end": 97.749,
+      "word": "io",
+      "confidence": 0.028
+    },
+    {
+      "start": 97.789,
+      "end": 97.869,
+      "word": "lo",
+      "confidence": 0.588
+    },
+    {
+      "start": 97.889,
+      "end": 98.629,
+      "word": "spengono!",
+      "confidence": 0.615
+    },
+    {
+      "start": 98.689,
+      "end": 98.829,
+      "word": "Che",
+      "confidence": 0.337
+    },
+    {
+      "start": 98.909,
+      "end": 99.069,
+      "word": "l'uomo",
+      "confidence": 0.198
+    },
+    {
+      "start": 99.089,
+      "end": 99.429,
+      "word": "non",
+      "confidence": 0.58
+    },
+    {
+      "start": 99.509,
+      "end": 99.549,
+      "word": "io",
+      "confidence": 0.2
+    },
+    {
+      "start": 99.629,
+      "end": 99.769,
+      "word": "lo",
+      "confidence": 0.404
+    },
+    {
+      "start": 99.789,
+      "end": 100.149,
+      "word": "spengono!",
+      "confidence": 0.391
+    },
+    {
+      "start": 112.973,
+      "end": 113.233,
+      "word": "L'alba",
+      "confidence": 0.393
+    },
+    {
+      "start": 113.253,
+      "end": 113.713,
+      "word": "girale",
+      "confidence": 0.62
+    },
+    {
+      "start": 113.773,
+      "end": 114.134,
+      "word": "mi",
+      "confidence": 0.478
+    },
+    {
+      "start": 114.154,
+      "end": 114.394,
+      "word": "spegne.",
+      "confidence": 0.413
+    },
+    {
+      "start": 114.454,
+      "end": 114.594,
+      "word": "L'alba",
+      "confidence": 0.219
+    },
+    {
+      "start": 114.654,
+      "end": 115.014,
+      "word": "girale",
+      "confidence": 0.581
+    },
+    {
+      "start": 115.034,
+      "end": 115.094,
+      "word": "mi",
+      "confidence": 0.191
+    },
+    {
+      "start": 115.114,
+      "end": 115.334,
+      "word": "spegne.",
+      "confidence": 0.333
+    },
+    {
+      "start": 115.354,
+      "end": 115.454,
+      "word": "L'alba",
+      "confidence": 0.056
+    },
+    {
+      "start": 115.474,
+      "end": 115.734,
+      "word": "girale",
+      "confidence": 0.452
+    },
+    {
+      "start": 115.814,
+      "end": 115.854,
+      "word": "mi",
+      "confidence": 0.044
+    },
+    {
+      "start": 115.874,
+      "end": 116.194,
+      "word": "spegne.",
+      "confidence": 0.474
+    },
+    {
+      "start": 116.214,
+      "end": 116.374,
+      "word": "L'alba",
+      "confidence": 0.253
+    },
+    {
+      "start": 116.554,
+      "end": 117.455,
+      "word": "girale",
+      "confidence": 0.612
+    },
+    {
+      "start": 118.315,
+      "end": 118.395,
+      "word": "mi",
+      "confidence": 0.316
+    },
+    {
+      "start": 118.415,
+      "end": 118.595,
+      "word": "spegne.",
+      "confidence": 0.254
+    },
+    {
+      "start": 118.615,
+      "end": 118.815,
+      "word": "L'alba",
+      "confidence": 0.547
+    },
+    {
+      "start": 118.835,
+      "end": 118.975,
+      "word": "girale",
+      "confidence": 0.185
+    },
+    {
+      "start": 118.995,
+      "end": 119.055,
+      "word": "mi",
+      "confidence": 0.268
+    },
+    {
+      "start": 119.075,
+      "end": 119.335,
+      "word": "spegne.",
+      "confidence": 0.443
+    },
+    {
+      "start": 119.415,
+      "end": 119.636,
+      "word": "L'alba",
+      "confidence": 0.533
+    },
+    {
+      "start": 119.696,
+      "end": 119.936,
+      "word": "girale",
+      "confidence": 0.346
+    },
+    {
+      "start": 119.956,
+      "end": 119.996,
+      "word": "mi",
+      "confidence": 0.046
+    },
+    {
+      "start": 120.016,
+      "end": 120.216,
+      "word": "spegne.",
+      "confidence": 0.308
+    },
+    {
+      "start": 120.236,
+      "end": 120.416,
+      "word": "L'alba",
+      "confidence": 0.329
+    },
+    {
+      "start": 120.436,
+      "end": 120.576,
+      "word": "girale",
+      "confidence": 0.134
+    },
+    {
+      "start": 120.596,
+      "end": 120.676,
+      "word": "mi",
+      "confidence": 0.458
+    },
+    {
+      "start": 120.696,
+      "end": 120.956,
+      "word": "spegne.",
+      "confidence": 0.435
+    },
+    {
+      "start": 120.976,
+      "end": 121.116,
+      "word": "L'alba",
+      "confidence": 0.191
+    },
+    {
+      "start": 121.136,
+      "end": 121.336,
+      "word": "girale",
+      "confidence": 0.318
+    },
+    {
+      "start": 121.356,
+      "end": 121.396,
+      "word": "mi",
+      "confidence": 0.005
+    },
+    {
+      "start": 121.456,
+      "end": 121.616,
+      "word": "spegne.",
+      "confidence": 0.206
+    },
+    {
+      "start": 121.636,
+      "end": 121.776,
+      "word": "L'alba",
+      "confidence": 0.153
+    },
+    {
+      "start": 121.796,
+      "end": 121.936,
+      "word": "girale",
+      "confidence": 0.097
+    },
+    {
+      "start": 121.956,
+      "end": 122.036,
+      "word": "mi",
+      "confidence": 0.512
+    },
+    {
+      "start": 122.056,
+      "end": 122.277,
+      "word": "spegne.",
+      "confidence": 0.394
+    },
+    {
+      "start": 122.337,
+      "end": 122.517,
+      "word": "L'alba",
+      "confidence": 0.275
+    },
+    {
+      "start": 122.597,
+      "end": 122.877,
+      "word": "girale",
+      "confidence": 0.332
+    },
+    {
+      "start": 122.957,
+      "end": 123.017,
+      "word": "mi",
+      "confidence": 0.272
+    },
+    {
+      "start": 123.057,
+      "end": 123.217,
+      "word": "spegne.",
+      "confidence": 0.173
+    },
+    {
+      "start": 123.237,
+      "end": 123.377,
+      "word": "L'alba",
+      "confidence": 0.331
+    },
+    {
+      "start": 123.397,
+      "end": 123.637,
+      "word": "girale",
+      "confidence": 0.35
+    },
+    {
+      "start": 123.757,
+      "end": 123.817,
+      "word": "mi",
+      "confidence": 0.242
+    },
+    {
+      "start": 123.837,
+      "end": 124.637,
+      "word": "spegne.",
+      "confidence": 0.531
+    },
+    {
+      "start": 124.697,
+      "end": 124.877,
+      "word": "L'alba",
+      "confidence": 0.451
+    },
+    {
+      "start": 124.897,
+      "end": 125.078,
+      "word": "girale",
+      "confidence": 0.219
+    },
+    {
+      "start": 125.138,
+      "end": 125.218,
+      "word": "mi",
+      "confidence": 0.428
+    },
+    {
+      "start": 125.238,
+      "end": 125.518,
+      "word": "spegne.",
+      "confidence": 0.471
+    },
+    {
+      "start": 125.538,
+      "end": 125.658,
+      "word": "L'alba",
+      "confidence": 0.12
+    },
+    {
+      "start": 125.698,
+      "end": 125.858,
+      "word": "girale",
+      "confidence": 0.191
+    },
+    {
+      "start": 125.898,
+      "end": 125.958,
+      "word": "mi",
+      "confidence": 0.295
+    },
+    {
+      "start": 125.998,
+      "end": 126.178,
+      "word": "spegne.",
+      "confidence": 0.287
+    },
+    {
+      "start": 126.338,
+      "end": 126.698,
+      "word": "L'alba",
+      "confidence": 0.563
+    },
+    {
+      "start": 126.778,
+      "end": 127.378,
+      "word": "girale",
+      "confidence": 0.398
+    },
+    {
+      "start": 127.418,
+      "end": 127.478,
+      "word": "mi",
+      "confidence": 0.275
+    },
+    {
+      "start": 127.538,
+      "end": 127.879,
+      "word": "spegne.",
+      "confidence": 0.458
+    },
+    {
+      "start": 127.939,
+      "end": 128.179,
+      "word": "L'alba",
+      "confidence": 0.392
+    },
+    {
+      "start": 128.239,
+      "end": 128.979,
+      "word": "girale",
+      "confidence": 0.586
+    },
+    {
+      "start": 129.098,
+      "end": 129.179,
+      "word": "mi",
+      "confidence": 0.461
+    },
+    {
+      "start": 129.199,
+      "end": 129.519,
+      "word": "spegne.",
+      "confidence": 0.45
+    },
+    {
+      "start": 129.619,
+      "end": 130.219,
+      "word": "L'alba",
+      "confidence": 0.717
+    },
+    {
+      "start": 130.74,
+      "end": 131.039,
+      "word": "girale",
+      "confidence": 0.443
+    },
+    {
+      "start": 131.1,
+      "end": 131.18,
+      "word": "mi",
+      "confidence": 0.26
+    },
+    {
+      "start": 131.2,
+      "end": 131.32,
+      "word": "spegne.",
+      "confidence": 0.013
+    },
+    {
+      "start": 131.34,
+      "end": 131.48,
+      "word": "L'alba",
+      "confidence": 0.162
+    },
+    {
+      "start": 131.6,
+      "end": 131.9,
+      "word": "girale",
+      "confidence": 0.389
+    },
+    {
+      "start": 131.98,
+      "end": 132.04,
+      "word": "mi",
+      "confidence": 0.276
+    },
+    {
+      "start": 132.06,
+      "end": 132.32,
+      "word": "spegne.",
+      "confidence": 0.343
+    },
+    {
+      "start": 132.38,
+      "end": 132.58,
+      "word": "L'alba",
+      "confidence": 0.243
+    },
+    {
+      "start": 132.62,
+      "end": 132.76,
+      "word": "girale",
+      "confidence": 0.1
+    },
+    {
+      "start": 132.8,
+      "end": 132.86,
+      "word": "mi",
+      "confidence": 0.41
+    },
+    {
+      "start": 132.88,
+      "end": 133.04,
+      "word": "spegne.",
+      "confidence": 0.166
+    },
+    {
+      "start": 133.061,
+      "end": 133.201,
+      "word": "L'alba",
+      "confidence": 0.3
+    },
+    {
+      "start": 133.221,
+      "end": 133.381,
+      "word": "girale",
+      "confidence": 0.097
+    },
+    {
+      "start": 133.401,
+      "end": 133.441,
+      "word": "mi",
+      "confidence": 0.076
+    },
+    {
+      "start": 133.461,
+      "end": 133.601,
+      "word": "spegne.",
+      "confidence": 0.094
+    },
+    {
+      "start": 133.621,
+      "end": 133.721,
+      "word": "L'alba",
+      "confidence": 0.081
+    },
+    {
+      "start": 133.741,
+      "end": 133.861,
+      "word": "girale",
+      "confidence": 0.037
+    },
+    {
+      "start": 133.881,
+      "end": 133.921,
+      "word": "mi",
+      "confidence": 0.103
+    },
+    {
+      "start": 133.941,
+      "end": 134.101,
+      "word": "spegne.",
+      "confidence": 0.092
+    },
+    {
+      "start": 134.121,
+      "end": 134.241,
+      "word": "L'alba",
+      "confidence": 0.096
+    },
+    {
+      "start": 135.397,
+      "end": 135.437,
+      "word": "Io",
+      "confidence": 0.127
+    },
+    {
+      "start": 135.457,
+      "end": 135.497,
+      "word": "di",
+      "confidence": 0.02
+    },
+    {
+      "start": 135.537,
+      "end": 135.637,
+      "word": "qua",
+      "confidence": 0.164
+    },
+    {
+      "start": 135.677,
+      "end": 135.757,
+      "word": "non",
+      "confidence": 0.355
+    },
+    {
+      "start": 135.777,
+      "end": 135.857,
+      "word": "vado",
+      "confidence": 0.167
+    },
+    {
+      "start": 135.917,
+      "end": 135.977,
+      "word": "via",
+      "confidence": 0.146
+    },
+    {
+      "start": 135.997,
+      "end": 136.138,
+      "word": "se",
+      "confidence": 0.576
+    },
+    {
+      "start": 136.318,
+      "end": 136.398,
+      "word": "non",
+      "confidence": 0.176
+    },
+    {
+      "start": 136.418,
+      "end": 136.718,
+      "word": "scopro",
+      "confidence": 0.334
+    },
+    {
+      "start": 136.778,
+      "end": 137.038,
+      "word": "questo",
+      "confidence": 0.429
+    },
+    {
+      "start": 137.058,
+      "end": 137.358,
+      "word": "affare.",
+      "confidence": 0.44
+    },
+    {
+      "start": 137.419,
+      "end": 137.979,
+      "word": "All'aria",
+      "confidence": 0.461
+    },
+    {
+      "start": 138.179,
+      "end": 138.319,
+      "word": "di",
+      "confidence": 0.472
+    },
+    {
+      "start": 138.359,
+      "end": 138.639,
+      "word": "Ponzini",
+      "confidence": 0.475
+    },
+    {
+      "start": 138.659,
+      "end": 138.699,
+      "word": "ha",
+      "confidence": 0.003
+    },
+    {
+      "start": 138.84,
+      "end": 138.94,
+      "word": "il",
+      "confidence": 0.484
+    },
+    {
+      "start": 139.0,
+      "end": 140.201,
+      "word": "suo",
+      "confidence": 0.826
+    },
+    {
+      "start": 140.321,
+      "end": 140.741,
+      "word": "voce,",
+      "confidence": 0.635
+    },
+    {
+      "start": 140.861,
+      "end": 140.921,
+      "word": "il",
+      "confidence": 0.248
+    },
+    {
+      "start": 140.961,
+      "end": 141.081,
+      "word": "suo",
+      "confidence": 0.444
+    },
+    {
+      "start": 141.181,
+      "end": 141.622,
+      "word": "parlare.",
+      "confidence": 0.503
+    },
+    {
+      "start": 164.565,
+      "end": 165.045,
+      "word": "Se",
+      "confidence": 0.754
+    },
+    {
+      "start": 165.105,
+      "end": 165.305,
+      "word": "ben",
+      "confidence": 0.796
+    },
+    {
+      "start": 165.345,
+      "end": 166.846,
+      "word": "vado,",
+      "confidence": 0.696
+    },
+    {
+      "start": 167.447,
+      "end": 167.627,
+      "word": "si",
+      "confidence": 0.862
+    },
+    {
+      "start": 167.907,
+      "end": 168.767,
+      "word": "potr\u00e0",
+      "confidence": 0.765
+    },
+    {
+      "start": 168.947,
+      "end": 169.408,
+      "word": "qualche",
+      "confidence": 0.597
+    },
+    {
+      "start": 169.628,
+      "end": 170.248,
+      "word": "cosa",
+      "confidence": 0.763
+    },
+    {
+      "start": 170.328,
+      "end": 171.929,
+      "word": "sospettare.",
+      "confidence": 0.865
+    },
+    {
+      "start": 173.83,
+      "end": 175.15,
+      "word": "Quel",
+      "confidence": 0.646
+    },
+    {
+      "start": 175.311,
+      "end": 176.611,
+      "word": "che",
+      "confidence": 0.529
+    },
+    {
+      "start": 176.671,
+      "end": 177.152,
+      "word": "fosse,",
+      "confidence": 0.501
+    },
+    {
+      "start": 177.212,
+      "end": 179.173,
+      "word": "dovremmo",
+      "confidence": 0.759
+    },
+    {
+      "start": 179.253,
+      "end": 179.833,
+      "word": "giudicare.",
+      "confidence": 0.428
+    },
+    {
+      "start": 180.753,
+      "end": 181.234,
+      "word": "Dunque",
+      "confidence": 0.822
+    },
+    {
+      "start": 181.514,
+      "end": 181.934,
+      "word": "quella",
+      "confidence": 0.578
+    },
+    {
+      "start": 182.014,
+      "end": 182.114,
+      "word": "\u00e8",
+      "confidence": 0.582
+    },
+    {
+      "start": 182.214,
+      "end": 183.515,
+      "word": "cazzarella.",
+      "confidence": 0.747
+    },
+    {
+      "start": 183.835,
+      "end": 184.295,
+      "word": "Dunque",
+      "confidence": 0.565
+    },
+    {
+      "start": 184.435,
+      "end": 185.376,
+      "word": "quella",
+      "confidence": 0.602
+    },
+    {
+      "start": 185.476,
+      "end": 185.516,
+      "word": "\u00e8",
+      "confidence": 0.431
+    },
+    {
+      "start": 185.576,
+      "end": 186.076,
+      "word": "traditore.",
+      "confidence": 0.513
+    },
+    {
+      "start": 186.196,
+      "end": 187.497,
+      "word": "Infelice.",
+      "confidence": 0.584
+    },
+    {
+      "start": 190.302,
+      "end": 190.522,
+      "word": "Vittima!",
+      "confidence": 0.129
+    },
+    {
+      "start": 190.562,
+      "end": 190.823,
+      "word": "Vittima!",
+      "confidence": 0.324
+    },
+    {
+      "start": 190.863,
+      "end": 191.123,
+      "word": "Vittima!",
+      "confidence": 0.243
+    },
+    {
+      "start": 191.163,
+      "end": 191.403,
+      "word": "Vittima!",
+      "confidence": 0.21
+    },
+    {
+      "start": 191.443,
+      "end": 191.683,
+      "word": "Vittima!",
+      "confidence": 0.217
+    },
+    {
+      "start": 191.723,
+      "end": 191.943,
+      "word": "Vittima!",
+      "confidence": 0.164
+    },
+    {
+      "start": 191.964,
+      "end": 192.224,
+      "word": "Vittima!",
+      "confidence": 0.295
+    },
+    {
+      "start": 192.624,
+      "end": 192.824,
+      "word": "Vittima!",
+      "confidence": 0.27
+    },
+    {
+      "start": 192.864,
+      "end": 193.064,
+      "word": "Vittima!",
+      "confidence": 0.222
+    },
+    {
+      "start": 193.084,
+      "end": 193.405,
+      "word": "Vittima!",
+      "confidence": 0.412
+    },
+    {
+      "start": 193.445,
+      "end": 193.685,
+      "word": "Vittima!",
+      "confidence": 0.246
+    },
+    {
+      "start": 193.705,
+      "end": 193.985,
+      "word": "Vittima!",
+      "confidence": 0.305
+    },
+    {
+      "start": 194.045,
+      "end": 194.546,
+      "word": "Vittima!",
+      "confidence": 0.543
+    },
+    {
+      "start": 194.706,
+      "end": 195.186,
+      "word": "Vittima!",
+      "confidence": 0.496
+    },
+    {
+      "start": 196.367,
+      "end": 197.788,
+      "word": "Vittima!",
+      "confidence": 0.619
+    },
+    {
+      "start": 197.848,
+      "end": 198.909,
+      "word": "Vittima!",
+      "confidence": 0.344
+    },
+    {
+      "start": 198.929,
+      "end": 199.209,
+      "word": "Vittima!",
+      "confidence": 0.389
+    },
+    {
+      "start": 199.229,
+      "end": 199.49,
+      "word": "Vittima!",
+      "confidence": 0.35
+    },
+    {
+      "start": 199.51,
+      "end": 199.77,
+      "word": "Vittima!",
+      "confidence": 0.314
+    },
+    {
+      "start": 200.39,
+      "end": 200.731,
+      "word": "Vittima!",
+      "confidence": 0.277
+    },
+    {
+      "start": 200.791,
+      "end": 201.071,
+      "word": "Vittima!",
+      "confidence": 0.283
+    },
+    {
+      "start": 201.111,
+      "end": 201.451,
+      "word": "Vittima!",
+      "confidence": 0.4
+    },
+    {
+      "start": 201.511,
+      "end": 202.012,
+      "word": "Vittima!",
+      "confidence": 0.243
+    },
+    {
+      "start": 202.052,
+      "end": 202.352,
+      "word": "Vittima!",
+      "confidence": 0.394
+    },
+    {
+      "start": 202.392,
+      "end": 202.652,
+      "word": "Vittima!",
+      "confidence": 0.238
+    },
+    {
+      "start": 202.712,
+      "end": 202.852,
+      "word": "Vittima!",
+      "confidence": 0.02
+    },
+    {
+      "start": 202.932,
+      "end": 203.113,
+      "word": "Vittima!",
+      "confidence": 0.145
+    },
+    {
+      "start": 203.153,
+      "end": 203.333,
+      "word": "Vittima!",
+      "confidence": 0.203
+    },
+    {
+      "start": 203.373,
+      "end": 203.613,
+      "word": "Vittima!",
+      "confidence": 0.18
+    },
+    {
+      "start": 203.633,
+      "end": 203.873,
+      "word": "Vittima!",
+      "confidence": 0.329
+    },
+    {
+      "start": 203.893,
+      "end": 204.053,
+      "word": "Vittima!",
+      "confidence": 0.101
+    },
+    {
+      "start": 204.093,
+      "end": 204.274,
+      "word": "Vittima!",
+      "confidence": 0.134
+    },
+    {
+      "start": 204.294,
+      "end": 204.474,
+      "word": "Vittima!",
+      "confidence": 0.135
+    },
+    {
+      "start": 204.494,
+      "end": 204.694,
+      "word": "Vittima!",
+      "confidence": 0.148
+    },
+    {
+      "start": 204.714,
+      "end": 204.854,
+      "word": "Vittima!",
+      "confidence": 0.052
+    },
+    {
+      "start": 204.874,
+      "end": 205.054,
+      "word": "Vittima!",
+      "confidence": 0.116
+    },
+    {
+      "start": 205.074,
+      "end": 205.294,
+      "word": "Vittima!",
+      "confidence": 0.194
+    },
+    {
+      "start": 205.334,
+      "end": 205.615,
+      "word": "Vittima!",
+      "confidence": 0.318
+    },
+    {
+      "start": 205.655,
+      "end": 205.975,
+      "word": "Vittima!",
+      "confidence": 0.445
+    },
+    {
+      "start": 206.035,
+      "end": 206.255,
+      "word": "Vittima!",
+      "confidence": 0.484
+    },
+    {
+      "start": 206.335,
+      "end": 206.756,
+      "word": "Vittima!",
+      "confidence": 0.443
+    },
+    {
+      "start": 206.856,
+      "end": 207.036,
+      "word": "Vittima!",
+      "confidence": 0.208
+    },
+    {
+      "start": 207.056,
+      "end": 207.316,
+      "word": "Vittima!",
+      "confidence": 0.292
+    },
+    {
+      "start": 207.376,
+      "end": 207.876,
+      "word": "Vittima!",
+      "confidence": 0.609
+    },
+    {
+      "start": 207.896,
+      "end": 208.377,
+      "word": "Vittima!",
+      "confidence": 0.536
+    },
+    {
+      "start": 209.458,
+      "end": 209.758,
+      "word": "Vittima!",
+      "confidence": 0.324
+    },
+    {
+      "start": 209.798,
+      "end": 210.118,
+      "word": "Vittima!",
+      "confidence": 0.48
+    },
+    {
+      "start": 210.158,
+      "end": 210.399,
+      "word": "Vittima!",
+      "confidence": 0.308
+    },
+    {
+      "start": 210.459,
+      "end": 211.059,
+      "word": "Vittima!",
+      "confidence": 0.615
+    },
+    {
+      "start": 211.099,
+      "end": 212.4,
+      "word": "Vittima!",
+      "confidence": 0.437
+    },
+    {
+      "start": 212.44,
+      "end": 212.7,
+      "word": "Vittima!",
+      "confidence": 0.275
+    },
+    {
+      "start": 212.74,
+      "end": 212.901,
+      "word": "Vittima!",
+      "confidence": 0.137
+    },
+    {
+      "start": 212.941,
+      "end": 213.161,
+      "word": "Vittima!",
+      "confidence": 0.197
+    },
+    {
+      "start": 213.201,
+      "end": 213.681,
+      "word": "Vittima!",
+      "confidence": 0.557
+    },
+    {
+      "start": 213.701,
+      "end": 213.921,
+      "word": "Vittima!",
+      "confidence": 0.221
+    },
+    {
+      "start": 213.941,
+      "end": 214.282,
+      "word": "Vittima!",
+      "confidence": 0.46
+    },
+    {
+      "start": 215.213,
+      "end": 215.393,
+      "word": "Voglio",
+      "confidence": 0.299
+    },
+    {
+      "start": 215.433,
+      "end": 215.894,
+      "word": "un'altra",
+      "confidence": 0.443
+    },
+    {
+      "start": 215.934,
+      "end": 216.634,
+      "word": "palestra!",
+      "confidence": 0.668
+    },
+    {
+      "start": 217.094,
+      "end": 217.274,
+      "word": "Voglio",
+      "confidence": 0.331
+    },
+    {
+      "start": 217.294,
+      "end": 217.555,
+      "word": "un'altra",
+      "confidence": 0.318
+    },
+    {
+      "start": 217.635,
+      "end": 217.835,
+      "word": "palestra!",
+      "confidence": 0.219
+    },
+    {
+      "start": 217.895,
+      "end": 218.015,
+      "word": "La",
+      "confidence": 0.704
+    },
+    {
+      "start": 218.035,
+      "end": 218.215,
+      "word": "scatola",
+      "confidence": 0.163
+    },
+    {
+      "start": 218.235,
+      "end": 218.255,
+      "word": "\u00e8",
+      "confidence": 0.003
+    },
+    {
+      "start": 218.395,
+      "end": 218.615,
+      "word": "venerata!",
+      "confidence": 0.261
+    },
+    {
+      "start": 218.635,
+      "end": 218.675,
+      "word": "La",
+      "confidence": 0.035
+    },
+    {
+      "start": 218.695,
+      "end": 218.835,
+      "word": "scatola",
+      "confidence": 0.013
+    },
+    {
+      "start": 218.855,
+      "end": 218.875,
+      "word": "\u00e8",
+      "confidence": 0.001
+    },
+    {
+      "start": 218.895,
+      "end": 219.156,
+      "word": "venerata!",
+      "confidence": 0.179
+    },
+    {
+      "start": 219.196,
+      "end": 219.276,
+      "word": "La",
+      "confidence": 0.516
+    },
+    {
+      "start": 219.296,
+      "end": 219.456,
+      "word": "scatola",
+      "confidence": 0.268
+    },
+    {
+      "start": 219.476,
+      "end": 219.496,
+      "word": "\u00e8",
+      "confidence": 0.0
+    },
+    {
+      "start": 219.536,
+      "end": 219.816,
+      "word": "venerata!",
+      "confidence": 0.272
+    },
+    {
+      "start": 219.856,
+      "end": 219.916,
+      "word": "La",
+      "confidence": 0.256
+    },
+    {
+      "start": 220.056,
+      "end": 220.416,
+      "word": "scatola",
+      "confidence": 0.401
+    },
+    {
+      "start": 220.496,
+      "end": 220.537,
+      "word": "\u00e8",
+      "confidence": 0.314
+    },
+    {
+      "start": 220.557,
+      "end": 220.837,
+      "word": "venerata!",
+      "confidence": 0.426
+    },
+    {
+      "start": 220.857,
+      "end": 220.917,
+      "word": "La",
+      "confidence": 0.3
+    },
+    {
+      "start": 220.937,
+      "end": 221.317,
+      "word": "scatola",
+      "confidence": 0.411
+    },
+    {
+      "start": 221.337,
+      "end": 221.357,
+      "word": "\u00e8",
+      "confidence": 0.0
+    },
+    {
+      "start": 221.457,
+      "end": 221.797,
+      "word": "venerata!",
+      "confidence": 0.43
+    },
+    {
+      "start": 221.817,
+      "end": 221.857,
+      "word": "La",
+      "confidence": 0.01
+    },
+    {
+      "start": 221.877,
+      "end": 222.057,
+      "word": "scatola",
+      "confidence": 0.136
+    },
+    {
+      "start": 222.077,
+      "end": 222.097,
+      "word": "\u00e8",
+      "confidence": 0.0
+    },
+    {
+      "start": 222.118,
+      "end": 222.358,
+      "word": "venerata!",
+      "confidence": 0.243
+    },
+    {
+      "start": 222.378,
+      "end": 222.538,
+      "word": "La",
+      "confidence": 0.424
+    },
+    {
+      "start": 222.558,
+      "end": 222.778,
+      "word": "scatola",
+      "confidence": 0.344
+    },
+    {
+      "start": 222.858,
+      "end": 222.898,
+      "word": "\u00e8",
+      "confidence": 0.447
+    },
+    {
+      "start": 222.998,
+      "end": 223.298,
+      "word": "venerata!",
+      "confidence": 0.175
+    },
+    {
+      "start": 223.318,
+      "end": 223.378,
+      "word": "La",
+      "confidence": 0.34
+    },
+    {
+      "start": 223.398,
+      "end": 224.139,
+      "word": "scatola",
+      "confidence": 0.661
+    },
+    {
+      "start": 224.159,
+      "end": 224.179,
+      "word": "\u00e8",
+      "confidence": 0.01
+    },
+    {
+      "start": 224.239,
+      "end": 224.519,
+      "word": "venerata!",
+      "confidence": 0.482
+    },
+    {
+      "start": 224.579,
+      "end": 224.619,
+      "word": "La",
+      "confidence": 0.006
+    },
+    {
+      "start": 224.639,
+      "end": 224.799,
+      "word": "scatola",
+      "confidence": 0.098
+    },
+    {
+      "start": 224.819,
+      "end": 224.839,
+      "word": "\u00e8",
+      "confidence": 0.001
+    },
+    {
+      "start": 224.879,
+      "end": 225.199,
+      "word": "venerata!",
+      "confidence": 0.406
+    },
+    {
+      "start": 225.239,
+      "end": 225.32,
+      "word": "La",
+      "confidence": 0.493
+    },
+    {
+      "start": 225.36,
+      "end": 225.66,
+      "word": "scatola",
+      "confidence": 0.345
+    },
+    {
+      "start": 226.02,
+      "end": 226.18,
+      "word": "\u00e8",
+      "confidence": 0.806
+    },
+    {
+      "start": 226.2,
+      "end": 226.44,
+      "word": "venerata!",
+      "confidence": 0.242
+    },
+    {
+      "start": 226.48,
+      "end": 226.52,
+      "word": "La",
+      "confidence": 0.044
+    },
+    {
+      "start": 226.54,
+      "end": 226.74,
+      "word": "scatola",
+      "confidence": 0.138
+    },
+    {
+      "start": 226.76,
+      "end": 226.78,
+      "word": "\u00e8",
+      "confidence": 0.001
+    },
+    {
+      "start": 226.8,
+      "end": 227.141,
+      "word": "venerata!",
+      "confidence": 0.315
+    },
+    {
+      "start": 227.181,
+      "end": 227.241,
+      "word": "La",
+      "confidence": 0.22
+    },
+    {
+      "start": 227.261,
+      "end": 227.541,
+      "word": "scatola",
+      "confidence": 0.326
+    },
+    {
+      "start": 227.561,
+      "end": 227.581,
+      "word": "\u00e8",
+      "confidence": 0.0
+    },
+    {
+      "start": 227.621,
+      "end": 227.821,
+      "word": "venerata!",
+      "confidence": 0.273
+    },
+    {
+      "start": 227.841,
+      "end": 227.881,
+      "word": "La",
+      "confidence": 0.059
+    },
+    {
+      "start": 227.901,
+      "end": 228.101,
+      "word": "scatola",
+      "confidence": 0.227
+    },
+    {
+      "start": 228.121,
+      "end": 228.141,
+      "word": "\u00e8",
+      "confidence": 0.0
+    },
+    {
+      "start": 228.161,
+      "end": 228.341,
+      "word": "venerata!",
+      "confidence": 0.066
+    },
+    {
+      "start": 228.381,
+      "end": 228.462,
+      "word": "La",
+      "confidence": 0.501
+    },
+    {
+      "start": 228.482,
+      "end": 230.423,
+      "word": "scatola",
+      "confidence": 0.872
+    },
+    {
+      "start": 230.443,
+      "end": 230.463,
+      "word": "\u00e8",
+      "confidence": 0.0
+    },
+    {
+      "start": 231.924,
+      "end": 232.544,
+      "word": "venerata!",
+      "confidence": 0.588
+    },
+    {
+      "start": 232.564,
+      "end": 232.604,
+      "word": "La",
+      "confidence": 0.012
+    },
+    {
+      "start": 232.684,
+      "end": 232.824,
+      "word": "scatola",
+      "confidence": 0.063
+    },
+    {
+      "start": 232.844,
+      "end": 232.864,
+      "word": "\u00e8",
+      "confidence": 0.0
+    },
+    {
+      "start": 232.884,
+      "end": 233.084,
+      "word": "venerata!",
+      "confidence": 0.146
+    },
+    {
+      "start": 233.104,
+      "end": 233.165,
+      "word": "La",
+      "confidence": 0.216
+    },
+    {
+      "start": 233.205,
+      "end": 233.485,
+      "word": "scatola",
+      "confidence": 0.249
+    },
+    {
+      "start": 233.525,
+      "end": 233.565,
+      "word": "\u00e8",
+      "confidence": 0.438
+    },
+    {
+      "start": 233.605,
+      "end": 233.865,
+      "word": "venerata!",
+      "confidence": 0.202
+    },
+    {
+      "start": 233.885,
+      "end": 233.965,
+      "word": "La",
+      "confidence": 0.298
+    },
+    {
+      "start": 233.985,
+      "end": 234.145,
+      "word": "scatola",
+      "confidence": 0.144
+    },
+    {
+      "start": 234.165,
+      "end": 234.185,
+      "word": "\u00e8",
+      "confidence": 0.0
+    },
+    {
+      "start": 234.205,
+      "end": 234.425,
+      "word": "venerata!",
+      "confidence": 0.149
+    },
+    {
+      "start": 234.505,
+      "end": 234.565,
+      "word": "La",
+      "confidence": 0.231
+    },
+    {
+      "start": 234.585,
+      "end": 235.006,
+      "word": "scatola",
+      "confidence": 0.47
+    },
+    {
+      "start": 235.026,
+      "end": 235.046,
+      "word": "\u00e8",
+      "confidence": 0.001
+    },
+    {
+      "start": 235.066,
+      "end": 235.446,
+      "word": "venerata!",
+      "confidence": 0.356
+    },
+    {
+      "start": 235.466,
+      "end": 235.526,
+      "word": "La",
+      "confidence": 0.247
+    },
+    {
+      "start": 235.546,
+      "end": 235.686,
+      "word": "scatola",
+      "confidence": 0.097
+    },
+    {
+      "start": 236.006,
+      "end": 236.046,
+      "word": "\u00e8",
+      "confidence": 0.48
+    },
+    {
+      "start": 236.086,
+      "end": 236.347,
+      "word": "venerata!",
+      "confidence": 0.222
+    },
+    {
+      "start": 236.387,
+      "end": 237.347,
+      "word": "La",
+      "confidence": 0.808
+    },
+    {
+      "start": 237.367,
+      "end": 237.747,
+      "word": "scatola",
+      "confidence": 0.425
+    },
+    {
+      "start": 238.248,
+      "end": 238.268,
+      "word": "\u00e8",
+      "confidence": 0.0
+    },
+    {
+      "start": 238.328,
+      "end": 238.728,
+      "word": "venerata!",
+      "confidence": 0.395
+    },
+    {
+      "start": 238.748,
+      "end": 238.988,
+      "word": "La",
+      "confidence": 0.771
+    },
+    {
+      "start": 239.108,
+      "end": 239.549,
+      "word": "scatola",
+      "confidence": 0.465
+    },
+    {
+      "start": 239.569,
+      "end": 239.589,
+      "word": "\u00e8",
+      "confidence": 0.0
+    },
+    {
+      "start": 239.749,
+      "end": 239.969,
+      "word": "venerata!",
+      "confidence": 0.192
+    },
+    {
+      "start": 240.009,
+      "end": 240.069,
+      "word": "La",
+      "confidence": 0.123
+    },
+    {
+      "start": 240.109,
+      "end": 240.309,
+      "word": "scatola",
+      "confidence": 0.167
+    },
+    {
+      "start": 240.329,
+      "end": 240.349,
+      "word": "\u00e8",
+      "confidence": 0.0
+    },
+    {
+      "start": 240.369,
+      "end": 240.529,
+      "word": "venerata!",
+      "confidence": 0.028
+    },
+    {
+      "start": 240.549,
+      "end": 240.589,
+      "word": "La",
+      "confidence": 0.023
+    },
+    {
+      "start": 240.609,
+      "end": 240.749,
+      "word": "scatola",
+      "confidence": 0.009
+    },
+    {
+      "start": 240.769,
+      "end": 240.789,
+      "word": "\u00e8",
+      "confidence": 0.0
+    },
+    {
+      "start": 240.829,
+      "end": 241.03,
+      "word": "venerata!",
+      "confidence": 0.125
+    },
+    {
+      "start": 241.05,
+      "end": 241.13,
+      "word": "La",
+      "confidence": 0.326
+    },
+    {
+      "start": 242.227,
+      "end": 242.487,
+      "word": "Sotto",
+      "confidence": 0.517
+    },
+    {
+      "start": 242.547,
+      "end": 242.808,
+      "word": "zitto",
+      "confidence": 0.668
+    },
+    {
+      "start": 242.868,
+      "end": 242.968,
+      "word": "che",
+      "confidence": 0.557
+    },
+    {
+      "start": 243.068,
+      "end": 243.148,
+      "word": "la",
+      "confidence": 0.28
+    },
+    {
+      "start": 243.208,
+      "end": 243.868,
+      "word": "gente,",
+      "confidence": 0.673
+    },
+    {
+      "start": 243.908,
+      "end": 244.289,
+      "word": "perdono",
+      "confidence": 0.478
+    },
+    {
+      "start": 244.349,
+      "end": 244.409,
+      "word": "la",
+      "confidence": 0.367
+    },
+    {
+      "start": 244.609,
+      "end": 245.089,
+      "word": "prudenza,",
+      "confidence": 0.454
+    },
+    {
+      "start": 245.189,
+      "end": 246.03,
+      "word": "guardano",
+      "confidence": 0.629
+    },
+    {
+      "start": 246.11,
+      "end": 246.71,
+      "word": "all'intorno,",
+      "confidence": 0.582
+    },
+    {
+      "start": 246.79,
+      "end": 247.19,
+      "word": "sperano",
+      "confidence": 0.517
+    },
+    {
+      "start": 247.23,
+      "end": 248.031,
+      "word": "scendere,",
+      "confidence": 0.569
+    },
+    {
+      "start": 248.071,
+      "end": 248.331,
+      "word": "state",
+      "confidence": 0.418
+    },
+    {
+      "start": 248.351,
+      "end": 248.391,
+      "word": "un",
+      "confidence": 0.027
+    },
+    {
+      "start": 248.491,
+      "end": 248.731,
+      "word": "poco",
+      "confidence": 0.428
+    },
+    {
+      "start": 248.791,
+      "end": 248.891,
+      "word": "pi\u00f9",
+      "confidence": 0.456
+    },
+    {
+      "start": 248.971,
+      "end": 249.452,
+      "word": "prudente,",
+      "confidence": 0.573
+    },
+    {
+      "start": 249.512,
+      "end": 249.612,
+      "word": "che",
+      "confidence": 0.274
+    },
+    {
+      "start": 249.752,
+      "end": 249.832,
+      "word": "le",
+      "confidence": 0.453
+    },
+    {
+      "start": 249.912,
+      "end": 250.172,
+      "word": "colpe",
+      "confidence": 0.558
+    },
+    {
+      "start": 250.232,
+      "end": 250.292,
+      "word": "di",
+      "confidence": 0.41
+    },
+    {
+      "start": 250.352,
+      "end": 250.532,
+      "word": "mio",
+      "confidence": 0.508
+    },
+    {
+      "start": 250.572,
+      "end": 251.133,
+      "word": "Stato,",
+      "confidence": 0.423
+    },
+    {
+      "start": 251.233,
+      "end": 251.293,
+      "word": "vi",
+      "confidence": 0.311
+    },
+    {
+      "start": 251.413,
+      "end": 251.853,
+      "word": "farete",
+      "confidence": 0.514
+    },
+    {
+      "start": 251.993,
+      "end": 252.273,
+      "word": "vitoria.",
+      "confidence": 0.299
+    }
+  ]
+}

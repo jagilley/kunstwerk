@@ -1,0 +1,121 @@
+{
+  "text": "Ich bin's, ich bin's, Jesus treu zu sterben bleibst du mir stumm. Nur 1 Stunde zweitausendein, still das Herz.",
+  "language": "de",
+  "duration": 367.9429931972789,
+  "words": [
+    {
+      "start": 0.48,
+      "end": 0.688,
+      "word": "Ich",
+      "confidence": 0.89842
+    },
+    {
+      "start": 0.694,
+      "end": 1.63,
+      "word": "bin's,",
+      "confidence": 0.21134
+    },
+    {
+      "start": 1.75,
+      "end": 2.078,
+      "word": "ich",
+      "confidence": 0.90757
+    },
+    {
+      "start": 2.134,
+      "end": 3.054,
+      "word": "bin's,",
+      "confidence": 0.46513
+    },
+    {
+      "start": 3.182,
+      "end": 4.65,
+      "word": "Jesus",
+      "confidence": 0.35939
+    },
+    {
+      "start": 27.87,
+      "end": 29.05,
+      "word": "treu",
+      "confidence": 0.57327
+    },
+    {
+      "start": 31.11,
+      "end": 31.758,
+      "word": "zu",
+      "confidence": 0.8339
+    },
+    {
+      "start": 31.894,
+      "end": 33.09,
+      "word": "sterben",
+      "confidence": 0.24071
+    },
+    {
+      "start": 45.63,
+      "end": 46.558,
+      "word": "bleibst",
+      "confidence": 0.74949
+    },
+    {
+      "start": 46.614,
+      "end": 46.782,
+      "word": "du",
+      "confidence": 0.84569
+    },
+    {
+      "start": 46.806,
+      "end": 47.038,
+      "word": "mir",
+      "confidence": 0.99755
+    },
+    {
+      "start": 47.094,
+      "end": 48.01,
+      "word": "stumm.",
+      "confidence": 0.76471
+    },
+    {
+      "start": 48.67,
+      "end": 49.294,
+      "word": "Nur",
+      "confidence": 0.75595
+    },
+    {
+      "start": 49.422,
+      "end": 49.926,
+      "word": "1",
+      "confidence": 0.69
+    },
+    {
+      "start": 49.936,
+      "end": 51.45,
+      "word": "Stunde",
+      "confidence": 0.69
+    },
+    {
+      "start": 55.11,
+      "end": 55.81,
+      "word": "zweitausendein,",
+      "confidence": 0.85336
+    },
+    {
+      "start": 200.2,
+      "end": 201.26,
+      "word": "still",
+      "confidence": 0.50851
+    },
+    {
+      "start": 204.24,
+      "end": 204.984,
+      "word": "das",
+      "confidence": 0.88563
+    },
+    {
+      "start": 205.152,
+      "end": 206.68,
+      "word": "Herz.",
+      "confidence": 0.97947
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "text": "\u0178ousand, Luftonne, Marsel, freiliges Laten, auf der Sagaspann, wo die H\u00f6lzer tragen, Tristan, wie h\u00f6chst licht die Leuchte.",
+  "language": "de",
+  "duration": 205.16897959183675,
+  "words": [
+    {
+      "start": 25.96,
+      "end": 26.266,
+      "word": "\u0178ousand,",
+      "confidence": 0.51219
+    },
+    {
+      "start": 26.318,
+      "end": 27.076,
+      "word": "Luftonne,",
+      "confidence": 0.08982
+    },
+    {
+      "start": 27.108,
+      "end": 28.04,
+      "word": "Marsel,",
+      "confidence": 0.13018
+    },
+    {
+      "start": 28.34,
+      "end": 31.34,
+      "word": "freiliges",
+      "confidence": 0.14162
+    },
+    {
+      "start": 31.38,
+      "end": 32.4,
+      "word": "Laten,",
+      "confidence": 0.1868
+    },
+    {
+      "start": 32.86,
+      "end": 33.172,
+      "word": "auf",
+      "confidence": 0.75576
+    },
+    {
+      "start": 33.196,
+      "end": 33.308,
+      "word": "der",
+      "confidence": 0.24434
+    },
+    {
+      "start": 33.324,
+      "end": 35.0,
+      "word": "Sagaspann,",
+      "confidence": 0.02271
+    },
+    {
+      "start": 40.1,
+      "end": 40.412,
+      "word": "wo",
+      "confidence": 0.66436
+    },
+    {
+      "start": 40.436,
+      "end": 40.596,
+      "word": "die",
+      "confidence": 0.99243
+    },
+    {
+      "start": 40.628,
+      "end": 41.356,
+      "word": "H\u00f6lzer",
+      "confidence": 0.50375
+    },
+    {
+      "start": 41.388,
+      "end": 42.32,
+      "word": "tragen,",
+      "confidence": 0.51187
+    },
+    {
+      "start": 42.86,
+      "end": 44.08,
+      "word": "Tristan,",
+      "confidence": 0.28527
+    },
+    {
+      "start": 98.09,
+      "end": 98.594,
+      "word": "wie",
+      "confidence": 0.8428
+    },
+    {
+      "start": 98.682,
+      "end": 99.466,
+      "word": "h\u00f6chst",
+      "confidence": 0.07721
+    },
+    {
+      "start": 99.538,
+      "end": 99.906,
+      "word": "licht",
+      "confidence": 0.54409
+    },
+    {
+      "start": 99.978,
+      "end": 100.21,
+      "word": "die",
+      "confidence": 0.78817
+    },
+    {
+      "start": 100.25,
+      "end": 100.53,
+      "word": "Leuchte.",
+      "confidence": 0.78495
+    }
+  ]
+}

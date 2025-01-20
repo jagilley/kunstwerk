@@ -1,0 +1,2305 @@
+{
+  "text": "Io pavento sopportar, mangiar male e maldormir. Voglio fare il gentiluomo e non voglio pi\u00f9 servir. E non voglio pi\u00f9 servir. No, no, no, no, no, no, no. Voglio pi\u00f9 servir. Oh, che caro galantuomo! Vuoi star dentro con la bella ed io far la sentinella, la sentinella, la sentinella. Voglio fare il gentil loro e non voglio pi\u00f9 servir. e non voglio pi\u00f9 servir no, no, no, no, no, no voglio pi\u00f9 servir ma mi pare che venga gente ma mi pare che venga gente e non mi voglio far sentire e non mi voglio far sentire non mi voglio far sentir no, no, no, no, no, no mi voglio far sentire Non sperare, se non uccidi, se oggi lasci il cucire poi! Donna Polly, non griditi, sono io, tu non saprai! Non sperare, se non uccidi, se oggi lasci il cucire poi! Mi conosci o no? Dai! C'\u00e8 il tesoro, il traditore! Ah, ci trema il mio dolore! Che meraviglioso! Scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, scorsia! Ah, sc E' un grado! Sconsigliato! S\u00ec! Sconsigliato! Perch\u00e9 il libertino mi far\u00e0 precipitare. Lasciala indegno o ti dimentico! Oh, non mi degno! Ti pugli arteto! Cos\u00ec pretendi? Paghe! Uccido! Ma che sia almeno... Ma non mi degno! No! Cos\u00ec pretendi! Paghe! Uccido! Ma che sia almeno... Misero! Paghe! Uccido! Ma che sia almeno... Misero! Paghe! Uccido! Ma che sia almeno... Misero! Paghe! Uccido! Ma che sia almeno... Misero! Paghe! Uccido! Ma che sia almeno... Misero! Paghe! Uccido! Ma che sia almeno... Misero! Paghe! Uccido! Ma che sia almeno... Misero! Paghe! Uccido! Ma che sia almeno... Misero! Paghe! Uccido! Ma che sia almeno... Misero! Paghe! Uccido! Ma che sia almeno... Misero! Paghe! Uccido! Ma che sia almeno... Misero Ah! Sono tu, sono tu! Ah! Non tornare! Non tornare! Non tornare! Non tornare! Non tornare! Non aspetto mai di sentermi dentro l'anima a partire, nessun che far\u00f2 io mi far\u00e0 partire. Io non so che fare, io non so che fare",
+  "language": "it",
+  "duration": 354.8439909297052,
+  "words": [
+    {
+      "start": 21.158,
+      "end": 22.299,
+      "word": "Io",
+      "confidence": 0.854
+    },
+    {
+      "start": 22.319,
+      "end": 22.899,
+      "word": "pavento",
+      "confidence": 0.749
+    },
+    {
+      "start": 23.139,
+      "end": 24.459,
+      "word": "sopportar,",
+      "confidence": 0.906
+    },
+    {
+      "start": 24.539,
+      "end": 25.16,
+      "word": "mangiar",
+      "confidence": 0.803
+    },
+    {
+      "start": 25.24,
+      "end": 25.66,
+      "word": "male",
+      "confidence": 0.792
+    },
+    {
+      "start": 25.72,
+      "end": 25.78,
+      "word": "e",
+      "confidence": 0.48
+    },
+    {
+      "start": 25.9,
+      "end": 27.921,
+      "word": "maldormir.",
+      "confidence": 0.728
+    },
+    {
+      "start": 27.941,
+      "end": 31.462,
+      "word": "Voglio",
+      "confidence": 0.733
+    },
+    {
+      "start": 31.602,
+      "end": 32.101,
+      "word": "fare",
+      "confidence": 0.846
+    },
+    {
+      "start": 32.122,
+      "end": 32.162,
+      "word": "il",
+      "confidence": 0.009
+    },
+    {
+      "start": 32.262,
+      "end": 33.523,
+      "word": "gentiluomo",
+      "confidence": 0.692
+    },
+    {
+      "start": 33.543,
+      "end": 33.563,
+      "word": "e",
+      "confidence": 0.008
+    },
+    {
+      "start": 35.323,
+      "end": 35.564,
+      "word": "non",
+      "confidence": 0.808
+    },
+    {
+      "start": 35.644,
+      "end": 36.144,
+      "word": "voglio",
+      "confidence": 0.686
+    },
+    {
+      "start": 36.344,
+      "end": 36.504,
+      "word": "pi\u00f9",
+      "confidence": 0.71
+    },
+    {
+      "start": 36.664,
+      "end": 37.124,
+      "word": "servir.",
+      "confidence": 0.763
+    },
+    {
+      "start": 37.224,
+      "end": 37.284,
+      "word": "E",
+      "confidence": 0.815
+    },
+    {
+      "start": 38.144,
+      "end": 38.365,
+      "word": "non",
+      "confidence": 0.897
+    },
+    {
+      "start": 38.545,
+      "end": 39.345,
+      "word": "voglio",
+      "confidence": 0.727
+    },
+    {
+      "start": 39.905,
+      "end": 40.005,
+      "word": "pi\u00f9",
+      "confidence": 0.445
+    },
+    {
+      "start": 40.605,
+      "end": 41.626,
+      "word": "servir.",
+      "confidence": 0.626
+    },
+    {
+      "start": 41.806,
+      "end": 41.926,
+      "word": "No,",
+      "confidence": 0.772
+    },
+    {
+      "start": 42.146,
+      "end": 42.246,
+      "word": "no,",
+      "confidence": 0.801
+    },
+    {
+      "start": 42.486,
+      "end": 42.586,
+      "word": "no,",
+      "confidence": 0.67
+    },
+    {
+      "start": 42.806,
+      "end": 42.926,
+      "word": "no,",
+      "confidence": 0.71
+    },
+    {
+      "start": 43.166,
+      "end": 43.206,
+      "word": "no,",
+      "confidence": 0.106
+    },
+    {
+      "start": 43.506,
+      "end": 43.567,
+      "word": "no,",
+      "confidence": 0.674
+    },
+    {
+      "start": 43.867,
+      "end": 44.367,
+      "word": "no.",
+      "confidence": 0.648
+    },
+    {
+      "start": 44.647,
+      "end": 45.567,
+      "word": "Voglio",
+      "confidence": 0.747
+    },
+    {
+      "start": 45.747,
+      "end": 46.708,
+      "word": "pi\u00f9",
+      "confidence": 0.691
+    },
+    {
+      "start": 46.728,
+      "end": 47.068,
+      "word": "servir.",
+      "confidence": 0.678
+    },
+    {
+      "start": 50.7,
+      "end": 51.12,
+      "word": "Oh,",
+      "confidence": 0.277
+    },
+    {
+      "start": 51.261,
+      "end": 51.481,
+      "word": "che",
+      "confidence": 0.263
+    },
+    {
+      "start": 51.501,
+      "end": 52.141,
+      "word": "caro",
+      "confidence": 0.573
+    },
+    {
+      "start": 52.281,
+      "end": 53.642,
+      "word": "galantuomo!",
+      "confidence": 0.87
+    },
+    {
+      "start": 56.785,
+      "end": 57.025,
+      "word": "Vuoi",
+      "confidence": 0.743
+    },
+    {
+      "start": 57.105,
+      "end": 57.425,
+      "word": "star",
+      "confidence": 0.906
+    },
+    {
+      "start": 57.545,
+      "end": 58.206,
+      "word": "dentro",
+      "confidence": 0.804
+    },
+    {
+      "start": 58.326,
+      "end": 58.846,
+      "word": "con",
+      "confidence": 0.579
+    },
+    {
+      "start": 58.926,
+      "end": 58.986,
+      "word": "la",
+      "confidence": 0.958
+    },
+    {
+      "start": 59.046,
+      "end": 59.467,
+      "word": "bella",
+      "confidence": 0.815
+    },
+    {
+      "start": 60.027,
+      "end": 60.167,
+      "word": "ed",
+      "confidence": 0.863
+    },
+    {
+      "start": 60.187,
+      "end": 60.367,
+      "word": "io",
+      "confidence": 0.764
+    },
+    {
+      "start": 60.508,
+      "end": 61.028,
+      "word": "far",
+      "confidence": 0.945
+    },
+    {
+      "start": 61.088,
+      "end": 61.188,
+      "word": "la",
+      "confidence": 0.828
+    },
+    {
+      "start": 61.268,
+      "end": 62.529,
+      "word": "sentinella,",
+      "confidence": 0.794
+    },
+    {
+      "start": 62.609,
+      "end": 62.709,
+      "word": "la",
+      "confidence": 0.795
+    },
+    {
+      "start": 62.809,
+      "end": 64.33,
+      "word": "sentinella,",
+      "confidence": 0.851
+    },
+    {
+      "start": 64.491,
+      "end": 64.631,
+      "word": "la",
+      "confidence": 0.888
+    },
+    {
+      "start": 64.65,
+      "end": 67.733,
+      "word": "sentinella.",
+      "confidence": 0.886
+    },
+    {
+      "start": 69.194,
+      "end": 70.615,
+      "word": "Voglio",
+      "confidence": 0.711
+    },
+    {
+      "start": 70.735,
+      "end": 71.256,
+      "word": "fare",
+      "confidence": 0.87
+    },
+    {
+      "start": 71.336,
+      "end": 71.376,
+      "word": "il",
+      "confidence": 0.333
+    },
+    {
+      "start": 71.496,
+      "end": 72.156,
+      "word": "gentil",
+      "confidence": 0.76
+    },
+    {
+      "start": 72.216,
+      "end": 72.737,
+      "word": "loro",
+      "confidence": 0.725
+    },
+    {
+      "start": 73.618,
+      "end": 74.518,
+      "word": "e",
+      "confidence": 0.974
+    },
+    {
+      "start": 74.578,
+      "end": 74.798,
+      "word": "non",
+      "confidence": 0.8
+    },
+    {
+      "start": 74.919,
+      "end": 75.459,
+      "word": "voglio",
+      "confidence": 0.664
+    },
+    {
+      "start": 75.619,
+      "end": 75.819,
+      "word": "pi\u00f9",
+      "confidence": 0.637
+    },
+    {
+      "start": 75.939,
+      "end": 76.58,
+      "word": "servir.",
+      "confidence": 0.849
+    },
+    {
+      "start": 77.263,
+      "end": 77.303,
+      "word": "e",
+      "confidence": 0.513
+    },
+    {
+      "start": 77.343,
+      "end": 77.443,
+      "word": "non",
+      "confidence": 0.336
+    },
+    {
+      "start": 77.483,
+      "end": 77.823,
+      "word": "voglio",
+      "confidence": 0.204
+    },
+    {
+      "start": 77.903,
+      "end": 79.224,
+      "word": "pi\u00f9",
+      "confidence": 0.746
+    },
+    {
+      "start": 80.084,
+      "end": 81.304,
+      "word": "servir",
+      "confidence": 0.762
+    },
+    {
+      "start": 81.584,
+      "end": 81.664,
+      "word": "no,",
+      "confidence": 0.655
+    },
+    {
+      "start": 81.925,
+      "end": 82.005,
+      "word": "no,",
+      "confidence": 0.509
+    },
+    {
+      "start": 82.245,
+      "end": 82.325,
+      "word": "no,",
+      "confidence": 0.632
+    },
+    {
+      "start": 82.585,
+      "end": 82.665,
+      "word": "no,",
+      "confidence": 0.58
+    },
+    {
+      "start": 82.925,
+      "end": 83.005,
+      "word": "no,",
+      "confidence": 0.614
+    },
+    {
+      "start": 83.265,
+      "end": 83.365,
+      "word": "no",
+      "confidence": 0.676
+    },
+    {
+      "start": 83.605,
+      "end": 84.925,
+      "word": "voglio",
+      "confidence": 0.729
+    },
+    {
+      "start": 85.105,
+      "end": 86.006,
+      "word": "pi\u00f9",
+      "confidence": 0.741
+    },
+    {
+      "start": 86.066,
+      "end": 86.866,
+      "word": "servir",
+      "confidence": 0.843
+    },
+    {
+      "start": 87.706,
+      "end": 87.846,
+      "word": "ma",
+      "confidence": 0.55
+    },
+    {
+      "start": 87.866,
+      "end": 87.926,
+      "word": "mi",
+      "confidence": 0.392
+    },
+    {
+      "start": 87.946,
+      "end": 88.847,
+      "word": "pare",
+      "confidence": 0.408
+    },
+    {
+      "start": 88.907,
+      "end": 89.007,
+      "word": "che",
+      "confidence": 0.597
+    },
+    {
+      "start": 89.067,
+      "end": 89.327,
+      "word": "venga",
+      "confidence": 0.592
+    },
+    {
+      "start": 89.407,
+      "end": 89.807,
+      "word": "gente",
+      "confidence": 0.835
+    },
+    {
+      "start": 90.467,
+      "end": 90.607,
+      "word": "ma",
+      "confidence": 0.624
+    },
+    {
+      "start": 90.627,
+      "end": 90.707,
+      "word": "mi",
+      "confidence": 0.742
+    },
+    {
+      "start": 90.807,
+      "end": 90.987,
+      "word": "pare",
+      "confidence": 0.388
+    },
+    {
+      "start": 91.688,
+      "end": 91.788,
+      "word": "che",
+      "confidence": 0.766
+    },
+    {
+      "start": 91.868,
+      "end": 92.108,
+      "word": "venga",
+      "confidence": 0.636
+    },
+    {
+      "start": 92.188,
+      "end": 92.428,
+      "word": "gente",
+      "confidence": 0.875
+    },
+    {
+      "start": 92.448,
+      "end": 92.468,
+      "word": "e",
+      "confidence": 0.001
+    },
+    {
+      "start": 92.488,
+      "end": 92.648,
+      "word": "non",
+      "confidence": 0.486
+    },
+    {
+      "start": 92.728,
+      "end": 92.808,
+      "word": "mi",
+      "confidence": 0.749
+    },
+    {
+      "start": 92.868,
+      "end": 93.148,
+      "word": "voglio",
+      "confidence": 0.583
+    },
+    {
+      "start": 93.208,
+      "end": 93.388,
+      "word": "far",
+      "confidence": 0.77
+    },
+    {
+      "start": 93.408,
+      "end": 93.808,
+      "word": "sentire",
+      "confidence": 0.775
+    },
+    {
+      "start": 93.868,
+      "end": 93.908,
+      "word": "e",
+      "confidence": 0.357
+    },
+    {
+      "start": 93.948,
+      "end": 94.068,
+      "word": "non",
+      "confidence": 0.422
+    },
+    {
+      "start": 94.108,
+      "end": 94.188,
+      "word": "mi",
+      "confidence": 0.762
+    },
+    {
+      "start": 94.268,
+      "end": 94.548,
+      "word": "voglio",
+      "confidence": 0.393
+    },
+    {
+      "start": 94.608,
+      "end": 94.708,
+      "word": "far",
+      "confidence": 0.506
+    },
+    {
+      "start": 94.768,
+      "end": 95.329,
+      "word": "sentire",
+      "confidence": 0.68
+    },
+    {
+      "start": 95.769,
+      "end": 96.069,
+      "word": "non",
+      "confidence": 0.634
+    },
+    {
+      "start": 96.129,
+      "end": 96.389,
+      "word": "mi",
+      "confidence": 0.738
+    },
+    {
+      "start": 96.489,
+      "end": 97.789,
+      "word": "voglio",
+      "confidence": 0.645
+    },
+    {
+      "start": 98.009,
+      "end": 98.57,
+      "word": "far",
+      "confidence": 0.53
+    },
+    {
+      "start": 98.69,
+      "end": 99.61,
+      "word": "sentir",
+      "confidence": 0.745
+    },
+    {
+      "start": 99.89,
+      "end": 99.95,
+      "word": "no,",
+      "confidence": 0.417
+    },
+    {
+      "start": 100.23,
+      "end": 100.31,
+      "word": "no,",
+      "confidence": 0.61
+    },
+    {
+      "start": 100.59,
+      "end": 100.67,
+      "word": "no,",
+      "confidence": 0.516
+    },
+    {
+      "start": 100.93,
+      "end": 101.01,
+      "word": "no,",
+      "confidence": 0.664
+    },
+    {
+      "start": 101.29,
+      "end": 101.351,
+      "word": "no,",
+      "confidence": 0.489
+    },
+    {
+      "start": 101.631,
+      "end": 101.711,
+      "word": "no",
+      "confidence": 0.388
+    },
+    {
+      "start": 101.991,
+      "end": 102.071,
+      "word": "mi",
+      "confidence": 0.594
+    },
+    {
+      "start": 102.371,
+      "end": 103.611,
+      "word": "voglio",
+      "confidence": 0.693
+    },
+    {
+      "start": 103.851,
+      "end": 104.652,
+      "word": "far",
+      "confidence": 0.53
+    },
+    {
+      "start": 104.832,
+      "end": 106.072,
+      "word": "sentire",
+      "confidence": 0.557
+    },
+    {
+      "start": 111.707,
+      "end": 111.787,
+      "word": "Non",
+      "confidence": 0.195
+    },
+    {
+      "start": 111.807,
+      "end": 112.027,
+      "word": "sperare,",
+      "confidence": 0.283
+    },
+    {
+      "start": 112.047,
+      "end": 112.087,
+      "word": "se",
+      "confidence": 0.424
+    },
+    {
+      "start": 112.127,
+      "end": 112.327,
+      "word": "non",
+      "confidence": 0.449
+    },
+    {
+      "start": 112.368,
+      "end": 112.748,
+      "word": "uccidi,",
+      "confidence": 0.381
+    },
+    {
+      "start": 112.788,
+      "end": 112.868,
+      "word": "se",
+      "confidence": 0.302
+    },
+    {
+      "start": 112.948,
+      "end": 113.128,
+      "word": "oggi",
+      "confidence": 0.482
+    },
+    {
+      "start": 113.148,
+      "end": 113.368,
+      "word": "lasci",
+      "confidence": 0.421
+    },
+    {
+      "start": 113.388,
+      "end": 113.428,
+      "word": "il",
+      "confidence": 0.06
+    },
+    {
+      "start": 113.468,
+      "end": 114.089,
+      "word": "cucire",
+      "confidence": 0.696
+    },
+    {
+      "start": 114.149,
+      "end": 114.349,
+      "word": "poi!",
+      "confidence": 0.493
+    },
+    {
+      "start": 114.369,
+      "end": 114.809,
+      "word": "Donna",
+      "confidence": 0.344
+    },
+    {
+      "start": 114.849,
+      "end": 115.59,
+      "word": "Polly,",
+      "confidence": 0.637
+    },
+    {
+      "start": 115.65,
+      "end": 115.87,
+      "word": "non",
+      "confidence": 0.552
+    },
+    {
+      "start": 115.95,
+      "end": 116.13,
+      "word": "griditi,",
+      "confidence": 0.15
+    },
+    {
+      "start": 116.15,
+      "end": 116.25,
+      "word": "sono",
+      "confidence": 0.07
+    },
+    {
+      "start": 116.27,
+      "end": 116.31,
+      "word": "io,",
+      "confidence": 0.02
+    },
+    {
+      "start": 116.371,
+      "end": 116.531,
+      "word": "tu",
+      "confidence": 0.572
+    },
+    {
+      "start": 116.571,
+      "end": 116.671,
+      "word": "non",
+      "confidence": 0.381
+    },
+    {
+      "start": 116.731,
+      "end": 117.191,
+      "word": "saprai!",
+      "confidence": 0.412
+    },
+    {
+      "start": 118.912,
+      "end": 119.153,
+      "word": "Non",
+      "confidence": 0.584
+    },
+    {
+      "start": 119.173,
+      "end": 119.733,
+      "word": "sperare,",
+      "confidence": 0.449
+    },
+    {
+      "start": 119.853,
+      "end": 119.913,
+      "word": "se",
+      "confidence": 0.378
+    },
+    {
+      "start": 119.953,
+      "end": 120.574,
+      "word": "non",
+      "confidence": 0.725
+    },
+    {
+      "start": 120.594,
+      "end": 120.954,
+      "word": "uccidi,",
+      "confidence": 0.474
+    },
+    {
+      "start": 120.974,
+      "end": 121.034,
+      "word": "se",
+      "confidence": 0.302
+    },
+    {
+      "start": 121.094,
+      "end": 121.214,
+      "word": "oggi",
+      "confidence": 0.278
+    },
+    {
+      "start": 121.254,
+      "end": 121.434,
+      "word": "lasci",
+      "confidence": 0.38
+    },
+    {
+      "start": 121.514,
+      "end": 121.574,
+      "word": "il",
+      "confidence": 0.592
+    },
+    {
+      "start": 121.775,
+      "end": 122.075,
+      "word": "cucire",
+      "confidence": 0.293
+    },
+    {
+      "start": 122.135,
+      "end": 122.195,
+      "word": "poi!",
+      "confidence": 0.276
+    },
+    {
+      "start": 131.819,
+      "end": 131.959,
+      "word": "Mi",
+      "confidence": 0.23
+    },
+    {
+      "start": 132.239,
+      "end": 133.16,
+      "word": "conosci",
+      "confidence": 0.426
+    },
+    {
+      "start": 133.22,
+      "end": 133.32,
+      "word": "o",
+      "confidence": 0.651
+    },
+    {
+      "start": 133.42,
+      "end": 133.68,
+      "word": "no?",
+      "confidence": 0.67
+    },
+    {
+      "start": 133.7,
+      "end": 134.081,
+      "word": "Dai!",
+      "confidence": 0.638
+    },
+    {
+      "start": 134.161,
+      "end": 134.441,
+      "word": "C'\u00e8",
+      "confidence": 0.692
+    },
+    {
+      "start": 134.541,
+      "end": 134.701,
+      "word": "il",
+      "confidence": 0.448
+    },
+    {
+      "start": 134.741,
+      "end": 135.061,
+      "word": "tesoro,",
+      "confidence": 0.645
+    },
+    {
+      "start": 135.161,
+      "end": 135.241,
+      "word": "il",
+      "confidence": 0.249
+    },
+    {
+      "start": 135.301,
+      "end": 135.622,
+      "word": "traditore!",
+      "confidence": 0.369
+    },
+    {
+      "start": 135.822,
+      "end": 135.982,
+      "word": "Ah,",
+      "confidence": 0.428
+    },
+    {
+      "start": 136.022,
+      "end": 136.082,
+      "word": "ci",
+      "confidence": 0.219
+    },
+    {
+      "start": 136.122,
+      "end": 136.222,
+      "word": "trema",
+      "confidence": 0.149
+    },
+    {
+      "start": 136.282,
+      "end": 136.342,
+      "word": "il",
+      "confidence": 0.268
+    },
+    {
+      "start": 136.362,
+      "end": 136.442,
+      "word": "mio",
+      "confidence": 0.272
+    },
+    {
+      "start": 136.482,
+      "end": 136.682,
+      "word": "dolore!",
+      "confidence": 0.39
+    },
+    {
+      "start": 136.722,
+      "end": 136.802,
+      "word": "Che",
+      "confidence": 0.576
+    },
+    {
+      "start": 136.882,
+      "end": 137.383,
+      "word": "meraviglioso!",
+      "confidence": 0.266
+    },
+    {
+      "start": 137.403,
+      "end": 138.063,
+      "word": "Scorsia!",
+      "confidence": 0.639
+    },
+    {
+      "start": 138.143,
+      "end": 138.243,
+      "word": "Ah,",
+      "confidence": 0.366
+    },
+    {
+      "start": 138.263,
+      "end": 138.563,
+      "word": "scorsia!",
+      "confidence": 0.293
+    },
+    {
+      "start": 138.583,
+      "end": 138.664,
+      "word": "Ah,",
+      "confidence": 0.35
+    },
+    {
+      "start": 138.784,
+      "end": 139.924,
+      "word": "scorsia!",
+      "confidence": 0.695
+    },
+    {
+      "start": 140.004,
+      "end": 140.485,
+      "word": "Ah,",
+      "confidence": 0.632
+    },
+    {
+      "start": 140.505,
+      "end": 140.705,
+      "word": "scorsia!",
+      "confidence": 0.218
+    },
+    {
+      "start": 140.765,
+      "end": 140.905,
+      "word": "Ah,",
+      "confidence": 0.45
+    },
+    {
+      "start": 140.925,
+      "end": 141.245,
+      "word": "scorsia!",
+      "confidence": 0.352
+    },
+    {
+      "start": 141.325,
+      "end": 141.445,
+      "word": "Ah,",
+      "confidence": 0.34
+    },
+    {
+      "start": 141.465,
+      "end": 142.006,
+      "word": "scorsia!",
+      "confidence": 0.645
+    },
+    {
+      "start": 142.026,
+      "end": 142.226,
+      "word": "Ah,",
+      "confidence": 0.615
+    },
+    {
+      "start": 142.246,
+      "end": 144.808,
+      "word": "scorsia!",
+      "confidence": 0.689
+    },
+    {
+      "start": 144.828,
+      "end": 144.928,
+      "word": "Ah,",
+      "confidence": 0.422
+    },
+    {
+      "start": 144.948,
+      "end": 145.428,
+      "word": "scorsia!",
+      "confidence": 0.586
+    },
+    {
+      "start": 145.548,
+      "end": 145.848,
+      "word": "Ah,",
+      "confidence": 0.8
+    },
+    {
+      "start": 146.068,
+      "end": 146.389,
+      "word": "scorsia!",
+      "confidence": 0.411
+    },
+    {
+      "start": 146.469,
+      "end": 146.689,
+      "word": "Ah,",
+      "confidence": 0.574
+    },
+    {
+      "start": 146.709,
+      "end": 147.349,
+      "word": "scorsia!",
+      "confidence": 0.553
+    },
+    {
+      "start": 147.389,
+      "end": 147.629,
+      "word": "Ah,",
+      "confidence": 0.548
+    },
+    {
+      "start": 147.77,
+      "end": 148.53,
+      "word": "scorsia!",
+      "confidence": 0.637
+    },
+    {
+      "start": 148.57,
+      "end": 148.83,
+      "word": "Ah,",
+      "confidence": 0.644
+    },
+    {
+      "start": 148.85,
+      "end": 149.171,
+      "word": "scorsia!",
+      "confidence": 0.392
+    },
+    {
+      "start": 149.191,
+      "end": 149.231,
+      "word": "Ah,",
+      "confidence": 0.014
+    },
+    {
+      "start": 149.251,
+      "end": 149.411,
+      "word": "scorsia!",
+      "confidence": 0.231
+    },
+    {
+      "start": 149.471,
+      "end": 149.611,
+      "word": "Ah,",
+      "confidence": 0.406
+    },
+    {
+      "start": 149.631,
+      "end": 150.451,
+      "word": "scorsia!",
+      "confidence": 0.562
+    },
+    {
+      "start": 150.491,
+      "end": 150.531,
+      "word": "Ah,",
+      "confidence": 0.33
+    },
+    {
+      "start": 150.551,
+      "end": 151.192,
+      "word": "scorsia!",
+      "confidence": 0.625
+    },
+    {
+      "start": 151.232,
+      "end": 151.372,
+      "word": "Ah,",
+      "confidence": 0.412
+    },
+    {
+      "start": 151.392,
+      "end": 151.612,
+      "word": "scorsia!",
+      "confidence": 0.331
+    },
+    {
+      "start": 151.632,
+      "end": 151.692,
+      "word": "Ah,",
+      "confidence": 0.218
+    },
+    {
+      "start": 151.732,
+      "end": 151.932,
+      "word": "scorsia!",
+      "confidence": 0.406
+    },
+    {
+      "start": 151.952,
+      "end": 152.012,
+      "word": "Ah,",
+      "confidence": 0.04
+    },
+    {
+      "start": 152.032,
+      "end": 152.233,
+      "word": "scorsia!",
+      "confidence": 0.171
+    },
+    {
+      "start": 152.293,
+      "end": 152.453,
+      "word": "Ah,",
+      "confidence": 0.547
+    },
+    {
+      "start": 152.473,
+      "end": 152.913,
+      "word": "scorsia!",
+      "confidence": 0.465
+    },
+    {
+      "start": 152.933,
+      "end": 152.993,
+      "word": "Ah,",
+      "confidence": 0.198
+    },
+    {
+      "start": 153.013,
+      "end": 153.233,
+      "word": "scorsia!",
+      "confidence": 0.279
+    },
+    {
+      "start": 153.253,
+      "end": 153.293,
+      "word": "Ah,",
+      "confidence": 0.024
+    },
+    {
+      "start": 153.313,
+      "end": 153.874,
+      "word": "scorsia!",
+      "confidence": 0.492
+    },
+    {
+      "start": 153.954,
+      "end": 153.994,
+      "word": "Ah,",
+      "confidence": 0.221
+    },
+    {
+      "start": 154.014,
+      "end": 154.334,
+      "word": "scorsia!",
+      "confidence": 0.425
+    },
+    {
+      "start": 154.354,
+      "end": 154.494,
+      "word": "Ah,",
+      "confidence": 0.442
+    },
+    {
+      "start": 154.514,
+      "end": 154.794,
+      "word": "scorsia!",
+      "confidence": 0.367
+    },
+    {
+      "start": 154.834,
+      "end": 154.894,
+      "word": "Ah,",
+      "confidence": 0.355
+    },
+    {
+      "start": 154.914,
+      "end": 155.114,
+      "word": "scorsia!",
+      "confidence": 0.325
+    },
+    {
+      "start": 155.134,
+      "end": 155.195,
+      "word": "Ah,",
+      "confidence": 0.099
+    },
+    {
+      "start": 155.215,
+      "end": 155.455,
+      "word": "scorsia!",
+      "confidence": 0.305
+    },
+    {
+      "start": 155.495,
+      "end": 155.595,
+      "word": "Ah,",
+      "confidence": 0.392
+    },
+    {
+      "start": 155.655,
+      "end": 156.055,
+      "word": "scorsia!",
+      "confidence": 0.276
+    },
+    {
+      "start": 156.075,
+      "end": 156.115,
+      "word": "Ah,",
+      "confidence": 0.014
+    },
+    {
+      "start": 156.135,
+      "end": 156.455,
+      "word": "scorsia!",
+      "confidence": 0.431
+    },
+    {
+      "start": 156.475,
+      "end": 156.535,
+      "word": "Ah,",
+      "confidence": 0.183
+    },
+    {
+      "start": 156.555,
+      "end": 156.796,
+      "word": "scorsia!",
+      "confidence": 0.254
+    },
+    {
+      "start": 156.976,
+      "end": 157.096,
+      "word": "Ah,",
+      "confidence": 0.334
+    },
+    {
+      "start": 157.116,
+      "end": 157.356,
+      "word": "scorsia!",
+      "confidence": 0.31
+    },
+    {
+      "start": 157.376,
+      "end": 157.416,
+      "word": "Ah,",
+      "confidence": 0.362
+    },
+    {
+      "start": 157.456,
+      "end": 157.656,
+      "word": "scorsia!",
+      "confidence": 0.327
+    },
+    {
+      "start": 157.676,
+      "end": 157.756,
+      "word": "Ah,",
+      "confidence": 0.179
+    },
+    {
+      "start": 157.796,
+      "end": 158.096,
+      "word": "scorsia!",
+      "confidence": 0.325
+    },
+    {
+      "start": 158.116,
+      "end": 158.197,
+      "word": "Ah,",
+      "confidence": 0.174
+    },
+    {
+      "start": 158.217,
+      "end": 158.277,
+      "word": "sc",
+      "confidence": 0.337
+    },
+    {
+      "start": 161.607,
+      "end": 161.627,
+      "word": "E'",
+      "confidence": 0.085
+    },
+    {
+      "start": 161.727,
+      "end": 161.787,
+      "word": "un",
+      "confidence": 0.166
+    },
+    {
+      "start": 161.827,
+      "end": 162.088,
+      "word": "grado!",
+      "confidence": 0.277
+    },
+    {
+      "start": 162.108,
+      "end": 162.769,
+      "word": "Sconsigliato!",
+      "confidence": 0.417
+    },
+    {
+      "start": 162.849,
+      "end": 162.929,
+      "word": "S\u00ec!",
+      "confidence": 0.279
+    },
+    {
+      "start": 162.95,
+      "end": 163.45,
+      "word": "Sconsigliato!",
+      "confidence": 0.516
+    },
+    {
+      "start": 173.399,
+      "end": 173.539,
+      "word": "Perch\u00e9",
+      "confidence": 0.059
+    },
+    {
+      "start": 173.559,
+      "end": 173.599,
+      "word": "il",
+      "confidence": 0.02
+    },
+    {
+      "start": 173.619,
+      "end": 173.859,
+      "word": "libertino",
+      "confidence": 0.153
+    },
+    {
+      "start": 173.899,
+      "end": 173.939,
+      "word": "mi",
+      "confidence": 0.031
+    },
+    {
+      "start": 173.959,
+      "end": 174.039,
+      "word": "far\u00e0",
+      "confidence": 0.025
+    },
+    {
+      "start": 174.059,
+      "end": 174.359,
+      "word": "precipitare.",
+      "confidence": 0.17
+    },
+    {
+      "start": 205.267,
+      "end": 205.868,
+      "word": "Lasciala",
+      "confidence": 0.518
+    },
+    {
+      "start": 205.928,
+      "end": 207.931,
+      "word": "indegno",
+      "confidence": 0.729
+    },
+    {
+      "start": 208.092,
+      "end": 208.152,
+      "word": "o",
+      "confidence": 0.704
+    },
+    {
+      "start": 208.232,
+      "end": 208.733,
+      "word": "ti",
+      "confidence": 0.8
+    },
+    {
+      "start": 208.833,
+      "end": 210.756,
+      "word": "dimentico!",
+      "confidence": 0.752
+    },
+    {
+      "start": 210.836,
+      "end": 211.177,
+      "word": "Oh,",
+      "confidence": 0.732
+    },
+    {
+      "start": 211.197,
+      "end": 211.938,
+      "word": "non",
+      "confidence": 0.876
+    },
+    {
+      "start": 211.998,
+      "end": 212.118,
+      "word": "mi",
+      "confidence": 0.694
+    },
+    {
+      "start": 212.158,
+      "end": 212.979,
+      "word": "degno!",
+      "confidence": 0.846
+    },
+    {
+      "start": 212.999,
+      "end": 214.221,
+      "word": "Ti",
+      "confidence": 0.843
+    },
+    {
+      "start": 214.322,
+      "end": 214.742,
+      "word": "pugli",
+      "confidence": 0.632
+    },
+    {
+      "start": 214.762,
+      "end": 215.323,
+      "word": "arteto!",
+      "confidence": 0.705
+    },
+    {
+      "start": 215.403,
+      "end": 215.884,
+      "word": "Cos\u00ec",
+      "confidence": 0.696
+    },
+    {
+      "start": 216.104,
+      "end": 216.505,
+      "word": "pretendi?",
+      "confidence": 0.434
+    },
+    {
+      "start": 218.85,
+      "end": 219.09,
+      "word": "Paghe!",
+      "confidence": 0.51
+    },
+    {
+      "start": 219.11,
+      "end": 219.23,
+      "word": "Uccido!",
+      "confidence": 0.004
+    },
+    {
+      "start": 219.531,
+      "end": 219.611,
+      "word": "Ma",
+      "confidence": 0.519
+    },
+    {
+      "start": 219.671,
+      "end": 219.891,
+      "word": "che",
+      "confidence": 0.744
+    },
+    {
+      "start": 220.051,
+      "end": 220.271,
+      "word": "sia",
+      "confidence": 0.438
+    },
+    {
+      "start": 220.471,
+      "end": 221.112,
+      "word": "almeno...",
+      "confidence": 0.686
+    },
+    {
+      "start": 221.132,
+      "end": 221.212,
+      "word": "Ma",
+      "confidence": 0.317
+    },
+    {
+      "start": 221.232,
+      "end": 221.312,
+      "word": "non",
+      "confidence": 0.279
+    },
+    {
+      "start": 221.412,
+      "end": 221.472,
+      "word": "mi",
+      "confidence": 0.298
+    },
+    {
+      "start": 221.572,
+      "end": 221.972,
+      "word": "degno!",
+      "confidence": 0.547
+    },
+    {
+      "start": 222.133,
+      "end": 222.393,
+      "word": "No!",
+      "confidence": 0.83
+    },
+    {
+      "start": 222.413,
+      "end": 222.593,
+      "word": "Cos\u00ec",
+      "confidence": 0.441
+    },
+    {
+      "start": 222.713,
+      "end": 223.033,
+      "word": "pretendi!",
+      "confidence": 0.366
+    },
+    {
+      "start": 223.133,
+      "end": 223.473,
+      "word": "Paghe!",
+      "confidence": 0.425
+    },
+    {
+      "start": 223.493,
+      "end": 223.774,
+      "word": "Uccido!",
+      "confidence": 0.469
+    },
+    {
+      "start": 223.794,
+      "end": 223.934,
+      "word": "Ma",
+      "confidence": 0.593
+    },
+    {
+      "start": 223.954,
+      "end": 224.094,
+      "word": "che",
+      "confidence": 0.255
+    },
+    {
+      "start": 224.174,
+      "end": 224.254,
+      "word": "sia",
+      "confidence": 0.296
+    },
+    {
+      "start": 224.274,
+      "end": 224.534,
+      "word": "almeno...",
+      "confidence": 0.471
+    },
+    {
+      "start": 224.674,
+      "end": 224.894,
+      "word": "Misero!",
+      "confidence": 0.36
+    },
+    {
+      "start": 224.955,
+      "end": 225.195,
+      "word": "Paghe!",
+      "confidence": 0.363
+    },
+    {
+      "start": 225.215,
+      "end": 225.495,
+      "word": "Uccido!",
+      "confidence": 0.398
+    },
+    {
+      "start": 225.515,
+      "end": 225.755,
+      "word": "Ma",
+      "confidence": 0.466
+    },
+    {
+      "start": 225.835,
+      "end": 225.915,
+      "word": "che",
+      "confidence": 0.158
+    },
+    {
+      "start": 225.995,
+      "end": 226.155,
+      "word": "sia",
+      "confidence": 0.566
+    },
+    {
+      "start": 226.195,
+      "end": 226.396,
+      "word": "almeno...",
+      "confidence": 0.262
+    },
+    {
+      "start": 226.416,
+      "end": 226.716,
+      "word": "Misero!",
+      "confidence": 0.423
+    },
+    {
+      "start": 226.736,
+      "end": 227.036,
+      "word": "Paghe!",
+      "confidence": 0.479
+    },
+    {
+      "start": 227.056,
+      "end": 227.737,
+      "word": "Uccido!",
+      "confidence": 0.59
+    },
+    {
+      "start": 227.797,
+      "end": 227.877,
+      "word": "Ma",
+      "confidence": 0.491
+    },
+    {
+      "start": 227.977,
+      "end": 228.057,
+      "word": "che",
+      "confidence": 0.227
+    },
+    {
+      "start": 228.157,
+      "end": 228.217,
+      "word": "sia",
+      "confidence": 0.02
+    },
+    {
+      "start": 228.537,
+      "end": 229.097,
+      "word": "almeno...",
+      "confidence": 0.549
+    },
+    {
+      "start": 229.117,
+      "end": 229.398,
+      "word": "Misero!",
+      "confidence": 0.388
+    },
+    {
+      "start": 229.418,
+      "end": 229.618,
+      "word": "Paghe!",
+      "confidence": 0.437
+    },
+    {
+      "start": 229.658,
+      "end": 229.938,
+      "word": "Uccido!",
+      "confidence": 0.366
+    },
+    {
+      "start": 229.958,
+      "end": 230.038,
+      "word": "Ma",
+      "confidence": 0.477
+    },
+    {
+      "start": 230.058,
+      "end": 230.358,
+      "word": "che",
+      "confidence": 0.67
+    },
+    {
+      "start": 230.478,
+      "end": 230.679,
+      "word": "sia",
+      "confidence": 0.796
+    },
+    {
+      "start": 230.699,
+      "end": 230.859,
+      "word": "almeno...",
+      "confidence": 0.234
+    },
+    {
+      "start": 230.919,
+      "end": 231.099,
+      "word": "Misero!",
+      "confidence": 0.239
+    },
+    {
+      "start": 231.139,
+      "end": 231.239,
+      "word": "Paghe!",
+      "confidence": 0.043
+    },
+    {
+      "start": 231.259,
+      "end": 231.379,
+      "word": "Uccido!",
+      "confidence": 0.039
+    },
+    {
+      "start": 231.399,
+      "end": 231.439,
+      "word": "Ma",
+      "confidence": 0.01
+    },
+    {
+      "start": 231.459,
+      "end": 231.539,
+      "word": "che",
+      "confidence": 0.221
+    },
+    {
+      "start": 231.579,
+      "end": 231.639,
+      "word": "sia",
+      "confidence": 0.206
+    },
+    {
+      "start": 231.679,
+      "end": 231.839,
+      "word": "almeno...",
+      "confidence": 0.351
+    },
+    {
+      "start": 231.98,
+      "end": 232.18,
+      "word": "Misero!",
+      "confidence": 0.327
+    },
+    {
+      "start": 232.2,
+      "end": 232.44,
+      "word": "Paghe!",
+      "confidence": 0.26
+    },
+    {
+      "start": 232.56,
+      "end": 232.96,
+      "word": "Uccido!",
+      "confidence": 0.481
+    },
+    {
+      "start": 232.98,
+      "end": 233.04,
+      "word": "Ma",
+      "confidence": 0.083
+    },
+    {
+      "start": 233.14,
+      "end": 233.22,
+      "word": "che",
+      "confidence": 0.687
+    },
+    {
+      "start": 233.24,
+      "end": 233.3,
+      "word": "sia",
+      "confidence": 0.019
+    },
+    {
+      "start": 233.381,
+      "end": 233.561,
+      "word": "almeno...",
+      "confidence": 0.304
+    },
+    {
+      "start": 233.621,
+      "end": 233.921,
+      "word": "Misero!",
+      "confidence": 0.375
+    },
+    {
+      "start": 234.001,
+      "end": 234.181,
+      "word": "Paghe!",
+      "confidence": 0.263
+    },
+    {
+      "start": 234.201,
+      "end": 234.321,
+      "word": "Uccido!",
+      "confidence": 0.014
+    },
+    {
+      "start": 234.341,
+      "end": 234.461,
+      "word": "Ma",
+      "confidence": 0.584
+    },
+    {
+      "start": 234.501,
+      "end": 234.601,
+      "word": "che",
+      "confidence": 0.284
+    },
+    {
+      "start": 234.721,
+      "end": 234.842,
+      "word": "sia",
+      "confidence": 0.481
+    },
+    {
+      "start": 234.862,
+      "end": 235.442,
+      "word": "almeno...",
+      "confidence": 0.388
+    },
+    {
+      "start": 235.462,
+      "end": 237.704,
+      "word": "Misero!",
+      "confidence": 0.802
+    },
+    {
+      "start": 237.724,
+      "end": 238.584,
+      "word": "Paghe!",
+      "confidence": 0.459
+    },
+    {
+      "start": 238.704,
+      "end": 240.085,
+      "word": "Uccido!",
+      "confidence": 0.569
+    },
+    {
+      "start": 240.165,
+      "end": 240.265,
+      "word": "Ma",
+      "confidence": 0.458
+    },
+    {
+      "start": 240.285,
+      "end": 240.366,
+      "word": "che",
+      "confidence": 0.122
+    },
+    {
+      "start": 240.386,
+      "end": 240.526,
+      "word": "sia",
+      "confidence": 0.366
+    },
+    {
+      "start": 240.666,
+      "end": 240.826,
+      "word": "almeno...",
+      "confidence": 0.224
+    },
+    {
+      "start": 240.846,
+      "end": 240.986,
+      "word": "Misero!",
+      "confidence": 0.102
+    },
+    {
+      "start": 241.006,
+      "end": 241.186,
+      "word": "Paghe!",
+      "confidence": 0.279
+    },
+    {
+      "start": 241.246,
+      "end": 241.446,
+      "word": "Uccido!",
+      "confidence": 0.197
+    },
+    {
+      "start": 241.526,
+      "end": 241.606,
+      "word": "Ma",
+      "confidence": 0.383
+    },
+    {
+      "start": 241.666,
+      "end": 241.907,
+      "word": "che",
+      "confidence": 0.51
+    },
+    {
+      "start": 243.628,
+      "end": 243.788,
+      "word": "sia",
+      "confidence": 0.506
+    },
+    {
+      "start": 243.808,
+      "end": 244.048,
+      "word": "almeno...",
+      "confidence": 0.272
+    },
+    {
+      "start": 244.128,
+      "end": 244.468,
+      "word": "Misero!",
+      "confidence": 0.416
+    },
+    {
+      "start": 244.488,
+      "end": 244.649,
+      "word": "Paghe!",
+      "confidence": 0.23
+    },
+    {
+      "start": 244.769,
+      "end": 245.149,
+      "word": "Uccido!",
+      "confidence": 0.574
+    },
+    {
+      "start": 245.169,
+      "end": 245.209,
+      "word": "Ma",
+      "confidence": 0.005
+    },
+    {
+      "start": 245.229,
+      "end": 245.329,
+      "word": "che",
+      "confidence": 0.396
+    },
+    {
+      "start": 245.369,
+      "end": 245.469,
+      "word": "sia",
+      "confidence": 0.17
+    },
+    {
+      "start": 245.489,
+      "end": 245.649,
+      "word": "almeno...",
+      "confidence": 0.3
+    },
+    {
+      "start": 245.709,
+      "end": 246.13,
+      "word": "Misero!",
+      "confidence": 0.601
+    },
+    {
+      "start": 246.15,
+      "end": 246.33,
+      "word": "Paghe!",
+      "confidence": 0.242
+    },
+    {
+      "start": 246.35,
+      "end": 246.69,
+      "word": "Uccido!",
+      "confidence": 0.446
+    },
+    {
+      "start": 246.73,
+      "end": 246.85,
+      "word": "Ma",
+      "confidence": 0.586
+    },
+    {
+      "start": 246.89,
+      "end": 247.23,
+      "word": "che",
+      "confidence": 0.288
+    },
+    {
+      "start": 247.31,
+      "end": 247.371,
+      "word": "sia",
+      "confidence": 0.025
+    },
+    {
+      "start": 247.391,
+      "end": 247.691,
+      "word": "almeno...",
+      "confidence": 0.478
+    },
+    {
+      "start": 247.731,
+      "end": 247.951,
+      "word": "Misero",
+      "confidence": 0.411
+    },
+    {
+      "start": 259.584,
+      "end": 259.644,
+      "word": "Ah!",
+      "confidence": 0.414
+    },
+    {
+      "start": 259.685,
+      "end": 259.885,
+      "word": "Sono",
+      "confidence": 0.569
+    },
+    {
+      "start": 259.925,
+      "end": 260.024,
+      "word": "tu,",
+      "confidence": 0.268
+    },
+    {
+      "start": 260.065,
+      "end": 260.426,
+      "word": "sono",
+      "confidence": 0.455
+    },
+    {
+      "start": 260.505,
+      "end": 260.926,
+      "word": "tu!",
+      "confidence": 0.683
+    },
+    {
+      "start": 261.586,
+      "end": 272.132,
+      "word": "Ah!",
+      "confidence": 0.97
+    },
+    {
+      "start": 272.152,
+      "end": 272.793,
+      "word": "Non",
+      "confidence": 0.674
+    },
+    {
+      "start": 273.893,
+      "end": 274.293,
+      "word": "tornare!",
+      "confidence": 0.504
+    },
+    {
+      "start": 274.413,
+      "end": 274.634,
+      "word": "Non",
+      "confidence": 0.636
+    },
+    {
+      "start": 274.694,
+      "end": 277.335,
+      "word": "tornare!",
+      "confidence": 0.673
+    },
+    {
+      "start": 277.375,
+      "end": 277.435,
+      "word": "Non",
+      "confidence": 0.259
+    },
+    {
+      "start": 277.515,
+      "end": 278.296,
+      "word": "tornare!",
+      "confidence": 0.586
+    },
+    {
+      "start": 278.416,
+      "end": 278.596,
+      "word": "Non",
+      "confidence": 0.545
+    },
+    {
+      "start": 278.656,
+      "end": 279.016,
+      "word": "tornare!",
+      "confidence": 0.46
+    },
+    {
+      "start": 279.056,
+      "end": 279.136,
+      "word": "Non",
+      "confidence": 0.341
+    },
+    {
+      "start": 279.196,
+      "end": 279.596,
+      "word": "tornare!",
+      "confidence": 0.447
+    },
+    {
+      "start": 295.473,
+      "end": 295.533,
+      "word": "Non",
+      "confidence": 0.089
+    },
+    {
+      "start": 295.573,
+      "end": 295.713,
+      "word": "aspetto",
+      "confidence": 0.051
+    },
+    {
+      "start": 295.733,
+      "end": 295.793,
+      "word": "mai",
+      "confidence": 0.048
+    },
+    {
+      "start": 295.813,
+      "end": 295.853,
+      "word": "di",
+      "confidence": 0.052
+    },
+    {
+      "start": 295.873,
+      "end": 296.033,
+      "word": "sentermi",
+      "confidence": 0.054
+    },
+    {
+      "start": 296.053,
+      "end": 296.173,
+      "word": "dentro",
+      "confidence": 0.06
+    },
+    {
+      "start": 296.193,
+      "end": 296.313,
+      "word": "l'anima",
+      "confidence": 0.049
+    },
+    {
+      "start": 296.333,
+      "end": 296.353,
+      "word": "a",
+      "confidence": 0.059
+    },
+    {
+      "start": 296.373,
+      "end": 296.513,
+      "word": "partire,",
+      "confidence": 0.049
+    },
+    {
+      "start": 296.533,
+      "end": 296.873,
+      "word": "nessun",
+      "confidence": 0.337
+    },
+    {
+      "start": 297.013,
+      "end": 297.094,
+      "word": "che",
+      "confidence": 0.169
+    },
+    {
+      "start": 297.194,
+      "end": 297.394,
+      "word": "far\u00f2",
+      "confidence": 0.258
+    },
+    {
+      "start": 297.454,
+      "end": 297.514,
+      "word": "io",
+      "confidence": 0.21
+    },
+    {
+      "start": 297.534,
+      "end": 297.594,
+      "word": "mi",
+      "confidence": 0.211
+    },
+    {
+      "start": 297.694,
+      "end": 297.854,
+      "word": "far\u00e0",
+      "confidence": 0.309
+    },
+    {
+      "start": 297.874,
+      "end": 298.074,
+      "word": "partire.",
+      "confidence": 0.476
+    },
+    {
+      "start": 323.438,
+      "end": 323.558,
+      "word": "Io",
+      "confidence": 0.296
+    },
+    {
+      "start": 323.578,
+      "end": 323.739,
+      "word": "non",
+      "confidence": 0.306
+    },
+    {
+      "start": 323.779,
+      "end": 323.839,
+      "word": "so",
+      "confidence": 0.2
+    },
+    {
+      "start": 323.859,
+      "end": 323.959,
+      "word": "che",
+      "confidence": 0.226
+    },
+    {
+      "start": 323.999,
+      "end": 324.3,
+      "word": "fare,",
+      "confidence": 0.572
+    },
+    {
+      "start": 324.68,
+      "end": 324.72,
+      "word": "io",
+      "confidence": 0.251
+    },
+    {
+      "start": 324.781,
+      "end": 324.941,
+      "word": "non",
+      "confidence": 0.61
+    },
+    {
+      "start": 324.961,
+      "end": 325.021,
+      "word": "so",
+      "confidence": 0.33
+    },
+    {
+      "start": 325.101,
+      "end": 325.201,
+      "word": "che",
+      "confidence": 0.242
+    },
+    {
+      "start": 325.282,
+      "end": 325.522,
+      "word": "fare",
+      "confidence": 0.357
+    }
+  ]
+}

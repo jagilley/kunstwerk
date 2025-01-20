@@ -1,0 +1,997 @@
+{
+  "text": "Or su, spicciati presto! Cosa vuoi? Laffarvi questi tratti \u00e8 importante? Lo credo! \u00c8 importantissimo! Meglio ancora, finiscilo! Giurate di non andare in collera! Lo giuro sul mio onore! Purch\u00e9 non parli del commendatore, siamo soli, lo vedo. Nessun ci sente? Via! Vi posso dire tutto liberamente? S\u00ec! Dunque, quando \u00e8 cos\u00ec, Caro signor padrone, la vita che menate \u00e8 da briccone! Temerario! Intolguiso! Che giuramento! Non so di giuramenti! Taci, coccino! Non parlo pi\u00f9! Non fiato, padrone mio! Cos\u00ec saremo amici! Ororio un poco! Sai tu perch\u00e9 son qui? Non ne so nulla! Ma essendo cos\u00ec tardi, non sarebbe qualche nuova conquista? Io lo devo sapere per porla in lista. Valacchese \u00e8 il gran uomo. Sappi che io sono innamorato di una bella dama, e sono certo che m'ama. La vidi? Le parlai? Mezzo al casino questa notte verr\u00e0. Zitto. Mi pare sentire l'odore di femmina. Perfetto! All'aria mi par bella! E che occhio dico! Ritiriamoci un poco e scopriamo terrene! Gi\u00e0 prese fuoco!",
+  "language": "it",
+  "duration": 97.28698412698412,
+  "words": [
+    {
+      "start": 1.293,
+      "end": 1.453,
+      "word": "Or",
+      "confidence": 0.884
+    },
+    {
+      "start": 1.533,
+      "end": 1.673,
+      "word": "su,",
+      "confidence": 0.878
+    },
+    {
+      "start": 1.893,
+      "end": 2.393,
+      "word": "spicciati",
+      "confidence": 0.877
+    },
+    {
+      "start": 2.453,
+      "end": 2.813,
+      "word": "presto!",
+      "confidence": 0.677
+    },
+    {
+      "start": 3.133,
+      "end": 3.354,
+      "word": "Cosa",
+      "confidence": 0.78
+    },
+    {
+      "start": 3.414,
+      "end": 3.714,
+      "word": "vuoi?",
+      "confidence": 0.54
+    },
+    {
+      "start": 4.054,
+      "end": 4.594,
+      "word": "Laffarvi",
+      "confidence": 0.678
+    },
+    {
+      "start": 4.654,
+      "end": 4.894,
+      "word": "questi",
+      "confidence": 0.882
+    },
+    {
+      "start": 4.954,
+      "end": 5.294,
+      "word": "tratti",
+      "confidence": 0.802
+    },
+    {
+      "start": 5.314,
+      "end": 5.334,
+      "word": "\u00e8",
+      "confidence": 0.106
+    },
+    {
+      "start": 5.374,
+      "end": 6.094,
+      "word": "importante?",
+      "confidence": 0.852
+    },
+    {
+      "start": 6.114,
+      "end": 6.154,
+      "word": "Lo",
+      "confidence": 0.002
+    },
+    {
+      "start": 6.354,
+      "end": 7.114,
+      "word": "credo!",
+      "confidence": 0.534
+    },
+    {
+      "start": 7.134,
+      "end": 7.154,
+      "word": "\u00c8",
+      "confidence": 0.095
+    },
+    {
+      "start": 7.214,
+      "end": 8.395,
+      "word": "importantissimo!",
+      "confidence": 0.918
+    },
+    {
+      "start": 8.455,
+      "end": 8.715,
+      "word": "Meglio",
+      "confidence": 0.496
+    },
+    {
+      "start": 8.755,
+      "end": 9.235,
+      "word": "ancora,",
+      "confidence": 0.778
+    },
+    {
+      "start": 9.495,
+      "end": 10.095,
+      "word": "finiscilo!",
+      "confidence": 0.785
+    },
+    {
+      "start": 10.375,
+      "end": 11.255,
+      "word": "Giurate",
+      "confidence": 0.815
+    },
+    {
+      "start": 11.495,
+      "end": 11.596,
+      "word": "di",
+      "confidence": 0.917
+    },
+    {
+      "start": 11.676,
+      "end": 11.856,
+      "word": "non",
+      "confidence": 0.834
+    },
+    {
+      "start": 11.896,
+      "end": 12.176,
+      "word": "andare",
+      "confidence": 0.831
+    },
+    {
+      "start": 12.216,
+      "end": 12.296,
+      "word": "in",
+      "confidence": 0.52
+    },
+    {
+      "start": 12.456,
+      "end": 13.156,
+      "word": "collera!",
+      "confidence": 0.773
+    },
+    {
+      "start": 13.236,
+      "end": 13.396,
+      "word": "Lo",
+      "confidence": 0.746
+    },
+    {
+      "start": 13.516,
+      "end": 13.836,
+      "word": "giuro",
+      "confidence": 0.805
+    },
+    {
+      "start": 13.936,
+      "end": 14.116,
+      "word": "sul",
+      "confidence": 0.872
+    },
+    {
+      "start": 14.176,
+      "end": 14.596,
+      "word": "mio",
+      "confidence": 0.665
+    },
+    {
+      "start": 14.696,
+      "end": 15.176,
+      "word": "onore!",
+      "confidence": 0.658
+    },
+    {
+      "start": 15.717,
+      "end": 16.157,
+      "word": "Purch\u00e9",
+      "confidence": 0.649
+    },
+    {
+      "start": 16.197,
+      "end": 16.357,
+      "word": "non",
+      "confidence": 0.932
+    },
+    {
+      "start": 16.477,
+      "end": 16.797,
+      "word": "parli",
+      "confidence": 0.95
+    },
+    {
+      "start": 16.817,
+      "end": 17.017,
+      "word": "del",
+      "confidence": 0.471
+    },
+    {
+      "start": 17.057,
+      "end": 17.877,
+      "word": "commendatore,",
+      "confidence": 0.844
+    },
+    {
+      "start": 18.517,
+      "end": 18.897,
+      "word": "siamo",
+      "confidence": 0.773
+    },
+    {
+      "start": 19.057,
+      "end": 19.437,
+      "word": "soli,",
+      "confidence": 0.808
+    },
+    {
+      "start": 19.717,
+      "end": 19.838,
+      "word": "lo",
+      "confidence": 0.691
+    },
+    {
+      "start": 19.938,
+      "end": 20.478,
+      "word": "vedo.",
+      "confidence": 0.788
+    },
+    {
+      "start": 20.938,
+      "end": 21.358,
+      "word": "Nessun",
+      "confidence": 0.785
+    },
+    {
+      "start": 21.458,
+      "end": 21.518,
+      "word": "ci",
+      "confidence": 0.934
+    },
+    {
+      "start": 21.618,
+      "end": 22.018,
+      "word": "sente?",
+      "confidence": 0.828
+    },
+    {
+      "start": 22.118,
+      "end": 22.538,
+      "word": "Via!",
+      "confidence": 0.821
+    },
+    {
+      "start": 23.198,
+      "end": 23.298,
+      "word": "Vi",
+      "confidence": 0.74
+    },
+    {
+      "start": 23.378,
+      "end": 23.698,
+      "word": "posso",
+      "confidence": 0.887
+    },
+    {
+      "start": 23.758,
+      "end": 24.039,
+      "word": "dire",
+      "confidence": 0.856
+    },
+    {
+      "start": 24.159,
+      "end": 24.459,
+      "word": "tutto",
+      "confidence": 0.898
+    },
+    {
+      "start": 24.659,
+      "end": 25.479,
+      "word": "liberamente?",
+      "confidence": 0.858
+    },
+    {
+      "start": 25.619,
+      "end": 25.999,
+      "word": "S\u00ec!",
+      "confidence": 0.84
+    },
+    {
+      "start": 27.519,
+      "end": 28.14,
+      "word": "Dunque,",
+      "confidence": 0.864
+    },
+    {
+      "start": 28.6,
+      "end": 28.96,
+      "word": "quando",
+      "confidence": 0.702
+    },
+    {
+      "start": 28.98,
+      "end": 29.0,
+      "word": "\u00e8",
+      "confidence": 0.12
+    },
+    {
+      "start": 29.1,
+      "end": 29.32,
+      "word": "cos\u00ec,",
+      "confidence": 0.556
+    },
+    {
+      "start": 30.333,
+      "end": 31.194,
+      "word": "Caro",
+      "confidence": 0.604
+    },
+    {
+      "start": 31.234,
+      "end": 31.734,
+      "word": "signor",
+      "confidence": 0.607
+    },
+    {
+      "start": 31.994,
+      "end": 32.895,
+      "word": "padrone,",
+      "confidence": 0.789
+    },
+    {
+      "start": 33.875,
+      "end": 34.116,
+      "word": "la",
+      "confidence": 0.91
+    },
+    {
+      "start": 34.356,
+      "end": 34.876,
+      "word": "vita",
+      "confidence": 0.932
+    },
+    {
+      "start": 35.096,
+      "end": 35.296,
+      "word": "che",
+      "confidence": 0.784
+    },
+    {
+      "start": 35.476,
+      "end": 36.337,
+      "word": "menate",
+      "confidence": 0.868
+    },
+    {
+      "start": 36.977,
+      "end": 37.038,
+      "word": "\u00e8",
+      "confidence": 0.659
+    },
+    {
+      "start": 37.238,
+      "end": 37.478,
+      "word": "da",
+      "confidence": 0.795
+    },
+    {
+      "start": 37.798,
+      "end": 38.879,
+      "word": "briccone!",
+      "confidence": 0.792
+    },
+    {
+      "start": 39.419,
+      "end": 39.939,
+      "word": "Temerario!",
+      "confidence": 0.659
+    },
+    {
+      "start": 40.2,
+      "end": 41.1,
+      "word": "Intolguiso!",
+      "confidence": 0.631
+    },
+    {
+      "start": 41.12,
+      "end": 41.18,
+      "word": "Che",
+      "confidence": 0.006
+    },
+    {
+      "start": 41.26,
+      "end": 41.781,
+      "word": "giuramento!",
+      "confidence": 0.787
+    },
+    {
+      "start": 41.901,
+      "end": 42.021,
+      "word": "Non",
+      "confidence": 0.902
+    },
+    {
+      "start": 42.101,
+      "end": 42.181,
+      "word": "so",
+      "confidence": 0.914
+    },
+    {
+      "start": 42.221,
+      "end": 42.321,
+      "word": "di",
+      "confidence": 0.392
+    },
+    {
+      "start": 42.361,
+      "end": 42.942,
+      "word": "giuramenti!",
+      "confidence": 0.711
+    },
+    {
+      "start": 43.142,
+      "end": 43.702,
+      "word": "Taci,",
+      "confidence": 0.814
+    },
+    {
+      "start": 43.842,
+      "end": 44.503,
+      "word": "coccino!",
+      "confidence": 0.58
+    },
+    {
+      "start": 44.543,
+      "end": 44.663,
+      "word": "Non",
+      "confidence": 0.707
+    },
+    {
+      "start": 44.723,
+      "end": 44.903,
+      "word": "parlo",
+      "confidence": 0.822
+    },
+    {
+      "start": 44.963,
+      "end": 45.083,
+      "word": "pi\u00f9!",
+      "confidence": 0.545
+    },
+    {
+      "start": 45.283,
+      "end": 45.343,
+      "word": "Non",
+      "confidence": 0.514
+    },
+    {
+      "start": 45.543,
+      "end": 45.803,
+      "word": "fiato,",
+      "confidence": 0.761
+    },
+    {
+      "start": 45.904,
+      "end": 46.264,
+      "word": "padrone",
+      "confidence": 0.52
+    },
+    {
+      "start": 46.364,
+      "end": 46.604,
+      "word": "mio!",
+      "confidence": 0.84
+    },
+    {
+      "start": 47.124,
+      "end": 47.945,
+      "word": "Cos\u00ec",
+      "confidence": 0.66
+    },
+    {
+      "start": 48.185,
+      "end": 48.705,
+      "word": "saremo",
+      "confidence": 0.665
+    },
+    {
+      "start": 48.805,
+      "end": 49.966,
+      "word": "amici!",
+      "confidence": 0.749
+    },
+    {
+      "start": 50.667,
+      "end": 51.067,
+      "word": "Ororio",
+      "confidence": 0.648
+    },
+    {
+      "start": 51.107,
+      "end": 51.187,
+      "word": "un",
+      "confidence": 0.705
+    },
+    {
+      "start": 51.307,
+      "end": 51.868,
+      "word": "poco!",
+      "confidence": 0.839
+    },
+    {
+      "start": 52.308,
+      "end": 52.628,
+      "word": "Sai",
+      "confidence": 0.793
+    },
+    {
+      "start": 52.688,
+      "end": 52.848,
+      "word": "tu",
+      "confidence": 0.704
+    },
+    {
+      "start": 52.888,
+      "end": 53.148,
+      "word": "perch\u00e9",
+      "confidence": 0.825
+    },
+    {
+      "start": 53.208,
+      "end": 53.369,
+      "word": "son",
+      "confidence": 0.658
+    },
+    {
+      "start": 53.529,
+      "end": 53.729,
+      "word": "qui?",
+      "confidence": 0.679
+    },
+    {
+      "start": 54.209,
+      "end": 54.329,
+      "word": "Non",
+      "confidence": 0.876
+    },
+    {
+      "start": 54.369,
+      "end": 54.449,
+      "word": "ne",
+      "confidence": 0.692
+    },
+    {
+      "start": 54.529,
+      "end": 54.669,
+      "word": "so",
+      "confidence": 0.765
+    },
+    {
+      "start": 54.749,
+      "end": 55.01,
+      "word": "nulla!",
+      "confidence": 0.802
+    },
+    {
+      "start": 55.965,
+      "end": 56.025,
+      "word": "Ma",
+      "confidence": 0.334
+    },
+    {
+      "start": 56.125,
+      "end": 56.666,
+      "word": "essendo",
+      "confidence": 0.413
+    },
+    {
+      "start": 56.706,
+      "end": 56.906,
+      "word": "cos\u00ec",
+      "confidence": 0.513
+    },
+    {
+      "start": 57.026,
+      "end": 57.867,
+      "word": "tardi,",
+      "confidence": 0.568
+    },
+    {
+      "start": 57.907,
+      "end": 58.087,
+      "word": "non",
+      "confidence": 0.67
+    },
+    {
+      "start": 58.167,
+      "end": 58.627,
+      "word": "sarebbe",
+      "confidence": 0.805
+    },
+    {
+      "start": 58.747,
+      "end": 59.108,
+      "word": "qualche",
+      "confidence": 0.813
+    },
+    {
+      "start": 59.208,
+      "end": 59.508,
+      "word": "nuova",
+      "confidence": 0.693
+    },
+    {
+      "start": 59.688,
+      "end": 60.449,
+      "word": "conquista?",
+      "confidence": 0.902
+    },
+    {
+      "start": 61.009,
+      "end": 61.089,
+      "word": "Io",
+      "confidence": 0.744
+    },
+    {
+      "start": 61.149,
+      "end": 61.209,
+      "word": "lo",
+      "confidence": 0.634
+    },
+    {
+      "start": 61.269,
+      "end": 61.43,
+      "word": "devo",
+      "confidence": 0.658
+    },
+    {
+      "start": 61.51,
+      "end": 61.87,
+      "word": "sapere",
+      "confidence": 0.738
+    },
+    {
+      "start": 61.95,
+      "end": 62.09,
+      "word": "per",
+      "confidence": 0.815
+    },
+    {
+      "start": 62.17,
+      "end": 62.43,
+      "word": "porla",
+      "confidence": 0.672
+    },
+    {
+      "start": 62.47,
+      "end": 62.55,
+      "word": "in",
+      "confidence": 0.626
+    },
+    {
+      "start": 62.591,
+      "end": 62.891,
+      "word": "lista.",
+      "confidence": 0.817
+    },
+    {
+      "start": 63.071,
+      "end": 63.792,
+      "word": "Valacchese",
+      "confidence": 0.624
+    },
+    {
+      "start": 63.812,
+      "end": 63.832,
+      "word": "\u00e8",
+      "confidence": 0.199
+    },
+    {
+      "start": 63.872,
+      "end": 63.912,
+      "word": "il",
+      "confidence": 0.629
+    },
+    {
+      "start": 63.932,
+      "end": 64.312,
+      "word": "gran",
+      "confidence": 0.707
+    },
+    {
+      "start": 64.391,
+      "end": 64.772,
+      "word": "uomo.",
+      "confidence": 0.509
+    },
+    {
+      "start": 65.313,
+      "end": 66.193,
+      "word": "Sappi",
+      "confidence": 0.796
+    },
+    {
+      "start": 66.394,
+      "end": 66.554,
+      "word": "che",
+      "confidence": 0.5
+    },
+    {
+      "start": 66.634,
+      "end": 66.714,
+      "word": "io",
+      "confidence": 0.818
+    },
+    {
+      "start": 66.974,
+      "end": 67.995,
+      "word": "sono",
+      "confidence": 0.806
+    },
+    {
+      "start": 68.135,
+      "end": 69.236,
+      "word": "innamorato",
+      "confidence": 0.764
+    },
+    {
+      "start": 69.296,
+      "end": 69.356,
+      "word": "di",
+      "confidence": 0.354
+    },
+    {
+      "start": 69.396,
+      "end": 69.536,
+      "word": "una",
+      "confidence": 0.797
+    },
+    {
+      "start": 69.616,
+      "end": 70.357,
+      "word": "bella",
+      "confidence": 0.736
+    },
+    {
+      "start": 70.377,
+      "end": 71.077,
+      "word": "dama,",
+      "confidence": 0.724
+    },
+    {
+      "start": 71.698,
+      "end": 71.878,
+      "word": "e",
+      "confidence": 0.731
+    },
+    {
+      "start": 71.958,
+      "end": 72.218,
+      "word": "sono",
+      "confidence": 0.575
+    },
+    {
+      "start": 72.298,
+      "end": 72.839,
+      "word": "certo",
+      "confidence": 0.842
+    },
+    {
+      "start": 72.919,
+      "end": 73.019,
+      "word": "che",
+      "confidence": 0.475
+    },
+    {
+      "start": 73.079,
+      "end": 73.56,
+      "word": "m'ama.",
+      "confidence": 0.778
+    },
+    {
+      "start": 74.08,
+      "end": 74.24,
+      "word": "La",
+      "confidence": 0.717
+    },
+    {
+      "start": 74.28,
+      "end": 74.901,
+      "word": "vidi?",
+      "confidence": 0.693
+    },
+    {
+      "start": 74.941,
+      "end": 75.021,
+      "word": "Le",
+      "confidence": 0.564
+    },
+    {
+      "start": 75.061,
+      "end": 75.561,
+      "word": "parlai?",
+      "confidence": 0.883
+    },
+    {
+      "start": 75.841,
+      "end": 76.202,
+      "word": "Mezzo",
+      "confidence": 0.674
+    },
+    {
+      "start": 76.242,
+      "end": 76.302,
+      "word": "al",
+      "confidence": 0.533
+    },
+    {
+      "start": 76.362,
+      "end": 76.702,
+      "word": "casino",
+      "confidence": 0.916
+    },
+    {
+      "start": 76.782,
+      "end": 77.102,
+      "word": "questa",
+      "confidence": 0.816
+    },
+    {
+      "start": 77.162,
+      "end": 77.483,
+      "word": "notte",
+      "confidence": 0.828
+    },
+    {
+      "start": 77.523,
+      "end": 78.143,
+      "word": "verr\u00e0.",
+      "confidence": 0.849
+    },
+    {
+      "start": 79.364,
+      "end": 79.825,
+      "word": "Zitto.",
+      "confidence": 0.758
+    },
+    {
+      "start": 81.286,
+      "end": 81.586,
+      "word": "Mi",
+      "confidence": 0.758
+    },
+    {
+      "start": 81.686,
+      "end": 82.447,
+      "word": "pare",
+      "confidence": 0.736
+    },
+    {
+      "start": 82.527,
+      "end": 83.448,
+      "word": "sentire",
+      "confidence": 0.734
+    },
+    {
+      "start": 83.508,
+      "end": 83.708,
+      "word": "l'odore",
+      "confidence": 0.326
+    },
+    {
+      "start": 83.928,
+      "end": 83.988,
+      "word": "di",
+      "confidence": 0.597
+    },
+    {
+      "start": 84.108,
+      "end": 84.829,
+      "word": "femmina.",
+      "confidence": 0.454
+    },
+    {
+      "start": 87.061,
+      "end": 87.602,
+      "word": "Perfetto!",
+      "confidence": 0.571
+    },
+    {
+      "start": 87.743,
+      "end": 88.664,
+      "word": "All'aria",
+      "confidence": 0.655
+    },
+    {
+      "start": 88.724,
+      "end": 88.805,
+      "word": "mi",
+      "confidence": 0.487
+    },
+    {
+      "start": 88.925,
+      "end": 89.285,
+      "word": "par",
+      "confidence": 0.79
+    },
+    {
+      "start": 89.386,
+      "end": 90.227,
+      "word": "bella!",
+      "confidence": 0.819
+    },
+    {
+      "start": 90.367,
+      "end": 90.488,
+      "word": "E",
+      "confidence": 0.802
+    },
+    {
+      "start": 90.648,
+      "end": 90.788,
+      "word": "che",
+      "confidence": 0.681
+    },
+    {
+      "start": 90.868,
+      "end": 91.269,
+      "word": "occhio",
+      "confidence": 0.826
+    },
+    {
+      "start": 91.329,
+      "end": 91.67,
+      "word": "dico!",
+      "confidence": 0.902
+    },
+    {
+      "start": 91.85,
+      "end": 92.471,
+      "word": "Ritiriamoci",
+      "confidence": 0.737
+    },
+    {
+      "start": 92.511,
+      "end": 92.572,
+      "word": "un",
+      "confidence": 0.832
+    },
+    {
+      "start": 92.612,
+      "end": 92.872,
+      "word": "poco",
+      "confidence": 0.891
+    },
+    {
+      "start": 92.952,
+      "end": 92.992,
+      "word": "e",
+      "confidence": 0.66
+    },
+    {
+      "start": 93.012,
+      "end": 93.493,
+      "word": "scopriamo",
+      "confidence": 0.763
+    },
+    {
+      "start": 93.573,
+      "end": 94.094,
+      "word": "terrene!",
+      "confidence": 0.776
+    },
+    {
+      "start": 94.114,
+      "end": 94.555,
+      "word": "Gi\u00e0",
+      "confidence": 0.589
+    },
+    {
+      "start": 94.715,
+      "end": 95.136,
+      "word": "prese",
+      "confidence": 0.547
+    },
+    {
+      "start": 95.317,
+      "end": 95.457,
+      "word": "fuoco!",
+      "confidence": 0.359
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "text": "E in quali eccessi, o nome, e in quali misfatti orribili, tremendi, e omoto e sciagurato? O no, non pote tardare meno del cielo! La giustizia tarda! Senti gi\u00e0 morire la fatale saretta che le piamba surcava l'aperto veggio e la para cromortau. Dice l'albergo che contro la spada freddi mi senti in affetto. e si sospiri. E nestra macchina",
+  "language": "it",
+  "duration": 145.99102040816325,
+  "words": [
+    {
+      "start": 14.604,
+      "end": 14.664,
+      "word": "E",
+      "confidence": 0.511
+    },
+    {
+      "start": 14.864,
+      "end": 14.984,
+      "word": "in",
+      "confidence": 0.353
+    },
+    {
+      "start": 15.004,
+      "end": 15.325,
+      "word": "quali",
+      "confidence": 0.476
+    },
+    {
+      "start": 15.345,
+      "end": 16.024,
+      "word": "eccessi,",
+      "confidence": 0.617
+    },
+    {
+      "start": 16.306,
+      "end": 16.426,
+      "word": "o",
+      "confidence": 0.869
+    },
+    {
+      "start": 16.446,
+      "end": 16.766,
+      "word": "nome,",
+      "confidence": 0.611
+    },
+    {
+      "start": 16.866,
+      "end": 17.507,
+      "word": "e",
+      "confidence": 0.95
+    },
+    {
+      "start": 18.367,
+      "end": 18.547,
+      "word": "in",
+      "confidence": 0.669
+    },
+    {
+      "start": 18.667,
+      "end": 18.868,
+      "word": "quali",
+      "confidence": 0.521
+    },
+    {
+      "start": 18.908,
+      "end": 19.588,
+      "word": "misfatti",
+      "confidence": 0.699
+    },
+    {
+      "start": 19.628,
+      "end": 20.229,
+      "word": "orribili,",
+      "confidence": 0.797
+    },
+    {
+      "start": 20.289,
+      "end": 21.21,
+      "word": "tremendi,",
+      "confidence": 0.808
+    },
+    {
+      "start": 21.77,
+      "end": 21.83,
+      "word": "e",
+      "confidence": 0.732
+    },
+    {
+      "start": 21.87,
+      "end": 22.431,
+      "word": "omoto",
+      "confidence": 0.534
+    },
+    {
+      "start": 22.471,
+      "end": 22.571,
+      "word": "e",
+      "confidence": 0.78
+    },
+    {
+      "start": 22.691,
+      "end": 24.452,
+      "word": "sciagurato?",
+      "confidence": 0.639
+    },
+    {
+      "start": 32.499,
+      "end": 32.539,
+      "word": "O",
+      "confidence": 0.675
+    },
+    {
+      "start": 32.579,
+      "end": 32.659,
+      "word": "no,",
+      "confidence": 0.606
+    },
+    {
+      "start": 32.738,
+      "end": 33.42,
+      "word": "non",
+      "confidence": 0.83
+    },
+    {
+      "start": 33.58,
+      "end": 33.88,
+      "word": "pote",
+      "confidence": 0.613
+    },
+    {
+      "start": 33.9,
+      "end": 34.301,
+      "word": "tardare",
+      "confidence": 0.501
+    },
+    {
+      "start": 34.361,
+      "end": 34.481,
+      "word": "meno",
+      "confidence": 0.234
+    },
+    {
+      "start": 34.521,
+      "end": 34.581,
+      "word": "del",
+      "confidence": 0.043
+    },
+    {
+      "start": 34.621,
+      "end": 34.841,
+      "word": "cielo!",
+      "confidence": 0.3
+    },
+    {
+      "start": 34.861,
+      "end": 34.921,
+      "word": "La",
+      "confidence": 0.215
+    },
+    {
+      "start": 34.941,
+      "end": 35.341,
+      "word": "giustizia",
+      "confidence": 0.375
+    },
+    {
+      "start": 35.361,
+      "end": 35.542,
+      "word": "tarda!",
+      "confidence": 0.641
+    },
+    {
+      "start": 46.477,
+      "end": 46.997,
+      "word": "Senti",
+      "confidence": 0.714
+    },
+    {
+      "start": 47.017,
+      "end": 47.177,
+      "word": "gi\u00e0",
+      "confidence": 0.519
+    },
+    {
+      "start": 47.357,
+      "end": 48.138,
+      "word": "morire",
+      "confidence": 0.627
+    },
+    {
+      "start": 48.158,
+      "end": 48.198,
+      "word": "la",
+      "confidence": 0.028
+    },
+    {
+      "start": 48.238,
+      "end": 48.678,
+      "word": "fatale",
+      "confidence": 0.589
+    },
+    {
+      "start": 48.718,
+      "end": 50.019,
+      "word": "saretta",
+      "confidence": 0.685
+    },
+    {
+      "start": 51.779,
+      "end": 51.879,
+      "word": "che",
+      "confidence": 0.701
+    },
+    {
+      "start": 51.919,
+      "end": 52.22,
+      "word": "le",
+      "confidence": 0.586
+    },
+    {
+      "start": 52.28,
+      "end": 52.62,
+      "word": "piamba",
+      "confidence": 0.53
+    },
+    {
+      "start": 52.68,
+      "end": 53.18,
+      "word": "surcava",
+      "confidence": 0.62
+    },
+    {
+      "start": 53.2,
+      "end": 53.64,
+      "word": "l'aperto",
+      "confidence": 0.492
+    },
+    {
+      "start": 53.7,
+      "end": 53.82,
+      "word": "veggio",
+      "confidence": 0.125
+    },
+    {
+      "start": 53.88,
+      "end": 53.96,
+      "word": "e",
+      "confidence": 0.5
+    },
+    {
+      "start": 53.98,
+      "end": 54.06,
+      "word": "la",
+      "confidence": 0.522
+    },
+    {
+      "start": 54.12,
+      "end": 54.341,
+      "word": "para",
+      "confidence": 0.525
+    },
+    {
+      "start": 54.401,
+      "end": 55.021,
+      "word": "cromortau.",
+      "confidence": 0.463
+    },
+    {
+      "start": 81.797,
+      "end": 82.578,
+      "word": "Dice",
+      "confidence": 0.69
+    },
+    {
+      "start": 82.758,
+      "end": 83.238,
+      "word": "l'albergo",
+      "confidence": 0.387
+    },
+    {
+      "start": 83.318,
+      "end": 83.618,
+      "word": "che",
+      "confidence": 0.693
+    },
+    {
+      "start": 83.718,
+      "end": 85.5,
+      "word": "contro",
+      "confidence": 0.602
+    },
+    {
+      "start": 86.58,
+      "end": 88.542,
+      "word": "la",
+      "confidence": 0.898
+    },
+    {
+      "start": 88.642,
+      "end": 89.302,
+      "word": "spada",
+      "confidence": 0.68
+    },
+    {
+      "start": 89.362,
+      "end": 90.043,
+      "word": "freddi",
+      "confidence": 0.534
+    },
+    {
+      "start": 90.483,
+      "end": 90.823,
+      "word": "mi",
+      "confidence": 0.693
+    },
+    {
+      "start": 90.843,
+      "end": 92.304,
+      "word": "senti",
+      "confidence": 0.672
+    },
+    {
+      "start": 93.485,
+      "end": 93.565,
+      "word": "in",
+      "confidence": 0.64
+    },
+    {
+      "start": 93.585,
+      "end": 94.606,
+      "word": "affetto.",
+      "confidence": 0.613
+    },
+    {
+      "start": 115.133,
+      "end": 115.153,
+      "word": "e",
+      "confidence": 0.02
+    },
+    {
+      "start": 115.173,
+      "end": 115.213,
+      "word": "si",
+      "confidence": 0.018
+    },
+    {
+      "start": 115.233,
+      "end": 115.373,
+      "word": "sospiri.",
+      "confidence": 0.02
+    },
+    {
+      "start": 115.393,
+      "end": 115.413,
+      "word": "E",
+      "confidence": 0.029
+    },
+    {
+      "start": 115.433,
+      "end": 115.553,
+      "word": "nestra",
+      "confidence": 0.022
+    },
+    {
+      "start": 115.573,
+      "end": 115.733,
+      "word": "macchina",
+      "confidence": 0.019
+    }
+  ]
+}

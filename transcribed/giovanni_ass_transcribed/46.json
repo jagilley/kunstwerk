@@ -1,0 +1,451 @@
+{
+  "text": "che io sento. Ottimamente, dunque dobbiamo ucciderlo. Sicuro? E non ti baster\u00ec a rompergli l'ossa a fracassargli le spalle. Ah no, voglio ammazzarlo o farlo in cento brani. Hai buone armi? Cospetto. Proprio questo moschetto, e poi questa pistola, e poi... Non basta? Oh, basta certo! Or prendi! Questa per la pistola, questa per il moschetto! Surgorso! Taci o sei morto! Questi per ammazzarlo, questi per farlo in brani! Villano, mascalzone, ceppo da cani!",
+  "language": "it",
+  "duration": 48.00698412698413,
+  "words": [
+    {
+      "start": 1.865,
+      "end": 1.985,
+      "word": "che",
+      "confidence": 0.289
+    },
+    {
+      "start": 2.125,
+      "end": 2.206,
+      "word": "io",
+      "confidence": 0.668
+    },
+    {
+      "start": 2.326,
+      "end": 2.786,
+      "word": "sento.",
+      "confidence": 0.763
+    },
+    {
+      "start": 4.147,
+      "end": 5.309,
+      "word": "Ottimamente,",
+      "confidence": 0.75
+    },
+    {
+      "start": 5.729,
+      "end": 6.21,
+      "word": "dunque",
+      "confidence": 0.654
+    },
+    {
+      "start": 6.29,
+      "end": 6.83,
+      "word": "dobbiamo",
+      "confidence": 0.629
+    },
+    {
+      "start": 6.85,
+      "end": 7.491,
+      "word": "ucciderlo.",
+      "confidence": 0.812
+    },
+    {
+      "start": 7.651,
+      "end": 8.872,
+      "word": "Sicuro?",
+      "confidence": 0.843
+    },
+    {
+      "start": 9.253,
+      "end": 9.293,
+      "word": "E",
+      "confidence": 0.911
+    },
+    {
+      "start": 9.353,
+      "end": 9.533,
+      "word": "non",
+      "confidence": 0.856
+    },
+    {
+      "start": 9.573,
+      "end": 9.733,
+      "word": "ti",
+      "confidence": 0.636
+    },
+    {
+      "start": 9.773,
+      "end": 10.474,
+      "word": "baster\u00ec",
+      "confidence": 0.839
+    },
+    {
+      "start": 10.494,
+      "end": 10.514,
+      "word": "a",
+      "confidence": 0.008
+    },
+    {
+      "start": 10.754,
+      "end": 11.355,
+      "word": "rompergli",
+      "confidence": 0.739
+    },
+    {
+      "start": 11.395,
+      "end": 11.675,
+      "word": "l'ossa",
+      "confidence": 0.918
+    },
+    {
+      "start": 11.695,
+      "end": 11.735,
+      "word": "a",
+      "confidence": 0.635
+    },
+    {
+      "start": 11.775,
+      "end": 12.716,
+      "word": "fracassargli",
+      "confidence": 0.813
+    },
+    {
+      "start": 12.796,
+      "end": 12.876,
+      "word": "le",
+      "confidence": 0.752
+    },
+    {
+      "start": 12.936,
+      "end": 13.397,
+      "word": "spalle.",
+      "confidence": 0.767
+    },
+    {
+      "start": 13.737,
+      "end": 13.897,
+      "word": "Ah",
+      "confidence": 0.633
+    },
+    {
+      "start": 13.937,
+      "end": 14.338,
+      "word": "no,",
+      "confidence": 0.733
+    },
+    {
+      "start": 14.698,
+      "end": 14.938,
+      "word": "voglio",
+      "confidence": 0.633
+    },
+    {
+      "start": 14.958,
+      "end": 16.178,
+      "word": "ammazzarlo",
+      "confidence": 0.742
+    },
+    {
+      "start": 16.52,
+      "end": 16.56,
+      "word": "o",
+      "confidence": 0.485
+    },
+    {
+      "start": 16.66,
+      "end": 17.16,
+      "word": "farlo",
+      "confidence": 0.754
+    },
+    {
+      "start": 17.26,
+      "end": 17.361,
+      "word": "in",
+      "confidence": 0.856
+    },
+    {
+      "start": 17.461,
+      "end": 17.901,
+      "word": "cento",
+      "confidence": 0.937
+    },
+    {
+      "start": 17.981,
+      "end": 18.462,
+      "word": "brani.",
+      "confidence": 0.841
+    },
+    {
+      "start": 19.162,
+      "end": 19.463,
+      "word": "Hai",
+      "confidence": 0.612
+    },
+    {
+      "start": 19.603,
+      "end": 19.863,
+      "word": "buone",
+      "confidence": 0.622
+    },
+    {
+      "start": 19.903,
+      "end": 20.323,
+      "word": "armi?",
+      "confidence": 0.836
+    },
+    {
+      "start": 20.924,
+      "end": 21.705,
+      "word": "Cospetto.",
+      "confidence": 0.719
+    },
+    {
+      "start": 22.57,
+      "end": 23.13,
+      "word": "Proprio",
+      "confidence": 0.533
+    },
+    {
+      "start": 23.33,
+      "end": 23.611,
+      "word": "questo",
+      "confidence": 0.756
+    },
+    {
+      "start": 23.651,
+      "end": 24.171,
+      "word": "moschetto,",
+      "confidence": 0.806
+    },
+    {
+      "start": 24.931,
+      "end": 24.971,
+      "word": "e",
+      "confidence": 0.544
+    },
+    {
+      "start": 25.031,
+      "end": 25.492,
+      "word": "poi",
+      "confidence": 0.784
+    },
+    {
+      "start": 25.772,
+      "end": 26.332,
+      "word": "questa",
+      "confidence": 0.809
+    },
+    {
+      "start": 26.412,
+      "end": 27.173,
+      "word": "pistola,",
+      "confidence": 0.844
+    },
+    {
+      "start": 27.593,
+      "end": 27.673,
+      "word": "e",
+      "confidence": 0.92
+    },
+    {
+      "start": 27.853,
+      "end": 28.594,
+      "word": "poi...",
+      "confidence": 0.903
+    },
+    {
+      "start": 29.274,
+      "end": 29.454,
+      "word": "Non",
+      "confidence": 0.873
+    },
+    {
+      "start": 29.554,
+      "end": 30.075,
+      "word": "basta?",
+      "confidence": 0.879
+    },
+    {
+      "start": 30.435,
+      "end": 30.835,
+      "word": "Oh,",
+      "confidence": 0.624
+    },
+    {
+      "start": 30.975,
+      "end": 31.575,
+      "word": "basta",
+      "confidence": 0.885
+    },
+    {
+      "start": 31.696,
+      "end": 32.276,
+      "word": "certo!",
+      "confidence": 0.962
+    },
+    {
+      "start": 32.936,
+      "end": 33.136,
+      "word": "Or",
+      "confidence": 0.82
+    },
+    {
+      "start": 33.257,
+      "end": 34.077,
+      "word": "prendi!",
+      "confidence": 0.894
+    },
+    {
+      "start": 34.717,
+      "end": 35.038,
+      "word": "Questa",
+      "confidence": 0.68
+    },
+    {
+      "start": 35.118,
+      "end": 35.218,
+      "word": "per",
+      "confidence": 0.526
+    },
+    {
+      "start": 35.278,
+      "end": 35.338,
+      "word": "la",
+      "confidence": 0.815
+    },
+    {
+      "start": 35.398,
+      "end": 35.818,
+      "word": "pistola,",
+      "confidence": 0.749
+    },
+    {
+      "start": 36.078,
+      "end": 36.358,
+      "word": "questa",
+      "confidence": 0.832
+    },
+    {
+      "start": 36.398,
+      "end": 36.559,
+      "word": "per",
+      "confidence": 0.805
+    },
+    {
+      "start": 36.619,
+      "end": 36.659,
+      "word": "il",
+      "confidence": 0.482
+    },
+    {
+      "start": 36.679,
+      "end": 37.759,
+      "word": "moschetto!",
+      "confidence": 0.866
+    },
+    {
+      "start": 38.119,
+      "end": 38.94,
+      "word": "Surgorso!",
+      "confidence": 0.828
+    },
+    {
+      "start": 39.04,
+      "end": 40.121,
+      "word": "Taci",
+      "confidence": 0.77
+    },
+    {
+      "start": 40.181,
+      "end": 40.221,
+      "word": "o",
+      "confidence": 0.806
+    },
+    {
+      "start": 40.301,
+      "end": 40.481,
+      "word": "sei",
+      "confidence": 0.899
+    },
+    {
+      "start": 40.541,
+      "end": 41.281,
+      "word": "morto!",
+      "confidence": 0.702
+    },
+    {
+      "start": 41.341,
+      "end": 41.622,
+      "word": "Questi",
+      "confidence": 0.662
+    },
+    {
+      "start": 41.662,
+      "end": 41.802,
+      "word": "per",
+      "confidence": 0.532
+    },
+    {
+      "start": 41.842,
+      "end": 42.482,
+      "word": "ammazzarlo,",
+      "confidence": 0.744
+    },
+    {
+      "start": 42.602,
+      "end": 42.982,
+      "word": "questi",
+      "confidence": 0.467
+    },
+    {
+      "start": 43.022,
+      "end": 43.163,
+      "word": "per",
+      "confidence": 0.734
+    },
+    {
+      "start": 43.223,
+      "end": 43.463,
+      "word": "farlo",
+      "confidence": 0.69
+    },
+    {
+      "start": 43.503,
+      "end": 43.563,
+      "word": "in",
+      "confidence": 0.509
+    },
+    {
+      "start": 43.623,
+      "end": 44.003,
+      "word": "brani!",
+      "confidence": 0.504
+    },
+    {
+      "start": 44.063,
+      "end": 44.683,
+      "word": "Villano,",
+      "confidence": 0.567
+    },
+    {
+      "start": 44.784,
+      "end": 45.644,
+      "word": "mascalzone,",
+      "confidence": 0.716
+    },
+    {
+      "start": 45.704,
+      "end": 46.164,
+      "word": "ceppo",
+      "confidence": 0.758
+    },
+    {
+      "start": 46.184,
+      "end": 46.304,
+      "word": "da",
+      "confidence": 0.52
+    },
+    {
+      "start": 46.344,
+      "end": 46.485,
+      "word": "cani!",
+      "confidence": 0.361
+    }
+  ]
+}

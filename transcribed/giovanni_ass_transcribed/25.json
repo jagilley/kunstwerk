@@ -1,0 +1,223 @@
+{
+  "text": "Come mai crede, dev'io, di si nero delitto capace un cavaliero? Ah, di scoprirgli il vero ogni mezzo si cerchi! Io sento in petto di sposo ed amico il dover che mi parla. Disinganarla voglio vendicarla.",
+  "language": "it",
+  "duration": 33.968979591836735,
+  "words": [
+    {
+      "start": 2.434,
+      "end": 2.654,
+      "word": "Come",
+      "confidence": 0.267
+    },
+    {
+      "start": 2.674,
+      "end": 2.734,
+      "word": "mai",
+      "confidence": 0.168
+    },
+    {
+      "start": 2.754,
+      "end": 2.894,
+      "word": "crede,",
+      "confidence": 0.14
+    },
+    {
+      "start": 2.914,
+      "end": 4.715,
+      "word": "dev'io,",
+      "confidence": 0.457
+    },
+    {
+      "start": 4.935,
+      "end": 5.155,
+      "word": "di",
+      "confidence": 0.855
+    },
+    {
+      "start": 5.235,
+      "end": 5.315,
+      "word": "si",
+      "confidence": 0.76
+    },
+    {
+      "start": 5.415,
+      "end": 6.436,
+      "word": "nero",
+      "confidence": 0.828
+    },
+    {
+      "start": 6.496,
+      "end": 7.276,
+      "word": "delitto",
+      "confidence": 0.841
+    },
+    {
+      "start": 7.376,
+      "end": 8.077,
+      "word": "capace",
+      "confidence": 0.648
+    },
+    {
+      "start": 8.137,
+      "end": 8.277,
+      "word": "un",
+      "confidence": 0.676
+    },
+    {
+      "start": 8.357,
+      "end": 9.597,
+      "word": "cavaliero?",
+      "confidence": 0.792
+    },
+    {
+      "start": 10.538,
+      "end": 10.758,
+      "word": "Ah,",
+      "confidence": 0.544
+    },
+    {
+      "start": 10.798,
+      "end": 10.878,
+      "word": "di",
+      "confidence": 0.958
+    },
+    {
+      "start": 10.918,
+      "end": 11.618,
+      "word": "scoprirgli",
+      "confidence": 0.733
+    },
+    {
+      "start": 11.638,
+      "end": 11.678,
+      "word": "il",
+      "confidence": 0.007
+    },
+    {
+      "start": 12.079,
+      "end": 12.479,
+      "word": "vero",
+      "confidence": 0.75
+    },
+    {
+      "start": 12.499,
+      "end": 12.619,
+      "word": "ogni",
+      "confidence": 0.484
+    },
+    {
+      "start": 12.719,
+      "end": 13.239,
+      "word": "mezzo",
+      "confidence": 0.745
+    },
+    {
+      "start": 13.299,
+      "end": 13.399,
+      "word": "si",
+      "confidence": 0.819
+    },
+    {
+      "start": 13.479,
+      "end": 14.42,
+      "word": "cerchi!",
+      "confidence": 0.642
+    },
+    {
+      "start": 15.44,
+      "end": 15.62,
+      "word": "Io",
+      "confidence": 0.752
+    },
+    {
+      "start": 15.84,
+      "end": 16.441,
+      "word": "sento",
+      "confidence": 0.932
+    },
+    {
+      "start": 16.521,
+      "end": 16.641,
+      "word": "in",
+      "confidence": 0.842
+    },
+    {
+      "start": 16.741,
+      "end": 17.821,
+      "word": "petto",
+      "confidence": 0.735
+    },
+    {
+      "start": 18.021,
+      "end": 18.101,
+      "word": "di",
+      "confidence": 0.865
+    },
+    {
+      "start": 18.181,
+      "end": 19.122,
+      "word": "sposo",
+      "confidence": 0.912
+    },
+    {
+      "start": 19.162,
+      "end": 19.262,
+      "word": "ed",
+      "confidence": 0.557
+    },
+    {
+      "start": 19.282,
+      "end": 19.982,
+      "word": "amico",
+      "confidence": 0.785
+    },
+    {
+      "start": 20.062,
+      "end": 20.262,
+      "word": "il",
+      "confidence": 0.838
+    },
+    {
+      "start": 20.322,
+      "end": 21.023,
+      "word": "dover",
+      "confidence": 0.934
+    },
+    {
+      "start": 21.123,
+      "end": 21.243,
+      "word": "che",
+      "confidence": 0.875
+    },
+    {
+      "start": 21.303,
+      "end": 21.383,
+      "word": "mi",
+      "confidence": 0.748
+    },
+    {
+      "start": 21.463,
+      "end": 22.323,
+      "word": "parla.",
+      "confidence": 0.903
+    },
+    {
+      "start": 23.004,
+      "end": 24.704,
+      "word": "Disinganarla",
+      "confidence": 0.876
+    },
+    {
+      "start": 24.864,
+      "end": 25.045,
+      "word": "voglio",
+      "confidence": 0.453
+    },
+    {
+      "start": 25.065,
+      "end": 29.847,
+      "word": "vendicarla.",
+      "confidence": 0.737
+    }
+  ]
+}

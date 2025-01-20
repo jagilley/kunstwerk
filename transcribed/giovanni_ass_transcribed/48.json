@@ -1,0 +1,529 @@
+{
+  "text": "Vedrai, carino, se sei quali, che bel rimedio ti voglio dar. Nella giornata, Bonda, dismosto, meno speziale, non lo sapr\u00f2, non lo sapr\u00f2, non lo sapr\u00f2. e un certo balsamo che \u00e8 morto addosso. Da lei te lo posso, se il vuoi provare. Sapere vorresti dove mi Dove, dove, dove mi sta? Senti lo battere, Tornami qua, sentilo battere, sentilo battere. Tornami qua, sentilo battere, sentilo battere. Sentilo battere. Tornami qua, qua. Senz'\u00e8 l'uomo terrestre tocca a me qua, tocca a me qua, tocca a me qua.",
+  "language": "it",
+  "duration": 214.0229931972789,
+  "words": [
+    {
+      "start": 15.736,
+      "end": 15.956,
+      "word": "Vedrai,",
+      "confidence": 0.124
+    },
+    {
+      "start": 15.976,
+      "end": 16.175,
+      "word": "carino,",
+      "confidence": 0.172
+    },
+    {
+      "start": 16.216,
+      "end": 16.296,
+      "word": "se",
+      "confidence": 0.44
+    },
+    {
+      "start": 16.356,
+      "end": 16.776,
+      "word": "sei",
+      "confidence": 0.511
+    },
+    {
+      "start": 17.276,
+      "end": 17.737,
+      "word": "quali,",
+      "confidence": 0.529
+    },
+    {
+      "start": 17.797,
+      "end": 17.857,
+      "word": "che",
+      "confidence": 0.186
+    },
+    {
+      "start": 17.917,
+      "end": 18.137,
+      "word": "bel",
+      "confidence": 0.6
+    },
+    {
+      "start": 18.197,
+      "end": 18.897,
+      "word": "rimedio",
+      "confidence": 0.651
+    },
+    {
+      "start": 19.517,
+      "end": 19.997,
+      "word": "ti",
+      "confidence": 0.768
+    },
+    {
+      "start": 20.017,
+      "end": 20.757,
+      "word": "voglio",
+      "confidence": 0.618
+    },
+    {
+      "start": 20.837,
+      "end": 20.918,
+      "word": "dar.",
+      "confidence": 0.254
+    },
+    {
+      "start": 20.978,
+      "end": 21.138,
+      "word": "Nella",
+      "confidence": 0.292
+    },
+    {
+      "start": 21.238,
+      "end": 21.458,
+      "word": "giornata,",
+      "confidence": 0.239
+    },
+    {
+      "start": 44.157,
+      "end": 44.617,
+      "word": "Bonda,",
+      "confidence": 0.467
+    },
+    {
+      "start": 44.838,
+      "end": 46.958,
+      "word": "dismosto,",
+      "confidence": 0.679
+    },
+    {
+      "start": 47.519,
+      "end": 47.819,
+      "word": "meno",
+      "confidence": 0.579
+    },
+    {
+      "start": 47.839,
+      "end": 48.319,
+      "word": "speziale,",
+      "confidence": 0.489
+    },
+    {
+      "start": 48.379,
+      "end": 48.459,
+      "word": "non",
+      "confidence": 0.215
+    },
+    {
+      "start": 48.519,
+      "end": 48.579,
+      "word": "lo",
+      "confidence": 0.41
+    },
+    {
+      "start": 48.599,
+      "end": 48.779,
+      "word": "sapr\u00f2,",
+      "confidence": 0.186
+    },
+    {
+      "start": 48.819,
+      "end": 48.879,
+      "word": "non",
+      "confidence": 0.057
+    },
+    {
+      "start": 48.919,
+      "end": 48.999,
+      "word": "lo",
+      "confidence": 0.401
+    },
+    {
+      "start": 49.059,
+      "end": 49.499,
+      "word": "sapr\u00f2,",
+      "confidence": 0.517
+    },
+    {
+      "start": 49.559,
+      "end": 49.659,
+      "word": "non",
+      "confidence": 0.354
+    },
+    {
+      "start": 49.679,
+      "end": 49.759,
+      "word": "lo",
+      "confidence": 0.467
+    },
+    {
+      "start": 49.819,
+      "end": 50.04,
+      "word": "sapr\u00f2.",
+      "confidence": 0.322
+    },
+    {
+      "start": 65.51,
+      "end": 65.571,
+      "word": "e",
+      "confidence": 0.602
+    },
+    {
+      "start": 65.651,
+      "end": 66.091,
+      "word": "un",
+      "confidence": 0.4
+    },
+    {
+      "start": 66.111,
+      "end": 66.351,
+      "word": "certo",
+      "confidence": 0.478
+    },
+    {
+      "start": 66.392,
+      "end": 66.752,
+      "word": "balsamo",
+      "confidence": 0.434
+    },
+    {
+      "start": 66.772,
+      "end": 66.852,
+      "word": "che",
+      "confidence": 0.231
+    },
+    {
+      "start": 66.872,
+      "end": 66.892,
+      "word": "\u00e8",
+      "confidence": 0.001
+    },
+    {
+      "start": 66.912,
+      "end": 67.092,
+      "word": "morto",
+      "confidence": 0.454
+    },
+    {
+      "start": 67.192,
+      "end": 68.192,
+      "word": "addosso.",
+      "confidence": 0.642
+    },
+    {
+      "start": 68.212,
+      "end": 68.292,
+      "word": "Da",
+      "confidence": 0.454
+    },
+    {
+      "start": 68.392,
+      "end": 68.752,
+      "word": "lei",
+      "confidence": 0.643
+    },
+    {
+      "start": 68.872,
+      "end": 68.972,
+      "word": "te",
+      "confidence": 0.554
+    },
+    {
+      "start": 69.032,
+      "end": 71.553,
+      "word": "lo",
+      "confidence": 0.837
+    },
+    {
+      "start": 71.613,
+      "end": 72.134,
+      "word": "posso,",
+      "confidence": 0.663
+    },
+    {
+      "start": 72.154,
+      "end": 72.194,
+      "word": "se",
+      "confidence": 0.078
+    },
+    {
+      "start": 72.834,
+      "end": 72.934,
+      "word": "il",
+      "confidence": 0.328
+    },
+    {
+      "start": 72.954,
+      "end": 73.074,
+      "word": "vuoi",
+      "confidence": 0.255
+    },
+    {
+      "start": 73.094,
+      "end": 73.414,
+      "word": "provare.",
+      "confidence": 0.289
+    },
+    {
+      "start": 73.434,
+      "end": 73.674,
+      "word": "Sapere",
+      "confidence": 0.257
+    },
+    {
+      "start": 73.714,
+      "end": 73.994,
+      "word": "vorresti",
+      "confidence": 0.448
+    },
+    {
+      "start": 74.074,
+      "end": 74.294,
+      "word": "dove",
+      "confidence": 0.318
+    },
+    {
+      "start": 74.334,
+      "end": 74.374,
+      "word": "mi",
+      "confidence": 0.061
+    },
+    {
+      "start": 95.717,
+      "end": 95.938,
+      "word": "Dove,",
+      "confidence": 0.469
+    },
+    {
+      "start": 96.018,
+      "end": 96.478,
+      "word": "dove,",
+      "confidence": 0.526
+    },
+    {
+      "start": 96.598,
+      "end": 96.859,
+      "word": "dove",
+      "confidence": 0.566
+    },
+    {
+      "start": 96.899,
+      "end": 96.959,
+      "word": "mi",
+      "confidence": 0.254
+    },
+    {
+      "start": 96.979,
+      "end": 97.059,
+      "word": "sta?",
+      "confidence": 0.148
+    },
+    {
+      "start": 97.139,
+      "end": 97.479,
+      "word": "Senti",
+      "confidence": 0.78
+    },
+    {
+      "start": 97.599,
+      "end": 97.66,
+      "word": "lo",
+      "confidence": 0.67
+    },
+    {
+      "start": 97.74,
+      "end": 98.04,
+      "word": "battere,",
+      "confidence": 0.519
+    },
+    {
+      "start": 118.912,
+      "end": 119.472,
+      "word": "Tornami",
+      "confidence": 0.252
+    },
+    {
+      "start": 119.512,
+      "end": 119.612,
+      "word": "qua,",
+      "confidence": 0.285
+    },
+    {
+      "start": 119.632,
+      "end": 119.772,
+      "word": "sentilo",
+      "confidence": 0.031
+    },
+    {
+      "start": 119.792,
+      "end": 120.052,
+      "word": "battere,",
+      "confidence": 0.137
+    },
+    {
+      "start": 120.072,
+      "end": 120.372,
+      "word": "sentilo",
+      "confidence": 0.208
+    },
+    {
+      "start": 120.392,
+      "end": 120.672,
+      "word": "battere.",
+      "confidence": 0.149
+    },
+    {
+      "start": 120.692,
+      "end": 120.872,
+      "word": "Tornami",
+      "confidence": 0.087
+    },
+    {
+      "start": 120.932,
+      "end": 121.653,
+      "word": "qua,",
+      "confidence": 0.45
+    },
+    {
+      "start": 121.693,
+      "end": 121.933,
+      "word": "sentilo",
+      "confidence": 0.408
+    },
+    {
+      "start": 121.973,
+      "end": 122.373,
+      "word": "battere,",
+      "confidence": 0.504
+    },
+    {
+      "start": 122.393,
+      "end": 122.713,
+      "word": "sentilo",
+      "confidence": 0.403
+    },
+    {
+      "start": 122.773,
+      "end": 123.933,
+      "word": "battere.",
+      "confidence": 0.6
+    },
+    {
+      "start": 124.113,
+      "end": 124.693,
+      "word": "Sentilo",
+      "confidence": 0.594
+    },
+    {
+      "start": 124.753,
+      "end": 125.173,
+      "word": "battere.",
+      "confidence": 0.535
+    },
+    {
+      "start": 125.313,
+      "end": 125.513,
+      "word": "Tornami",
+      "confidence": 0.255
+    },
+    {
+      "start": 125.553,
+      "end": 125.613,
+      "word": "qua,",
+      "confidence": 0.034
+    },
+    {
+      "start": 125.753,
+      "end": 125.853,
+      "word": "qua.",
+      "confidence": 0.301
+    },
+    {
+      "start": 153.132,
+      "end": 154.093,
+      "word": "Senz'\u00e8",
+      "confidence": 0.341
+    },
+    {
+      "start": 154.273,
+      "end": 155.554,
+      "word": "l'uomo",
+      "confidence": 0.676
+    },
+    {
+      "start": 155.734,
+      "end": 156.835,
+      "word": "terrestre",
+      "confidence": 0.839
+    },
+    {
+      "start": 157.416,
+      "end": 157.836,
+      "word": "tocca",
+      "confidence": 0.641
+    },
+    {
+      "start": 158.236,
+      "end": 158.276,
+      "word": "a",
+      "confidence": 0.422
+    },
+    {
+      "start": 158.317,
+      "end": 158.517,
+      "word": "me",
+      "confidence": 0.641
+    },
+    {
+      "start": 158.557,
+      "end": 158.637,
+      "word": "qua,",
+      "confidence": 0.16
+    },
+    {
+      "start": 158.857,
+      "end": 159.037,
+      "word": "tocca",
+      "confidence": 0.345
+    },
+    {
+      "start": 159.057,
+      "end": 159.077,
+      "word": "a",
+      "confidence": 0.0
+    },
+    {
+      "start": 159.137,
+      "end": 159.237,
+      "word": "me",
+      "confidence": 0.484
+    },
+    {
+      "start": 159.277,
+      "end": 159.377,
+      "word": "qua,",
+      "confidence": 0.384
+    },
+    {
+      "start": 159.417,
+      "end": 160.158,
+      "word": "tocca",
+      "confidence": 0.702
+    },
+    {
+      "start": 160.238,
+      "end": 160.278,
+      "word": "a",
+      "confidence": 0.885
+    },
+    {
+      "start": 160.338,
+      "end": 160.418,
+      "word": "me",
+      "confidence": 0.528
+    },
+    {
+      "start": 160.478,
+      "end": 160.538,
+      "word": "qua.",
+      "confidence": 0.254
+    }
+  ]
+}

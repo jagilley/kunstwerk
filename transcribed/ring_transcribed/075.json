@@ -1,0 +1,3074 @@
+{
+  "duration": 486.3999938964844,
+  "language": "german",
+  "text": "Vieles lehrtest du mir, und manches lernt ich von dir, doch was am liebsten mich lehrtest, zu lernen gelang mir nie, wie ich dich leiden k\u00f6nnt. Bringst du mir Trank und Speise herbei, den Ekel speist ich allein, schaffst du ein leichtes Lager zum Flach, der Schlummer wird mir das schwer. Willst du mich weisen, witzig zu sein, gern bleib ich taub und dumm, seh ich dir erst mit dem Auge zu, zu b\u00fchlen erkenn ich, was alles da zu ist. Seh ich dich stehen, gangen und gehen, knicken und nicken mit den Augenzwicken, wein, denn ich will durch dir nichts verpanken, egal wo du's kennst, mit Gas und mit Sp\u00e4ter. So lernt ich, Mime, dich leiden. Bist du nun weise, so hilft mir Wissen, wor\u00fcber umsonst ich sang. In den Wald lauf ich, dich zu verlassen. Wie kommt das Tier dich zur\u00fcck? Alle Tiere sind mir teurer als du, Baum und Kugel, die Fische im Bach, lieber mag ich sie leiden als dich. Wie kommt das nun Tier dich zur\u00fcck? Bist du klug, so tu mir's gut. Mein Kind, das lehrt dich kennen, wie lieb ich am Herzen dir lieg. Ich kann dich ja nicht leiden, vergiss das nicht so leicht, es ist eine Wildweitschuld, die du b\u00f6se b\u00e4ndgen sollst. Wir haben Verlangen, Junge, nach ihrer alten Nest. Liebe ist das Verlangen. So l\u00e4chselst du auch nach mir, so liebst du auch deinen Mime. So musst du ihn lieben, was dem V\u00f6gelein ist, der Vogel. Wenn er im Nest es n\u00e4hrt, die das Fl\u00fcge mag fliegen, das ist ihr Kind'schem Spross, der kundig sorgende Mime. Das muss er dir sein. Ei, Mime, bist du so witzig, so lass mich eines noch wissen. Es sagte die V\u00f6glein, so selig himmelnd, das eine loffe das andere. Du sagtest selbst, da ich's wissen wollt. Asperren, L\u00e4mpchen und Weichen, sie tosten so lieblich, wiesen sich dicht, sie bauchten ein Nest und br\u00fcteten drin. Da flatterte Junges der Fl\u00fcge auf und beide pflegten der Brut. So wurden im Busch auch Rehe gepaart, selbst Birne, W\u00fcchse und W\u00f6lfe. Nahrung brachte zum Nesten das M\u00e4nnchen, das Bei\u00dfen zeugte die W\u00f6lfe. Halle, du, was Mime sei, deren Bruder entwand ich die W\u00f6lfe nie. Wo hast du nun, Mime, dein miniges Weichen, dass ich es Mutter nenne? Was ist dir, Thor? Ach, bist du dumm! Bist du weder Vogel noch Fuchs. Das ist die Mutter. Das zollende Kind zogest du auf, w\u00e4rmtest mit Kleidem den kleinen Wurm. Wie kam dir aber der kindische Wurm? Du machtest wohl gar ohne Mutter mich. Glauben sollst du, was ich dir sage, ich bin dir Vater und Mutter zu klein. Das l\u00fcgt nun garstig an auf, wie die Jungen den Alten gleichen, das hab ich mir gl\u00fccklich ersehen. Nun kam ich zum klaren Bach, da steck ich die B\u00e4ume und Tiere im Spiegel. Sonnen und Wolken, wie sie nur sind, im Glitzer erschienen sie gleich. Da sah ich dann auch mein eigen Bild. Ganz anders als du, d\u00fcckte ich mir da, so wie ich wohl der Kr\u00f6telein gl\u00e4nzender Fisch. Doch brach nie ein Fisch aus der Kr\u00f6te. Welchen Unsinn kranst du da aus? Siehst du, nun f\u00e4llt auch selbst hier ein, was zu wurden sonst nicht bestand. Wenn zum Wald die Blaube nicht zu verlassen, wie das kommt, der ist noch klein. Von dir erst muss ich erfahren, wer Vater und Mutter mir sei. Was Vater? Was Mutter? W\u00fcssige Frage! Du musst jetzt nicht fassen, um was zu wissen. Gutwillig erfahr ich doch nicht. Du musst nicht alles ab dir pratzen. Um das Reden h\u00e4tt ich erraten, entwand ich mit Gewalt nicht den Schuf. Heraus damit, du einiger Kerl! Wer ist mir Vater und Mutter?",
+  "segments": null,
+  "words": [
+    {
+      "end": 2.799999952316284,
+      "start": 1.6399999856948853,
+      "word": "Vieles"
+    },
+    {
+      "end": 3.359999895095825,
+      "start": 2.799999952316284,
+      "word": "lehrtest"
+    },
+    {
+      "end": 3.8399999141693115,
+      "start": 3.359999895095825,
+      "word": "du"
+    },
+    {
+      "end": 4.28000020980835,
+      "start": 3.8399999141693115,
+      "word": "mir"
+    },
+    {
+      "end": 5.159999847412109,
+      "start": 4.619999885559082,
+      "word": "und"
+    },
+    {
+      "end": 6.179999828338623,
+      "start": 5.159999847412109,
+      "word": "manches"
+    },
+    {
+      "end": 6.880000114440918,
+      "start": 6.179999828338623,
+      "word": "lernt"
+    },
+    {
+      "end": 7.019999980926514,
+      "start": 6.880000114440918,
+      "word": "ich"
+    },
+    {
+      "end": 7.519999980926514,
+      "start": 7.019999980926514,
+      "word": "von"
+    },
+    {
+      "end": 7.880000114440918,
+      "start": 7.519999980926514,
+      "word": "dir"
+    },
+    {
+      "end": 8.640000343322754,
+      "start": 8.300000190734863,
+      "word": "doch"
+    },
+    {
+      "end": 9.260000228881836,
+      "start": 8.640000343322754,
+      "word": "was"
+    },
+    {
+      "end": 9.899999618530273,
+      "start": 9.260000228881836,
+      "word": "am"
+    },
+    {
+      "end": 10.619999885559082,
+      "start": 9.899999618530273,
+      "word": "liebsten"
+    },
+    {
+      "end": 11.020000457763672,
+      "start": 10.619999885559082,
+      "word": "mich"
+    },
+    {
+      "end": 11.84000015258789,
+      "start": 11.020000457763672,
+      "word": "lehrtest"
+    },
+    {
+      "end": 12.460000038146973,
+      "start": 12.100000381469727,
+      "word": "zu"
+    },
+    {
+      "end": 13.039999961853027,
+      "start": 12.460000038146973,
+      "word": "lernen"
+    },
+    {
+      "end": 14.020000457763672,
+      "start": 13.039999961853027,
+      "word": "gelang"
+    },
+    {
+      "end": 14.579999923706055,
+      "start": 14.020000457763672,
+      "word": "mir"
+    },
+    {
+      "end": 15.539999961853027,
+      "start": 14.579999923706055,
+      "word": "nie"
+    },
+    {
+      "end": 18.040000915527344,
+      "start": 17.459999084472656,
+      "word": "wie"
+    },
+    {
+      "end": 19.280000686645508,
+      "start": 18.040000915527344,
+      "word": "ich"
+    },
+    {
+      "end": 19.84000015258789,
+      "start": 19.280000686645508,
+      "word": "dich"
+    },
+    {
+      "end": 21.18000030517578,
+      "start": 19.84000015258789,
+      "word": "leiden"
+    },
+    {
+      "end": 22.360000610351562,
+      "start": 21.18000030517578,
+      "word": "k\u00f6nnt"
+    },
+    {
+      "end": 26.360000610351562,
+      "start": 25.360000610351562,
+      "word": "Bringst"
+    },
+    {
+      "end": 26.600000381469727,
+      "start": 26.360000610351562,
+      "word": "du"
+    },
+    {
+      "end": 26.940000534057617,
+      "start": 26.600000381469727,
+      "word": "mir"
+    },
+    {
+      "end": 27.440000534057617,
+      "start": 26.940000534057617,
+      "word": "Trank"
+    },
+    {
+      "end": 27.920000076293945,
+      "start": 27.440000534057617,
+      "word": "und"
+    },
+    {
+      "end": 28.600000381469727,
+      "start": 27.920000076293945,
+      "word": "Speise"
+    },
+    {
+      "end": 29.68000030517578,
+      "start": 28.600000381469727,
+      "word": "herbei"
+    },
+    {
+      "end": 30.579999923706055,
+      "start": 29.8799991607666,
+      "word": "den"
+    },
+    {
+      "end": 31.18000030517578,
+      "start": 30.579999923706055,
+      "word": "Ekel"
+    },
+    {
+      "end": 31.799999237060547,
+      "start": 31.18000030517578,
+      "word": "speist"
+    },
+    {
+      "end": 32.099998474121094,
+      "start": 31.799999237060547,
+      "word": "ich"
+    },
+    {
+      "end": 32.70000076293945,
+      "start": 32.099998474121094,
+      "word": "allein"
+    },
+    {
+      "end": 33.65999984741211,
+      "start": 33.599998474121094,
+      "word": "schaffst"
+    },
+    {
+      "end": 34.0,
+      "start": 33.65999984741211,
+      "word": "du"
+    },
+    {
+      "end": 34.29999923706055,
+      "start": 34.0,
+      "word": "ein"
+    },
+    {
+      "end": 35.34000015258789,
+      "start": 34.29999923706055,
+      "word": "leichtes"
+    },
+    {
+      "end": 35.939998626708984,
+      "start": 35.34000015258789,
+      "word": "Lager"
+    },
+    {
+      "end": 36.380001068115234,
+      "start": 35.939998626708984,
+      "word": "zum"
+    },
+    {
+      "end": 37.040000915527344,
+      "start": 36.380001068115234,
+      "word": "Flach"
+    },
+    {
+      "end": 37.900001525878906,
+      "start": 37.70000076293945,
+      "word": "der"
+    },
+    {
+      "end": 38.540000915527344,
+      "start": 37.900001525878906,
+      "word": "Schlummer"
+    },
+    {
+      "end": 38.880001068115234,
+      "start": 38.540000915527344,
+      "word": "wird"
+    },
+    {
+      "end": 39.279998779296875,
+      "start": 38.880001068115234,
+      "word": "mir"
+    },
+    {
+      "end": 39.619998931884766,
+      "start": 39.279998779296875,
+      "word": "das"
+    },
+    {
+      "end": 40.099998474121094,
+      "start": 39.619998931884766,
+      "word": "schwer"
+    },
+    {
+      "end": 41.119998931884766,
+      "start": 41.040000915527344,
+      "word": "Willst"
+    },
+    {
+      "end": 41.459999084472656,
+      "start": 41.119998931884766,
+      "word": "du"
+    },
+    {
+      "end": 41.70000076293945,
+      "start": 41.459999084472656,
+      "word": "mich"
+    },
+    {
+      "end": 42.63999938964844,
+      "start": 41.70000076293945,
+      "word": "weisen"
+    },
+    {
+      "end": 43.439998626708984,
+      "start": 43.279998779296875,
+      "word": "witzig"
+    },
+    {
+      "end": 43.84000015258789,
+      "start": 43.439998626708984,
+      "word": "zu"
+    },
+    {
+      "end": 44.34000015258789,
+      "start": 43.84000015258789,
+      "word": "sein"
+    },
+    {
+      "end": 45.380001068115234,
+      "start": 44.84000015258789,
+      "word": "gern"
+    },
+    {
+      "end": 45.70000076293945,
+      "start": 45.380001068115234,
+      "word": "bleib"
+    },
+    {
+      "end": 45.959999084472656,
+      "start": 45.70000076293945,
+      "word": "ich"
+    },
+    {
+      "end": 46.65999984741211,
+      "start": 45.959999084472656,
+      "word": "taub"
+    },
+    {
+      "end": 47.18000030517578,
+      "start": 46.65999984741211,
+      "word": "und"
+    },
+    {
+      "end": 47.81999969482422,
+      "start": 47.18000030517578,
+      "word": "dumm"
+    },
+    {
+      "end": 48.400001525878906,
+      "start": 47.81999969482422,
+      "word": "seh"
+    },
+    {
+      "end": 48.560001373291016,
+      "start": 48.400001525878906,
+      "word": "ich"
+    },
+    {
+      "end": 48.7400016784668,
+      "start": 48.560001373291016,
+      "word": "dir"
+    },
+    {
+      "end": 49.13999938964844,
+      "start": 48.7400016784668,
+      "word": "erst"
+    },
+    {
+      "end": 49.34000015258789,
+      "start": 49.13999938964844,
+      "word": "mit"
+    },
+    {
+      "end": 49.939998626708984,
+      "start": 49.34000015258789,
+      "word": "dem"
+    },
+    {
+      "end": 50.02000045776367,
+      "start": 49.939998626708984,
+      "word": "Auge"
+    },
+    {
+      "end": 50.439998626708984,
+      "start": 50.02000045776367,
+      "word": "zu"
+    },
+    {
+      "end": 51.08000183105469,
+      "start": 51.08000183105469,
+      "word": "zu"
+    },
+    {
+      "end": 51.2599983215332,
+      "start": 51.08000183105469,
+      "word": "b\u00fchlen"
+    },
+    {
+      "end": 51.720001220703125,
+      "start": 51.2599983215332,
+      "word": "erkenn"
+    },
+    {
+      "end": 51.959999084472656,
+      "start": 51.720001220703125,
+      "word": "ich"
+    },
+    {
+      "end": 52.70000076293945,
+      "start": 52.459999084472656,
+      "word": "was"
+    },
+    {
+      "end": 53.18000030517578,
+      "start": 52.70000076293945,
+      "word": "alles"
+    },
+    {
+      "end": 53.36000061035156,
+      "start": 53.18000030517578,
+      "word": "da"
+    },
+    {
+      "end": 53.7400016784668,
+      "start": 53.36000061035156,
+      "word": "zu"
+    },
+    {
+      "end": 54.459999084472656,
+      "start": 53.7400016784668,
+      "word": "ist"
+    },
+    {
+      "end": 60.2400016784668,
+      "start": 60.2400016784668,
+      "word": "Seh"
+    },
+    {
+      "end": 60.68000030517578,
+      "start": 60.2400016784668,
+      "word": "ich"
+    },
+    {
+      "end": 61.040000915527344,
+      "start": 60.68000030517578,
+      "word": "dich"
+    },
+    {
+      "end": 62.119998931884766,
+      "start": 61.040000915527344,
+      "word": "stehen"
+    },
+    {
+      "end": 63.7599983215332,
+      "start": 62.939998626708984,
+      "word": "gangen"
+    },
+    {
+      "end": 64.81999969482422,
+      "start": 63.7599983215332,
+      "word": "und"
+    },
+    {
+      "end": 66.04000091552734,
+      "start": 64.81999969482422,
+      "word": "gehen"
+    },
+    {
+      "end": 67.66000366210938,
+      "start": 67.16000366210938,
+      "word": "knicken"
+    },
+    {
+      "end": 69.0,
+      "start": 67.66000366210938,
+      "word": "und"
+    },
+    {
+      "end": 69.44000244140625,
+      "start": 69.0,
+      "word": "nicken"
+    },
+    {
+      "end": 69.81999969482422,
+      "start": 69.44000244140625,
+      "word": "mit"
+    },
+    {
+      "end": 70.13999938964844,
+      "start": 69.81999969482422,
+      "word": "den"
+    },
+    {
+      "end": 71.5199966430664,
+      "start": 70.13999938964844,
+      "word": "Augenzwicken"
+    },
+    {
+      "end": 72.9800033569336,
+      "start": 72.30000305175781,
+      "word": "wein"
+    },
+    {
+      "end": 73.26000213623047,
+      "start": 72.9800033569336,
+      "word": "denn"
+    },
+    {
+      "end": 73.5199966430664,
+      "start": 73.26000213623047,
+      "word": "ich"
+    },
+    {
+      "end": 73.62000274658203,
+      "start": 73.5199966430664,
+      "word": "will"
+    },
+    {
+      "end": 73.80000305175781,
+      "start": 73.62000274658203,
+      "word": "durch"
+    },
+    {
+      "end": 73.91999816894531,
+      "start": 73.80000305175781,
+      "word": "dir"
+    },
+    {
+      "end": 74.12000274658203,
+      "start": 73.91999816894531,
+      "word": "nichts"
+    },
+    {
+      "end": 74.55999755859375,
+      "start": 74.12000274658203,
+      "word": "verpanken"
+    },
+    {
+      "end": 75.62000274658203,
+      "start": 74.95999908447266,
+      "word": "egal"
+    },
+    {
+      "end": 76.04000091552734,
+      "start": 75.62000274658203,
+      "word": "wo"
+    },
+    {
+      "end": 76.23999786376953,
+      "start": 76.04000091552734,
+      "word": "du's"
+    },
+    {
+      "end": 76.5,
+      "start": 76.23999786376953,
+      "word": "kennst"
+    },
+    {
+      "end": 76.83999633789062,
+      "start": 76.72000122070312,
+      "word": "mit"
+    },
+    {
+      "end": 77.26000213623047,
+      "start": 76.83999633789062,
+      "word": "Gas"
+    },
+    {
+      "end": 77.31999969482422,
+      "start": 77.26000213623047,
+      "word": "und"
+    },
+    {
+      "end": 77.5,
+      "start": 77.31999969482422,
+      "word": "mit"
+    },
+    {
+      "end": 77.73999786376953,
+      "start": 77.5,
+      "word": "Sp\u00e4ter"
+    },
+    {
+      "end": 80.12000274658203,
+      "start": 79.5,
+      "word": "So"
+    },
+    {
+      "end": 80.72000122070312,
+      "start": 80.12000274658203,
+      "word": "lernt"
+    },
+    {
+      "end": 81.0999984741211,
+      "start": 80.72000122070312,
+      "word": "ich"
+    },
+    {
+      "end": 81.41999816894531,
+      "start": 81.41999816894531,
+      "word": "Mime"
+    },
+    {
+      "end": 81.9000015258789,
+      "start": 81.80000305175781,
+      "word": "dich"
+    },
+    {
+      "end": 83.0999984741211,
+      "start": 81.9000015258789,
+      "word": "leiden"
+    },
+    {
+      "end": 84.0999984741211,
+      "start": 84.05999755859375,
+      "word": "Bist"
+    },
+    {
+      "end": 84.4800033569336,
+      "start": 84.0999984741211,
+      "word": "du"
+    },
+    {
+      "end": 84.86000061035156,
+      "start": 84.4800033569336,
+      "word": "nun"
+    },
+    {
+      "end": 85.45999908447266,
+      "start": 84.86000061035156,
+      "word": "weise"
+    },
+    {
+      "end": 86.13999938964844,
+      "start": 85.91999816894531,
+      "word": "so"
+    },
+    {
+      "end": 86.23999786376953,
+      "start": 86.13999938964844,
+      "word": "hilft"
+    },
+    {
+      "end": 86.5,
+      "start": 86.23999786376953,
+      "word": "mir"
+    },
+    {
+      "end": 86.83999633789062,
+      "start": 86.5,
+      "word": "Wissen"
+    },
+    {
+      "end": 87.76000213623047,
+      "start": 87.19999694824219,
+      "word": "wor\u00fcber"
+    },
+    {
+      "end": 88.5,
+      "start": 87.76000213623047,
+      "word": "umsonst"
+    },
+    {
+      "end": 88.87999725341797,
+      "start": 88.5,
+      "word": "ich"
+    },
+    {
+      "end": 89.5199966430664,
+      "start": 88.87999725341797,
+      "word": "sang"
+    },
+    {
+      "end": 90.5199966430664,
+      "start": 90.30000305175781,
+      "word": "In"
+    },
+    {
+      "end": 91.08000183105469,
+      "start": 90.5199966430664,
+      "word": "den"
+    },
+    {
+      "end": 91.31999969482422,
+      "start": 91.08000183105469,
+      "word": "Wald"
+    },
+    {
+      "end": 91.81999969482422,
+      "start": 91.31999969482422,
+      "word": "lauf"
+    },
+    {
+      "end": 92.04000091552734,
+      "start": 91.81999969482422,
+      "word": "ich"
+    },
+    {
+      "end": 92.45999908447266,
+      "start": 92.13999938964844,
+      "word": "dich"
+    },
+    {
+      "end": 92.72000122070312,
+      "start": 92.45999908447266,
+      "word": "zu"
+    },
+    {
+      "end": 93.54000091552734,
+      "start": 92.72000122070312,
+      "word": "verlassen"
+    },
+    {
+      "end": 95.22000122070312,
+      "start": 94.54000091552734,
+      "word": "Wie"
+    },
+    {
+      "end": 96.0199966430664,
+      "start": 95.22000122070312,
+      "word": "kommt"
+    },
+    {
+      "end": 96.5,
+      "start": 96.0199966430664,
+      "word": "das"
+    },
+    {
+      "end": 97.0,
+      "start": 96.5,
+      "word": "Tier"
+    },
+    {
+      "end": 97.22000122070312,
+      "start": 97.0,
+      "word": "dich"
+    },
+    {
+      "end": 98.23999786376953,
+      "start": 97.22000122070312,
+      "word": "zur\u00fcck"
+    },
+    {
+      "end": 99.4000015258789,
+      "start": 98.9800033569336,
+      "word": "Alle"
+    },
+    {
+      "end": 99.72000122070312,
+      "start": 99.4000015258789,
+      "word": "Tiere"
+    },
+    {
+      "end": 99.95999908447266,
+      "start": 99.72000122070312,
+      "word": "sind"
+    },
+    {
+      "end": 100.68000030517578,
+      "start": 99.95999908447266,
+      "word": "mir"
+    },
+    {
+      "end": 100.68000030517578,
+      "start": 100.68000030517578,
+      "word": "teurer"
+    },
+    {
+      "end": 101.05999755859375,
+      "start": 100.68000030517578,
+      "word": "als"
+    },
+    {
+      "end": 101.83999633789062,
+      "start": 101.05999755859375,
+      "word": "du"
+    },
+    {
+      "end": 102.58000183105469,
+      "start": 102.54000091552734,
+      "word": "Baum"
+    },
+    {
+      "end": 102.86000061035156,
+      "start": 102.58000183105469,
+      "word": "und"
+    },
+    {
+      "end": 103.30000305175781,
+      "start": 102.86000061035156,
+      "word": "Kugel"
+    },
+    {
+      "end": 103.73999786376953,
+      "start": 103.5199966430664,
+      "word": "die"
+    },
+    {
+      "end": 104.16000366210938,
+      "start": 103.73999786376953,
+      "word": "Fische"
+    },
+    {
+      "end": 104.58000183105469,
+      "start": 104.16000366210938,
+      "word": "im"
+    },
+    {
+      "end": 105.08000183105469,
+      "start": 104.58000183105469,
+      "word": "Bach"
+    },
+    {
+      "end": 106.19999694824219,
+      "start": 105.81999969482422,
+      "word": "lieber"
+    },
+    {
+      "end": 106.5999984741211,
+      "start": 106.19999694824219,
+      "word": "mag"
+    },
+    {
+      "end": 107.0,
+      "start": 106.5999984741211,
+      "word": "ich"
+    },
+    {
+      "end": 107.12000274658203,
+      "start": 107.0,
+      "word": "sie"
+    },
+    {
+      "end": 107.73999786376953,
+      "start": 107.12000274658203,
+      "word": "leiden"
+    },
+    {
+      "end": 108.05999755859375,
+      "start": 107.73999786376953,
+      "word": "als"
+    },
+    {
+      "end": 109.66000366210938,
+      "start": 108.05999755859375,
+      "word": "dich"
+    },
+    {
+      "end": 111.77999877929688,
+      "start": 111.55999755859375,
+      "word": "Wie"
+    },
+    {
+      "end": 113.23999786376953,
+      "start": 111.77999877929688,
+      "word": "kommt"
+    },
+    {
+      "end": 113.63999938964844,
+      "start": 113.23999786376953,
+      "word": "das"
+    },
+    {
+      "end": 114.22000122070312,
+      "start": 113.63999938964844,
+      "word": "nun"
+    },
+    {
+      "end": 115.12000274658203,
+      "start": 114.22000122070312,
+      "word": "Tier"
+    },
+    {
+      "end": 115.5,
+      "start": 115.12000274658203,
+      "word": "dich"
+    },
+    {
+      "end": 116.77999877929688,
+      "start": 115.5,
+      "word": "zur\u00fcck"
+    },
+    {
+      "end": 118.72000122070312,
+      "start": 117.9800033569336,
+      "word": "Bist"
+    },
+    {
+      "end": 119.12000274658203,
+      "start": 118.72000122070312,
+      "word": "du"
+    },
+    {
+      "end": 120.0199966430664,
+      "start": 119.12000274658203,
+      "word": "klug"
+    },
+    {
+      "end": 120.58000183105469,
+      "start": 120.18000030517578,
+      "word": "so"
+    },
+    {
+      "end": 121.36000061035156,
+      "start": 120.58000183105469,
+      "word": "tu"
+    },
+    {
+      "end": 123.83999633789062,
+      "start": 121.36000061035156,
+      "word": "mir's"
+    },
+    {
+      "end": 123.87999725341797,
+      "start": 123.83999633789062,
+      "word": "gut"
+    },
+    {
+      "end": 130.05999755859375,
+      "start": 129.32000732421875,
+      "word": "Mein"
+    },
+    {
+      "end": 130.67999267578125,
+      "start": 130.05999755859375,
+      "word": "Kind"
+    },
+    {
+      "end": 131.36000061035156,
+      "start": 131.02000427246094,
+      "word": "das"
+    },
+    {
+      "end": 132.0800018310547,
+      "start": 131.36000061035156,
+      "word": "lehrt"
+    },
+    {
+      "end": 132.39999389648438,
+      "start": 132.0800018310547,
+      "word": "dich"
+    },
+    {
+      "end": 132.97999572753906,
+      "start": 132.39999389648438,
+      "word": "kennen"
+    },
+    {
+      "end": 133.52000427246094,
+      "start": 133.17999267578125,
+      "word": "wie"
+    },
+    {
+      "end": 133.97999572753906,
+      "start": 133.52000427246094,
+      "word": "lieb"
+    },
+    {
+      "end": 134.27999877929688,
+      "start": 133.97999572753906,
+      "word": "ich"
+    },
+    {
+      "end": 134.6199951171875,
+      "start": 134.27999877929688,
+      "word": "am"
+    },
+    {
+      "end": 135.33999633789062,
+      "start": 134.6199951171875,
+      "word": "Herzen"
+    },
+    {
+      "end": 135.82000732421875,
+      "start": 135.33999633789062,
+      "word": "dir"
+    },
+    {
+      "end": 136.47999572753906,
+      "start": 135.82000732421875,
+      "word": "lieg"
+    },
+    {
+      "end": 136.83999633789062,
+      "start": 136.5399932861328,
+      "word": "Ich"
+    },
+    {
+      "end": 137.13999938964844,
+      "start": 136.83999633789062,
+      "word": "kann"
+    },
+    {
+      "end": 137.32000732421875,
+      "start": 137.13999938964844,
+      "word": "dich"
+    },
+    {
+      "end": 137.5800018310547,
+      "start": 137.32000732421875,
+      "word": "ja"
+    },
+    {
+      "end": 137.82000732421875,
+      "start": 137.5800018310547,
+      "word": "nicht"
+    },
+    {
+      "end": 139.22000122070312,
+      "start": 137.82000732421875,
+      "word": "leiden"
+    },
+    {
+      "end": 140.94000244140625,
+      "start": 140.3800048828125,
+      "word": "vergiss"
+    },
+    {
+      "end": 141.13999938964844,
+      "start": 140.94000244140625,
+      "word": "das"
+    },
+    {
+      "end": 141.33999633789062,
+      "start": 141.13999938964844,
+      "word": "nicht"
+    },
+    {
+      "end": 142.0399932861328,
+      "start": 141.33999633789062,
+      "word": "so"
+    },
+    {
+      "end": 142.1199951171875,
+      "start": 142.0399932861328,
+      "word": "leicht"
+    },
+    {
+      "end": 142.67999267578125,
+      "start": 142.1199951171875,
+      "word": "es"
+    },
+    {
+      "end": 143.05999755859375,
+      "start": 142.67999267578125,
+      "word": "ist"
+    },
+    {
+      "end": 143.4199981689453,
+      "start": 143.05999755859375,
+      "word": "eine"
+    },
+    {
+      "end": 145.55999755859375,
+      "start": 143.4199981689453,
+      "word": "Wildweitschuld"
+    },
+    {
+      "end": 146.33999633789062,
+      "start": 146.1999969482422,
+      "word": "die"
+    },
+    {
+      "end": 146.66000366210938,
+      "start": 146.33999633789062,
+      "word": "du"
+    },
+    {
+      "end": 147.55999755859375,
+      "start": 146.66000366210938,
+      "word": "b\u00f6se"
+    },
+    {
+      "end": 148.44000244140625,
+      "start": 147.55999755859375,
+      "word": "b\u00e4ndgen"
+    },
+    {
+      "end": 150.1199951171875,
+      "start": 148.44000244140625,
+      "word": "sollst"
+    },
+    {
+      "end": 161.89999389648438,
+      "start": 161.1199951171875,
+      "word": "Wir"
+    },
+    {
+      "end": 162.0399932861328,
+      "start": 161.89999389648438,
+      "word": "haben"
+    },
+    {
+      "end": 163.3000030517578,
+      "start": 162.0399932861328,
+      "word": "Verlangen"
+    },
+    {
+      "end": 164.89999389648438,
+      "start": 163.4600067138672,
+      "word": "Junge"
+    },
+    {
+      "end": 166.05999755859375,
+      "start": 165.39999389648438,
+      "word": "nach"
+    },
+    {
+      "end": 166.47999572753906,
+      "start": 166.05999755859375,
+      "word": "ihrer"
+    },
+    {
+      "end": 167.66000366210938,
+      "start": 166.47999572753906,
+      "word": "alten"
+    },
+    {
+      "end": 168.75999450683594,
+      "start": 167.66000366210938,
+      "word": "Nest"
+    },
+    {
+      "end": 170.75999450683594,
+      "start": 169.75999450683594,
+      "word": "Liebe"
+    },
+    {
+      "end": 171.33999633789062,
+      "start": 170.75999450683594,
+      "word": "ist"
+    },
+    {
+      "end": 171.72000122070312,
+      "start": 171.33999633789062,
+      "word": "das"
+    },
+    {
+      "end": 172.67999267578125,
+      "start": 171.72000122070312,
+      "word": "Verlangen"
+    },
+    {
+      "end": 181.33999633789062,
+      "start": 180.75999450683594,
+      "word": "So"
+    },
+    {
+      "end": 182.0800018310547,
+      "start": 181.33999633789062,
+      "word": "l\u00e4chselst"
+    },
+    {
+      "end": 182.39999389648438,
+      "start": 182.0800018310547,
+      "word": "du"
+    },
+    {
+      "end": 182.9600067138672,
+      "start": 182.39999389648438,
+      "word": "auch"
+    },
+    {
+      "end": 183.44000244140625,
+      "start": 182.9600067138672,
+      "word": "nach"
+    },
+    {
+      "end": 185.0399932861328,
+      "start": 183.44000244140625,
+      "word": "mir"
+    },
+    {
+      "end": 185.60000610351562,
+      "start": 185.3000030517578,
+      "word": "so"
+    },
+    {
+      "end": 186.0399932861328,
+      "start": 185.60000610351562,
+      "word": "liebst"
+    },
+    {
+      "end": 186.3800048828125,
+      "start": 186.0399932861328,
+      "word": "du"
+    },
+    {
+      "end": 186.74000549316406,
+      "start": 186.3800048828125,
+      "word": "auch"
+    },
+    {
+      "end": 187.82000732421875,
+      "start": 186.74000549316406,
+      "word": "deinen"
+    },
+    {
+      "end": 189.13999938964844,
+      "start": 187.82000732421875,
+      "word": "Mime"
+    },
+    {
+      "end": 191.1199951171875,
+      "start": 190.6999969482422,
+      "word": "So"
+    },
+    {
+      "end": 191.55999755859375,
+      "start": 191.1199951171875,
+      "word": "musst"
+    },
+    {
+      "end": 191.9199981689453,
+      "start": 191.55999755859375,
+      "word": "du"
+    },
+    {
+      "end": 192.47999572753906,
+      "start": 191.9199981689453,
+      "word": "ihn"
+    },
+    {
+      "end": 192.74000549316406,
+      "start": 192.47999572753906,
+      "word": "lieben"
+    },
+    {
+      "end": 193.8000030517578,
+      "start": 193.44000244140625,
+      "word": "was"
+    },
+    {
+      "end": 194.1199951171875,
+      "start": 193.8000030517578,
+      "word": "dem"
+    },
+    {
+      "end": 195.0,
+      "start": 194.1199951171875,
+      "word": "V\u00f6gelein"
+    },
+    {
+      "end": 195.5399932861328,
+      "start": 195.0,
+      "word": "ist"
+    },
+    {
+      "end": 195.9600067138672,
+      "start": 195.9600067138672,
+      "word": "der"
+    },
+    {
+      "end": 197.3000030517578,
+      "start": 195.9600067138672,
+      "word": "Vogel"
+    },
+    {
+      "end": 198.25999450683594,
+      "start": 197.3000030517578,
+      "word": "Wenn"
+    },
+    {
+      "end": 198.52000427246094,
+      "start": 198.25999450683594,
+      "word": "er"
+    },
+    {
+      "end": 199.13999938964844,
+      "start": 198.52000427246094,
+      "word": "im"
+    },
+    {
+      "end": 199.3800048828125,
+      "start": 199.13999938964844,
+      "word": "Nest"
+    },
+    {
+      "end": 199.94000244140625,
+      "start": 199.3800048828125,
+      "word": "es"
+    },
+    {
+      "end": 201.72000122070312,
+      "start": 199.94000244140625,
+      "word": "n\u00e4hrt"
+    },
+    {
+      "end": 202.32000732421875,
+      "start": 202.0,
+      "word": "die"
+    },
+    {
+      "end": 202.5399932861328,
+      "start": 202.32000732421875,
+      "word": "das"
+    },
+    {
+      "end": 203.05999755859375,
+      "start": 202.5399932861328,
+      "word": "Fl\u00fcge"
+    },
+    {
+      "end": 203.4600067138672,
+      "start": 203.05999755859375,
+      "word": "mag"
+    },
+    {
+      "end": 204.22000122070312,
+      "start": 203.4600067138672,
+      "word": "fliegen"
+    },
+    {
+      "end": 206.05999755859375,
+      "start": 205.63999938964844,
+      "word": "das"
+    },
+    {
+      "end": 206.27999877929688,
+      "start": 206.05999755859375,
+      "word": "ist"
+    },
+    {
+      "end": 206.55999755859375,
+      "start": 206.27999877929688,
+      "word": "ihr"
+    },
+    {
+      "end": 207.36000061035156,
+      "start": 206.55999755859375,
+      "word": "Kind'schem"
+    },
+    {
+      "end": 208.89999389648438,
+      "start": 207.36000061035156,
+      "word": "Spross"
+    },
+    {
+      "end": 209.52000427246094,
+      "start": 209.25999450683594,
+      "word": "der"
+    },
+    {
+      "end": 210.5800018310547,
+      "start": 209.52000427246094,
+      "word": "kundig"
+    },
+    {
+      "end": 211.4600067138672,
+      "start": 210.5800018310547,
+      "word": "sorgende"
+    },
+    {
+      "end": 212.72000122070312,
+      "start": 211.4600067138672,
+      "word": "Mime"
+    },
+    {
+      "end": 214.66000366210938,
+      "start": 214.27999877929688,
+      "word": "Das"
+    },
+    {
+      "end": 215.1999969482422,
+      "start": 214.66000366210938,
+      "word": "muss"
+    },
+    {
+      "end": 215.4600067138672,
+      "start": 215.1999969482422,
+      "word": "er"
+    },
+    {
+      "end": 215.8000030517578,
+      "start": 215.4600067138672,
+      "word": "dir"
+    },
+    {
+      "end": 216.10000610351562,
+      "start": 215.8000030517578,
+      "word": "sein"
+    },
+    {
+      "end": 216.8800048828125,
+      "start": 216.6199951171875,
+      "word": "Ei"
+    },
+    {
+      "end": 217.67999267578125,
+      "start": 217.36000061035156,
+      "word": "Mime"
+    },
+    {
+      "end": 218.8800048828125,
+      "start": 218.77999877929688,
+      "word": "bist"
+    },
+    {
+      "end": 219.10000610351562,
+      "start": 218.8800048828125,
+      "word": "du"
+    },
+    {
+      "end": 219.74000549316406,
+      "start": 219.10000610351562,
+      "word": "so"
+    },
+    {
+      "end": 220.27999877929688,
+      "start": 219.74000549316406,
+      "word": "witzig"
+    },
+    {
+      "end": 221.39999389648438,
+      "start": 220.77999877929688,
+      "word": "so"
+    },
+    {
+      "end": 221.8000030517578,
+      "start": 221.39999389648438,
+      "word": "lass"
+    },
+    {
+      "end": 222.17999267578125,
+      "start": 221.8000030517578,
+      "word": "mich"
+    },
+    {
+      "end": 222.74000549316406,
+      "start": 222.17999267578125,
+      "word": "eines"
+    },
+    {
+      "end": 223.3000030517578,
+      "start": 222.74000549316406,
+      "word": "noch"
+    },
+    {
+      "end": 223.74000549316406,
+      "start": 223.3000030517578,
+      "word": "wissen"
+    },
+    {
+      "end": 229.33999633789062,
+      "start": 228.32000732421875,
+      "word": "Es"
+    },
+    {
+      "end": 229.8800048828125,
+      "start": 229.33999633789062,
+      "word": "sagte"
+    },
+    {
+      "end": 230.36000061035156,
+      "start": 229.8800048828125,
+      "word": "die"
+    },
+    {
+      "end": 231.1199951171875,
+      "start": 230.36000061035156,
+      "word": "V\u00f6glein"
+    },
+    {
+      "end": 231.44000244140625,
+      "start": 231.3800048828125,
+      "word": "so"
+    },
+    {
+      "end": 232.02000427246094,
+      "start": 231.44000244140625,
+      "word": "selig"
+    },
+    {
+      "end": 233.0,
+      "start": 232.02000427246094,
+      "word": "himmelnd"
+    },
+    {
+      "end": 233.44000244140625,
+      "start": 233.33999633789062,
+      "word": "das"
+    },
+    {
+      "end": 234.25999450683594,
+      "start": 233.44000244140625,
+      "word": "eine"
+    },
+    {
+      "end": 235.0399932861328,
+      "start": 234.25999450683594,
+      "word": "loffe"
+    },
+    {
+      "end": 235.44000244140625,
+      "start": 235.0399932861328,
+      "word": "das"
+    },
+    {
+      "end": 237.16000366210938,
+      "start": 235.44000244140625,
+      "word": "andere"
+    },
+    {
+      "end": 238.5,
+      "start": 238.1199951171875,
+      "word": "Du"
+    },
+    {
+      "end": 239.3800048828125,
+      "start": 238.5,
+      "word": "sagtest"
+    },
+    {
+      "end": 239.8000030517578,
+      "start": 239.3800048828125,
+      "word": "selbst"
+    },
+    {
+      "end": 240.16000366210938,
+      "start": 240.0,
+      "word": "da"
+    },
+    {
+      "end": 240.5800018310547,
+      "start": 240.16000366210938,
+      "word": "ich's"
+    },
+    {
+      "end": 240.72000122070312,
+      "start": 240.5800018310547,
+      "word": "wissen"
+    },
+    {
+      "end": 241.16000366210938,
+      "start": 240.72000122070312,
+      "word": "wollt"
+    },
+    {
+      "end": 244.97999572753906,
+      "start": 243.9600067138672,
+      "word": "Asperren"
+    },
+    {
+      "end": 247.1999969482422,
+      "start": 246.83999633789062,
+      "word": "L\u00e4mpchen"
+    },
+    {
+      "end": 247.5399932861328,
+      "start": 247.1999969482422,
+      "word": "und"
+    },
+    {
+      "end": 249.55999755859375,
+      "start": 247.5399932861328,
+      "word": "Weichen"
+    },
+    {
+      "end": 251.72000122070312,
+      "start": 250.55999755859375,
+      "word": "sie"
+    },
+    {
+      "end": 253.39999389648438,
+      "start": 251.72000122070312,
+      "word": "tosten"
+    },
+    {
+      "end": 254.0399932861328,
+      "start": 253.39999389648438,
+      "word": "so"
+    },
+    {
+      "end": 255.22000122070312,
+      "start": 254.0399932861328,
+      "word": "lieblich"
+    },
+    {
+      "end": 257.4200134277344,
+      "start": 257.29998779296875,
+      "word": "wiesen"
+    },
+    {
+      "end": 257.8399963378906,
+      "start": 257.4200134277344,
+      "word": "sich"
+    },
+    {
+      "end": 258.3999938964844,
+      "start": 257.8399963378906,
+      "word": "dicht"
+    },
+    {
+      "end": 259.3399963378906,
+      "start": 258.79998779296875,
+      "word": "sie"
+    },
+    {
+      "end": 259.7200012207031,
+      "start": 259.3399963378906,
+      "word": "bauchten"
+    },
+    {
+      "end": 260.1600036621094,
+      "start": 259.7200012207031,
+      "word": "ein"
+    },
+    {
+      "end": 260.44000244140625,
+      "start": 260.1600036621094,
+      "word": "Nest"
+    },
+    {
+      "end": 261.05999755859375,
+      "start": 260.44000244140625,
+      "word": "und"
+    },
+    {
+      "end": 261.8599853515625,
+      "start": 261.05999755859375,
+      "word": "br\u00fcteten"
+    },
+    {
+      "end": 262.55999755859375,
+      "start": 261.8599853515625,
+      "word": "drin"
+    },
+    {
+      "end": 264.1400146484375,
+      "start": 264.0400085449219,
+      "word": "Da"
+    },
+    {
+      "end": 265.05999755859375,
+      "start": 264.1400146484375,
+      "word": "flatterte"
+    },
+    {
+      "end": 265.8399963378906,
+      "start": 265.05999755859375,
+      "word": "Junges"
+    },
+    {
+      "end": 266.17999267578125,
+      "start": 265.8399963378906,
+      "word": "der"
+    },
+    {
+      "end": 267.0799865722656,
+      "start": 266.17999267578125,
+      "word": "Fl\u00fcge"
+    },
+    {
+      "end": 267.760009765625,
+      "start": 267.0799865722656,
+      "word": "auf"
+    },
+    {
+      "end": 268.5199890136719,
+      "start": 267.760009765625,
+      "word": "und"
+    },
+    {
+      "end": 270.2799987792969,
+      "start": 268.5199890136719,
+      "word": "beide"
+    },
+    {
+      "end": 272.17999267578125,
+      "start": 270.2799987792969,
+      "word": "pflegten"
+    },
+    {
+      "end": 273.82000732421875,
+      "start": 272.17999267578125,
+      "word": "der"
+    },
+    {
+      "end": 273.82000732421875,
+      "start": 273.82000732421875,
+      "word": "Brut"
+    },
+    {
+      "end": 278.6600036621094,
+      "start": 277.5,
+      "word": "So"
+    },
+    {
+      "end": 279.239990234375,
+      "start": 278.6600036621094,
+      "word": "wurden"
+    },
+    {
+      "end": 279.70001220703125,
+      "start": 279.239990234375,
+      "word": "im"
+    },
+    {
+      "end": 280.2799987792969,
+      "start": 279.70001220703125,
+      "word": "Busch"
+    },
+    {
+      "end": 280.7200012207031,
+      "start": 280.2799987792969,
+      "word": "auch"
+    },
+    {
+      "end": 281.29998779296875,
+      "start": 280.7200012207031,
+      "word": "Rehe"
+    },
+    {
+      "end": 282.0799865722656,
+      "start": 281.29998779296875,
+      "word": "gepaart"
+    },
+    {
+      "end": 282.9200134277344,
+      "start": 282.2799987792969,
+      "word": "selbst"
+    },
+    {
+      "end": 283.5400085449219,
+      "start": 282.9200134277344,
+      "word": "Birne"
+    },
+    {
+      "end": 284.1600036621094,
+      "start": 283.739990234375,
+      "word": "W\u00fcchse"
+    },
+    {
+      "end": 284.6400146484375,
+      "start": 284.1600036621094,
+      "word": "und"
+    },
+    {
+      "end": 285.2200012207031,
+      "start": 284.6400146484375,
+      "word": "W\u00f6lfe"
+    },
+    {
+      "end": 288.4599914550781,
+      "start": 288.32000732421875,
+      "word": "Nahrung"
+    },
+    {
+      "end": 288.9200134277344,
+      "start": 288.4599914550781,
+      "word": "brachte"
+    },
+    {
+      "end": 289.4200134277344,
+      "start": 288.9200134277344,
+      "word": "zum"
+    },
+    {
+      "end": 289.8999938964844,
+      "start": 289.4200134277344,
+      "word": "Nesten"
+    },
+    {
+      "end": 290.3999938964844,
+      "start": 289.8999938964844,
+      "word": "das"
+    },
+    {
+      "end": 290.9800109863281,
+      "start": 290.3999938964844,
+      "word": "M\u00e4nnchen"
+    },
+    {
+      "end": 295.67999267578125,
+      "start": 294.5199890136719,
+      "word": "das"
+    },
+    {
+      "end": 296.8399963378906,
+      "start": 295.67999267578125,
+      "word": "Bei\u00dfen"
+    },
+    {
+      "end": 297.5400085449219,
+      "start": 296.8399963378906,
+      "word": "zeugte"
+    },
+    {
+      "end": 297.8999938964844,
+      "start": 297.5400085449219,
+      "word": "die"
+    },
+    {
+      "end": 298.82000732421875,
+      "start": 297.8999938964844,
+      "word": "W\u00f6lfe"
+    },
+    {
+      "end": 303.760009765625,
+      "start": 302.3599853515625,
+      "word": "Halle"
+    },
+    {
+      "end": 304.8599853515625,
+      "start": 304.1600036621094,
+      "word": "du"
+    },
+    {
+      "end": 305.1600036621094,
+      "start": 305.1600036621094,
+      "word": "was"
+    },
+    {
+      "end": 307.4200134277344,
+      "start": 305.1600036621094,
+      "word": "Mime"
+    },
+    {
+      "end": 308.1199951171875,
+      "start": 307.4200134277344,
+      "word": "sei"
+    },
+    {
+      "end": 309.5199890136719,
+      "start": 309.0799865722656,
+      "word": "deren"
+    },
+    {
+      "end": 311.3999938964844,
+      "start": 309.5199890136719,
+      "word": "Bruder"
+    },
+    {
+      "end": 313.6000061035156,
+      "start": 311.3999938964844,
+      "word": "entwand"
+    },
+    {
+      "end": 313.9800109863281,
+      "start": 313.6000061035156,
+      "word": "ich"
+    },
+    {
+      "end": 314.9200134277344,
+      "start": 313.9800109863281,
+      "word": "die"
+    },
+    {
+      "end": 316.1600036621094,
+      "start": 314.9200134277344,
+      "word": "W\u00f6lfe"
+    },
+    {
+      "end": 316.8599853515625,
+      "start": 316.1600036621094,
+      "word": "nie"
+    },
+    {
+      "end": 328.6600036621094,
+      "start": 327.79998779296875,
+      "word": "Wo"
+    },
+    {
+      "end": 328.9800109863281,
+      "start": 328.6600036621094,
+      "word": "hast"
+    },
+    {
+      "end": 329.6000061035156,
+      "start": 328.9800109863281,
+      "word": "du"
+    },
+    {
+      "end": 330.05999755859375,
+      "start": 329.6000061035156,
+      "word": "nun"
+    },
+    {
+      "end": 330.5,
+      "start": 330.5,
+      "word": "Mime"
+    },
+    {
+      "end": 331.4800109863281,
+      "start": 331.2799987792969,
+      "word": "dein"
+    },
+    {
+      "end": 332.6600036621094,
+      "start": 331.4800109863281,
+      "word": "miniges"
+    },
+    {
+      "end": 334.6600036621094,
+      "start": 332.6600036621094,
+      "word": "Weichen"
+    },
+    {
+      "end": 336.3599853515625,
+      "start": 335.94000244140625,
+      "word": "dass"
+    },
+    {
+      "end": 336.6600036621094,
+      "start": 336.3599853515625,
+      "word": "ich"
+    },
+    {
+      "end": 337.79998779296875,
+      "start": 336.6600036621094,
+      "word": "es"
+    },
+    {
+      "end": 338.55999755859375,
+      "start": 337.79998779296875,
+      "word": "Mutter"
+    },
+    {
+      "end": 339.6000061035156,
+      "start": 338.55999755859375,
+      "word": "nenne"
+    },
+    {
+      "end": 340.0799865722656,
+      "start": 339.67999267578125,
+      "word": "Was"
+    },
+    {
+      "end": 340.2799987792969,
+      "start": 340.0799865722656,
+      "word": "ist"
+    },
+    {
+      "end": 340.5,
+      "start": 340.2799987792969,
+      "word": "dir"
+    },
+    {
+      "end": 341.0,
+      "start": 340.9200134277344,
+      "word": "Thor"
+    },
+    {
+      "end": 341.6600036621094,
+      "start": 341.2200012207031,
+      "word": "Ach"
+    },
+    {
+      "end": 341.8399963378906,
+      "start": 341.6600036621094,
+      "word": "bist"
+    },
+    {
+      "end": 342.3599853515625,
+      "start": 341.8399963378906,
+      "word": "du"
+    },
+    {
+      "end": 343.20001220703125,
+      "start": 342.3599853515625,
+      "word": "dumm"
+    },
+    {
+      "end": 343.7799987792969,
+      "start": 343.67999267578125,
+      "word": "Bist"
+    },
+    {
+      "end": 344.05999755859375,
+      "start": 343.7799987792969,
+      "word": "du"
+    },
+    {
+      "end": 344.4599914550781,
+      "start": 344.05999755859375,
+      "word": "weder"
+    },
+    {
+      "end": 345.0400085449219,
+      "start": 344.4599914550781,
+      "word": "Vogel"
+    },
+    {
+      "end": 345.3599853515625,
+      "start": 345.0400085449219,
+      "word": "noch"
+    },
+    {
+      "end": 345.44000244140625,
+      "start": 345.3599853515625,
+      "word": "Fuchs"
+    },
+    {
+      "end": 346.8399963378906,
+      "start": 345.9800109863281,
+      "word": "Das"
+    },
+    {
+      "end": 346.8399963378906,
+      "start": 346.8399963378906,
+      "word": "ist"
+    },
+    {
+      "end": 346.8399963378906,
+      "start": 346.8399963378906,
+      "word": "die"
+    },
+    {
+      "end": 346.8399963378906,
+      "start": 346.8399963378906,
+      "word": "Mutter"
+    },
+    {
+      "end": 347.05999755859375,
+      "start": 346.8399963378906,
+      "word": "Das"
+    },
+    {
+      "end": 348.1400146484375,
+      "start": 347.05999755859375,
+      "word": "zollende"
+    },
+    {
+      "end": 348.8999938964844,
+      "start": 348.1400146484375,
+      "word": "Kind"
+    },
+    {
+      "end": 350.0400085449219,
+      "start": 348.8999938964844,
+      "word": "zogest"
+    },
+    {
+      "end": 350.2799987792969,
+      "start": 350.0400085449219,
+      "word": "du"
+    },
+    {
+      "end": 350.8599853515625,
+      "start": 350.2799987792969,
+      "word": "auf"
+    },
+    {
+      "end": 351.9599914550781,
+      "start": 351.67999267578125,
+      "word": "w\u00e4rmtest"
+    },
+    {
+      "end": 352.17999267578125,
+      "start": 351.9599914550781,
+      "word": "mit"
+    },
+    {
+      "end": 353.0799865722656,
+      "start": 352.17999267578125,
+      "word": "Kleidem"
+    },
+    {
+      "end": 353.3399963378906,
+      "start": 353.0799865722656,
+      "word": "den"
+    },
+    {
+      "end": 354.3399963378906,
+      "start": 353.3399963378906,
+      "word": "kleinen"
+    },
+    {
+      "end": 354.760009765625,
+      "start": 354.3399963378906,
+      "word": "Wurm"
+    },
+    {
+      "end": 355.9800109863281,
+      "start": 355.6600036621094,
+      "word": "Wie"
+    },
+    {
+      "end": 356.55999755859375,
+      "start": 355.9800109863281,
+      "word": "kam"
+    },
+    {
+      "end": 356.8999938964844,
+      "start": 356.55999755859375,
+      "word": "dir"
+    },
+    {
+      "end": 357.4800109863281,
+      "start": 356.8999938964844,
+      "word": "aber"
+    },
+    {
+      "end": 357.739990234375,
+      "start": 357.4800109863281,
+      "word": "der"
+    },
+    {
+      "end": 359.239990234375,
+      "start": 357.739990234375,
+      "word": "kindische"
+    },
+    {
+      "end": 360.1000061035156,
+      "start": 359.239990234375,
+      "word": "Wurm"
+    },
+    {
+      "end": 361.17999267578125,
+      "start": 360.760009765625,
+      "word": "Du"
+    },
+    {
+      "end": 361.7200012207031,
+      "start": 361.17999267578125,
+      "word": "machtest"
+    },
+    {
+      "end": 362.0199890136719,
+      "start": 361.7200012207031,
+      "word": "wohl"
+    },
+    {
+      "end": 362.5400085449219,
+      "start": 362.0199890136719,
+      "word": "gar"
+    },
+    {
+      "end": 362.8599853515625,
+      "start": 362.5400085449219,
+      "word": "ohne"
+    },
+    {
+      "end": 363.8399963378906,
+      "start": 362.8599853515625,
+      "word": "Mutter"
+    },
+    {
+      "end": 364.9200134277344,
+      "start": 363.8399963378906,
+      "word": "mich"
+    },
+    {
+      "end": 365.8999938964844,
+      "start": 365.5,
+      "word": "Glauben"
+    },
+    {
+      "end": 366.3399963378906,
+      "start": 365.8999938964844,
+      "word": "sollst"
+    },
+    {
+      "end": 366.5799865722656,
+      "start": 366.3399963378906,
+      "word": "du"
+    },
+    {
+      "end": 366.760009765625,
+      "start": 366.5799865722656,
+      "word": "was"
+    },
+    {
+      "end": 366.9200134277344,
+      "start": 366.760009765625,
+      "word": "ich"
+    },
+    {
+      "end": 367.5199890136719,
+      "start": 366.9200134277344,
+      "word": "dir"
+    },
+    {
+      "end": 367.6600036621094,
+      "start": 367.5199890136719,
+      "word": "sage"
+    },
+    {
+      "end": 368.1000061035156,
+      "start": 367.8800048828125,
+      "word": "ich"
+    },
+    {
+      "end": 368.260009765625,
+      "start": 368.1000061035156,
+      "word": "bin"
+    },
+    {
+      "end": 368.5400085449219,
+      "start": 368.260009765625,
+      "word": "dir"
+    },
+    {
+      "end": 369.44000244140625,
+      "start": 368.5400085449219,
+      "word": "Vater"
+    },
+    {
+      "end": 370.0400085449219,
+      "start": 369.44000244140625,
+      "word": "und"
+    },
+    {
+      "end": 370.8599853515625,
+      "start": 370.0400085449219,
+      "word": "Mutter"
+    },
+    {
+      "end": 371.3800048828125,
+      "start": 370.8599853515625,
+      "word": "zu"
+    },
+    {
+      "end": 371.67999267578125,
+      "start": 371.3800048828125,
+      "word": "klein"
+    },
+    {
+      "end": 372.1199951171875,
+      "start": 371.70001220703125,
+      "word": "Das"
+    },
+    {
+      "end": 373.1400146484375,
+      "start": 372.1199951171875,
+      "word": "l\u00fcgt"
+    },
+    {
+      "end": 373.5799865722656,
+      "start": 373.1400146484375,
+      "word": "nun"
+    },
+    {
+      "end": 374.260009765625,
+      "start": 373.5799865722656,
+      "word": "garstig"
+    },
+    {
+      "end": 374.4800109863281,
+      "start": 374.260009765625,
+      "word": "an"
+    },
+    {
+      "end": 374.8999938964844,
+      "start": 374.4800109863281,
+      "word": "auf"
+    },
+    {
+      "end": 375.6000061035156,
+      "start": 374.8999938964844,
+      "word": "wie"
+    },
+    {
+      "end": 375.94000244140625,
+      "start": 375.6000061035156,
+      "word": "die"
+    },
+    {
+      "end": 376.3399963378906,
+      "start": 375.94000244140625,
+      "word": "Jungen"
+    },
+    {
+      "end": 376.70001220703125,
+      "start": 376.3399963378906,
+      "word": "den"
+    },
+    {
+      "end": 377.239990234375,
+      "start": 376.70001220703125,
+      "word": "Alten"
+    },
+    {
+      "end": 378.0,
+      "start": 377.239990234375,
+      "word": "gleichen"
+    },
+    {
+      "end": 379.0199890136719,
+      "start": 378.55999755859375,
+      "word": "das"
+    },
+    {
+      "end": 379.3599853515625,
+      "start": 379.0199890136719,
+      "word": "hab"
+    },
+    {
+      "end": 379.4599914550781,
+      "start": 379.3599853515625,
+      "word": "ich"
+    },
+    {
+      "end": 379.7200012207031,
+      "start": 379.4599914550781,
+      "word": "mir"
+    },
+    {
+      "end": 380.3399963378906,
+      "start": 379.7200012207031,
+      "word": "gl\u00fccklich"
+    },
+    {
+      "end": 381.5,
+      "start": 380.3399963378906,
+      "word": "ersehen"
+    },
+    {
+      "end": 383.55999755859375,
+      "start": 382.8800048828125,
+      "word": "Nun"
+    },
+    {
+      "end": 384.5,
+      "start": 383.55999755859375,
+      "word": "kam"
+    },
+    {
+      "end": 384.8999938964844,
+      "start": 384.5,
+      "word": "ich"
+    },
+    {
+      "end": 385.20001220703125,
+      "start": 384.8999938964844,
+      "word": "zum"
+    },
+    {
+      "end": 386.8599853515625,
+      "start": 385.20001220703125,
+      "word": "klaren"
+    },
+    {
+      "end": 387.6199951171875,
+      "start": 386.8599853515625,
+      "word": "Bach"
+    },
+    {
+      "end": 388.67999267578125,
+      "start": 388.2200012207031,
+      "word": "da"
+    },
+    {
+      "end": 389.4800109863281,
+      "start": 388.67999267578125,
+      "word": "steck"
+    },
+    {
+      "end": 389.9599914550781,
+      "start": 389.4800109863281,
+      "word": "ich"
+    },
+    {
+      "end": 390.29998779296875,
+      "start": 389.9599914550781,
+      "word": "die"
+    },
+    {
+      "end": 391.239990234375,
+      "start": 390.29998779296875,
+      "word": "B\u00e4ume"
+    },
+    {
+      "end": 392.0199890136719,
+      "start": 391.239990234375,
+      "word": "und"
+    },
+    {
+      "end": 392.94000244140625,
+      "start": 392.0199890136719,
+      "word": "Tiere"
+    },
+    {
+      "end": 394.5199890136719,
+      "start": 392.94000244140625,
+      "word": "im"
+    },
+    {
+      "end": 394.9599914550781,
+      "start": 394.5199890136719,
+      "word": "Spiegel"
+    },
+    {
+      "end": 396.67999267578125,
+      "start": 396.6400146484375,
+      "word": "Sonnen"
+    },
+    {
+      "end": 397.1199951171875,
+      "start": 396.67999267578125,
+      "word": "und"
+    },
+    {
+      "end": 398.2799987792969,
+      "start": 397.1199951171875,
+      "word": "Wolken"
+    },
+    {
+      "end": 399.8599853515625,
+      "start": 399.8599853515625,
+      "word": "wie"
+    },
+    {
+      "end": 400.05999755859375,
+      "start": 399.8599853515625,
+      "word": "sie"
+    },
+    {
+      "end": 400.4599914550781,
+      "start": 400.05999755859375,
+      "word": "nur"
+    },
+    {
+      "end": 401.20001220703125,
+      "start": 400.4599914550781,
+      "word": "sind"
+    },
+    {
+      "end": 402.1199951171875,
+      "start": 401.20001220703125,
+      "word": "im"
+    },
+    {
+      "end": 403.29998779296875,
+      "start": 402.1199951171875,
+      "word": "Glitzer"
+    },
+    {
+      "end": 405.05999755859375,
+      "start": 403.29998779296875,
+      "word": "erschienen"
+    },
+    {
+      "end": 405.5400085449219,
+      "start": 405.05999755859375,
+      "word": "sie"
+    },
+    {
+      "end": 407.6600036621094,
+      "start": 405.5400085449219,
+      "word": "gleich"
+    },
+    {
+      "end": 413.17999267578125,
+      "start": 412.20001220703125,
+      "word": "Da"
+    },
+    {
+      "end": 414.0199890136719,
+      "start": 413.17999267578125,
+      "word": "sah"
+    },
+    {
+      "end": 414.5199890136719,
+      "start": 414.0199890136719,
+      "word": "ich"
+    },
+    {
+      "end": 414.8800048828125,
+      "start": 414.5199890136719,
+      "word": "dann"
+    },
+    {
+      "end": 416.0400085449219,
+      "start": 414.8800048828125,
+      "word": "auch"
+    },
+    {
+      "end": 416.5400085449219,
+      "start": 416.0400085449219,
+      "word": "mein"
+    },
+    {
+      "end": 418.1400146484375,
+      "start": 416.5400085449219,
+      "word": "eigen"
+    },
+    {
+      "end": 419.8999938964844,
+      "start": 418.1400146484375,
+      "word": "Bild"
+    },
+    {
+      "end": 422.760009765625,
+      "start": 422.3800048828125,
+      "word": "Ganz"
+    },
+    {
+      "end": 423.1600036621094,
+      "start": 422.760009765625,
+      "word": "anders"
+    },
+    {
+      "end": 423.4200134277344,
+      "start": 423.1600036621094,
+      "word": "als"
+    },
+    {
+      "end": 424.0400085449219,
+      "start": 423.4200134277344,
+      "word": "du"
+    },
+    {
+      "end": 424.4599914550781,
+      "start": 424.1600036621094,
+      "word": "d\u00fcckte"
+    },
+    {
+      "end": 424.5799865722656,
+      "start": 424.4599914550781,
+      "word": "ich"
+    },
+    {
+      "end": 424.760009765625,
+      "start": 424.5799865722656,
+      "word": "mir"
+    },
+    {
+      "end": 425.1199951171875,
+      "start": 424.760009765625,
+      "word": "da"
+    },
+    {
+      "end": 425.5799865722656,
+      "start": 425.3399963378906,
+      "word": "so"
+    },
+    {
+      "end": 425.70001220703125,
+      "start": 425.5799865722656,
+      "word": "wie"
+    },
+    {
+      "end": 425.8999938964844,
+      "start": 425.70001220703125,
+      "word": "ich"
+    },
+    {
+      "end": 425.9599914550781,
+      "start": 425.8999938964844,
+      "word": "wohl"
+    },
+    {
+      "end": 426.2200012207031,
+      "start": 425.9599914550781,
+      "word": "der"
+    },
+    {
+      "end": 426.9200134277344,
+      "start": 426.2200012207031,
+      "word": "Kr\u00f6telein"
+    },
+    {
+      "end": 428.0799865722656,
+      "start": 426.9200134277344,
+      "word": "gl\u00e4nzender"
+    },
+    {
+      "end": 428.70001220703125,
+      "start": 428.0799865722656,
+      "word": "Fisch"
+    },
+    {
+      "end": 429.44000244140625,
+      "start": 428.70001220703125,
+      "word": "Doch"
+    },
+    {
+      "end": 430.1400146484375,
+      "start": 429.44000244140625,
+      "word": "brach"
+    },
+    {
+      "end": 430.5799865722656,
+      "start": 430.1400146484375,
+      "word": "nie"
+    },
+    {
+      "end": 430.9599914550781,
+      "start": 430.5799865722656,
+      "word": "ein"
+    },
+    {
+      "end": 431.20001220703125,
+      "start": 430.9599914550781,
+      "word": "Fisch"
+    },
+    {
+      "end": 431.3999938964844,
+      "start": 431.20001220703125,
+      "word": "aus"
+    },
+    {
+      "end": 431.5799865722656,
+      "start": 431.3999938964844,
+      "word": "der"
+    },
+    {
+      "end": 433.6000061035156,
+      "start": 431.5799865722656,
+      "word": "Kr\u00f6te"
+    },
+    {
+      "end": 434.4800109863281,
+      "start": 433.9599914550781,
+      "word": "Welchen"
+    },
+    {
+      "end": 435.1199951171875,
+      "start": 434.4800109863281,
+      "word": "Unsinn"
+    },
+    {
+      "end": 435.55999755859375,
+      "start": 435.1199951171875,
+      "word": "kranst"
+    },
+    {
+      "end": 435.760009765625,
+      "start": 435.55999755859375,
+      "word": "du"
+    },
+    {
+      "end": 436.5799865722656,
+      "start": 435.760009765625,
+      "word": "da"
+    },
+    {
+      "end": 436.7799987792969,
+      "start": 436.5799865722656,
+      "word": "aus"
+    },
+    {
+      "end": 437.82000732421875,
+      "start": 437.3399963378906,
+      "word": "Siehst"
+    },
+    {
+      "end": 438.05999755859375,
+      "start": 437.82000732421875,
+      "word": "du"
+    },
+    {
+      "end": 438.9800109863281,
+      "start": 438.6199951171875,
+      "word": "nun"
+    },
+    {
+      "end": 439.3399963378906,
+      "start": 438.9800109863281,
+      "word": "f\u00e4llt"
+    },
+    {
+      "end": 439.739990234375,
+      "start": 439.3399963378906,
+      "word": "auch"
+    },
+    {
+      "end": 440.239990234375,
+      "start": 439.739990234375,
+      "word": "selbst"
+    },
+    {
+      "end": 440.4800109863281,
+      "start": 440.239990234375,
+      "word": "hier"
+    },
+    {
+      "end": 441.0199890136719,
+      "start": 440.4800109863281,
+      "word": "ein"
+    },
+    {
+      "end": 441.7799987792969,
+      "start": 441.760009765625,
+      "word": "was"
+    },
+    {
+      "end": 442.0799865722656,
+      "start": 441.7799987792969,
+      "word": "zu"
+    },
+    {
+      "end": 442.4599914550781,
+      "start": 442.0799865722656,
+      "word": "wurden"
+    },
+    {
+      "end": 443.5799865722656,
+      "start": 442.4599914550781,
+      "word": "sonst"
+    },
+    {
+      "end": 443.9599914550781,
+      "start": 443.5799865722656,
+      "word": "nicht"
+    },
+    {
+      "end": 445.260009765625,
+      "start": 443.9599914550781,
+      "word": "bestand"
+    },
+    {
+      "end": 446.1199951171875,
+      "start": 445.7799987792969,
+      "word": "Wenn"
+    },
+    {
+      "end": 446.3999938964844,
+      "start": 446.1199951171875,
+      "word": "zum"
+    },
+    {
+      "end": 446.7799987792969,
+      "start": 446.3999938964844,
+      "word": "Wald"
+    },
+    {
+      "end": 447.0,
+      "start": 446.7799987792969,
+      "word": "die"
+    },
+    {
+      "end": 447.55999755859375,
+      "start": 447.0,
+      "word": "Blaube"
+    },
+    {
+      "end": 447.9200134277344,
+      "start": 447.55999755859375,
+      "word": "nicht"
+    },
+    {
+      "end": 448.1400146484375,
+      "start": 447.9200134277344,
+      "word": "zu"
+    },
+    {
+      "end": 448.8599853515625,
+      "start": 448.1400146484375,
+      "word": "verlassen"
+    },
+    {
+      "end": 450.29998779296875,
+      "start": 450.0799865722656,
+      "word": "wie"
+    },
+    {
+      "end": 450.5199890136719,
+      "start": 450.29998779296875,
+      "word": "das"
+    },
+    {
+      "end": 451.20001220703125,
+      "start": 450.5199890136719,
+      "word": "kommt"
+    },
+    {
+      "end": 451.5,
+      "start": 451.32000732421875,
+      "word": "der"
+    },
+    {
+      "end": 451.6600036621094,
+      "start": 451.5,
+      "word": "ist"
+    },
+    {
+      "end": 451.8599853515625,
+      "start": 451.6600036621094,
+      "word": "noch"
+    },
+    {
+      "end": 452.44000244140625,
+      "start": 451.8599853515625,
+      "word": "klein"
+    },
+    {
+      "end": 453.4800109863281,
+      "start": 453.1000061035156,
+      "word": "Von"
+    },
+    {
+      "end": 453.8599853515625,
+      "start": 453.4800109863281,
+      "word": "dir"
+    },
+    {
+      "end": 454.239990234375,
+      "start": 453.8599853515625,
+      "word": "erst"
+    },
+    {
+      "end": 454.44000244140625,
+      "start": 454.239990234375,
+      "word": "muss"
+    },
+    {
+      "end": 454.6400146484375,
+      "start": 454.44000244140625,
+      "word": "ich"
+    },
+    {
+      "end": 455.3800048828125,
+      "start": 454.6400146484375,
+      "word": "erfahren"
+    },
+    {
+      "end": 456.82000732421875,
+      "start": 455.3800048828125,
+      "word": "wer"
+    },
+    {
+      "end": 458.1400146484375,
+      "start": 456.82000732421875,
+      "word": "Vater"
+    },
+    {
+      "end": 458.55999755859375,
+      "start": 458.1400146484375,
+      "word": "und"
+    },
+    {
+      "end": 459.6000061035156,
+      "start": 458.55999755859375,
+      "word": "Mutter"
+    },
+    {
+      "end": 459.9599914550781,
+      "start": 459.6000061035156,
+      "word": "mir"
+    },
+    {
+      "end": 460.3800048828125,
+      "start": 459.9599914550781,
+      "word": "sei"
+    },
+    {
+      "end": 461.0,
+      "start": 460.8800048828125,
+      "word": "Was"
+    },
+    {
+      "end": 461.3399963378906,
+      "start": 461.0,
+      "word": "Vater"
+    },
+    {
+      "end": 462.20001220703125,
+      "start": 461.5799865722656,
+      "word": "Was"
+    },
+    {
+      "end": 462.20001220703125,
+      "start": 462.20001220703125,
+      "word": "Mutter"
+    },
+    {
+      "end": 463.0400085449219,
+      "start": 462.79998779296875,
+      "word": "W\u00fcssige"
+    },
+    {
+      "end": 463.5199890136719,
+      "start": 463.0400085449219,
+      "word": "Frage"
+    },
+    {
+      "end": 466.0199890136719,
+      "start": 465.260009765625,
+      "word": "Du"
+    },
+    {
+      "end": 466.3599853515625,
+      "start": 466.0199890136719,
+      "word": "musst"
+    },
+    {
+      "end": 466.5199890136719,
+      "start": 466.3599853515625,
+      "word": "jetzt"
+    },
+    {
+      "end": 467.2200012207031,
+      "start": 466.5199890136719,
+      "word": "nicht"
+    },
+    {
+      "end": 467.8999938964844,
+      "start": 467.2200012207031,
+      "word": "fassen"
+    },
+    {
+      "end": 468.5799865722656,
+      "start": 468.20001220703125,
+      "word": "um"
+    },
+    {
+      "end": 468.760009765625,
+      "start": 468.5799865722656,
+      "word": "was"
+    },
+    {
+      "end": 469.3800048828125,
+      "start": 468.760009765625,
+      "word": "zu"
+    },
+    {
+      "end": 469.3800048828125,
+      "start": 469.3800048828125,
+      "word": "wissen"
+    },
+    {
+      "end": 470.8800048828125,
+      "start": 470.1199951171875,
+      "word": "Gutwillig"
+    },
+    {
+      "end": 471.3399963378906,
+      "start": 470.8800048828125,
+      "word": "erfahr"
+    },
+    {
+      "end": 471.4800109863281,
+      "start": 471.3399963378906,
+      "word": "ich"
+    },
+    {
+      "end": 471.739990234375,
+      "start": 471.4800109863281,
+      "word": "doch"
+    },
+    {
+      "end": 472.05999755859375,
+      "start": 471.739990234375,
+      "word": "nicht"
+    },
+    {
+      "end": 472.8399963378906,
+      "start": 472.44000244140625,
+      "word": "Du"
+    },
+    {
+      "end": 472.9599914550781,
+      "start": 472.8399963378906,
+      "word": "musst"
+    },
+    {
+      "end": 473.239990234375,
+      "start": 472.9599914550781,
+      "word": "nicht"
+    },
+    {
+      "end": 473.8999938964844,
+      "start": 473.239990234375,
+      "word": "alles"
+    },
+    {
+      "end": 474.3599853515625,
+      "start": 473.8999938964844,
+      "word": "ab"
+    },
+    {
+      "end": 474.5799865722656,
+      "start": 474.3599853515625,
+      "word": "dir"
+    },
+    {
+      "end": 475.1000061035156,
+      "start": 474.5799865722656,
+      "word": "pratzen"
+    },
+    {
+      "end": 475.9599914550781,
+      "start": 475.760009765625,
+      "word": "Um"
+    },
+    {
+      "end": 476.2200012207031,
+      "start": 475.9599914550781,
+      "word": "das"
+    },
+    {
+      "end": 476.8800048828125,
+      "start": 476.2200012207031,
+      "word": "Reden"
+    },
+    {
+      "end": 477.29998779296875,
+      "start": 476.8800048828125,
+      "word": "h\u00e4tt"
+    },
+    {
+      "end": 477.4200134277344,
+      "start": 477.29998779296875,
+      "word": "ich"
+    },
+    {
+      "end": 478.1400146484375,
+      "start": 477.4200134277344,
+      "word": "erraten"
+    },
+    {
+      "end": 478.6000061035156,
+      "start": 478.239990234375,
+      "word": "entwand"
+    },
+    {
+      "end": 478.739990234375,
+      "start": 478.6000061035156,
+      "word": "ich"
+    },
+    {
+      "end": 478.9599914550781,
+      "start": 478.739990234375,
+      "word": "mit"
+    },
+    {
+      "end": 479.4599914550781,
+      "start": 478.9599914550781,
+      "word": "Gewalt"
+    },
+    {
+      "end": 479.70001220703125,
+      "start": 479.4599914550781,
+      "word": "nicht"
+    },
+    {
+      "end": 479.9200134277344,
+      "start": 479.70001220703125,
+      "word": "den"
+    },
+    {
+      "end": 480.20001220703125,
+      "start": 479.9200134277344,
+      "word": "Schuf"
+    },
+    {
+      "end": 481.70001220703125,
+      "start": 481.20001220703125,
+      "word": "Heraus"
+    },
+    {
+      "end": 482.0,
+      "start": 481.70001220703125,
+      "word": "damit"
+    },
+    {
+      "end": 482.3599853515625,
+      "start": 482.3599853515625,
+      "word": "du"
+    },
+    {
+      "end": 482.79998779296875,
+      "start": 482.3599853515625,
+      "word": "einiger"
+    },
+    {
+      "end": 483.67999267578125,
+      "start": 482.79998779296875,
+      "word": "Kerl"
+    },
+    {
+      "end": 484.70001220703125,
+      "start": 484.4200134277344,
+      "word": "Wer"
+    },
+    {
+      "end": 484.9200134277344,
+      "start": 484.70001220703125,
+      "word": "ist"
+    },
+    {
+      "end": 485.1600036621094,
+      "start": 484.9200134277344,
+      "word": "mir"
+    },
+    {
+      "end": 485.5799865722656,
+      "start": 485.1600036621094,
+      "word": "Vater"
+    },
+    {
+      "end": 486.1199951171875,
+      "start": 485.5799865722656,
+      "word": "und"
+    },
+    {
+      "end": 486.1199951171875,
+      "start": 486.1199951171875,
+      "word": "Mutter"
+    }
+  ],
+  "task": "transcribe"
+}

@@ -1,0 +1,49 @@
+{
+  "text": "Vor deinen Augen. Wisst ihr, Old Sa.",
+  "language": "de",
+  "duration": 305.7130158730159,
+  "words": [
+    {
+      "start": 183.47,
+      "end": 183.822,
+      "word": "Vor",
+      "confidence": 0.61368
+    },
+    {
+      "start": 183.926,
+      "end": 185.702,
+      "word": "deinen",
+      "confidence": 0.35493
+    },
+    {
+      "start": 185.806,
+      "end": 187.686,
+      "word": "Augen.",
+      "confidence": 0.88082
+    },
+    {
+      "start": 187.798,
+      "end": 189.33,
+      "word": "Wisst",
+      "confidence": 0.0996
+    },
+    {
+      "start": 196.71,
+      "end": 197.45,
+      "word": "ihr,",
+      "confidence": 0.98463
+    },
+    {
+      "start": 294.48,
+      "end": 296.58,
+      "word": "Old",
+      "confidence": 0.24686
+    },
+    {
+      "start": 299.56,
+      "end": 299.8,
+      "word": "Sa.",
+      "confidence": 0.73592
+    }
+  ]
+}

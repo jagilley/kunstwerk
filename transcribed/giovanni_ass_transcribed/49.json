@@ -1,0 +1,283 @@
+{
+  "text": "Di molte faci il lume, sa' vicino, mio ben, stiamci qui escosi finch\u00e9 da noi si scosti. Ma che temi, adorato mio sposo? Nulla, nulla, certi riguardi io pu\u00f2 vedere se il lume \u00e8 gi\u00e0 lontano o come da costi liberarmi. Rimanti, anima bella, non lasciarmi.",
+  "language": "it",
+  "duration": 33.60698412698413,
+  "words": [
+    {
+      "start": 0.308,
+      "end": 0.368,
+      "word": "Di",
+      "confidence": 0.486
+    },
+    {
+      "start": 0.428,
+      "end": 0.848,
+      "word": "molte",
+      "confidence": 0.656
+    },
+    {
+      "start": 0.968,
+      "end": 1.209,
+      "word": "faci",
+      "confidence": 0.68
+    },
+    {
+      "start": 1.249,
+      "end": 1.329,
+      "word": "il",
+      "confidence": 0.491
+    },
+    {
+      "start": 1.469,
+      "end": 1.909,
+      "word": "lume,",
+      "confidence": 0.488
+    },
+    {
+      "start": 2.349,
+      "end": 2.489,
+      "word": "sa'",
+      "confidence": 0.688
+    },
+    {
+      "start": 2.609,
+      "end": 3.109,
+      "word": "vicino,",
+      "confidence": 0.766
+    },
+    {
+      "start": 3.189,
+      "end": 3.35,
+      "word": "mio",
+      "confidence": 0.788
+    },
+    {
+      "start": 3.39,
+      "end": 3.79,
+      "word": "ben,",
+      "confidence": 0.821
+    },
+    {
+      "start": 4.17,
+      "end": 4.87,
+      "word": "stiamci",
+      "confidence": 0.89
+    },
+    {
+      "start": 4.99,
+      "end": 5.09,
+      "word": "qui",
+      "confidence": 0.863
+    },
+    {
+      "start": 5.13,
+      "end": 5.731,
+      "word": "escosi",
+      "confidence": 0.907
+    },
+    {
+      "start": 6.151,
+      "end": 6.491,
+      "word": "finch\u00e9",
+      "confidence": 0.783
+    },
+    {
+      "start": 6.531,
+      "end": 6.611,
+      "word": "da",
+      "confidence": 0.915
+    },
+    {
+      "start": 6.651,
+      "end": 6.831,
+      "word": "noi",
+      "confidence": 0.9
+    },
+    {
+      "start": 6.931,
+      "end": 7.011,
+      "word": "si",
+      "confidence": 0.924
+    },
+    {
+      "start": 7.091,
+      "end": 7.671,
+      "word": "scosti.",
+      "confidence": 0.943
+    },
+    {
+      "start": 9.052,
+      "end": 9.352,
+      "word": "Ma",
+      "confidence": 0.799
+    },
+    {
+      "start": 9.392,
+      "end": 9.872,
+      "word": "che",
+      "confidence": 0.459
+    },
+    {
+      "start": 10.153,
+      "end": 10.453,
+      "word": "temi,",
+      "confidence": 0.519
+    },
+    {
+      "start": 10.813,
+      "end": 12.053,
+      "word": "adorato",
+      "confidence": 0.758
+    },
+    {
+      "start": 12.093,
+      "end": 12.214,
+      "word": "mio",
+      "confidence": 0.39
+    },
+    {
+      "start": 12.374,
+      "end": 13.494,
+      "word": "sposo?",
+      "confidence": 0.796
+    },
+    {
+      "start": 13.534,
+      "end": 14.134,
+      "word": "Nulla,",
+      "confidence": 0.584
+    },
+    {
+      "start": 14.254,
+      "end": 14.875,
+      "word": "nulla,",
+      "confidence": 0.809
+    },
+    {
+      "start": 15.515,
+      "end": 16.135,
+      "word": "certi",
+      "confidence": 0.727
+    },
+    {
+      "start": 16.195,
+      "end": 17.036,
+      "word": "riguardi",
+      "confidence": 0.863
+    },
+    {
+      "start": 17.496,
+      "end": 17.596,
+      "word": "io",
+      "confidence": 0.772
+    },
+    {
+      "start": 17.656,
+      "end": 17.756,
+      "word": "pu\u00f2",
+      "confidence": 0.462
+    },
+    {
+      "start": 17.796,
+      "end": 18.176,
+      "word": "vedere",
+      "confidence": 0.777
+    },
+    {
+      "start": 18.316,
+      "end": 18.456,
+      "word": "se",
+      "confidence": 0.908
+    },
+    {
+      "start": 18.596,
+      "end": 18.696,
+      "word": "il",
+      "confidence": 0.31
+    },
+    {
+      "start": 18.756,
+      "end": 18.917,
+      "word": "lume",
+      "confidence": 0.681
+    },
+    {
+      "start": 18.937,
+      "end": 18.957,
+      "word": "\u00e8",
+      "confidence": 0.013
+    },
+    {
+      "start": 19.077,
+      "end": 19.197,
+      "word": "gi\u00e0",
+      "confidence": 0.738
+    },
+    {
+      "start": 19.277,
+      "end": 20.037,
+      "word": "lontano",
+      "confidence": 0.908
+    },
+    {
+      "start": 20.057,
+      "end": 20.077,
+      "word": "o",
+      "confidence": 0.005
+    },
+    {
+      "start": 20.837,
+      "end": 21.078,
+      "word": "come",
+      "confidence": 0.796
+    },
+    {
+      "start": 21.118,
+      "end": 21.198,
+      "word": "da",
+      "confidence": 0.793
+    },
+    {
+      "start": 21.238,
+      "end": 21.558,
+      "word": "costi",
+      "confidence": 0.806
+    },
+    {
+      "start": 21.638,
+      "end": 22.298,
+      "word": "liberarmi.",
+      "confidence": 0.645
+    },
+    {
+      "start": 23.639,
+      "end": 24.639,
+      "word": "Rimanti,",
+      "confidence": 0.779
+    },
+    {
+      "start": 24.759,
+      "end": 25.019,
+      "word": "anima",
+      "confidence": 0.64
+    },
+    {
+      "start": 25.039,
+      "end": 25.139,
+      "word": "bella,",
+      "confidence": 0.023
+    },
+    {
+      "start": 29.371,
+      "end": 29.472,
+      "word": "non",
+      "confidence": 0.278
+    },
+    {
+      "start": 29.512,
+      "end": 29.875,
+      "word": "lasciarmi.",
+      "confidence": 0.318
+    }
+  ]
+}

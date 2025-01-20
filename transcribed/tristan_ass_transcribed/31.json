@@ -1,0 +1,175 @@
+{
+  "text": "Treu ist der treu, \u00ffousand zu verr\u00e4dern mit heulen, segeln, flogig Ira. O ungl\u00fcckes Ungest\u00fcm. Mir reicht es befrieden briet. Zweitausendein bist du nicht, vernimmst du die Treu.",
+  "language": "de",
+  "duration": 288.2629931972789,
+  "words": [
+    {
+      "start": 88.02,
+      "end": 91.16,
+      "word": "Treu",
+      "confidence": 0.20526
+    },
+    {
+      "start": 92.34,
+      "end": 92.964,
+      "word": "ist",
+      "confidence": 0.70841
+    },
+    {
+      "start": 93.092,
+      "end": 93.76,
+      "word": "der",
+      "confidence": 0.37095
+    },
+    {
+      "start": 94.66,
+      "end": 95.84,
+      "word": "treu,",
+      "confidence": 0.30692
+    },
+    {
+      "start": 114.78,
+      "end": 115.48,
+      "word": "\u00ffousand",
+      "confidence": 0.94717
+    },
+    {
+      "start": 199.19,
+      "end": 199.958,
+      "word": "zu",
+      "confidence": 0.73627
+    },
+    {
+      "start": 200.134,
+      "end": 203.85,
+      "word": "verr\u00e4dern",
+      "confidence": 0.09421
+    },
+    {
+      "start": 205.23,
+      "end": 205.926,
+      "word": "mit",
+      "confidence": 0.78405
+    },
+    {
+      "start": 206.078,
+      "end": 207.59,
+      "word": "heulen,",
+      "confidence": 0.12669
+    },
+    {
+      "start": 207.71,
+      "end": 209.678,
+      "word": "segeln,",
+      "confidence": 0.43136
+    },
+    {
+      "start": 209.774,
+      "end": 211.198,
+      "word": "flogig",
+      "confidence": 0.05243
+    },
+    {
+      "start": 211.294,
+      "end": 212.29,
+      "word": "Ira.",
+      "confidence": 0.15463
+    },
+    {
+      "start": 215.11,
+      "end": 215.638,
+      "word": "O",
+      "confidence": 0.49649
+    },
+    {
+      "start": 215.734,
+      "end": 217.686,
+      "word": "ungl\u00fcckes",
+      "confidence": 0.09977
+    },
+    {
+      "start": 217.758,
+      "end": 220.302,
+      "word": "Ungest\u00fcm.",
+      "confidence": 0.03957
+    },
+    {
+      "start": 220.486,
+      "end": 220.998,
+      "word": "Mir",
+      "confidence": 0.38216
+    },
+    {
+      "start": 221.094,
+      "end": 221.678,
+      "word": "reicht",
+      "confidence": 0.67088
+    },
+    {
+      "start": 221.774,
+      "end": 222.15,
+      "word": "es",
+      "confidence": 0.73072
+    },
+    {
+      "start": 222.23,
+      "end": 224.95,
+      "word": "befrieden",
+      "confidence": 0.16708
+    },
+    {
+      "start": 225.07,
+      "end": 226.526,
+      "word": "briet.",
+      "confidence": 0.15524
+    },
+    {
+      "start": 226.598,
+      "end": 227.17,
+      "word": "Zweitausendein",
+      "confidence": 0.43879
+    },
+    {
+      "start": 254.27,
+      "end": 255.974,
+      "word": "bist",
+      "confidence": 0.23833
+    },
+    {
+      "start": 255.982,
+      "end": 256.53,
+      "word": "du",
+      "confidence": 0.66128
+    },
+    {
+      "start": 257.91,
+      "end": 258.65,
+      "word": "nicht,",
+      "confidence": 0.97922
+    },
+    {
+      "start": 267.31,
+      "end": 269.214,
+      "word": "vernimmst",
+      "confidence": 0.47102
+    },
+    {
+      "start": 269.262,
+      "end": 269.662,
+      "word": "du",
+      "confidence": 0.97383
+    },
+    {
+      "start": 269.766,
+      "end": 270.222,
+      "word": "die",
+      "confidence": 0.9329
+    },
+    {
+      "start": 270.326,
+      "end": 270.99,
+      "word": "Treu.",
+      "confidence": 0.36499
+    }
+  ]
+}

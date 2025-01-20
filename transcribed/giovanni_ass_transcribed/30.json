@@ -1,0 +1,1099 @@
+{
+  "text": "Batti, batti, o bel masecco, da tua povera zerlina, star\u00f2 qui, po' pi\u00f9 mia nina, le tue botte ad aspettar. Batti, batti, la tua zerbina. Star\u00f2 qui, star\u00f2 qui, le tue volte ad aspettar. Lascer\u00f2 straziarvi il crino, Lascer\u00f2 cavarmi gli occhi e le gambe, le tue mani, i piedi e poi sapr\u00f2 baciare, sapr\u00f2 baciare, baciare, sapr\u00f2, sapr\u00f2 baciare. Fatti, fatti, oh bel Masetto, la tua povera germina. Star\u00f2 qui come ogni annina, le tue botte ad aspettar. Oh bel Masetto, Tutti i batti stanno qui, stanno qui, nei tuoi ponti ad aspettar. Quando vedo il tuo cuore, ma non ho il cuore, ah, non vedo, non ho il cuore. Pace, pace, oh, vita mia! Pace, pace, oh, vita mia! Impiattento e in allegria, notte di voglia, Notte ti vogliamo passare. Notte ti vogliamo passare. Notte ti vogliamo passare. Pace, pace, oh vita mia. Pace, pace, oh vita mia. incontento e d'allegria, non te ne vogliamo passare, s\u00ec, s\u00ec, s\u00ec, s\u00ec, s\u00ec, non te ne vogliamo passare, s\u00ec, s\u00ec, s\u00ec, s\u00ec, s\u00ec, non te ne vogliamo passare, vogliamo passare, vogliamo passare.",
+  "language": "it",
+  "duration": 238.9190022675737,
+  "words": [
+    {
+      "start": 0.688,
+      "end": 1.529,
+      "word": "Batti,",
+      "confidence": 0.745
+    },
+    {
+      "start": 1.849,
+      "end": 2.569,
+      "word": "batti,",
+      "confidence": 0.74
+    },
+    {
+      "start": 2.69,
+      "end": 2.81,
+      "word": "o",
+      "confidence": 0.824
+    },
+    {
+      "start": 3.05,
+      "end": 3.87,
+      "word": "bel",
+      "confidence": 0.815
+    },
+    {
+      "start": 3.97,
+      "end": 5.091,
+      "word": "masecco,",
+      "confidence": 0.762
+    },
+    {
+      "start": 5.271,
+      "end": 5.371,
+      "word": "da",
+      "confidence": 0.521
+    },
+    {
+      "start": 5.551,
+      "end": 5.811,
+      "word": "tua",
+      "confidence": 0.524
+    },
+    {
+      "start": 5.831,
+      "end": 6.191,
+      "word": "povera",
+      "confidence": 0.554
+    },
+    {
+      "start": 6.292,
+      "end": 6.692,
+      "word": "zerlina,",
+      "confidence": 0.342
+    },
+    {
+      "start": 6.752,
+      "end": 6.992,
+      "word": "star\u00f2",
+      "confidence": 0.382
+    },
+    {
+      "start": 7.032,
+      "end": 7.172,
+      "word": "qui,",
+      "confidence": 0.394
+    },
+    {
+      "start": 7.232,
+      "end": 7.272,
+      "word": "po'",
+      "confidence": 0.306
+    },
+    {
+      "start": 7.352,
+      "end": 7.412,
+      "word": "pi\u00f9",
+      "confidence": 0.008
+    },
+    {
+      "start": 7.432,
+      "end": 7.512,
+      "word": "mia",
+      "confidence": 0.155
+    },
+    {
+      "start": 7.572,
+      "end": 7.692,
+      "word": "nina,",
+      "confidence": 0.169
+    },
+    {
+      "start": 7.712,
+      "end": 7.772,
+      "word": "le",
+      "confidence": 0.551
+    },
+    {
+      "start": 7.832,
+      "end": 7.912,
+      "word": "tue",
+      "confidence": 0.407
+    },
+    {
+      "start": 7.972,
+      "end": 8.153,
+      "word": "botte",
+      "confidence": 0.466
+    },
+    {
+      "start": 8.173,
+      "end": 8.233,
+      "word": "ad",
+      "confidence": 0.202
+    },
+    {
+      "start": 8.253,
+      "end": 8.613,
+      "word": "aspettar.",
+      "confidence": 0.299
+    },
+    {
+      "start": 8.633,
+      "end": 8.773,
+      "word": "Batti,",
+      "confidence": 0.193
+    },
+    {
+      "start": 8.833,
+      "end": 9.013,
+      "word": "batti,",
+      "confidence": 0.415
+    },
+    {
+      "start": 28.018,
+      "end": 28.118,
+      "word": "la",
+      "confidence": 0.523
+    },
+    {
+      "start": 28.138,
+      "end": 28.218,
+      "word": "tua",
+      "confidence": 0.191
+    },
+    {
+      "start": 28.258,
+      "end": 28.418,
+      "word": "zerbina.",
+      "confidence": 0.096
+    },
+    {
+      "start": 28.438,
+      "end": 28.558,
+      "word": "Star\u00f2",
+      "confidence": 0.168
+    },
+    {
+      "start": 28.599,
+      "end": 29.119,
+      "word": "qui,",
+      "confidence": 0.459
+    },
+    {
+      "start": 29.159,
+      "end": 29.639,
+      "word": "star\u00f2",
+      "confidence": 0.464
+    },
+    {
+      "start": 29.799,
+      "end": 29.979,
+      "word": "qui,",
+      "confidence": 0.422
+    },
+    {
+      "start": 30.039,
+      "end": 30.079,
+      "word": "le",
+      "confidence": 0.064
+    },
+    {
+      "start": 30.3,
+      "end": 30.36,
+      "word": "tue",
+      "confidence": 0.141
+    },
+    {
+      "start": 30.38,
+      "end": 31.08,
+      "word": "volte",
+      "confidence": 0.643
+    },
+    {
+      "start": 31.14,
+      "end": 31.2,
+      "word": "ad",
+      "confidence": 0.382
+    },
+    {
+      "start": 31.28,
+      "end": 31.64,
+      "word": "aspettar.",
+      "confidence": 0.581
+    },
+    {
+      "start": 31.761,
+      "end": 32.101,
+      "word": "Lascer\u00f2",
+      "confidence": 0.439
+    },
+    {
+      "start": 32.121,
+      "end": 32.821,
+      "word": "straziarvi",
+      "confidence": 0.467
+    },
+    {
+      "start": 32.941,
+      "end": 33.121,
+      "word": "il",
+      "confidence": 0.686
+    },
+    {
+      "start": 33.181,
+      "end": 33.642,
+      "word": "crino,",
+      "confidence": 0.642
+    },
+    {
+      "start": 57.164,
+      "end": 57.364,
+      "word": "Lascer\u00f2",
+      "confidence": 0.244
+    },
+    {
+      "start": 57.384,
+      "end": 57.564,
+      "word": "cavarmi",
+      "confidence": 0.124
+    },
+    {
+      "start": 57.604,
+      "end": 57.684,
+      "word": "gli",
+      "confidence": 0.153
+    },
+    {
+      "start": 57.724,
+      "end": 57.864,
+      "word": "occhi",
+      "confidence": 0.37
+    },
+    {
+      "start": 57.904,
+      "end": 57.925,
+      "word": "e",
+      "confidence": 0.005
+    },
+    {
+      "start": 57.945,
+      "end": 58.005,
+      "word": "le",
+      "confidence": 0.474
+    },
+    {
+      "start": 58.065,
+      "end": 58.485,
+      "word": "gambe,",
+      "confidence": 0.335
+    },
+    {
+      "start": 58.505,
+      "end": 58.585,
+      "word": "le",
+      "confidence": 0.384
+    },
+    {
+      "start": 58.625,
+      "end": 58.685,
+      "word": "tue",
+      "confidence": 0.064
+    },
+    {
+      "start": 58.725,
+      "end": 58.925,
+      "word": "mani,",
+      "confidence": 0.328
+    },
+    {
+      "start": 58.945,
+      "end": 58.965,
+      "word": "i",
+      "confidence": 0.171
+    },
+    {
+      "start": 59.025,
+      "end": 59.325,
+      "word": "piedi",
+      "confidence": 0.648
+    },
+    {
+      "start": 59.365,
+      "end": 59.426,
+      "word": "e",
+      "confidence": 0.508
+    },
+    {
+      "start": 59.466,
+      "end": 60.166,
+      "word": "poi",
+      "confidence": 0.707
+    },
+    {
+      "start": 60.186,
+      "end": 61.507,
+      "word": "sapr\u00f2",
+      "confidence": 0.671
+    },
+    {
+      "start": 61.567,
+      "end": 63.108,
+      "word": "baciare,",
+      "confidence": 0.747
+    },
+    {
+      "start": 63.208,
+      "end": 63.708,
+      "word": "sapr\u00f2",
+      "confidence": 0.383
+    },
+    {
+      "start": 63.768,
+      "end": 64.369,
+      "word": "baciare,",
+      "confidence": 0.526
+    },
+    {
+      "start": 64.429,
+      "end": 66.59,
+      "word": "baciare,",
+      "confidence": 0.635
+    },
+    {
+      "start": 66.65,
+      "end": 66.891,
+      "word": "sapr\u00f2,",
+      "confidence": 0.544
+    },
+    {
+      "start": 66.911,
+      "end": 67.591,
+      "word": "sapr\u00f2",
+      "confidence": 0.661
+    },
+    {
+      "start": 67.611,
+      "end": 67.911,
+      "word": "baciare.",
+      "confidence": 0.522
+    },
+    {
+      "start": 92.42,
+      "end": 92.6,
+      "word": "Fatti,",
+      "confidence": 0.188
+    },
+    {
+      "start": 92.62,
+      "end": 92.76,
+      "word": "fatti,",
+      "confidence": 0.149
+    },
+    {
+      "start": 92.921,
+      "end": 93.081,
+      "word": "oh",
+      "confidence": 0.504
+    },
+    {
+      "start": 93.241,
+      "end": 93.581,
+      "word": "bel",
+      "confidence": 0.467
+    },
+    {
+      "start": 93.641,
+      "end": 97.904,
+      "word": "Masetto,",
+      "confidence": 0.588
+    },
+    {
+      "start": 98.145,
+      "end": 98.225,
+      "word": "la",
+      "confidence": 0.506
+    },
+    {
+      "start": 98.345,
+      "end": 99.105,
+      "word": "tua",
+      "confidence": 0.698
+    },
+    {
+      "start": 99.165,
+      "end": 100.466,
+      "word": "povera",
+      "confidence": 0.768
+    },
+    {
+      "start": 100.526,
+      "end": 101.647,
+      "word": "germina.",
+      "confidence": 0.721
+    },
+    {
+      "start": 102.128,
+      "end": 102.368,
+      "word": "Star\u00f2",
+      "confidence": 0.487
+    },
+    {
+      "start": 102.468,
+      "end": 102.668,
+      "word": "qui",
+      "confidence": 0.365
+    },
+    {
+      "start": 102.748,
+      "end": 104.389,
+      "word": "come",
+      "confidence": 0.725
+    },
+    {
+      "start": 104.489,
+      "end": 105.29,
+      "word": "ogni",
+      "confidence": 0.642
+    },
+    {
+      "start": 105.65,
+      "end": 106.831,
+      "word": "annina,",
+      "confidence": 0.623
+    },
+    {
+      "start": 107.352,
+      "end": 107.972,
+      "word": "le",
+      "confidence": 0.767
+    },
+    {
+      "start": 107.992,
+      "end": 108.572,
+      "word": "tue",
+      "confidence": 0.783
+    },
+    {
+      "start": 108.753,
+      "end": 109.613,
+      "word": "botte",
+      "confidence": 0.781
+    },
+    {
+      "start": 109.833,
+      "end": 110.434,
+      "word": "ad",
+      "confidence": 0.792
+    },
+    {
+      "start": 110.514,
+      "end": 111.955,
+      "word": "aspettar.",
+      "confidence": 0.82
+    },
+    {
+      "start": 114.817,
+      "end": 115.217,
+      "word": "Oh",
+      "confidence": 0.766
+    },
+    {
+      "start": 115.318,
+      "end": 115.418,
+      "word": "bel",
+      "confidence": 0.261
+    },
+    {
+      "start": 115.478,
+      "end": 115.618,
+      "word": "Masetto,",
+      "confidence": 0.014
+    },
+    {
+      "start": 121.75,
+      "end": 122.57,
+      "word": "Tutti",
+      "confidence": 0.796
+    },
+    {
+      "start": 122.59,
+      "end": 122.61,
+      "word": "i",
+      "confidence": 0.003
+    },
+    {
+      "start": 123.051,
+      "end": 123.251,
+      "word": "batti",
+      "confidence": 0.52
+    },
+    {
+      "start": 123.271,
+      "end": 123.531,
+      "word": "stanno",
+      "confidence": 0.556
+    },
+    {
+      "start": 123.591,
+      "end": 123.671,
+      "word": "qui,",
+      "confidence": 0.134
+    },
+    {
+      "start": 123.751,
+      "end": 124.192,
+      "word": "stanno",
+      "confidence": 0.557
+    },
+    {
+      "start": 124.452,
+      "end": 125.192,
+      "word": "qui,",
+      "confidence": 0.554
+    },
+    {
+      "start": 125.273,
+      "end": 125.493,
+      "word": "nei",
+      "confidence": 0.62
+    },
+    {
+      "start": 125.633,
+      "end": 125.833,
+      "word": "tuoi",
+      "confidence": 0.463
+    },
+    {
+      "start": 125.853,
+      "end": 126.073,
+      "word": "ponti",
+      "confidence": 0.337
+    },
+    {
+      "start": 126.173,
+      "end": 126.213,
+      "word": "ad",
+      "confidence": 0.393
+    },
+    {
+      "start": 126.273,
+      "end": 126.814,
+      "word": "aspettar.",
+      "confidence": 0.497
+    },
+    {
+      "start": 126.894,
+      "end": 127.354,
+      "word": "Quando",
+      "confidence": 0.654
+    },
+    {
+      "start": 127.494,
+      "end": 127.774,
+      "word": "vedo",
+      "confidence": 0.595
+    },
+    {
+      "start": 127.875,
+      "end": 128.055,
+      "word": "il",
+      "confidence": 0.713
+    },
+    {
+      "start": 128.195,
+      "end": 129.356,
+      "word": "tuo",
+      "confidence": 0.58
+    },
+    {
+      "start": 129.576,
+      "end": 130.156,
+      "word": "cuore,",
+      "confidence": 0.488
+    },
+    {
+      "start": 145.741,
+      "end": 145.821,
+      "word": "ma",
+      "confidence": 0.301
+    },
+    {
+      "start": 145.841,
+      "end": 145.901,
+      "word": "non",
+      "confidence": 0.048
+    },
+    {
+      "start": 145.961,
+      "end": 146.121,
+      "word": "ho",
+      "confidence": 0.51
+    },
+    {
+      "start": 146.141,
+      "end": 146.241,
+      "word": "il",
+      "confidence": 0.461
+    },
+    {
+      "start": 146.301,
+      "end": 146.502,
+      "word": "cuore,",
+      "confidence": 0.162
+    },
+    {
+      "start": 146.522,
+      "end": 146.562,
+      "word": "ah,",
+      "confidence": 0.005
+    },
+    {
+      "start": 146.582,
+      "end": 146.662,
+      "word": "non",
+      "confidence": 0.294
+    },
+    {
+      "start": 146.742,
+      "end": 147.602,
+      "word": "vedo,",
+      "confidence": 0.5
+    },
+    {
+      "start": 147.642,
+      "end": 147.722,
+      "word": "non",
+      "confidence": 0.392
+    },
+    {
+      "start": 147.762,
+      "end": 147.842,
+      "word": "ho",
+      "confidence": 0.407
+    },
+    {
+      "start": 147.923,
+      "end": 147.983,
+      "word": "il",
+      "confidence": 0.27
+    },
+    {
+      "start": 148.023,
+      "end": 148.463,
+      "word": "cuore.",
+      "confidence": 0.551
+    },
+    {
+      "start": 148.543,
+      "end": 148.763,
+      "word": "Pace,",
+      "confidence": 0.583
+    },
+    {
+      "start": 148.803,
+      "end": 149.003,
+      "word": "pace,",
+      "confidence": 0.485
+    },
+    {
+      "start": 149.083,
+      "end": 149.223,
+      "word": "oh,",
+      "confidence": 0.564
+    },
+    {
+      "start": 149.264,
+      "end": 149.444,
+      "word": "vita",
+      "confidence": 0.583
+    },
+    {
+      "start": 149.464,
+      "end": 149.664,
+      "word": "mia!",
+      "confidence": 0.437
+    },
+    {
+      "start": 149.864,
+      "end": 150.204,
+      "word": "Pace,",
+      "confidence": 0.65
+    },
+    {
+      "start": 150.244,
+      "end": 150.444,
+      "word": "pace,",
+      "confidence": 0.375
+    },
+    {
+      "start": 150.464,
+      "end": 150.564,
+      "word": "oh,",
+      "confidence": 0.401
+    },
+    {
+      "start": 150.624,
+      "end": 150.825,
+      "word": "vita",
+      "confidence": 0.535
+    },
+    {
+      "start": 150.865,
+      "end": 150.945,
+      "word": "mia!",
+      "confidence": 0.188
+    },
+    {
+      "start": 151.025,
+      "end": 152.346,
+      "word": "Impiattento",
+      "confidence": 0.555
+    },
+    {
+      "start": 152.806,
+      "end": 152.906,
+      "word": "e",
+      "confidence": 0.763
+    },
+    {
+      "start": 153.186,
+      "end": 155.328,
+      "word": "in",
+      "confidence": 0.917
+    },
+    {
+      "start": 155.828,
+      "end": 156.228,
+      "word": "allegria,",
+      "confidence": 0.463
+    },
+    {
+      "start": 156.289,
+      "end": 156.509,
+      "word": "notte",
+      "confidence": 0.371
+    },
+    {
+      "start": 156.569,
+      "end": 156.669,
+      "word": "di",
+      "confidence": 0.498
+    },
+    {
+      "start": 156.729,
+      "end": 157.069,
+      "word": "voglia,",
+      "confidence": 0.434
+    },
+    {
+      "start": 176.513,
+      "end": 177.454,
+      "word": "Notte",
+      "confidence": 0.655
+    },
+    {
+      "start": 177.514,
+      "end": 177.574,
+      "word": "ti",
+      "confidence": 0.155
+    },
+    {
+      "start": 177.734,
+      "end": 178.255,
+      "word": "vogliamo",
+      "confidence": 0.53
+    },
+    {
+      "start": 179.556,
+      "end": 180.477,
+      "word": "passare.",
+      "confidence": 0.606
+    },
+    {
+      "start": 180.537,
+      "end": 180.757,
+      "word": "Notte",
+      "confidence": 0.472
+    },
+    {
+      "start": 180.817,
+      "end": 180.897,
+      "word": "ti",
+      "confidence": 0.378
+    },
+    {
+      "start": 180.997,
+      "end": 181.638,
+      "word": "vogliamo",
+      "confidence": 0.554
+    },
+    {
+      "start": 183.259,
+      "end": 183.84,
+      "word": "passare.",
+      "confidence": 0.454
+    },
+    {
+      "start": 183.88,
+      "end": 184.1,
+      "word": "Notte",
+      "confidence": 0.44
+    },
+    {
+      "start": 184.18,
+      "end": 184.24,
+      "word": "ti",
+      "confidence": 0.204
+    },
+    {
+      "start": 185.661,
+      "end": 185.942,
+      "word": "vogliamo",
+      "confidence": 0.403
+    },
+    {
+      "start": 185.982,
+      "end": 186.322,
+      "word": "passare.",
+      "confidence": 0.497
+    },
+    {
+      "start": 186.362,
+      "end": 186.562,
+      "word": "Pace,",
+      "confidence": 0.48
+    },
+    {
+      "start": 186.602,
+      "end": 186.982,
+      "word": "pace,",
+      "confidence": 0.63
+    },
+    {
+      "start": 187.063,
+      "end": 187.143,
+      "word": "oh",
+      "confidence": 0.33
+    },
+    {
+      "start": 187.303,
+      "end": 187.683,
+      "word": "vita",
+      "confidence": 0.454
+    },
+    {
+      "start": 189.264,
+      "end": 189.745,
+      "word": "mia.",
+      "confidence": 0.628
+    },
+    {
+      "start": 189.765,
+      "end": 189.965,
+      "word": "Pace,",
+      "confidence": 0.494
+    },
+    {
+      "start": 190.005,
+      "end": 190.285,
+      "word": "pace,",
+      "confidence": 0.533
+    },
+    {
+      "start": 190.986,
+      "end": 191.166,
+      "word": "oh",
+      "confidence": 0.553
+    },
+    {
+      "start": 191.206,
+      "end": 191.406,
+      "word": "vita",
+      "confidence": 0.497
+    },
+    {
+      "start": 191.566,
+      "end": 191.647,
+      "word": "mia.",
+      "confidence": 0.364
+    },
+    {
+      "start": 203.252,
+      "end": 204.293,
+      "word": "incontento",
+      "confidence": 0.556
+    },
+    {
+      "start": 204.513,
+      "end": 204.673,
+      "word": "e",
+      "confidence": 0.675
+    },
+    {
+      "start": 204.733,
+      "end": 205.433,
+      "word": "d'allegria,",
+      "confidence": 0.437
+    },
+    {
+      "start": 205.473,
+      "end": 205.533,
+      "word": "non",
+      "confidence": 0.028
+    },
+    {
+      "start": 205.593,
+      "end": 205.714,
+      "word": "te",
+      "confidence": 0.446
+    },
+    {
+      "start": 205.934,
+      "end": 206.034,
+      "word": "ne",
+      "confidence": 0.338
+    },
+    {
+      "start": 206.054,
+      "end": 207.074,
+      "word": "vogliamo",
+      "confidence": 0.612
+    },
+    {
+      "start": 207.134,
+      "end": 207.815,
+      "word": "passare,",
+      "confidence": 0.495
+    },
+    {
+      "start": 207.895,
+      "end": 207.955,
+      "word": "s\u00ec,",
+      "confidence": 0.21
+    },
+    {
+      "start": 208.035,
+      "end": 208.075,
+      "word": "s\u00ec,",
+      "confidence": 0.007
+    },
+    {
+      "start": 208.155,
+      "end": 208.215,
+      "word": "s\u00ec,",
+      "confidence": 0.205
+    },
+    {
+      "start": 208.275,
+      "end": 208.335,
+      "word": "s\u00ec,",
+      "confidence": 0.204
+    },
+    {
+      "start": 208.435,
+      "end": 208.655,
+      "word": "s\u00ec,",
+      "confidence": 0.331
+    },
+    {
+      "start": 208.735,
+      "end": 209.095,
+      "word": "non",
+      "confidence": 0.676
+    },
+    {
+      "start": 209.155,
+      "end": 209.216,
+      "word": "te",
+      "confidence": 0.312
+    },
+    {
+      "start": 209.256,
+      "end": 209.436,
+      "word": "ne",
+      "confidence": 0.514
+    },
+    {
+      "start": 209.476,
+      "end": 209.856,
+      "word": "vogliamo",
+      "confidence": 0.426
+    },
+    {
+      "start": 210.016,
+      "end": 210.496,
+      "word": "passare,",
+      "confidence": 0.685
+    },
+    {
+      "start": 210.556,
+      "end": 210.796,
+      "word": "s\u00ec,",
+      "confidence": 0.536
+    },
+    {
+      "start": 210.997,
+      "end": 211.177,
+      "word": "s\u00ec,",
+      "confidence": 0.753
+    },
+    {
+      "start": 211.317,
+      "end": 211.497,
+      "word": "s\u00ec,",
+      "confidence": 0.746
+    },
+    {
+      "start": 211.657,
+      "end": 212.657,
+      "word": "s\u00ec,",
+      "confidence": 0.84
+    },
+    {
+      "start": 212.718,
+      "end": 212.778,
+      "word": "s\u00ec,",
+      "confidence": 0.232
+    },
+    {
+      "start": 212.838,
+      "end": 213.158,
+      "word": "non",
+      "confidence": 0.378
+    },
+    {
+      "start": 213.318,
+      "end": 213.398,
+      "word": "te",
+      "confidence": 0.519
+    },
+    {
+      "start": 213.458,
+      "end": 213.578,
+      "word": "ne",
+      "confidence": 0.505
+    },
+    {
+      "start": 213.598,
+      "end": 213.918,
+      "word": "vogliamo",
+      "confidence": 0.372
+    },
+    {
+      "start": 213.998,
+      "end": 214.298,
+      "word": "passare,",
+      "confidence": 0.482
+    },
+    {
+      "start": 214.358,
+      "end": 215.279,
+      "word": "vogliamo",
+      "confidence": 0.651
+    },
+    {
+      "start": 215.319,
+      "end": 215.839,
+      "word": "passare,",
+      "confidence": 0.523
+    },
+    {
+      "start": 215.939,
+      "end": 216.32,
+      "word": "vogliamo",
+      "confidence": 0.334
+    },
+    {
+      "start": 216.38,
+      "end": 216.74,
+      "word": "passare.",
+      "confidence": 0.567
+    }
+  ]
+}

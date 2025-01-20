@@ -1,0 +1,259 @@
+{
+  "text": "In questa forma, dunque, mi trade il scellerato. \u00c8 questo il premio che quel barbaro rende all'amor mio? A vendicar voglio l'ingannato mio cor. Prie che mi fugga, si ricorda, si vada. Io sento in petto sol vendetta parlar, rabbia e dispetto.",
+  "language": "it",
+  "duration": 33.18,
+  "words": [
+    {
+      "start": 3.066,
+      "end": 3.526,
+      "word": "In",
+      "confidence": 0.69
+    },
+    {
+      "start": 3.586,
+      "end": 4.046,
+      "word": "questa",
+      "confidence": 0.751
+    },
+    {
+      "start": 4.167,
+      "end": 4.647,
+      "word": "forma,",
+      "confidence": 0.632
+    },
+    {
+      "start": 4.707,
+      "end": 6.088,
+      "word": "dunque,",
+      "confidence": 0.722
+    },
+    {
+      "start": 6.248,
+      "end": 6.328,
+      "word": "mi",
+      "confidence": 0.485
+    },
+    {
+      "start": 6.348,
+      "end": 7.609,
+      "word": "trade",
+      "confidence": 0.686
+    },
+    {
+      "start": 7.709,
+      "end": 7.749,
+      "word": "il",
+      "confidence": 0.034
+    },
+    {
+      "start": 7.869,
+      "end": 8.43,
+      "word": "scellerato.",
+      "confidence": 0.524
+    },
+    {
+      "start": 9.01,
+      "end": 9.03,
+      "word": "\u00c8",
+      "confidence": 0.004
+    },
+    {
+      "start": 9.17,
+      "end": 9.45,
+      "word": "questo",
+      "confidence": 0.807
+    },
+    {
+      "start": 9.49,
+      "end": 9.59,
+      "word": "il",
+      "confidence": 0.34
+    },
+    {
+      "start": 9.65,
+      "end": 10.571,
+      "word": "premio",
+      "confidence": 0.658
+    },
+    {
+      "start": 10.931,
+      "end": 11.091,
+      "word": "che",
+      "confidence": 0.456
+    },
+    {
+      "start": 11.252,
+      "end": 11.512,
+      "word": "quel",
+      "confidence": 0.666
+    },
+    {
+      "start": 11.572,
+      "end": 12.132,
+      "word": "barbaro",
+      "confidence": 0.715
+    },
+    {
+      "start": 12.232,
+      "end": 14.754,
+      "word": "rende",
+      "confidence": 0.826
+    },
+    {
+      "start": 15.334,
+      "end": 15.514,
+      "word": "all'amor",
+      "confidence": 0.217
+    },
+    {
+      "start": 15.534,
+      "end": 15.615,
+      "word": "mio?",
+      "confidence": 0.246
+    },
+    {
+      "start": 15.635,
+      "end": 15.655,
+      "word": "A",
+      "confidence": 0.056
+    },
+    {
+      "start": 15.715,
+      "end": 16.595,
+      "word": "vendicar",
+      "confidence": 0.737
+    },
+    {
+      "start": 16.675,
+      "end": 17.596,
+      "word": "voglio",
+      "confidence": 0.718
+    },
+    {
+      "start": 17.916,
+      "end": 19.017,
+      "word": "l'ingannato",
+      "confidence": 0.805
+    },
+    {
+      "start": 19.077,
+      "end": 19.297,
+      "word": "mio",
+      "confidence": 0.528
+    },
+    {
+      "start": 19.357,
+      "end": 19.857,
+      "word": "cor.",
+      "confidence": 0.713
+    },
+    {
+      "start": 20.318,
+      "end": 20.538,
+      "word": "Prie",
+      "confidence": 0.637
+    },
+    {
+      "start": 20.558,
+      "end": 20.638,
+      "word": "che",
+      "confidence": 0.867
+    },
+    {
+      "start": 20.698,
+      "end": 20.778,
+      "word": "mi",
+      "confidence": 0.286
+    },
+    {
+      "start": 20.818,
+      "end": 21.358,
+      "word": "fugga,",
+      "confidence": 0.602
+    },
+    {
+      "start": 21.739,
+      "end": 21.819,
+      "word": "si",
+      "confidence": 0.49
+    },
+    {
+      "start": 21.899,
+      "end": 22.799,
+      "word": "ricorda,",
+      "confidence": 0.714
+    },
+    {
+      "start": 23.0,
+      "end": 23.18,
+      "word": "si",
+      "confidence": 0.758
+    },
+    {
+      "start": 23.28,
+      "end": 24.02,
+      "word": "vada.",
+      "confidence": 0.834
+    },
+    {
+      "start": 24.621,
+      "end": 24.721,
+      "word": "Io",
+      "confidence": 0.224
+    },
+    {
+      "start": 24.941,
+      "end": 25.241,
+      "word": "sento",
+      "confidence": 0.957
+    },
+    {
+      "start": 25.281,
+      "end": 25.361,
+      "word": "in",
+      "confidence": 0.464
+    },
+    {
+      "start": 25.521,
+      "end": 26.122,
+      "word": "petto",
+      "confidence": 0.937
+    },
+    {
+      "start": 26.342,
+      "end": 26.562,
+      "word": "sol",
+      "confidence": 0.943
+    },
+    {
+      "start": 26.622,
+      "end": 27.302,
+      "word": "vendetta",
+      "confidence": 0.855
+    },
+    {
+      "start": 27.383,
+      "end": 28.083,
+      "word": "parlar,",
+      "confidence": 0.827
+    },
+    {
+      "start": 28.483,
+      "end": 29.704,
+      "word": "rabbia",
+      "confidence": 0.578
+    },
+    {
+      "start": 29.724,
+      "end": 29.744,
+      "word": "e",
+      "confidence": 0.196
+    },
+    {
+      "start": 29.784,
+      "end": 30.725,
+      "word": "dispetto.",
+      "confidence": 0.876
+    }
+  ]
+}

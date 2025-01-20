@@ -1,0 +1,943 @@
+{
+  "text": "Bisogna amarmi, ragazzo, con gli amici miei, il sole sta dormendo, scopri, scopri il mio dolore. La vita dice bene, ormai il tuo avverto ammiene, discaccia vita mia, ma fa non il timore. E tu mi sei bello, lo so, ma mi sceglierti voglio. Temo del caro scuso, temo ancora. Signore, guardate un poco ! Che maschere galanti ! Falle passare avanti ! I che ci fanno onore? Al volto e nella voce si scoprono i traditori. Signore Maschere! Non rispondete? Non scoprono. Signore Mascherano. Cosa chiedete? Al ballo, se vi piace, invita il mio signor. Grazie di tanto onore. Abbiamo compagne belle. L'amico anche su quelle. Rome far\u00e0 da or. Oh, d'acqua e giusto c'\u00e8, in me c'\u00e8, il tuo cuore, il tuo cuore, il tuo cuore, il tuo cuore, il tuo cuore, e il mio cuore proviene. Il tempo sussurra, il camomento Vendichi, vendichi il tuo strato, il mio tradito. E il mio cuore...",
+  "language": "it",
+  "duration": 307.7829931972789,
+  "words": [
+    {
+      "start": 7.902,
+      "end": 8.402,
+      "word": "Bisogna",
+      "confidence": 0.369
+    },
+    {
+      "start": 8.502,
+      "end": 9.102,
+      "word": "amarmi,",
+      "confidence": 0.424
+    },
+    {
+      "start": 9.302,
+      "end": 10.643,
+      "word": "ragazzo,",
+      "confidence": 0.659
+    },
+    {
+      "start": 11.263,
+      "end": 11.503,
+      "word": "con",
+      "confidence": 0.647
+    },
+    {
+      "start": 11.623,
+      "end": 11.903,
+      "word": "gli",
+      "confidence": 0.518
+    },
+    {
+      "start": 11.923,
+      "end": 12.623,
+      "word": "amici",
+      "confidence": 0.767
+    },
+    {
+      "start": 12.923,
+      "end": 13.223,
+      "word": "miei,",
+      "confidence": 0.52
+    },
+    {
+      "start": 13.303,
+      "end": 13.523,
+      "word": "il",
+      "confidence": 0.73
+    },
+    {
+      "start": 14.203,
+      "end": 16.464,
+      "word": "sole",
+      "confidence": 0.819
+    },
+    {
+      "start": 16.824,
+      "end": 17.344,
+      "word": "sta",
+      "confidence": 0.616
+    },
+    {
+      "start": 17.404,
+      "end": 18.004,
+      "word": "dormendo,",
+      "confidence": 0.537
+    },
+    {
+      "start": 18.304,
+      "end": 18.624,
+      "word": "scopri,",
+      "confidence": 0.37
+    },
+    {
+      "start": 18.644,
+      "end": 18.964,
+      "word": "scopri",
+      "confidence": 0.462
+    },
+    {
+      "start": 18.984,
+      "end": 19.144,
+      "word": "il",
+      "confidence": 0.605
+    },
+    {
+      "start": 19.204,
+      "end": 19.424,
+      "word": "mio",
+      "confidence": 0.544
+    },
+    {
+      "start": 19.464,
+      "end": 19.884,
+      "word": "dolore.",
+      "confidence": 0.559
+    },
+    {
+      "start": 19.944,
+      "end": 20.144,
+      "word": "La",
+      "confidence": 0.678
+    },
+    {
+      "start": 20.184,
+      "end": 20.944,
+      "word": "vita",
+      "confidence": 0.549
+    },
+    {
+      "start": 21.404,
+      "end": 21.745,
+      "word": "dice",
+      "confidence": 0.448
+    },
+    {
+      "start": 21.785,
+      "end": 22.045,
+      "word": "bene,",
+      "confidence": 0.506
+    },
+    {
+      "start": 22.225,
+      "end": 23.165,
+      "word": "ormai",
+      "confidence": 0.635
+    },
+    {
+      "start": 23.405,
+      "end": 23.445,
+      "word": "il",
+      "confidence": 0.176
+    },
+    {
+      "start": 23.485,
+      "end": 23.565,
+      "word": "tuo",
+      "confidence": 0.151
+    },
+    {
+      "start": 23.585,
+      "end": 23.825,
+      "word": "avverto",
+      "confidence": 0.374
+    },
+    {
+      "start": 23.845,
+      "end": 24.105,
+      "word": "ammiene,",
+      "confidence": 0.276
+    },
+    {
+      "start": 24.465,
+      "end": 25.345,
+      "word": "discaccia",
+      "confidence": 0.515
+    },
+    {
+      "start": 25.365,
+      "end": 25.485,
+      "word": "vita",
+      "confidence": 0.242
+    },
+    {
+      "start": 25.525,
+      "end": 25.645,
+      "word": "mia,",
+      "confidence": 0.33
+    },
+    {
+      "start": 25.665,
+      "end": 25.745,
+      "word": "ma",
+      "confidence": 0.494
+    },
+    {
+      "start": 25.805,
+      "end": 25.885,
+      "word": "fa",
+      "confidence": 0.637
+    },
+    {
+      "start": 25.945,
+      "end": 26.025,
+      "word": "non",
+      "confidence": 0.397
+    },
+    {
+      "start": 26.065,
+      "end": 26.145,
+      "word": "il",
+      "confidence": 0.341
+    },
+    {
+      "start": 26.165,
+      "end": 26.485,
+      "word": "timore.",
+      "confidence": 0.491
+    },
+    {
+      "start": 36.427,
+      "end": 36.467,
+      "word": "E",
+      "confidence": 0.442
+    },
+    {
+      "start": 36.527,
+      "end": 36.607,
+      "word": "tu",
+      "confidence": 0.286
+    },
+    {
+      "start": 36.627,
+      "end": 36.727,
+      "word": "mi",
+      "confidence": 0.552
+    },
+    {
+      "start": 36.767,
+      "end": 36.827,
+      "word": "sei",
+      "confidence": 0.177
+    },
+    {
+      "start": 36.907,
+      "end": 38.188,
+      "word": "bello,",
+      "confidence": 0.523
+    },
+    {
+      "start": 38.249,
+      "end": 38.349,
+      "word": "lo",
+      "confidence": 0.586
+    },
+    {
+      "start": 38.369,
+      "end": 38.449,
+      "word": "so,",
+      "confidence": 0.279
+    },
+    {
+      "start": 38.549,
+      "end": 38.669,
+      "word": "ma",
+      "confidence": 0.633
+    },
+    {
+      "start": 40.43,
+      "end": 40.51,
+      "word": "mi",
+      "confidence": 0.43
+    },
+    {
+      "start": 40.57,
+      "end": 41.251,
+      "word": "sceglierti",
+      "confidence": 0.411
+    },
+    {
+      "start": 42.092,
+      "end": 42.252,
+      "word": "voglio.",
+      "confidence": 0.176
+    },
+    {
+      "start": 42.272,
+      "end": 42.472,
+      "word": "Temo",
+      "confidence": 0.277
+    },
+    {
+      "start": 42.492,
+      "end": 42.572,
+      "word": "del",
+      "confidence": 0.196
+    },
+    {
+      "start": 42.632,
+      "end": 42.752,
+      "word": "caro",
+      "confidence": 0.238
+    },
+    {
+      "start": 42.772,
+      "end": 42.912,
+      "word": "scuso,",
+      "confidence": 0.23
+    },
+    {
+      "start": 42.992,
+      "end": 43.172,
+      "word": "temo",
+      "confidence": 0.347
+    },
+    {
+      "start": 43.192,
+      "end": 43.473,
+      "word": "ancora.",
+      "confidence": 0.26
+    },
+    {
+      "start": 66.833,
+      "end": 66.993,
+      "word": "Signore,",
+      "confidence": 0.078
+    },
+    {
+      "start": 67.013,
+      "end": 67.233,
+      "word": "guardate",
+      "confidence": 0.172
+    },
+    {
+      "start": 67.253,
+      "end": 67.333,
+      "word": "un",
+      "confidence": 0.313
+    },
+    {
+      "start": 67.353,
+      "end": 67.613,
+      "word": "poco",
+      "confidence": 0.47
+    },
+    {
+      "start": 67.623,
+      "end": 67.643,
+      "word": "!",
+      "confidence": 0.5
+    },
+    {
+      "start": 67.653,
+      "end": 67.774,
+      "word": "Che",
+      "confidence": 0.567
+    },
+    {
+      "start": 67.814,
+      "end": 68.134,
+      "word": "maschere",
+      "confidence": 0.286
+    },
+    {
+      "start": 68.174,
+      "end": 68.394,
+      "word": "galanti",
+      "confidence": 0.225
+    },
+    {
+      "start": 68.404,
+      "end": 68.424,
+      "word": "!",
+      "confidence": 0.5
+    },
+    {
+      "start": 68.434,
+      "end": 68.774,
+      "word": "Falle",
+      "confidence": 0.449
+    },
+    {
+      "start": 68.854,
+      "end": 69.555,
+      "word": "passare",
+      "confidence": 0.575
+    },
+    {
+      "start": 69.575,
+      "end": 69.955,
+      "word": "avanti",
+      "confidence": 0.627
+    },
+    {
+      "start": 69.965,
+      "end": 94.38,
+      "word": "!",
+      "confidence": 0.5
+    },
+    {
+      "start": 94.39,
+      "end": 94.41,
+      "word": "I",
+      "confidence": 0.083
+    },
+    {
+      "start": 94.43,
+      "end": 94.49,
+      "word": "che",
+      "confidence": 0.045
+    },
+    {
+      "start": 94.51,
+      "end": 94.55,
+      "word": "ci",
+      "confidence": 0.058
+    },
+    {
+      "start": 94.57,
+      "end": 94.67,
+      "word": "fanno",
+      "confidence": 0.044
+    },
+    {
+      "start": 94.69,
+      "end": 94.79,
+      "word": "onore?",
+      "confidence": 0.066
+    },
+    {
+      "start": 94.81,
+      "end": 94.85,
+      "word": "Al",
+      "confidence": 0.052
+    },
+    {
+      "start": 94.87,
+      "end": 94.97,
+      "word": "volto",
+      "confidence": 0.051
+    },
+    {
+      "start": 94.99,
+      "end": 95.01,
+      "word": "e",
+      "confidence": 0.048
+    },
+    {
+      "start": 95.03,
+      "end": 95.13,
+      "word": "nella",
+      "confidence": 0.037
+    },
+    {
+      "start": 95.17,
+      "end": 95.25,
+      "word": "voce",
+      "confidence": 0.044
+    },
+    {
+      "start": 95.27,
+      "end": 95.31,
+      "word": "si",
+      "confidence": 0.034
+    },
+    {
+      "start": 95.33,
+      "end": 96.071,
+      "word": "scoprono",
+      "confidence": 0.407
+    },
+    {
+      "start": 96.251,
+      "end": 96.311,
+      "word": "i",
+      "confidence": 0.621
+    },
+    {
+      "start": 96.371,
+      "end": 97.611,
+      "word": "traditori.",
+      "confidence": 0.726
+    },
+    {
+      "start": 100.032,
+      "end": 100.232,
+      "word": "Signore",
+      "confidence": 0.219
+    },
+    {
+      "start": 100.252,
+      "end": 100.512,
+      "word": "Maschere!",
+      "confidence": 0.416
+    },
+    {
+      "start": 100.532,
+      "end": 100.612,
+      "word": "Non",
+      "confidence": 0.099
+    },
+    {
+      "start": 100.632,
+      "end": 101.032,
+      "word": "rispondete?",
+      "confidence": 0.424
+    },
+    {
+      "start": 101.112,
+      "end": 101.453,
+      "word": "Non",
+      "confidence": 0.669
+    },
+    {
+      "start": 101.473,
+      "end": 102.013,
+      "word": "scoprono.",
+      "confidence": 0.58
+    },
+    {
+      "start": 121.998,
+      "end": 122.718,
+      "word": "Signore",
+      "confidence": 0.576
+    },
+    {
+      "start": 122.818,
+      "end": 123.999,
+      "word": "Mascherano.",
+      "confidence": 0.601
+    },
+    {
+      "start": 124.339,
+      "end": 124.659,
+      "word": "Cosa",
+      "confidence": 0.671
+    },
+    {
+      "start": 124.699,
+      "end": 125.42,
+      "word": "chiedete?",
+      "confidence": 0.691
+    },
+    {
+      "start": 127.14,
+      "end": 127.4,
+      "word": "Al",
+      "confidence": 0.646
+    },
+    {
+      "start": 127.481,
+      "end": 128.741,
+      "word": "ballo,",
+      "confidence": 0.713
+    },
+    {
+      "start": 128.92,
+      "end": 129.341,
+      "word": "se",
+      "confidence": 0.822
+    },
+    {
+      "start": 129.381,
+      "end": 129.541,
+      "word": "vi",
+      "confidence": 0.726
+    },
+    {
+      "start": 129.681,
+      "end": 131.122,
+      "word": "piace,",
+      "confidence": 0.8
+    },
+    {
+      "start": 131.622,
+      "end": 132.483,
+      "word": "invita",
+      "confidence": 0.823
+    },
+    {
+      "start": 132.563,
+      "end": 132.603,
+      "word": "il",
+      "confidence": 0.228
+    },
+    {
+      "start": 132.683,
+      "end": 133.403,
+      "word": "mio",
+      "confidence": 0.771
+    },
+    {
+      "start": 133.463,
+      "end": 135.424,
+      "word": "signor.",
+      "confidence": 0.616
+    },
+    {
+      "start": 136.625,
+      "end": 138.085,
+      "word": "Grazie",
+      "confidence": 0.716
+    },
+    {
+      "start": 138.125,
+      "end": 138.386,
+      "word": "di",
+      "confidence": 0.743
+    },
+    {
+      "start": 138.466,
+      "end": 138.806,
+      "word": "tanto",
+      "confidence": 0.506
+    },
+    {
+      "start": 138.946,
+      "end": 141.267,
+      "word": "onore.",
+      "confidence": 0.743
+    },
+    {
+      "start": 141.327,
+      "end": 142.848,
+      "word": "Abbiamo",
+      "confidence": 0.682
+    },
+    {
+      "start": 142.888,
+      "end": 143.508,
+      "word": "compagne",
+      "confidence": 0.593
+    },
+    {
+      "start": 143.608,
+      "end": 143.828,
+      "word": "belle.",
+      "confidence": 0.553
+    },
+    {
+      "start": 145.969,
+      "end": 147.53,
+      "word": "L'amico",
+      "confidence": 0.737
+    },
+    {
+      "start": 147.61,
+      "end": 147.95,
+      "word": "anche",
+      "confidence": 0.758
+    },
+    {
+      "start": 148.25,
+      "end": 148.41,
+      "word": "su",
+      "confidence": 0.974
+    },
+    {
+      "start": 148.61,
+      "end": 148.85,
+      "word": "quelle.",
+      "confidence": 0.452
+    },
+    {
+      "start": 150.953,
+      "end": 166.106,
+      "word": "Rome",
+      "confidence": 0.724
+    },
+    {
+      "start": 166.206,
+      "end": 166.406,
+      "word": "far\u00e0",
+      "confidence": 0.466
+    },
+    {
+      "start": 166.466,
+      "end": 166.526,
+      "word": "da",
+      "confidence": 0.262
+    },
+    {
+      "start": 166.666,
+      "end": 166.826,
+      "word": "or.",
+      "confidence": 0.634
+    },
+    {
+      "start": 166.906,
+      "end": 167.026,
+      "word": "Oh,",
+      "confidence": 0.544
+    },
+    {
+      "start": 167.086,
+      "end": 167.327,
+      "word": "d'acqua",
+      "confidence": 0.416
+    },
+    {
+      "start": 167.347,
+      "end": 167.407,
+      "word": "e",
+      "confidence": 0.555
+    },
+    {
+      "start": 167.467,
+      "end": 167.707,
+      "word": "giusto",
+      "confidence": 0.294
+    },
+    {
+      "start": 167.767,
+      "end": 167.867,
+      "word": "c'\u00e8,",
+      "confidence": 0.499
+    },
+    {
+      "start": 167.947,
+      "end": 167.987,
+      "word": "in",
+      "confidence": 0.022
+    },
+    {
+      "start": 168.047,
+      "end": 168.127,
+      "word": "me",
+      "confidence": 0.454
+    },
+    {
+      "start": 168.207,
+      "end": 168.267,
+      "word": "c'\u00e8,",
+      "confidence": 0.241
+    },
+    {
+      "start": 183.963,
+      "end": 184.043,
+      "word": "il",
+      "confidence": 0.18
+    },
+    {
+      "start": 184.063,
+      "end": 184.243,
+      "word": "tuo",
+      "confidence": 0.149
+    },
+    {
+      "start": 184.263,
+      "end": 184.563,
+      "word": "cuore,",
+      "confidence": 0.403
+    },
+    {
+      "start": 184.643,
+      "end": 184.743,
+      "word": "il",
+      "confidence": 0.312
+    },
+    {
+      "start": 184.823,
+      "end": 184.923,
+      "word": "tuo",
+      "confidence": 0.283
+    },
+    {
+      "start": 184.963,
+      "end": 185.084,
+      "word": "cuore,",
+      "confidence": 0.156
+    },
+    {
+      "start": 185.104,
+      "end": 185.144,
+      "word": "il",
+      "confidence": 0.023
+    },
+    {
+      "start": 185.184,
+      "end": 185.384,
+      "word": "tuo",
+      "confidence": 0.299
+    },
+    {
+      "start": 185.424,
+      "end": 185.664,
+      "word": "cuore,",
+      "confidence": 0.284
+    },
+    {
+      "start": 185.804,
+      "end": 186.364,
+      "word": "il",
+      "confidence": 0.486
+    },
+    {
+      "start": 186.484,
+      "end": 186.644,
+      "word": "tuo",
+      "confidence": 0.486
+    },
+    {
+      "start": 186.704,
+      "end": 186.924,
+      "word": "cuore,",
+      "confidence": 0.328
+    },
+    {
+      "start": 186.964,
+      "end": 187.004,
+      "word": "il",
+      "confidence": 0.056
+    },
+    {
+      "start": 187.065,
+      "end": 187.125,
+      "word": "tuo",
+      "confidence": 0.095
+    },
+    {
+      "start": 187.225,
+      "end": 187.325,
+      "word": "cuore,",
+      "confidence": 0.102
+    },
+    {
+      "start": 217.578,
+      "end": 217.598,
+      "word": "e",
+      "confidence": 0.126
+    },
+    {
+      "start": 217.679,
+      "end": 217.739,
+      "word": "il",
+      "confidence": 0.246
+    },
+    {
+      "start": 217.779,
+      "end": 217.859,
+      "word": "mio",
+      "confidence": 0.233
+    },
+    {
+      "start": 217.899,
+      "end": 218.88,
+      "word": "cuore",
+      "confidence": 0.433
+    },
+    {
+      "start": 218.94,
+      "end": 219.78,
+      "word": "proviene.",
+      "confidence": 0.441
+    },
+    {
+      "start": 219.92,
+      "end": 219.98,
+      "word": "Il",
+      "confidence": 0.231
+    },
+    {
+      "start": 220.02,
+      "end": 220.261,
+      "word": "tempo",
+      "confidence": 0.44
+    },
+    {
+      "start": 220.281,
+      "end": 220.441,
+      "word": "sussurra,",
+      "confidence": 0.045
+    },
+    {
+      "start": 220.621,
+      "end": 222.082,
+      "word": "il",
+      "confidence": 0.85
+    },
+    {
+      "start": 222.182,
+      "end": 222.703,
+      "word": "camomento",
+      "confidence": 0.441
+    },
+    {
+      "start": 247.362,
+      "end": 247.522,
+      "word": "Vendichi,",
+      "confidence": 0.037
+    },
+    {
+      "start": 247.542,
+      "end": 247.702,
+      "word": "vendichi",
+      "confidence": 0.032
+    },
+    {
+      "start": 247.722,
+      "end": 247.782,
+      "word": "il",
+      "confidence": 0.162
+    },
+    {
+      "start": 247.822,
+      "end": 247.922,
+      "word": "tuo",
+      "confidence": 0.211
+    },
+    {
+      "start": 247.942,
+      "end": 249.262,
+      "word": "strato,",
+      "confidence": 0.36
+    },
+    {
+      "start": 249.342,
+      "end": 249.382,
+      "word": "il",
+      "confidence": 0.032
+    },
+    {
+      "start": 249.442,
+      "end": 249.522,
+      "word": "mio",
+      "confidence": 0.312
+    },
+    {
+      "start": 249.582,
+      "end": 249.943,
+      "word": "tradito.",
+      "confidence": 0.368
+    },
+    {
+      "start": 281.502,
+      "end": 281.542,
+      "word": "E",
+      "confidence": 0.441
+    },
+    {
+      "start": 281.763,
+      "end": 281.803,
+      "word": "il",
+      "confidence": 0.038
+    },
+    {
+      "start": 281.823,
+      "end": 281.883,
+      "word": "mio",
+      "confidence": 0.022
+    },
+    {
+      "start": 281.903,
+      "end": 282.003,
+      "word": "cuore...",
+      "confidence": 0.025
+    }
+  ]
+}

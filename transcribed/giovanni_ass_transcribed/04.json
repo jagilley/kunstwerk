@@ -1,0 +1,145 @@
+{
+  "text": "Ah, del padre in periglio e in soccorso vogliamo! Tutto il mio sangue verser\u00f2 se bisogna, ma dov'\u00e8 il scellerato? In questo luogo.",
+  "language": "it",
+  "duration": 11.18498866213152,
+  "words": [
+    {
+      "start": 1.578,
+      "end": 1.698,
+      "word": "Ah,",
+      "confidence": 0.18
+    },
+    {
+      "start": 1.718,
+      "end": 1.778,
+      "word": "del",
+      "confidence": 0.011
+    },
+    {
+      "start": 1.798,
+      "end": 2.158,
+      "word": "padre",
+      "confidence": 0.362
+    },
+    {
+      "start": 2.379,
+      "end": 2.419,
+      "word": "in",
+      "confidence": 0.099
+    },
+    {
+      "start": 2.459,
+      "end": 2.919,
+      "word": "periglio",
+      "confidence": 0.578
+    },
+    {
+      "start": 3.039,
+      "end": 3.079,
+      "word": "e",
+      "confidence": 0.777
+    },
+    {
+      "start": 3.46,
+      "end": 3.58,
+      "word": "in",
+      "confidence": 0.541
+    },
+    {
+      "start": 4.04,
+      "end": 4.821,
+      "word": "soccorso",
+      "confidence": 0.756
+    },
+    {
+      "start": 5.021,
+      "end": 5.241,
+      "word": "vogliamo!",
+      "confidence": 0.144
+    },
+    {
+      "start": 5.441,
+      "end": 5.741,
+      "word": "Tutto",
+      "confidence": 0.915
+    },
+    {
+      "start": 5.761,
+      "end": 5.882,
+      "word": "il",
+      "confidence": 0.312
+    },
+    {
+      "start": 5.902,
+      "end": 5.962,
+      "word": "mio",
+      "confidence": 0.025
+    },
+    {
+      "start": 6.002,
+      "end": 6.522,
+      "word": "sangue",
+      "confidence": 0.663
+    },
+    {
+      "start": 6.562,
+      "end": 7.123,
+      "word": "verser\u00f2",
+      "confidence": 0.728
+    },
+    {
+      "start": 7.163,
+      "end": 7.243,
+      "word": "se",
+      "confidence": 0.749
+    },
+    {
+      "start": 7.283,
+      "end": 7.803,
+      "word": "bisogna,",
+      "confidence": 0.87
+    },
+    {
+      "start": 8.204,
+      "end": 8.304,
+      "word": "ma",
+      "confidence": 0.576
+    },
+    {
+      "start": 8.404,
+      "end": 8.644,
+      "word": "dov'\u00e8",
+      "confidence": 0.738
+    },
+    {
+      "start": 8.684,
+      "end": 8.744,
+      "word": "il",
+      "confidence": 0.617
+    },
+    {
+      "start": 8.824,
+      "end": 9.625,
+      "word": "scellerato?",
+      "confidence": 0.673
+    },
+    {
+      "start": 10.065,
+      "end": 10.145,
+      "word": "In",
+      "confidence": 0.44
+    },
+    {
+      "start": 10.205,
+      "end": 10.465,
+      "word": "questo",
+      "confidence": 0.893
+    },
+    {
+      "start": 10.525,
+      "end": 10.726,
+      "word": "luogo.",
+      "confidence": 0.626
+    }
+  ]
+}

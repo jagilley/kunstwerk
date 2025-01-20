@@ -1,0 +1,397 @@
+{
+  "text": "Che ti pare? Mi pare che abbiate un'anima di bronzo. Va l\u00e0, che sei un'angonzo. Ascolta bene. Quando Coste qui viene, tu corri ad abbracciarla, fa le quattro carezze, fingi la voce mia, poi, con bell'arte, cerca di condurla in altra parte. Ma, signore, non pi\u00f9 repite. Ma se poi mi conosce? Non ti conoscer\u00e0 se tu non lo vuoi. Zitto, e l'apre, e giudizio.",
+  "language": "it",
+  "duration": 29.852018140589568,
+  "words": [
+    {
+      "start": 2.072,
+      "end": 2.212,
+      "word": "Che",
+      "confidence": 0.198
+    },
+    {
+      "start": 2.232,
+      "end": 2.272,
+      "word": "ti",
+      "confidence": 0.246
+    },
+    {
+      "start": 2.312,
+      "end": 3.172,
+      "word": "pare?",
+      "confidence": 0.258
+    },
+    {
+      "start": 3.212,
+      "end": 3.292,
+      "word": "Mi",
+      "confidence": 0.728
+    },
+    {
+      "start": 3.432,
+      "end": 3.652,
+      "word": "pare",
+      "confidence": 0.629
+    },
+    {
+      "start": 3.772,
+      "end": 3.872,
+      "word": "che",
+      "confidence": 0.547
+    },
+    {
+      "start": 3.912,
+      "end": 4.713,
+      "word": "abbiate",
+      "confidence": 0.746
+    },
+    {
+      "start": 4.793,
+      "end": 5.413,
+      "word": "un'anima",
+      "confidence": 0.839
+    },
+    {
+      "start": 5.513,
+      "end": 5.593,
+      "word": "di",
+      "confidence": 0.971
+    },
+    {
+      "start": 5.773,
+      "end": 6.533,
+      "word": "bronzo.",
+      "confidence": 0.861
+    },
+    {
+      "start": 6.693,
+      "end": 6.833,
+      "word": "Va",
+      "confidence": 0.833
+    },
+    {
+      "start": 6.873,
+      "end": 6.973,
+      "word": "l\u00e0,",
+      "confidence": 0.635
+    },
+    {
+      "start": 7.153,
+      "end": 7.273,
+      "word": "che",
+      "confidence": 0.323
+    },
+    {
+      "start": 7.313,
+      "end": 7.473,
+      "word": "sei",
+      "confidence": 0.659
+    },
+    {
+      "start": 7.533,
+      "end": 8.233,
+      "word": "un'angonzo.",
+      "confidence": 0.682
+    },
+    {
+      "start": 8.854,
+      "end": 9.454,
+      "word": "Ascolta",
+      "confidence": 0.83
+    },
+    {
+      "start": 9.534,
+      "end": 9.854,
+      "word": "bene.",
+      "confidence": 0.679
+    },
+    {
+      "start": 10.574,
+      "end": 10.974,
+      "word": "Quando",
+      "confidence": 0.876
+    },
+    {
+      "start": 11.054,
+      "end": 11.314,
+      "word": "Coste",
+      "confidence": 0.766
+    },
+    {
+      "start": 11.474,
+      "end": 11.594,
+      "word": "qui",
+      "confidence": 0.82
+    },
+    {
+      "start": 11.634,
+      "end": 12.094,
+      "word": "viene,",
+      "confidence": 0.529
+    },
+    {
+      "start": 12.334,
+      "end": 12.474,
+      "word": "tu",
+      "confidence": 0.653
+    },
+    {
+      "start": 12.594,
+      "end": 12.894,
+      "word": "corri",
+      "confidence": 0.783
+    },
+    {
+      "start": 12.914,
+      "end": 13.034,
+      "word": "ad",
+      "confidence": 0.42
+    },
+    {
+      "start": 13.054,
+      "end": 13.835,
+      "word": "abbracciarla,",
+      "confidence": 0.855
+    },
+    {
+      "start": 14.135,
+      "end": 14.315,
+      "word": "fa",
+      "confidence": 0.95
+    },
+    {
+      "start": 14.415,
+      "end": 14.495,
+      "word": "le",
+      "confidence": 0.823
+    },
+    {
+      "start": 14.555,
+      "end": 14.935,
+      "word": "quattro",
+      "confidence": 0.905
+    },
+    {
+      "start": 14.995,
+      "end": 15.475,
+      "word": "carezze,",
+      "confidence": 0.909
+    },
+    {
+      "start": 15.855,
+      "end": 16.254,
+      "word": "fingi",
+      "confidence": 0.822
+    },
+    {
+      "start": 16.295,
+      "end": 16.375,
+      "word": "la",
+      "confidence": 0.827
+    },
+    {
+      "start": 16.415,
+      "end": 16.655,
+      "word": "voce",
+      "confidence": 0.879
+    },
+    {
+      "start": 16.755,
+      "end": 17.095,
+      "word": "mia,",
+      "confidence": 0.493
+    },
+    {
+      "start": 17.515,
+      "end": 17.695,
+      "word": "poi,",
+      "confidence": 0.651
+    },
+    {
+      "start": 17.715,
+      "end": 18.136,
+      "word": "con",
+      "confidence": 0.774
+    },
+    {
+      "start": 18.196,
+      "end": 19.076,
+      "word": "bell'arte,",
+      "confidence": 0.848
+    },
+    {
+      "start": 19.096,
+      "end": 20.056,
+      "word": "cerca",
+      "confidence": 0.753
+    },
+    {
+      "start": 20.116,
+      "end": 20.216,
+      "word": "di",
+      "confidence": 0.425
+    },
+    {
+      "start": 20.256,
+      "end": 20.636,
+      "word": "condurla",
+      "confidence": 0.62
+    },
+    {
+      "start": 20.676,
+      "end": 20.736,
+      "word": "in",
+      "confidence": 0.715
+    },
+    {
+      "start": 20.776,
+      "end": 21.036,
+      "word": "altra",
+      "confidence": 0.735
+    },
+    {
+      "start": 21.096,
+      "end": 21.416,
+      "word": "parte.",
+      "confidence": 0.885
+    },
+    {
+      "start": 21.816,
+      "end": 21.896,
+      "word": "Ma,",
+      "confidence": 0.782
+    },
+    {
+      "start": 21.996,
+      "end": 22.456,
+      "word": "signore,",
+      "confidence": 0.766
+    },
+    {
+      "start": 22.536,
+      "end": 22.757,
+      "word": "non",
+      "confidence": 0.652
+    },
+    {
+      "start": 22.797,
+      "end": 22.917,
+      "word": "pi\u00f9",
+      "confidence": 0.668
+    },
+    {
+      "start": 22.977,
+      "end": 23.377,
+      "word": "repite.",
+      "confidence": 0.46
+    },
+    {
+      "start": 23.597,
+      "end": 23.737,
+      "word": "Ma",
+      "confidence": 0.719
+    },
+    {
+      "start": 23.857,
+      "end": 23.937,
+      "word": "se",
+      "confidence": 0.712
+    },
+    {
+      "start": 24.037,
+      "end": 24.217,
+      "word": "poi",
+      "confidence": 0.737
+    },
+    {
+      "start": 24.257,
+      "end": 24.337,
+      "word": "mi",
+      "confidence": 0.788
+    },
+    {
+      "start": 24.397,
+      "end": 24.777,
+      "word": "conosce?",
+      "confidence": 0.775
+    },
+    {
+      "start": 24.857,
+      "end": 25.117,
+      "word": "Non",
+      "confidence": 0.593
+    },
+    {
+      "start": 25.177,
+      "end": 25.277,
+      "word": "ti",
+      "confidence": 0.681
+    },
+    {
+      "start": 25.357,
+      "end": 25.837,
+      "word": "conoscer\u00e0",
+      "confidence": 0.708
+    },
+    {
+      "start": 25.977,
+      "end": 26.157,
+      "word": "se",
+      "confidence": 0.848
+    },
+    {
+      "start": 26.197,
+      "end": 26.277,
+      "word": "tu",
+      "confidence": 0.723
+    },
+    {
+      "start": 26.337,
+      "end": 26.397,
+      "word": "non",
+      "confidence": 0.589
+    },
+    {
+      "start": 26.457,
+      "end": 26.497,
+      "word": "lo",
+      "confidence": 0.048
+    },
+    {
+      "start": 26.557,
+      "end": 26.937,
+      "word": "vuoi.",
+      "confidence": 0.617
+    },
+    {
+      "start": 27.238,
+      "end": 27.538,
+      "word": "Zitto,",
+      "confidence": 0.773
+    },
+    {
+      "start": 27.818,
+      "end": 27.838,
+      "word": "e",
+      "confidence": 0.435
+    },
+    {
+      "start": 27.898,
+      "end": 28.198,
+      "word": "l'apre,",
+      "confidence": 0.701
+    },
+    {
+      "start": 28.378,
+      "end": 28.438,
+      "word": "e",
+      "confidence": 0.639
+    },
+    {
+      "start": 28.878,
+      "end": 29.298,
+      "word": "giudizio.",
+      "confidence": 0.785
+    }
+  ]
+}

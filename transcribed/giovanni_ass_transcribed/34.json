@@ -1,0 +1,895 @@
+{
+  "text": "E' un'originata, si pu\u00f2 dar e non mi veda. Gerlinetta, mia garbata, ho gi\u00e0 visto, t'ho gi\u00e0 visto, non scappar. Ma lasciatemi andar via. Non ho resta, gioia mia. Ah, dei amiti in cuore! S\u00ec, ben mio, soltutto l'amore viene qua con questo loco. Fortunata io ti vo' far. Ah, s\u00ec, mi dispiace, ma io sono meglio per te. Fortunata io ti vo' far. Fortunata io ti vo' far! Fortunata io ti vo' far! Masetto! S\u00ec, Masetto? E' chiuso l\u00e0 perch\u00e9? La bella tua zerlina non pu\u00f2, la poverina, pi\u00f9 star senza di te, non pu\u00f2 pi\u00f9 star senza di te. Lo capisco, s\u00ec, signore. Adesso fate core, fate core, il suonatorio di te, venite ormai con me. S\u00ec, s\u00ec, facciamo ancora. S\u00ec, s\u00ec, facciamo ancora. Venite ormai, venite ormai con me. Venite, venite, venite ormai con me. Venite, venite ad aiutarmi! Venite ad aiutarmi! Venite ad aiutarmi!",
+  "language": "it",
+  "duration": 152.5829931972789,
+  "words": [
+    {
+      "start": 6.264,
+      "end": 6.925,
+      "word": "E'",
+      "confidence": 0.927
+    },
+    {
+      "start": 7.025,
+      "end": 9.265,
+      "word": "un'originata,",
+      "confidence": 0.662
+    },
+    {
+      "start": 9.325,
+      "end": 9.405,
+      "word": "si",
+      "confidence": 0.586
+    },
+    {
+      "start": 9.425,
+      "end": 9.585,
+      "word": "pu\u00f2",
+      "confidence": 0.442
+    },
+    {
+      "start": 9.645,
+      "end": 10.286,
+      "word": "dar",
+      "confidence": 0.679
+    },
+    {
+      "start": 10.686,
+      "end": 10.746,
+      "word": "e",
+      "confidence": 0.605
+    },
+    {
+      "start": 10.786,
+      "end": 11.246,
+      "word": "non",
+      "confidence": 0.721
+    },
+    {
+      "start": 11.306,
+      "end": 11.586,
+      "word": "mi",
+      "confidence": 0.653
+    },
+    {
+      "start": 11.986,
+      "end": 12.426,
+      "word": "veda.",
+      "confidence": 0.61
+    },
+    {
+      "start": 13.126,
+      "end": 15.027,
+      "word": "Gerlinetta,",
+      "confidence": 0.808
+    },
+    {
+      "start": 15.327,
+      "end": 15.607,
+      "word": "mia",
+      "confidence": 0.711
+    },
+    {
+      "start": 15.667,
+      "end": 17.428,
+      "word": "garbata,",
+      "confidence": 0.821
+    },
+    {
+      "start": 18.968,
+      "end": 19.088,
+      "word": "ho",
+      "confidence": 0.57
+    },
+    {
+      "start": 19.188,
+      "end": 19.308,
+      "word": "gi\u00e0",
+      "confidence": 0.559
+    },
+    {
+      "start": 19.348,
+      "end": 19.668,
+      "word": "visto,",
+      "confidence": 0.805
+    },
+    {
+      "start": 19.728,
+      "end": 19.848,
+      "word": "t'ho",
+      "confidence": 0.717
+    },
+    {
+      "start": 19.948,
+      "end": 20.008,
+      "word": "gi\u00e0",
+      "confidence": 0.075
+    },
+    {
+      "start": 20.088,
+      "end": 20.368,
+      "word": "visto,",
+      "confidence": 0.791
+    },
+    {
+      "start": 20.428,
+      "end": 20.549,
+      "word": "non",
+      "confidence": 0.897
+    },
+    {
+      "start": 20.589,
+      "end": 21.069,
+      "word": "scappar.",
+      "confidence": 0.534
+    },
+    {
+      "start": 21.169,
+      "end": 21.729,
+      "word": "Ma",
+      "confidence": 0.636
+    },
+    {
+      "start": 22.729,
+      "end": 24.67,
+      "word": "lasciatemi",
+      "confidence": 0.771
+    },
+    {
+      "start": 24.85,
+      "end": 25.35,
+      "word": "andar",
+      "confidence": 0.832
+    },
+    {
+      "start": 25.51,
+      "end": 26.37,
+      "word": "via.",
+      "confidence": 0.769
+    },
+    {
+      "start": 27.07,
+      "end": 27.35,
+      "word": "Non",
+      "confidence": 0.77
+    },
+    {
+      "start": 27.41,
+      "end": 27.711,
+      "word": "ho",
+      "confidence": 0.704
+    },
+    {
+      "start": 27.771,
+      "end": 29.051,
+      "word": "resta,",
+      "confidence": 0.793
+    },
+    {
+      "start": 29.211,
+      "end": 29.551,
+      "word": "gioia",
+      "confidence": 0.604
+    },
+    {
+      "start": 29.591,
+      "end": 29.931,
+      "word": "mia.",
+      "confidence": 0.641
+    },
+    {
+      "start": 32.955,
+      "end": 33.015,
+      "word": "Ah,",
+      "confidence": 0.184
+    },
+    {
+      "start": 33.035,
+      "end": 33.095,
+      "word": "dei",
+      "confidence": 0.016
+    },
+    {
+      "start": 33.115,
+      "end": 33.235,
+      "word": "amiti",
+      "confidence": 0.084
+    },
+    {
+      "start": 33.255,
+      "end": 33.335,
+      "word": "in",
+      "confidence": 0.263
+    },
+    {
+      "start": 33.355,
+      "end": 33.475,
+      "word": "cuore!",
+      "confidence": 0.1
+    },
+    {
+      "start": 33.495,
+      "end": 33.556,
+      "word": "S\u00ec,",
+      "confidence": 0.212
+    },
+    {
+      "start": 33.596,
+      "end": 33.676,
+      "word": "ben",
+      "confidence": 0.204
+    },
+    {
+      "start": 33.696,
+      "end": 33.796,
+      "word": "mio,",
+      "confidence": 0.196
+    },
+    {
+      "start": 33.836,
+      "end": 34.116,
+      "word": "soltutto",
+      "confidence": 0.356
+    },
+    {
+      "start": 34.136,
+      "end": 34.256,
+      "word": "l'amore",
+      "confidence": 0.121
+    },
+    {
+      "start": 34.276,
+      "end": 34.596,
+      "word": "viene",
+      "confidence": 0.532
+    },
+    {
+      "start": 34.616,
+      "end": 34.877,
+      "word": "qua",
+      "confidence": 0.479
+    },
+    {
+      "start": 34.897,
+      "end": 34.977,
+      "word": "con",
+      "confidence": 0.155
+    },
+    {
+      "start": 34.997,
+      "end": 35.237,
+      "word": "questo",
+      "confidence": 0.215
+    },
+    {
+      "start": 35.257,
+      "end": 35.437,
+      "word": "loco.",
+      "confidence": 0.396
+    },
+    {
+      "start": 35.497,
+      "end": 35.837,
+      "word": "Fortunata",
+      "confidence": 0.354
+    },
+    {
+      "start": 36.058,
+      "end": 36.138,
+      "word": "io",
+      "confidence": 0.446
+    },
+    {
+      "start": 36.318,
+      "end": 36.638,
+      "word": "ti",
+      "confidence": 0.81
+    },
+    {
+      "start": 36.678,
+      "end": 36.778,
+      "word": "vo'",
+      "confidence": 0.65
+    },
+    {
+      "start": 36.798,
+      "end": 36.858,
+      "word": "far.",
+      "confidence": 0.003
+    },
+    {
+      "start": 36.918,
+      "end": 37.038,
+      "word": "Ah,",
+      "confidence": 0.482
+    },
+    {
+      "start": 37.098,
+      "end": 37.199,
+      "word": "s\u00ec,",
+      "confidence": 0.496
+    },
+    {
+      "start": 37.259,
+      "end": 37.359,
+      "word": "mi",
+      "confidence": 0.608
+    },
+    {
+      "start": 37.439,
+      "end": 38.259,
+      "word": "dispiace,",
+      "confidence": 0.643
+    },
+    {
+      "start": 38.319,
+      "end": 38.38,
+      "word": "ma",
+      "confidence": 0.298
+    },
+    {
+      "start": 38.44,
+      "end": 38.48,
+      "word": "io",
+      "confidence": 0.248
+    },
+    {
+      "start": 38.56,
+      "end": 39.0,
+      "word": "sono",
+      "confidence": 0.725
+    },
+    {
+      "start": 39.12,
+      "end": 39.641,
+      "word": "meglio",
+      "confidence": 0.58
+    },
+    {
+      "start": 39.701,
+      "end": 39.781,
+      "word": "per",
+      "confidence": 0.283
+    },
+    {
+      "start": 39.881,
+      "end": 39.961,
+      "word": "te.",
+      "confidence": 0.434
+    },
+    {
+      "start": 40.021,
+      "end": 40.361,
+      "word": "Fortunata",
+      "confidence": 0.403
+    },
+    {
+      "start": 40.481,
+      "end": 40.521,
+      "word": "io",
+      "confidence": 0.144
+    },
+    {
+      "start": 40.621,
+      "end": 40.681,
+      "word": "ti",
+      "confidence": 0.264
+    },
+    {
+      "start": 40.781,
+      "end": 40.862,
+      "word": "vo'",
+      "confidence": 0.496
+    },
+    {
+      "start": 40.962,
+      "end": 41.122,
+      "word": "far.",
+      "confidence": 0.447
+    },
+    {
+      "start": 61.018,
+      "end": 62.559,
+      "word": "Fortunata",
+      "confidence": 0.544
+    },
+    {
+      "start": 62.78,
+      "end": 63.06,
+      "word": "io",
+      "confidence": 0.578
+    },
+    {
+      "start": 63.22,
+      "end": 63.42,
+      "word": "ti",
+      "confidence": 0.416
+    },
+    {
+      "start": 63.44,
+      "end": 63.76,
+      "word": "vo'",
+      "confidence": 0.662
+    },
+    {
+      "start": 63.82,
+      "end": 63.9,
+      "word": "far!",
+      "confidence": 0.437
+    },
+    {
+      "start": 63.961,
+      "end": 64.501,
+      "word": "Fortunata",
+      "confidence": 0.424
+    },
+    {
+      "start": 64.561,
+      "end": 64.62,
+      "word": "io",
+      "confidence": 0.438
+    },
+    {
+      "start": 64.7,
+      "end": 64.781,
+      "word": "ti",
+      "confidence": 0.479
+    },
+    {
+      "start": 64.861,
+      "end": 64.941,
+      "word": "vo'",
+      "confidence": 0.52
+    },
+    {
+      "start": 65.061,
+      "end": 65.562,
+      "word": "far!",
+      "confidence": 0.578
+    },
+    {
+      "start": 65.602,
+      "end": 65.842,
+      "word": "Masetto!",
+      "confidence": 0.462
+    },
+    {
+      "start": 65.902,
+      "end": 66.302,
+      "word": "S\u00ec,",
+      "confidence": 0.77
+    },
+    {
+      "start": 66.362,
+      "end": 66.743,
+      "word": "Masetto?",
+      "confidence": 0.557
+    },
+    {
+      "start": 66.783,
+      "end": 66.863,
+      "word": "E'",
+      "confidence": 0.7
+    },
+    {
+      "start": 66.883,
+      "end": 67.143,
+      "word": "chiuso",
+      "confidence": 0.358
+    },
+    {
+      "start": 67.163,
+      "end": 67.323,
+      "word": "l\u00e0",
+      "confidence": 0.5
+    },
+    {
+      "start": 67.363,
+      "end": 67.623,
+      "word": "perch\u00e9?",
+      "confidence": 0.413
+    },
+    {
+      "start": 87.176,
+      "end": 87.536,
+      "word": "La",
+      "confidence": 0.52
+    },
+    {
+      "start": 87.556,
+      "end": 88.958,
+      "word": "bella",
+      "confidence": 0.557
+    },
+    {
+      "start": 89.058,
+      "end": 89.358,
+      "word": "tua",
+      "confidence": 0.783
+    },
+    {
+      "start": 89.458,
+      "end": 91.44,
+      "word": "zerlina",
+      "confidence": 0.761
+    },
+    {
+      "start": 91.9,
+      "end": 92.2,
+      "word": "non",
+      "confidence": 0.709
+    },
+    {
+      "start": 92.28,
+      "end": 93.401,
+      "word": "pu\u00f2,",
+      "confidence": 0.623
+    },
+    {
+      "start": 93.541,
+      "end": 93.901,
+      "word": "la",
+      "confidence": 0.704
+    },
+    {
+      "start": 94.022,
+      "end": 94.562,
+      "word": "poverina,",
+      "confidence": 0.574
+    },
+    {
+      "start": 94.622,
+      "end": 95.903,
+      "word": "pi\u00f9",
+      "confidence": 0.57
+    },
+    {
+      "start": 96.704,
+      "end": 97.905,
+      "word": "star",
+      "confidence": 0.831
+    },
+    {
+      "start": 97.965,
+      "end": 98.625,
+      "word": "senza",
+      "confidence": 0.782
+    },
+    {
+      "start": 98.725,
+      "end": 98.825,
+      "word": "di",
+      "confidence": 0.82
+    },
+    {
+      "start": 99.106,
+      "end": 99.426,
+      "word": "te,",
+      "confidence": 0.498
+    },
+    {
+      "start": 99.546,
+      "end": 99.826,
+      "word": "non",
+      "confidence": 0.802
+    },
+    {
+      "start": 99.926,
+      "end": 100.327,
+      "word": "pu\u00f2",
+      "confidence": 0.518
+    },
+    {
+      "start": 100.387,
+      "end": 100.507,
+      "word": "pi\u00f9",
+      "confidence": 0.611
+    },
+    {
+      "start": 100.687,
+      "end": 101.948,
+      "word": "star",
+      "confidence": 0.834
+    },
+    {
+      "start": 102.088,
+      "end": 102.969,
+      "word": "senza",
+      "confidence": 0.714
+    },
+    {
+      "start": 103.049,
+      "end": 103.129,
+      "word": "di",
+      "confidence": 0.88
+    },
+    {
+      "start": 103.329,
+      "end": 103.549,
+      "word": "te.",
+      "confidence": 0.594
+    },
+    {
+      "start": 103.609,
+      "end": 103.869,
+      "word": "Lo",
+      "confidence": 0.722
+    },
+    {
+      "start": 104.19,
+      "end": 105.27,
+      "word": "capisco,",
+      "confidence": 0.748
+    },
+    {
+      "start": 105.351,
+      "end": 105.751,
+      "word": "s\u00ec,",
+      "confidence": 0.786
+    },
+    {
+      "start": 106.632,
+      "end": 108.993,
+      "word": "signore.",
+      "confidence": 0.752
+    },
+    {
+      "start": 109.214,
+      "end": 110.034,
+      "word": "Adesso",
+      "confidence": 0.754
+    },
+    {
+      "start": 110.174,
+      "end": 111.135,
+      "word": "fate",
+      "confidence": 0.821
+    },
+    {
+      "start": 111.315,
+      "end": 111.696,
+      "word": "core,",
+      "confidence": 0.674
+    },
+    {
+      "start": 113.237,
+      "end": 113.677,
+      "word": "fate",
+      "confidence": 0.685
+    },
+    {
+      "start": 113.937,
+      "end": 114.438,
+      "word": "core,",
+      "confidence": 0.796
+    },
+    {
+      "start": 118.06,
+      "end": 118.18,
+      "word": "il",
+      "confidence": 0.624
+    },
+    {
+      "start": 118.24,
+      "end": 119.521,
+      "word": "suonatorio",
+      "confidence": 0.753
+    },
+    {
+      "start": 119.541,
+      "end": 119.581,
+      "word": "di",
+      "confidence": 0.002
+    },
+    {
+      "start": 119.961,
+      "end": 120.981,
+      "word": "te,",
+      "confidence": 0.864
+    },
+    {
+      "start": 121.061,
+      "end": 121.481,
+      "word": "venite",
+      "confidence": 0.516
+    },
+    {
+      "start": 121.501,
+      "end": 121.921,
+      "word": "ormai",
+      "confidence": 0.642
+    },
+    {
+      "start": 122.021,
+      "end": 122.281,
+      "word": "con",
+      "confidence": 0.95
+    },
+    {
+      "start": 122.361,
+      "end": 122.902,
+      "word": "me.",
+      "confidence": 0.772
+    },
+    {
+      "start": 123.602,
+      "end": 123.802,
+      "word": "S\u00ec,",
+      "confidence": 0.749
+    },
+    {
+      "start": 123.922,
+      "end": 124.122,
+      "word": "s\u00ec,",
+      "confidence": 0.804
+    },
+    {
+      "start": 124.242,
+      "end": 124.822,
+      "word": "facciamo",
+      "confidence": 0.736
+    },
+    {
+      "start": 125.362,
+      "end": 125.763,
+      "word": "ancora.",
+      "confidence": 0.673
+    },
+    {
+      "start": 126.323,
+      "end": 126.543,
+      "word": "S\u00ec,",
+      "confidence": 0.542
+    },
+    {
+      "start": 126.583,
+      "end": 126.663,
+      "word": "s\u00ec,",
+      "confidence": 0.428
+    },
+    {
+      "start": 127.043,
+      "end": 127.823,
+      "word": "facciamo",
+      "confidence": 0.546
+    },
+    {
+      "start": 128.083,
+      "end": 128.543,
+      "word": "ancora.",
+      "confidence": 0.571
+    },
+    {
+      "start": 129.084,
+      "end": 129.503,
+      "word": "Venite",
+      "confidence": 0.47
+    },
+    {
+      "start": 129.604,
+      "end": 130.064,
+      "word": "ormai,",
+      "confidence": 0.59
+    },
+    {
+      "start": 130.144,
+      "end": 130.464,
+      "word": "venite",
+      "confidence": 0.349
+    },
+    {
+      "start": 130.484,
+      "end": 130.783,
+      "word": "ormai",
+      "confidence": 0.464
+    },
+    {
+      "start": 130.804,
+      "end": 130.904,
+      "word": "con",
+      "confidence": 0.407
+    },
+    {
+      "start": 130.924,
+      "end": 131.404,
+      "word": "me.",
+      "confidence": 0.684
+    },
+    {
+      "start": 131.444,
+      "end": 131.664,
+      "word": "Venite,",
+      "confidence": 0.358
+    },
+    {
+      "start": 131.784,
+      "end": 132.185,
+      "word": "venite,",
+      "confidence": 0.532
+    },
+    {
+      "start": 132.265,
+      "end": 132.565,
+      "word": "venite",
+      "confidence": 0.461
+    },
+    {
+      "start": 132.665,
+      "end": 133.045,
+      "word": "ormai",
+      "confidence": 0.616
+    },
+    {
+      "start": 133.165,
+      "end": 133.425,
+      "word": "con",
+      "confidence": 0.93
+    },
+    {
+      "start": 133.465,
+      "end": 133.585,
+      "word": "me.",
+      "confidence": 0.535
+    },
+    {
+      "start": 140.358,
+      "end": 140.598,
+      "word": "Venite,",
+      "confidence": 0.505
+    },
+    {
+      "start": 140.619,
+      "end": 141.459,
+      "word": "venite",
+      "confidence": 0.625
+    },
+    {
+      "start": 141.499,
+      "end": 141.58,
+      "word": "ad",
+      "confidence": 0.219
+    },
+    {
+      "start": 141.6,
+      "end": 141.88,
+      "word": "aiutarmi!",
+      "confidence": 0.392
+    },
+    {
+      "start": 141.94,
+      "end": 142.42,
+      "word": "Venite",
+      "confidence": 0.376
+    },
+    {
+      "start": 142.561,
+      "end": 142.641,
+      "word": "ad",
+      "confidence": 0.212
+    },
+    {
+      "start": 142.681,
+      "end": 143.021,
+      "word": "aiutarmi!",
+      "confidence": 0.447
+    },
+    {
+      "start": 143.041,
+      "end": 143.582,
+      "word": "Venite",
+      "confidence": 0.523
+    },
+    {
+      "start": 143.682,
+      "end": 143.762,
+      "word": "ad",
+      "confidence": 0.34
+    },
+    {
+      "start": 143.782,
+      "end": 144.122,
+      "word": "aiutarmi!",
+      "confidence": 0.318
+    }
+  ]
+}

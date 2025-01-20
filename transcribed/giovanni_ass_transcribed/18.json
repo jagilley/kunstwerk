@@ -1,0 +1,163 @@
+{
+  "text": "C'\u00e8 un tradito, non lasciarmi unir, non prometter\u00f2 a Cecilio. Mieto la mia mano, crede la tua, e lo preventir\u00f2, oh, la paura! Ah, che Dio!",
+  "language": "it",
+  "duration": 78.87600907029478,
+  "words": [
+    {
+      "start": 4.649,
+      "end": 4.709,
+      "word": "C'\u00e8",
+      "confidence": 0.149
+    },
+    {
+      "start": 4.729,
+      "end": 4.769,
+      "word": "un",
+      "confidence": 0.027
+    },
+    {
+      "start": 4.789,
+      "end": 4.929,
+      "word": "tradito,",
+      "confidence": 0.034
+    },
+    {
+      "start": 4.949,
+      "end": 5.009,
+      "word": "non",
+      "confidence": 0.048
+    },
+    {
+      "start": 5.029,
+      "end": 5.209,
+      "word": "lasciarmi",
+      "confidence": 0.042
+    },
+    {
+      "start": 5.229,
+      "end": 5.309,
+      "word": "unir,",
+      "confidence": 0.035
+    },
+    {
+      "start": 5.329,
+      "end": 5.389,
+      "word": "non",
+      "confidence": 0.048
+    },
+    {
+      "start": 5.409,
+      "end": 5.609,
+      "word": "prometter\u00f2",
+      "confidence": 0.037
+    },
+    {
+      "start": 5.629,
+      "end": 5.649,
+      "word": "a",
+      "confidence": 0.078
+    },
+    {
+      "start": 5.669,
+      "end": 5.809,
+      "word": "Cecilio.",
+      "confidence": 0.059
+    },
+    {
+      "start": 5.829,
+      "end": 5.929,
+      "word": "Mieto",
+      "confidence": 0.062
+    },
+    {
+      "start": 5.949,
+      "end": 5.989,
+      "word": "la",
+      "confidence": 0.06
+    },
+    {
+      "start": 6.009,
+      "end": 6.07,
+      "word": "mia",
+      "confidence": 0.092
+    },
+    {
+      "start": 6.11,
+      "end": 6.23,
+      "word": "mano,",
+      "confidence": 0.203
+    },
+    {
+      "start": 6.25,
+      "end": 6.47,
+      "word": "crede",
+      "confidence": 0.334
+    },
+    {
+      "start": 6.51,
+      "end": 6.59,
+      "word": "la",
+      "confidence": 0.397
+    },
+    {
+      "start": 6.65,
+      "end": 6.73,
+      "word": "tua,",
+      "confidence": 0.283
+    },
+    {
+      "start": 31.332,
+      "end": 31.352,
+      "word": "e",
+      "confidence": 0.059
+    },
+    {
+      "start": 31.372,
+      "end": 31.432,
+      "word": "lo",
+      "confidence": 0.143
+    },
+    {
+      "start": 31.452,
+      "end": 31.692,
+      "word": "preventir\u00f2,",
+      "confidence": 0.074
+    },
+    {
+      "start": 31.732,
+      "end": 31.772,
+      "word": "oh,",
+      "confidence": 0.028
+    },
+    {
+      "start": 31.792,
+      "end": 31.832,
+      "word": "la",
+      "confidence": 0.044
+    },
+    {
+      "start": 31.852,
+      "end": 31.992,
+      "word": "paura!",
+      "confidence": 0.193
+    },
+    {
+      "start": 61.558,
+      "end": 61.719,
+      "word": "Ah,",
+      "confidence": 0.601
+    },
+    {
+      "start": 61.759,
+      "end": 61.859,
+      "word": "che",
+      "confidence": 0.303
+    },
+    {
+      "start": 61.899,
+      "end": 61.959,
+      "word": "Dio!",
+      "confidence": 0.076
+    }
+  ]
+}

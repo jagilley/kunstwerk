@@ -1,0 +1,67 @@
+{
+  "text": "Was tr\u00e4umte mir von Friestade? Was trying to be? Zweitausendein.",
+  "language": "de",
+  "duration": 484.7,
+  "words": [
+    {
+      "start": 253.82,
+      "end": 254.076,
+      "word": "Was",
+      "confidence": 0.89765
+    },
+    {
+      "start": 254.148,
+      "end": 255.588,
+      "word": "tr\u00e4umte",
+      "confidence": 0.23833
+    },
+    {
+      "start": 255.684,
+      "end": 256.32,
+      "word": "mir",
+      "confidence": 0.65008
+    },
+    {
+      "start": 256.7,
+      "end": 257.108,
+      "word": "von",
+      "confidence": 0.97651
+    },
+    {
+      "start": 257.164,
+      "end": 259.32,
+      "word": "Friestade?",
+      "confidence": 0.01829
+    },
+    {
+      "start": 264.709,
+      "end": 265.213,
+      "word": "Was",
+      "confidence": 0.75779
+    },
+    {
+      "start": 265.301,
+      "end": 266.205,
+      "word": "trying",
+      "confidence": 0.17833
+    },
+    {
+      "start": 266.317,
+      "end": 266.685,
+      "word": "to",
+      "confidence": 0.9848
+    },
+    {
+      "start": 266.757,
+      "end": 267.369,
+      "word": "be?",
+      "confidence": 0.92519
+    },
+    {
+      "start": 287.549,
+      "end": 287.749,
+      "word": "Zweitausendein.",
+      "confidence": 0.7124
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "text": "Caporello, dove sei? Sono qui, per mia disgrazia. E voi? Sono qui. Chi \u00e8 morto? Voi o il vecchio? Che domanda bestia! Il vecchio! Bravo! Due imprese leggiadere! Sforzare la figlia ed ammazzare il padre! Ha voluto il suo donno! Madonna mia! Cosa ha voluto? Caci! Non mi seccare! Vieni con me se non vuoi qualche cosa ancora! Non vuol nulla, signore!",
+  "language": "it",
+  "duration": 31.81501133786848,
+  "words": [
+    {
+      "start": 0.582,
+      "end": 1.142,
+      "word": "Caporello,",
+      "confidence": 0.511
+    },
+    {
+      "start": 1.162,
+      "end": 1.242,
+      "word": "dove",
+      "confidence": 0.204
+    },
+    {
+      "start": 1.282,
+      "end": 1.602,
+      "word": "sei?",
+      "confidence": 0.639
+    },
+    {
+      "start": 2.102,
+      "end": 2.202,
+      "word": "Sono",
+      "confidence": 0.21
+    },
+    {
+      "start": 2.402,
+      "end": 2.522,
+      "word": "qui,",
+      "confidence": 0.782
+    },
+    {
+      "start": 2.542,
+      "end": 3.203,
+      "word": "per",
+      "confidence": 0.323
+    },
+    {
+      "start": 3.243,
+      "end": 3.343,
+      "word": "mia",
+      "confidence": 0.565
+    },
+    {
+      "start": 3.383,
+      "end": 4.062,
+      "word": "disgrazia.",
+      "confidence": 0.684
+    },
+    {
+      "start": 4.603,
+      "end": 4.643,
+      "word": "E",
+      "confidence": 0.479
+    },
+    {
+      "start": 4.703,
+      "end": 4.923,
+      "word": "voi?",
+      "confidence": 0.838
+    },
+    {
+      "start": 5.283,
+      "end": 5.503,
+      "word": "Sono",
+      "confidence": 0.62
+    },
+    {
+      "start": 5.603,
+      "end": 5.843,
+      "word": "qui.",
+      "confidence": 0.741
+    },
+    {
+      "start": 6.923,
+      "end": 7.103,
+      "word": "Chi",
+      "confidence": 0.782
+    },
+    {
+      "start": 7.123,
+      "end": 7.143,
+      "word": "\u00e8",
+      "confidence": 0.057
+    },
+    {
+      "start": 7.283,
+      "end": 7.684,
+      "word": "morto?",
+      "confidence": 0.815
+    },
+    {
+      "start": 8.784,
+      "end": 8.984,
+      "word": "Voi",
+      "confidence": 0.78
+    },
+    {
+      "start": 9.404,
+      "end": 9.444,
+      "word": "o",
+      "confidence": 0.581
+    },
+    {
+      "start": 9.484,
+      "end": 9.564,
+      "word": "il",
+      "confidence": 0.696
+    },
+    {
+      "start": 9.604,
+      "end": 9.904,
+      "word": "vecchio?",
+      "confidence": 0.707
+    },
+    {
+      "start": 10.304,
+      "end": 10.444,
+      "word": "Che",
+      "confidence": 0.597
+    },
+    {
+      "start": 10.464,
+      "end": 10.844,
+      "word": "domanda",
+      "confidence": 0.422
+    },
+    {
+      "start": 10.904,
+      "end": 11.224,
+      "word": "bestia!",
+      "confidence": 0.625
+    },
+    {
+      "start": 11.884,
+      "end": 11.984,
+      "word": "Il",
+      "confidence": 0.592
+    },
+    {
+      "start": 12.024,
+      "end": 12.365,
+      "word": "vecchio!",
+      "confidence": 0.769
+    },
+    {
+      "start": 12.685,
+      "end": 13.185,
+      "word": "Bravo!",
+      "confidence": 0.589
+    },
+    {
+      "start": 13.545,
+      "end": 13.685,
+      "word": "Due",
+      "confidence": 0.473
+    },
+    {
+      "start": 13.725,
+      "end": 14.365,
+      "word": "imprese",
+      "confidence": 0.819
+    },
+    {
+      "start": 14.465,
+      "end": 15.105,
+      "word": "leggiadere!",
+      "confidence": 0.753
+    },
+    {
+      "start": 15.825,
+      "end": 16.585,
+      "word": "Sforzare",
+      "confidence": 0.841
+    },
+    {
+      "start": 16.685,
+      "end": 16.745,
+      "word": "la",
+      "confidence": 0.948
+    },
+    {
+      "start": 16.845,
+      "end": 17.286,
+      "word": "figlia",
+      "confidence": 0.719
+    },
+    {
+      "start": 17.786,
+      "end": 17.986,
+      "word": "ed",
+      "confidence": 0.837
+    },
+    {
+      "start": 18.006,
+      "end": 18.486,
+      "word": "ammazzare",
+      "confidence": 0.778
+    },
+    {
+      "start": 18.526,
+      "end": 18.586,
+      "word": "il",
+      "confidence": 0.374
+    },
+    {
+      "start": 18.666,
+      "end": 19.026,
+      "word": "padre!",
+      "confidence": 0.85
+    },
+    {
+      "start": 19.266,
+      "end": 19.326,
+      "word": "Ha",
+      "confidence": 0.278
+    },
+    {
+      "start": 19.366,
+      "end": 19.626,
+      "word": "voluto",
+      "confidence": 0.725
+    },
+    {
+      "start": 19.666,
+      "end": 19.706,
+      "word": "il",
+      "confidence": 0.318
+    },
+    {
+      "start": 19.806,
+      "end": 19.966,
+      "word": "suo",
+      "confidence": 0.744
+    },
+    {
+      "start": 20.026,
+      "end": 20.406,
+      "word": "donno!",
+      "confidence": 0.786
+    },
+    {
+      "start": 21.106,
+      "end": 22.087,
+      "word": "Madonna",
+      "confidence": 0.701
+    },
+    {
+      "start": 22.247,
+      "end": 22.307,
+      "word": "mia!",
+      "confidence": 0.004
+    },
+    {
+      "start": 22.607,
+      "end": 22.987,
+      "word": "Cosa",
+      "confidence": 0.643
+    },
+    {
+      "start": 23.007,
+      "end": 23.067,
+      "word": "ha",
+      "confidence": 0.38
+    },
+    {
+      "start": 23.147,
+      "end": 23.567,
+      "word": "voluto?",
+      "confidence": 0.593
+    },
+    {
+      "start": 23.727,
+      "end": 24.087,
+      "word": "Caci!",
+      "confidence": 0.804
+    },
+    {
+      "start": 24.467,
+      "end": 24.587,
+      "word": "Non",
+      "confidence": 0.498
+    },
+    {
+      "start": 24.607,
+      "end": 24.707,
+      "word": "mi",
+      "confidence": 0.653
+    },
+    {
+      "start": 24.747,
+      "end": 25.227,
+      "word": "seccare!",
+      "confidence": 0.743
+    },
+    {
+      "start": 25.267,
+      "end": 25.527,
+      "word": "Vieni",
+      "confidence": 0.396
+    },
+    {
+      "start": 25.587,
+      "end": 25.647,
+      "word": "con",
+      "confidence": 0.056
+    },
+    {
+      "start": 25.727,
+      "end": 25.947,
+      "word": "me",
+      "confidence": 0.569
+    },
+    {
+      "start": 26.007,
+      "end": 26.107,
+      "word": "se",
+      "confidence": 0.726
+    },
+    {
+      "start": 26.167,
+      "end": 26.308,
+      "word": "non",
+      "confidence": 0.843
+    },
+    {
+      "start": 26.368,
+      "end": 26.508,
+      "word": "vuoi",
+      "confidence": 0.632
+    },
+    {
+      "start": 26.568,
+      "end": 26.788,
+      "word": "qualche",
+      "confidence": 0.826
+    },
+    {
+      "start": 26.848,
+      "end": 27.028,
+      "word": "cosa",
+      "confidence": 0.855
+    },
+    {
+      "start": 27.048,
+      "end": 27.688,
+      "word": "ancora!",
+      "confidence": 0.515
+    },
+    {
+      "start": 27.808,
+      "end": 27.908,
+      "word": "Non",
+      "confidence": 0.805
+    },
+    {
+      "start": 27.928,
+      "end": 28.028,
+      "word": "vuol",
+      "confidence": 0.492
+    },
+    {
+      "start": 28.048,
+      "end": 28.208,
+      "word": "nulla,",
+      "confidence": 0.178
+    },
+    {
+      "start": 28.308,
+      "end": 28.448,
+      "word": "signore!",
+      "confidence": 0.134
+    }
+  ]
+}

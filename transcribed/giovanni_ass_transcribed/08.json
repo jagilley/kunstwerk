@@ -1,0 +1,877 @@
+{
+  "text": "Noi chi mi dici mai che il barbaro dov'\u00e8 e che il rastorno mor\u00ec e vive andato di te, vive andato di te. Io se ritrovo nel mio dove non torna ancora la panorama scempio di poco avore il cuor, di poco avore il cuor. Udisti qualche bell'ora al vago abbandonata, Vuoi farla un docentio? Vivuta pare il cuore. Poverina, poverina. Vivuta pare il cuore. S\u00ec, vivuta pare il cuore. Cerchiamo di consolare il suo tormento Cosi ti consola 1800 Ma chi mi dice mai che il mio lavoro dov'\u00e8? Di me ne ascolta mai, di me ne manca di te, di me ne manca di te. Ma se non volete, Poverina, poverina! Pare il cuore, s\u00ec, levo la terra, pare il cuore. Cerca di consolare il suo tormento. Cos\u00ec ne consol\u00f2 mille e ottocento. Di voca male volevo. Dio d'amor, Dio d'amor! Signorina! S\u00ec.",
+  "language": "it",
+  "duration": 231.75102040816327,
+  "words": [
+    {
+      "start": 25.347,
+      "end": 25.827,
+      "word": "Noi",
+      "confidence": 0.576
+    },
+    {
+      "start": 25.867,
+      "end": 26.047,
+      "word": "chi",
+      "confidence": 0.558
+    },
+    {
+      "start": 26.107,
+      "end": 26.287,
+      "word": "mi",
+      "confidence": 0.57
+    },
+    {
+      "start": 26.347,
+      "end": 27.007,
+      "word": "dici",
+      "confidence": 0.51
+    },
+    {
+      "start": 27.027,
+      "end": 27.087,
+      "word": "mai",
+      "confidence": 0.012
+    },
+    {
+      "start": 27.107,
+      "end": 27.207,
+      "word": "che",
+      "confidence": 0.384
+    },
+    {
+      "start": 27.368,
+      "end": 27.408,
+      "word": "il",
+      "confidence": 0.027
+    },
+    {
+      "start": 27.468,
+      "end": 27.968,
+      "word": "barbaro",
+      "confidence": 0.487
+    },
+    {
+      "start": 28.028,
+      "end": 28.208,
+      "word": "dov'\u00e8",
+      "confidence": 0.268
+    },
+    {
+      "start": 28.328,
+      "end": 28.348,
+      "word": "e",
+      "confidence": 0.507
+    },
+    {
+      "start": 28.448,
+      "end": 28.508,
+      "word": "che",
+      "confidence": 0.184
+    },
+    {
+      "start": 28.528,
+      "end": 28.648,
+      "word": "il",
+      "confidence": 0.502
+    },
+    {
+      "start": 29.308,
+      "end": 29.648,
+      "word": "rastorno",
+      "confidence": 0.378
+    },
+    {
+      "start": 29.728,
+      "end": 29.948,
+      "word": "mor\u00ec",
+      "confidence": 0.622
+    },
+    {
+      "start": 30.028,
+      "end": 30.088,
+      "word": "e",
+      "confidence": 0.619
+    },
+    {
+      "start": 30.148,
+      "end": 30.488,
+      "word": "vive",
+      "confidence": 0.545
+    },
+    {
+      "start": 30.588,
+      "end": 31.769,
+      "word": "andato",
+      "confidence": 0.72
+    },
+    {
+      "start": 33.409,
+      "end": 33.469,
+      "word": "di",
+      "confidence": 0.2
+    },
+    {
+      "start": 33.489,
+      "end": 33.629,
+      "word": "te,",
+      "confidence": 0.597
+    },
+    {
+      "start": 33.669,
+      "end": 33.889,
+      "word": "vive",
+      "confidence": 0.477
+    },
+    {
+      "start": 34.009,
+      "end": 34.269,
+      "word": "andato",
+      "confidence": 0.377
+    },
+    {
+      "start": 34.329,
+      "end": 34.389,
+      "word": "di",
+      "confidence": 0.211
+    },
+    {
+      "start": 34.449,
+      "end": 34.669,
+      "word": "te.",
+      "confidence": 0.589
+    },
+    {
+      "start": 34.749,
+      "end": 34.809,
+      "word": "Io",
+      "confidence": 0.214
+    },
+    {
+      "start": 34.849,
+      "end": 35.71,
+      "word": "se",
+      "confidence": 0.903
+    },
+    {
+      "start": 35.73,
+      "end": 36.09,
+      "word": "ritrovo",
+      "confidence": 0.494
+    },
+    {
+      "start": 36.15,
+      "end": 36.23,
+      "word": "nel",
+      "confidence": 0.194
+    },
+    {
+      "start": 36.31,
+      "end": 36.49,
+      "word": "mio",
+      "confidence": 0.494
+    },
+    {
+      "start": 57.552,
+      "end": 57.632,
+      "word": "dove",
+      "confidence": 0.039
+    },
+    {
+      "start": 57.652,
+      "end": 57.712,
+      "word": "non",
+      "confidence": 0.03
+    },
+    {
+      "start": 57.732,
+      "end": 57.872,
+      "word": "torna",
+      "confidence": 0.127
+    },
+    {
+      "start": 57.892,
+      "end": 58.052,
+      "word": "ancora",
+      "confidence": 0.143
+    },
+    {
+      "start": 58.072,
+      "end": 58.132,
+      "word": "la",
+      "confidence": 0.238
+    },
+    {
+      "start": 58.152,
+      "end": 58.412,
+      "word": "panorama",
+      "confidence": 0.206
+    },
+    {
+      "start": 58.432,
+      "end": 58.592,
+      "word": "scempio",
+      "confidence": 0.079
+    },
+    {
+      "start": 58.612,
+      "end": 58.672,
+      "word": "di",
+      "confidence": 0.212
+    },
+    {
+      "start": 58.772,
+      "end": 60.112,
+      "word": "poco",
+      "confidence": 0.448
+    },
+    {
+      "start": 60.172,
+      "end": 60.453,
+      "word": "avore",
+      "confidence": 0.39
+    },
+    {
+      "start": 60.533,
+      "end": 60.673,
+      "word": "il",
+      "confidence": 0.62
+    },
+    {
+      "start": 60.773,
+      "end": 61.293,
+      "word": "cuor,",
+      "confidence": 0.737
+    },
+    {
+      "start": 62.553,
+      "end": 62.653,
+      "word": "di",
+      "confidence": 0.536
+    },
+    {
+      "start": 62.753,
+      "end": 63.653,
+      "word": "poco",
+      "confidence": 0.76
+    },
+    {
+      "start": 63.753,
+      "end": 65.053,
+      "word": "avore",
+      "confidence": 0.717
+    },
+    {
+      "start": 65.253,
+      "end": 65.293,
+      "word": "il",
+      "confidence": 0.263
+    },
+    {
+      "start": 65.352,
+      "end": 65.774,
+      "word": "cuor.",
+      "confidence": 0.58
+    },
+    {
+      "start": 65.794,
+      "end": 66.754,
+      "word": "Udisti",
+      "confidence": 0.728
+    },
+    {
+      "start": 66.854,
+      "end": 67.774,
+      "word": "qualche",
+      "confidence": 0.594
+    },
+    {
+      "start": 67.794,
+      "end": 67.994,
+      "word": "bell'ora",
+      "confidence": 0.219
+    },
+    {
+      "start": 68.014,
+      "end": 68.054,
+      "word": "al",
+      "confidence": 0.06
+    },
+    {
+      "start": 68.074,
+      "end": 68.194,
+      "word": "vago",
+      "confidence": 0.129
+    },
+    {
+      "start": 68.214,
+      "end": 68.454,
+      "word": "abbandonata,",
+      "confidence": 0.081
+    },
+    {
+      "start": 85.249,
+      "end": 85.449,
+      "word": "Vuoi",
+      "confidence": 0.31
+    },
+    {
+      "start": 85.529,
+      "end": 86.33,
+      "word": "farla",
+      "confidence": 0.483
+    },
+    {
+      "start": 86.35,
+      "end": 86.51,
+      "word": "un",
+      "confidence": 0.635
+    },
+    {
+      "start": 86.57,
+      "end": 88.692,
+      "word": "docentio?",
+      "confidence": 0.83
+    },
+    {
+      "start": 89.253,
+      "end": 90.654,
+      "word": "Vivuta",
+      "confidence": 0.716
+    },
+    {
+      "start": 90.694,
+      "end": 90.935,
+      "word": "pare",
+      "confidence": 0.411
+    },
+    {
+      "start": 91.035,
+      "end": 91.075,
+      "word": "il",
+      "confidence": 0.061
+    },
+    {
+      "start": 91.095,
+      "end": 91.215,
+      "word": "cuore.",
+      "confidence": 0.143
+    },
+    {
+      "start": 91.235,
+      "end": 91.615,
+      "word": "Poverina,",
+      "confidence": 0.501
+    },
+    {
+      "start": 91.735,
+      "end": 92.376,
+      "word": "poverina.",
+      "confidence": 0.609
+    },
+    {
+      "start": 92.877,
+      "end": 93.077,
+      "word": "Vivuta",
+      "confidence": 0.211
+    },
+    {
+      "start": 93.137,
+      "end": 93.377,
+      "word": "pare",
+      "confidence": 0.489
+    },
+    {
+      "start": 93.477,
+      "end": 93.537,
+      "word": "il",
+      "confidence": 0.247
+    },
+    {
+      "start": 93.617,
+      "end": 93.877,
+      "word": "cuore.",
+      "confidence": 0.504
+    },
+    {
+      "start": 93.918,
+      "end": 94.098,
+      "word": "S\u00ec,",
+      "confidence": 0.512
+    },
+    {
+      "start": 94.258,
+      "end": 94.778,
+      "word": "vivuta",
+      "confidence": 0.57
+    },
+    {
+      "start": 94.898,
+      "end": 95.159,
+      "word": "pare",
+      "confidence": 0.592
+    },
+    {
+      "start": 95.299,
+      "end": 95.659,
+      "word": "il",
+      "confidence": 0.685
+    },
+    {
+      "start": 95.739,
+      "end": 95.98,
+      "word": "cuore.",
+      "confidence": 0.403
+    },
+    {
+      "start": 109.66,
+      "end": 110.201,
+      "word": "Cerchiamo",
+      "confidence": 0.466
+    },
+    {
+      "start": 110.221,
+      "end": 110.301,
+      "word": "di",
+      "confidence": 0.45
+    },
+    {
+      "start": 110.361,
+      "end": 111.962,
+      "word": "consolare",
+      "confidence": 0.8
+    },
+    {
+      "start": 112.042,
+      "end": 112.103,
+      "word": "il",
+      "confidence": 0.512
+    },
+    {
+      "start": 112.143,
+      "end": 112.383,
+      "word": "suo",
+      "confidence": 0.479
+    },
+    {
+      "start": 112.423,
+      "end": 113.584,
+      "word": "tormento",
+      "confidence": 0.71
+    },
+    {
+      "start": 113.644,
+      "end": 114.205,
+      "word": "Cosi",
+      "confidence": 0.699
+    },
+    {
+      "start": 114.245,
+      "end": 114.345,
+      "word": "ti",
+      "confidence": 0.516
+    },
+    {
+      "start": 114.525,
+      "end": 115.085,
+      "word": "consola",
+      "confidence": 0.695
+    },
+    {
+      "start": 115.095,
+      "end": 121.875,
+      "word": "1800",
+      "confidence": 0.5
+    },
+    {
+      "start": 121.885,
+      "end": 122.025,
+      "word": "Ma",
+      "confidence": 0.52
+    },
+    {
+      "start": 122.085,
+      "end": 122.506,
+      "word": "chi",
+      "confidence": 0.644
+    },
+    {
+      "start": 122.746,
+      "end": 122.826,
+      "word": "mi",
+      "confidence": 0.321
+    },
+    {
+      "start": 122.866,
+      "end": 123.086,
+      "word": "dice",
+      "confidence": 0.598
+    },
+    {
+      "start": 123.126,
+      "end": 123.306,
+      "word": "mai",
+      "confidence": 0.568
+    },
+    {
+      "start": 123.386,
+      "end": 123.466,
+      "word": "che",
+      "confidence": 0.497
+    },
+    {
+      "start": 123.586,
+      "end": 123.887,
+      "word": "il",
+      "confidence": 0.726
+    },
+    {
+      "start": 123.907,
+      "end": 124.908,
+      "word": "mio",
+      "confidence": 0.65
+    },
+    {
+      "start": 126.469,
+      "end": 127.83,
+      "word": "lavoro",
+      "confidence": 0.571
+    },
+    {
+      "start": 127.89,
+      "end": 128.11,
+      "word": "dov'\u00e8?",
+      "confidence": 0.575
+    },
+    {
+      "start": 128.169,
+      "end": 129.371,
+      "word": "Di",
+      "confidence": 0.755
+    },
+    {
+      "start": 129.731,
+      "end": 129.912,
+      "word": "me",
+      "confidence": 0.67
+    },
+    {
+      "start": 129.931,
+      "end": 130.232,
+      "word": "ne",
+      "confidence": 0.746
+    },
+    {
+      "start": 131.113,
+      "end": 132.574,
+      "word": "ascolta",
+      "confidence": 0.68
+    },
+    {
+      "start": 132.934,
+      "end": 133.154,
+      "word": "mai,",
+      "confidence": 0.738
+    },
+    {
+      "start": 133.214,
+      "end": 133.414,
+      "word": "di",
+      "confidence": 0.586
+    },
+    {
+      "start": 134.535,
+      "end": 134.936,
+      "word": "me",
+      "confidence": 0.798
+    },
+    {
+      "start": 136.337,
+      "end": 137.157,
+      "word": "ne",
+      "confidence": 0.714
+    },
+    {
+      "start": 137.998,
+      "end": 138.198,
+      "word": "manca",
+      "confidence": 0.438
+    },
+    {
+      "start": 138.298,
+      "end": 138.358,
+      "word": "di",
+      "confidence": 0.241
+    },
+    {
+      "start": 138.459,
+      "end": 138.519,
+      "word": "te,",
+      "confidence": 0.261
+    },
+    {
+      "start": 138.599,
+      "end": 138.659,
+      "word": "di",
+      "confidence": 0.196
+    },
+    {
+      "start": 138.679,
+      "end": 138.799,
+      "word": "me",
+      "confidence": 0.47
+    },
+    {
+      "start": 138.879,
+      "end": 139.099,
+      "word": "ne",
+      "confidence": 0.556
+    },
+    {
+      "start": 139.139,
+      "end": 139.76,
+      "word": "manca",
+      "confidence": 0.615
+    },
+    {
+      "start": 139.88,
+      "end": 140.04,
+      "word": "di",
+      "confidence": 0.528
+    },
+    {
+      "start": 140.14,
+      "end": 140.18,
+      "word": "te.",
+      "confidence": 0.052
+    },
+    {
+      "start": 140.28,
+      "end": 140.36,
+      "word": "Ma",
+      "confidence": 0.46
+    },
+    {
+      "start": 140.42,
+      "end": 140.48,
+      "word": "se",
+      "confidence": 0.244
+    },
+    {
+      "start": 140.54,
+      "end": 140.62,
+      "word": "non",
+      "confidence": 0.29
+    },
+    {
+      "start": 140.68,
+      "end": 141.021,
+      "word": "volete,",
+      "confidence": 0.483
+    },
+    {
+      "start": 153.453,
+      "end": 153.613,
+      "word": "Poverina,",
+      "confidence": 0.05
+    },
+    {
+      "start": 153.633,
+      "end": 153.793,
+      "word": "poverina!",
+      "confidence": 0.038
+    },
+    {
+      "start": 175.355,
+      "end": 175.535,
+      "word": "Pare",
+      "confidence": 0.62
+    },
+    {
+      "start": 175.575,
+      "end": 175.795,
+      "word": "il",
+      "confidence": 0.744
+    },
+    {
+      "start": 176.015,
+      "end": 176.576,
+      "word": "cuore,",
+      "confidence": 0.669
+    },
+    {
+      "start": 177.096,
+      "end": 177.956,
+      "word": "s\u00ec,",
+      "confidence": 0.923
+    },
+    {
+      "start": 178.676,
+      "end": 181.937,
+      "word": "levo",
+      "confidence": 0.577
+    },
+    {
+      "start": 181.977,
+      "end": 182.037,
+      "word": "la",
+      "confidence": 0.252
+    },
+    {
+      "start": 182.077,
+      "end": 182.297,
+      "word": "terra,",
+      "confidence": 0.435
+    },
+    {
+      "start": 182.477,
+      "end": 182.577,
+      "word": "pare",
+      "confidence": 0.391
+    },
+    {
+      "start": 182.637,
+      "end": 183.037,
+      "word": "il",
+      "confidence": 0.39
+    },
+    {
+      "start": 183.257,
+      "end": 183.497,
+      "word": "cuore.",
+      "confidence": 0.339
+    },
+    {
+      "start": 183.537,
+      "end": 183.878,
+      "word": "Cerca",
+      "confidence": 0.408
+    },
+    {
+      "start": 183.898,
+      "end": 183.998,
+      "word": "di",
+      "confidence": 0.578
+    },
+    {
+      "start": 184.058,
+      "end": 185.458,
+      "word": "consolare",
+      "confidence": 0.764
+    },
+    {
+      "start": 185.598,
+      "end": 185.778,
+      "word": "il",
+      "confidence": 0.645
+    },
+    {
+      "start": 185.818,
+      "end": 186.038,
+      "word": "suo",
+      "confidence": 0.657
+    },
+    {
+      "start": 186.118,
+      "end": 186.918,
+      "word": "tormento.",
+      "confidence": 0.622
+    },
+    {
+      "start": 187.178,
+      "end": 187.799,
+      "word": "Cos\u00ec",
+      "confidence": 0.664
+    },
+    {
+      "start": 187.899,
+      "end": 188.039,
+      "word": "ne",
+      "confidence": 0.613
+    },
+    {
+      "start": 188.119,
+      "end": 188.999,
+      "word": "consol\u00f2",
+      "confidence": 0.86
+    },
+    {
+      "start": 189.139,
+      "end": 189.559,
+      "word": "mille",
+      "confidence": 0.662
+    },
+    {
+      "start": 189.659,
+      "end": 189.719,
+      "word": "e",
+      "confidence": 0.913
+    },
+    {
+      "start": 189.819,
+      "end": 191.12,
+      "word": "ottocento.",
+      "confidence": 0.744
+    },
+    {
+      "start": 191.14,
+      "end": 191.24,
+      "word": "Di",
+      "confidence": 0.559
+    },
+    {
+      "start": 191.32,
+      "end": 192.2,
+      "word": "voca",
+      "confidence": 0.796
+    },
+    {
+      "start": 193.02,
+      "end": 193.24,
+      "word": "male",
+      "confidence": 0.597
+    },
+    {
+      "start": 193.74,
+      "end": 194.24,
+      "word": "volevo.",
+      "confidence": 0.505
+    },
+    {
+      "start": 200.382,
+      "end": 200.562,
+      "word": "Dio",
+      "confidence": 0.554
+    },
+    {
+      "start": 200.602,
+      "end": 201.563,
+      "word": "d'amor,",
+      "confidence": 0.703
+    },
+    {
+      "start": 202.583,
+      "end": 203.644,
+      "word": "Dio",
+      "confidence": 0.489
+    },
+    {
+      "start": 203.864,
+      "end": 205.065,
+      "word": "d'amor!",
+      "confidence": 0.509
+    },
+    {
+      "start": 205.085,
+      "end": 205.806,
+      "word": "Signorina!",
+      "confidence": 0.567
+    },
+    {
+      "start": 228.817,
+      "end": 228.857,
+      "word": "S\u00ec.",
+      "confidence": 0.036
+    }
+  ]
+}

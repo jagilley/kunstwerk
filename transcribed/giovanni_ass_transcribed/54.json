@@ -1,0 +1,715 @@
+{
+  "text": "Il mio tesoro incanto, andate, andate a consolare. e nel bel ciglio e il piango cercate da giocar. Ave d'asciugar di pelle che i suoi corti avvenne carri a valo avvenne carri a valo E il sol distraccia i mandri. Non ci voglio tornare. Non ci voglio tornare. S\u00ec, non ci voglio tornare. il mio tesoro infanto. Andate, andate a consolar e beve il ciglio al pianto, cercate da asciugare, cercate, cercate, cercate da asciugare, Fate da sciogare, ditele che \u00e8 il suo tempo, a vendita riovano. a prenderli in mondo! Che soli strage e golpi in giocolio d'orma non Non ci volevo tornare. E soli stracci e morti. Non ci volevo tornare. S\u00ec, non ci volevo tornare.",
+  "language": "it",
+  "duration": 285.23301587301586,
+  "words": [
+    {
+      "start": 20.426,
+      "end": 20.766,
+      "word": "Il",
+      "confidence": 0.676
+    },
+    {
+      "start": 20.866,
+      "end": 20.986,
+      "word": "mio",
+      "confidence": 0.636
+    },
+    {
+      "start": 21.026,
+      "end": 21.467,
+      "word": "tesoro",
+      "confidence": 0.529
+    },
+    {
+      "start": 21.487,
+      "end": 21.967,
+      "word": "incanto,",
+      "confidence": 0.499
+    },
+    {
+      "start": 21.987,
+      "end": 22.227,
+      "word": "andate,",
+      "confidence": 0.212
+    },
+    {
+      "start": 22.407,
+      "end": 22.647,
+      "word": "andate",
+      "confidence": 0.154
+    },
+    {
+      "start": 22.667,
+      "end": 22.687,
+      "word": "a",
+      "confidence": 0.003
+    },
+    {
+      "start": 22.767,
+      "end": 23.267,
+      "word": "consolare.",
+      "confidence": 0.475
+    },
+    {
+      "start": 39.702,
+      "end": 39.742,
+      "word": "e",
+      "confidence": 0.311
+    },
+    {
+      "start": 39.762,
+      "end": 39.842,
+      "word": "nel",
+      "confidence": 0.159
+    },
+    {
+      "start": 39.862,
+      "end": 39.942,
+      "word": "bel",
+      "confidence": 0.095
+    },
+    {
+      "start": 39.962,
+      "end": 40.082,
+      "word": "ciglio",
+      "confidence": 0.068
+    },
+    {
+      "start": 40.102,
+      "end": 40.122,
+      "word": "e",
+      "confidence": 0.04
+    },
+    {
+      "start": 40.162,
+      "end": 40.202,
+      "word": "il",
+      "confidence": 0.03
+    },
+    {
+      "start": 40.222,
+      "end": 40.402,
+      "word": "piango",
+      "confidence": 0.095
+    },
+    {
+      "start": 40.422,
+      "end": 40.682,
+      "word": "cercate",
+      "confidence": 0.287
+    },
+    {
+      "start": 40.702,
+      "end": 40.742,
+      "word": "da",
+      "confidence": 0.111
+    },
+    {
+      "start": 40.762,
+      "end": 40.963,
+      "word": "giocar.",
+      "confidence": 0.31
+    },
+    {
+      "start": 70.007,
+      "end": 70.067,
+      "word": "Ave",
+      "confidence": 0.043
+    },
+    {
+      "start": 70.087,
+      "end": 70.267,
+      "word": "d'asciugar",
+      "confidence": 0.025
+    },
+    {
+      "start": 70.287,
+      "end": 70.347,
+      "word": "di",
+      "confidence": 0.178
+    },
+    {
+      "start": 70.367,
+      "end": 70.527,
+      "word": "pelle",
+      "confidence": 0.171
+    },
+    {
+      "start": 70.567,
+      "end": 70.647,
+      "word": "che",
+      "confidence": 0.131
+    },
+    {
+      "start": 70.667,
+      "end": 70.687,
+      "word": "i",
+      "confidence": 0.02
+    },
+    {
+      "start": 70.727,
+      "end": 70.907,
+      "word": "suoi",
+      "confidence": 0.225
+    },
+    {
+      "start": 70.947,
+      "end": 71.047,
+      "word": "corti",
+      "confidence": 0.048
+    },
+    {
+      "start": 71.067,
+      "end": 71.308,
+      "word": "avvenne",
+      "confidence": 0.214
+    },
+    {
+      "start": 71.348,
+      "end": 71.468,
+      "word": "carri",
+      "confidence": 0.085
+    },
+    {
+      "start": 71.488,
+      "end": 71.508,
+      "word": "a",
+      "confidence": 0.028
+    },
+    {
+      "start": 71.528,
+      "end": 71.628,
+      "word": "valo",
+      "confidence": 0.108
+    },
+    {
+      "start": 71.648,
+      "end": 71.808,
+      "word": "avvenne",
+      "confidence": 0.068
+    },
+    {
+      "start": 71.888,
+      "end": 72.008,
+      "word": "carri",
+      "confidence": 0.09
+    },
+    {
+      "start": 72.028,
+      "end": 72.048,
+      "word": "a",
+      "confidence": 0.033
+    },
+    {
+      "start": 72.088,
+      "end": 72.208,
+      "word": "valo",
+      "confidence": 0.19
+    },
+    {
+      "start": 99.085,
+      "end": 99.105,
+      "word": "E",
+      "confidence": 0.366
+    },
+    {
+      "start": 99.185,
+      "end": 99.225,
+      "word": "il",
+      "confidence": 0.031
+    },
+    {
+      "start": 99.265,
+      "end": 100.246,
+      "word": "sol",
+      "confidence": 0.613
+    },
+    {
+      "start": 100.286,
+      "end": 101.547,
+      "word": "distraccia",
+      "confidence": 0.513
+    },
+    {
+      "start": 101.667,
+      "end": 101.687,
+      "word": "i",
+      "confidence": 0.021
+    },
+    {
+      "start": 101.747,
+      "end": 102.087,
+      "word": "mandri.",
+      "confidence": 0.392
+    },
+    {
+      "start": 102.107,
+      "end": 102.227,
+      "word": "Non",
+      "confidence": 0.334
+    },
+    {
+      "start": 102.287,
+      "end": 102.387,
+      "word": "ci",
+      "confidence": 0.518
+    },
+    {
+      "start": 102.467,
+      "end": 102.967,
+      "word": "voglio",
+      "confidence": 0.611
+    },
+    {
+      "start": 104.488,
+      "end": 104.929,
+      "word": "tornare.",
+      "confidence": 0.604
+    },
+    {
+      "start": 104.949,
+      "end": 105.029,
+      "word": "Non",
+      "confidence": 0.173
+    },
+    {
+      "start": 105.169,
+      "end": 105.469,
+      "word": "ci",
+      "confidence": 0.763
+    },
+    {
+      "start": 105.549,
+      "end": 106.489,
+      "word": "voglio",
+      "confidence": 0.723
+    },
+    {
+      "start": 106.81,
+      "end": 107.93,
+      "word": "tornare.",
+      "confidence": 0.744
+    },
+    {
+      "start": 108.39,
+      "end": 108.471,
+      "word": "S\u00ec,",
+      "confidence": 0.275
+    },
+    {
+      "start": 108.571,
+      "end": 110.412,
+      "word": "non",
+      "confidence": 0.871
+    },
+    {
+      "start": 110.492,
+      "end": 110.792,
+      "word": "ci",
+      "confidence": 0.854
+    },
+    {
+      "start": 110.852,
+      "end": 111.712,
+      "word": "voglio",
+      "confidence": 0.753
+    },
+    {
+      "start": 111.852,
+      "end": 113.974,
+      "word": "tornare.",
+      "confidence": 0.74
+    },
+    {
+      "start": 130.118,
+      "end": 130.157,
+      "word": "il",
+      "confidence": 0.03
+    },
+    {
+      "start": 130.178,
+      "end": 130.277,
+      "word": "mio",
+      "confidence": 0.195
+    },
+    {
+      "start": 130.298,
+      "end": 130.699,
+      "word": "tesoro",
+      "confidence": 0.497
+    },
+    {
+      "start": 131.439,
+      "end": 132.56,
+      "word": "infanto.",
+      "confidence": 0.287
+    },
+    {
+      "start": 132.6,
+      "end": 132.78,
+      "word": "Andate,",
+      "confidence": 0.208
+    },
+    {
+      "start": 132.801,
+      "end": 133.001,
+      "word": "andate",
+      "confidence": 0.293
+    },
+    {
+      "start": 133.021,
+      "end": 133.041,
+      "word": "a",
+      "confidence": 0.012
+    },
+    {
+      "start": 133.061,
+      "end": 133.441,
+      "word": "consolar",
+      "confidence": 0.38
+    },
+    {
+      "start": 155.127,
+      "end": 155.147,
+      "word": "e",
+      "confidence": 0.005
+    },
+    {
+      "start": 155.347,
+      "end": 155.587,
+      "word": "beve",
+      "confidence": 0.335
+    },
+    {
+      "start": 155.707,
+      "end": 155.928,
+      "word": "il",
+      "confidence": 0.4
+    },
+    {
+      "start": 155.948,
+      "end": 156.148,
+      "word": "ciglio",
+      "confidence": 0.256
+    },
+    {
+      "start": 156.208,
+      "end": 156.488,
+      "word": "al",
+      "confidence": 0.491
+    },
+    {
+      "start": 156.548,
+      "end": 157.068,
+      "word": "pianto,",
+      "confidence": 0.611
+    },
+    {
+      "start": 157.188,
+      "end": 157.568,
+      "word": "cercate",
+      "confidence": 0.345
+    },
+    {
+      "start": 157.588,
+      "end": 157.628,
+      "word": "da",
+      "confidence": 0.042
+    },
+    {
+      "start": 157.648,
+      "end": 160.13,
+      "word": "asciugare,",
+      "confidence": 0.694
+    },
+    {
+      "start": 160.63,
+      "end": 161.711,
+      "word": "cercate,",
+      "confidence": 0.731
+    },
+    {
+      "start": 161.811,
+      "end": 162.291,
+      "word": "cercate,",
+      "confidence": 0.481
+    },
+    {
+      "start": 162.331,
+      "end": 163.071,
+      "word": "cercate",
+      "confidence": 0.522
+    },
+    {
+      "start": 163.131,
+      "end": 163.191,
+      "word": "da",
+      "confidence": 0.382
+    },
+    {
+      "start": 163.211,
+      "end": 163.752,
+      "word": "asciugare,",
+      "confidence": 0.444
+    },
+    {
+      "start": 187.945,
+      "end": 188.125,
+      "word": "Fate",
+      "confidence": 0.253
+    },
+    {
+      "start": 188.165,
+      "end": 188.205,
+      "word": "da",
+      "confidence": 0.024
+    },
+    {
+      "start": 188.225,
+      "end": 188.385,
+      "word": "sciogare,",
+      "confidence": 0.03
+    },
+    {
+      "start": 188.405,
+      "end": 188.526,
+      "word": "ditele",
+      "confidence": 0.023
+    },
+    {
+      "start": 188.546,
+      "end": 188.606,
+      "word": "che",
+      "confidence": 0.024
+    },
+    {
+      "start": 188.626,
+      "end": 188.646,
+      "word": "\u00e8",
+      "confidence": 0.002
+    },
+    {
+      "start": 188.666,
+      "end": 188.726,
+      "word": "il",
+      "confidence": 0.166
+    },
+    {
+      "start": 188.746,
+      "end": 188.806,
+      "word": "suo",
+      "confidence": 0.029
+    },
+    {
+      "start": 188.826,
+      "end": 188.926,
+      "word": "tempo,",
+      "confidence": 0.029
+    },
+    {
+      "start": 188.946,
+      "end": 188.966,
+      "word": "a",
+      "confidence": 0.032
+    },
+    {
+      "start": 188.986,
+      "end": 189.126,
+      "word": "vendita",
+      "confidence": 0.021
+    },
+    {
+      "start": 189.146,
+      "end": 189.286,
+      "word": "riovano.",
+      "confidence": 0.031
+    },
+    {
+      "start": 209.716,
+      "end": 209.776,
+      "word": "a",
+      "confidence": 0.392
+    },
+    {
+      "start": 209.796,
+      "end": 210.016,
+      "word": "prenderli",
+      "confidence": 0.147
+    },
+    {
+      "start": 210.096,
+      "end": 210.236,
+      "word": "in",
+      "confidence": 0.472
+    },
+    {
+      "start": 210.276,
+      "end": 210.656,
+      "word": "mondo!",
+      "confidence": 0.388
+    },
+    {
+      "start": 210.716,
+      "end": 210.896,
+      "word": "Che",
+      "confidence": 0.614
+    },
+    {
+      "start": 210.916,
+      "end": 211.336,
+      "word": "soli",
+      "confidence": 0.582
+    },
+    {
+      "start": 211.376,
+      "end": 212.216,
+      "word": "strage",
+      "confidence": 0.709
+    },
+    {
+      "start": 218.138,
+      "end": 218.398,
+      "word": "e",
+      "confidence": 0.881
+    },
+    {
+      "start": 218.438,
+      "end": 218.658,
+      "word": "golpi",
+      "confidence": 0.471
+    },
+    {
+      "start": 218.678,
+      "end": 218.718,
+      "word": "in",
+      "confidence": 0.022
+    },
+    {
+      "start": 218.738,
+      "end": 218.958,
+      "word": "giocolio",
+      "confidence": 0.173
+    },
+    {
+      "start": 218.978,
+      "end": 219.198,
+      "word": "d'orma",
+      "confidence": 0.26
+    },
+    {
+      "start": 219.218,
+      "end": 219.398,
+      "word": "non",
+      "confidence": 0.431
+    },
+    {
+      "start": 238.658,
+      "end": 238.718,
+      "word": "Non",
+      "confidence": 0.076
+    },
+    {
+      "start": 238.738,
+      "end": 238.778,
+      "word": "ci",
+      "confidence": 0.042
+    },
+    {
+      "start": 238.798,
+      "end": 238.918,
+      "word": "volevo",
+      "confidence": 0.064
+    },
+    {
+      "start": 238.938,
+      "end": 239.078,
+      "word": "tornare.",
+      "confidence": 0.074
+    },
+    {
+      "start": 239.098,
+      "end": 239.118,
+      "word": "E",
+      "confidence": 0.072
+    },
+    {
+      "start": 239.138,
+      "end": 239.218,
+      "word": "soli",
+      "confidence": 0.064
+    },
+    {
+      "start": 239.238,
+      "end": 239.378,
+      "word": "stracci",
+      "confidence": 0.036
+    },
+    {
+      "start": 239.438,
+      "end": 239.458,
+      "word": "e",
+      "confidence": 0.144
+    },
+    {
+      "start": 239.478,
+      "end": 239.579,
+      "word": "morti.",
+      "confidence": 0.062
+    },
+    {
+      "start": 239.619,
+      "end": 239.679,
+      "word": "Non",
+      "confidence": 0.053
+    },
+    {
+      "start": 239.699,
+      "end": 239.739,
+      "word": "ci",
+      "confidence": 0.022
+    },
+    {
+      "start": 239.759,
+      "end": 239.879,
+      "word": "volevo",
+      "confidence": 0.058
+    },
+    {
+      "start": 239.919,
+      "end": 240.699,
+      "word": "tornare.",
+      "confidence": 0.524
+    },
+    {
+      "start": 240.719,
+      "end": 240.759,
+      "word": "S\u00ec,",
+      "confidence": 0.001
+    },
+    {
+      "start": 240.979,
+      "end": 241.099,
+      "word": "non",
+      "confidence": 0.454
+    },
+    {
+      "start": 241.259,
+      "end": 241.88,
+      "word": "ci",
+      "confidence": 0.796
+    },
+    {
+      "start": 241.92,
+      "end": 242.42,
+      "word": "volevo",
+      "confidence": 0.534
+    },
+    {
+      "start": 242.52,
+      "end": 243.481,
+      "word": "tornare.",
+      "confidence": 0.524
+    }
+  ]
+}

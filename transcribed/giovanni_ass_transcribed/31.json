@@ -1,0 +1,409 @@
+{
+  "text": "Guarda un po' come seppe questa striga sedurmi! Siamo pure i deboli di testa! Si ha preparato tutto a un agronpesco! Ah, Masetto, Masetto! Udi la voce del suo cavaliero! E ben chi c'\u00e8? Verr\u00e0! Lascia che venga! Ah, se gli fosse un buco da fuggir! Di cosa temi? Perch\u00e9 diventi pallida? Ah! Capisco, capisco, briconcella. Hai timore che io comprenda come tra voi passata la faccenda.",
+  "language": "it",
+  "duration": 40.455011337868484,
+  "words": [
+    {
+      "start": 2.82,
+      "end": 3.02,
+      "word": "Guarda",
+      "confidence": 0.091
+    },
+    {
+      "start": 3.08,
+      "end": 3.24,
+      "word": "un",
+      "confidence": 0.126
+    },
+    {
+      "start": 3.26,
+      "end": 3.481,
+      "word": "po'",
+      "confidence": 0.242
+    },
+    {
+      "start": 3.501,
+      "end": 3.661,
+      "word": "come",
+      "confidence": 0.332
+    },
+    {
+      "start": 3.761,
+      "end": 4.121,
+      "word": "seppe",
+      "confidence": 0.556
+    },
+    {
+      "start": 4.541,
+      "end": 4.841,
+      "word": "questa",
+      "confidence": 0.742
+    },
+    {
+      "start": 4.881,
+      "end": 5.462,
+      "word": "striga",
+      "confidence": 0.733
+    },
+    {
+      "start": 5.542,
+      "end": 6.242,
+      "word": "sedurmi!",
+      "confidence": 0.772
+    },
+    {
+      "start": 6.702,
+      "end": 7.002,
+      "word": "Siamo",
+      "confidence": 0.671
+    },
+    {
+      "start": 7.102,
+      "end": 7.423,
+      "word": "pure",
+      "confidence": 0.738
+    },
+    {
+      "start": 7.643,
+      "end": 7.723,
+      "word": "i",
+      "confidence": 0.947
+    },
+    {
+      "start": 7.963,
+      "end": 8.463,
+      "word": "deboli",
+      "confidence": 0.618
+    },
+    {
+      "start": 8.503,
+      "end": 8.583,
+      "word": "di",
+      "confidence": 0.914
+    },
+    {
+      "start": 8.643,
+      "end": 9.184,
+      "word": "testa!",
+      "confidence": 0.947
+    },
+    {
+      "start": 9.604,
+      "end": 9.744,
+      "word": "Si",
+      "confidence": 0.629
+    },
+    {
+      "start": 9.784,
+      "end": 9.864,
+      "word": "ha",
+      "confidence": 0.615
+    },
+    {
+      "start": 9.884,
+      "end": 10.384,
+      "word": "preparato",
+      "confidence": 0.528
+    },
+    {
+      "start": 10.484,
+      "end": 10.824,
+      "word": "tutto",
+      "confidence": 0.719
+    },
+    {
+      "start": 10.944,
+      "end": 11.025,
+      "word": "a",
+      "confidence": 0.765
+    },
+    {
+      "start": 11.105,
+      "end": 11.245,
+      "word": "un",
+      "confidence": 0.358
+    },
+    {
+      "start": 11.325,
+      "end": 12.265,
+      "word": "agronpesco!",
+      "confidence": 0.681
+    },
+    {
+      "start": 12.585,
+      "end": 12.725,
+      "word": "Ah,",
+      "confidence": 0.656
+    },
+    {
+      "start": 12.765,
+      "end": 13.266,
+      "word": "Masetto,",
+      "confidence": 0.631
+    },
+    {
+      "start": 13.306,
+      "end": 13.906,
+      "word": "Masetto!",
+      "confidence": 0.683
+    },
+    {
+      "start": 14.266,
+      "end": 14.446,
+      "word": "Udi",
+      "confidence": 0.584
+    },
+    {
+      "start": 14.486,
+      "end": 14.566,
+      "word": "la",
+      "confidence": 0.468
+    },
+    {
+      "start": 14.626,
+      "end": 15.047,
+      "word": "voce",
+      "confidence": 0.607
+    },
+    {
+      "start": 15.087,
+      "end": 15.287,
+      "word": "del",
+      "confidence": 0.419
+    },
+    {
+      "start": 15.327,
+      "end": 15.547,
+      "word": "suo",
+      "confidence": 0.708
+    },
+    {
+      "start": 15.587,
+      "end": 16.267,
+      "word": "cavaliero!",
+      "confidence": 0.639
+    },
+    {
+      "start": 16.467,
+      "end": 16.527,
+      "word": "E",
+      "confidence": 0.658
+    },
+    {
+      "start": 16.567,
+      "end": 16.688,
+      "word": "ben",
+      "confidence": 0.6
+    },
+    {
+      "start": 16.728,
+      "end": 16.808,
+      "word": "chi",
+      "confidence": 0.233
+    },
+    {
+      "start": 16.848,
+      "end": 16.928,
+      "word": "c'\u00e8?",
+      "confidence": 0.375
+    },
+    {
+      "start": 17.048,
+      "end": 18.348,
+      "word": "Verr\u00e0!",
+      "confidence": 0.689
+    },
+    {
+      "start": 18.388,
+      "end": 18.589,
+      "word": "Lascia",
+      "confidence": 0.366
+    },
+    {
+      "start": 18.669,
+      "end": 18.749,
+      "word": "che",
+      "confidence": 0.217
+    },
+    {
+      "start": 18.789,
+      "end": 19.149,
+      "word": "venga!",
+      "confidence": 0.548
+    },
+    {
+      "start": 19.409,
+      "end": 19.529,
+      "word": "Ah,",
+      "confidence": 0.498
+    },
+    {
+      "start": 19.629,
+      "end": 19.689,
+      "word": "se",
+      "confidence": 0.607
+    },
+    {
+      "start": 19.749,
+      "end": 19.849,
+      "word": "gli",
+      "confidence": 0.166
+    },
+    {
+      "start": 19.929,
+      "end": 20.39,
+      "word": "fosse",
+      "confidence": 0.925
+    },
+    {
+      "start": 20.41,
+      "end": 20.53,
+      "word": "un",
+      "confidence": 0.51
+    },
+    {
+      "start": 20.57,
+      "end": 21.01,
+      "word": "buco",
+      "confidence": 0.872
+    },
+    {
+      "start": 21.03,
+      "end": 21.11,
+      "word": "da",
+      "confidence": 0.403
+    },
+    {
+      "start": 21.21,
+      "end": 21.85,
+      "word": "fuggir!",
+      "confidence": 0.725
+    },
+    {
+      "start": 22.711,
+      "end": 22.791,
+      "word": "Di",
+      "confidence": 0.868
+    },
+    {
+      "start": 23.131,
+      "end": 23.411,
+      "word": "cosa",
+      "confidence": 0.915
+    },
+    {
+      "start": 23.431,
+      "end": 23.831,
+      "word": "temi?",
+      "confidence": 0.747
+    },
+    {
+      "start": 24.612,
+      "end": 25.152,
+      "word": "Perch\u00e9",
+      "confidence": 0.669
+    },
+    {
+      "start": 25.272,
+      "end": 25.632,
+      "word": "diventi",
+      "confidence": 0.843
+    },
+    {
+      "start": 25.832,
+      "end": 26.533,
+      "word": "pallida?",
+      "confidence": 0.828
+    },
+    {
+      "start": 27.593,
+      "end": 27.833,
+      "word": "Ah!",
+      "confidence": 0.412
+    },
+    {
+      "start": 29.015,
+      "end": 30.077,
+      "word": "Capisco,",
+      "confidence": 0.861
+    },
+    {
+      "start": 30.538,
+      "end": 31.259,
+      "word": "capisco,",
+      "confidence": 0.829
+    },
+    {
+      "start": 31.279,
+      "end": 32.121,
+      "word": "briconcella.",
+      "confidence": 0.743
+    },
+    {
+      "start": 32.5,
+      "end": 32.842,
+      "word": "Hai",
+      "confidence": 0.721
+    },
+    {
+      "start": 32.922,
+      "end": 33.423,
+      "word": "timore",
+      "confidence": 0.875
+    },
+    {
+      "start": 33.483,
+      "end": 33.623,
+      "word": "che",
+      "confidence": 0.403
+    },
+    {
+      "start": 33.663,
+      "end": 33.743,
+      "word": "io",
+      "confidence": 0.464
+    },
+    {
+      "start": 33.803,
+      "end": 34.765,
+      "word": "comprenda",
+      "confidence": 0.845
+    },
+    {
+      "start": 35.166,
+      "end": 35.667,
+      "word": "come",
+      "confidence": 0.911
+    },
+    {
+      "start": 35.767,
+      "end": 36.087,
+      "word": "tra",
+      "confidence": 0.835
+    },
+    {
+      "start": 36.128,
+      "end": 36.789,
+      "word": "voi",
+      "confidence": 0.86
+    },
+    {
+      "start": 37.049,
+      "end": 37.871,
+      "word": "passata",
+      "confidence": 0.825
+    },
+    {
+      "start": 37.951,
+      "end": 38.131,
+      "word": "la",
+      "confidence": 0.752
+    },
+    {
+      "start": 38.331,
+      "end": 38.932,
+      "word": "faccenda.",
+      "confidence": 0.888
+    }
+  ]
+}

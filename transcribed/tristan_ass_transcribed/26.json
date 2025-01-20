@@ -1,0 +1,547 @@
+{
+  "text": "Bist du nun tot? Lebst du noch? Hat dich der Fluch entf\u00fchrt? Das Schiff, siehst du's noch nicht? Das Schiff. Gewiss, es ward noch heult, es kann nicht lang mehr sein. Siehst du? Siehst du sie noch nicht ans Land gezogen? Hinauf zur Pate doppelt. Ob ich war so hell und licht? Ich ziel, lass uns dir nicht entgehen. W\u00e4rst du mich nicht zur. Warte schnell ein bisschen. Warte nicht zu Tisch. Das Schiff. Das Schiff. Die Sonne. Schmied, du musst besehen, muss versehen, das sieht fest und doch nicht.",
+  "language": "de",
+  "duration": 370.8229931972789,
+  "words": [
+    {
+      "start": 0.48,
+      "end": 0.904,
+      "word": "Bist",
+      "confidence": 0.98391
+    },
+    {
+      "start": 0.904,
+      "end": 1.112,
+      "word": "du",
+      "confidence": 0.99795
+    },
+    {
+      "start": 1.15,
+      "end": 1.446,
+      "word": "nun",
+      "confidence": 0.99593
+    },
+    {
+      "start": 1.518,
+      "end": 2.13,
+      "word": "tot?",
+      "confidence": 0.99787
+    },
+    {
+      "start": 3.31,
+      "end": 4.29,
+      "word": "Lebst",
+      "confidence": 0.45666
+    },
+    {
+      "start": 4.59,
+      "end": 5.094,
+      "word": "du",
+      "confidence": 0.99913
+    },
+    {
+      "start": 5.182,
+      "end": 5.81,
+      "word": "noch?",
+      "confidence": 0.98553
+    },
+    {
+      "start": 11.75,
+      "end": 12.23,
+      "word": "Hat",
+      "confidence": 0.99846
+    },
+    {
+      "start": 12.31,
+      "end": 12.55,
+      "word": "dich",
+      "confidence": 0.99715
+    },
+    {
+      "start": 12.59,
+      "end": 12.886,
+      "word": "der",
+      "confidence": 0.99926
+    },
+    {
+      "start": 12.958,
+      "end": 13.77,
+      "word": "Fluch",
+      "confidence": 0.81402
+    },
+    {
+      "start": 14.07,
+      "end": 16.37,
+      "word": "entf\u00fchrt?",
+      "confidence": 0.81722
+    },
+    {
+      "start": 61.61,
+      "end": 62.138,
+      "word": "Das",
+      "confidence": 0.97177
+    },
+    {
+      "start": 62.234,
+      "end": 62.99,
+      "word": "Schiff,",
+      "confidence": 0.48057
+    },
+    {
+      "start": 66.21,
+      "end": 67.514,
+      "word": "siehst",
+      "confidence": 0.6873
+    },
+    {
+      "start": 67.562,
+      "end": 68.234,
+      "word": "du's",
+      "confidence": 0.26891
+    },
+    {
+      "start": 68.322,
+      "end": 68.93,
+      "word": "noch",
+      "confidence": 0.99969
+    },
+    {
+      "start": 69.09,
+      "end": 69.79,
+      "word": "nicht?",
+      "confidence": 0.99831
+    },
+    {
+      "start": 70.77,
+      "end": 71.106,
+      "word": "Das",
+      "confidence": 0.91855
+    },
+    {
+      "start": 71.138,
+      "end": 71.73,
+      "word": "Schiff.",
+      "confidence": 0.74818
+    },
+    {
+      "start": 71.89,
+      "end": 72.762,
+      "word": "Gewiss,",
+      "confidence": 0.58758
+    },
+    {
+      "start": 72.906,
+      "end": 73.234,
+      "word": "es",
+      "confidence": 0.68846
+    },
+    {
+      "start": 73.282,
+      "end": 73.978,
+      "word": "ward",
+      "confidence": 0.38148
+    },
+    {
+      "start": 74.034,
+      "end": 74.538,
+      "word": "noch",
+      "confidence": 0.99792
+    },
+    {
+      "start": 74.674,
+      "end": 75.67,
+      "word": "heult,",
+      "confidence": 0.23478
+    },
+    {
+      "start": 76.66,
+      "end": 77.188,
+      "word": "es",
+      "confidence": 0.51375
+    },
+    {
+      "start": 77.284,
+      "end": 77.804,
+      "word": "kann",
+      "confidence": 0.99839
+    },
+    {
+      "start": 77.932,
+      "end": 78.412,
+      "word": "nicht",
+      "confidence": 0.99903
+    },
+    {
+      "start": 78.516,
+      "end": 79.116,
+      "word": "lang",
+      "confidence": 0.99883
+    },
+    {
+      "start": 79.268,
+      "end": 79.796,
+      "word": "mehr",
+      "confidence": 0.88266
+    },
+    {
+      "start": 79.908,
+      "end": 80.56,
+      "word": "sein.",
+      "confidence": 0.98429
+    },
+    {
+      "start": 157.81,
+      "end": 158.922,
+      "word": "Siehst",
+      "confidence": 0.65
+    },
+    {
+      "start": 158.986,
+      "end": 159.282,
+      "word": "du?",
+      "confidence": 0.9988
+    },
+    {
+      "start": 159.346,
+      "end": 163.722,
+      "word": "Siehst",
+      "confidence": 0.46024
+    },
+    {
+      "start": 163.786,
+      "end": 164.13,
+      "word": "du",
+      "confidence": 0.99607
+    },
+    {
+      "start": 164.21,
+      "end": 164.642,
+      "word": "sie",
+      "confidence": 0.99891
+    },
+    {
+      "start": 164.746,
+      "end": 165.418,
+      "word": "noch",
+      "confidence": 0.99709
+    },
+    {
+      "start": 165.594,
+      "end": 166.31,
+      "word": "nicht",
+      "confidence": 0.99873
+    },
+    {
+      "start": 233.93,
+      "end": 234.67,
+      "word": "ans",
+      "confidence": 0.60269
+    },
+    {
+      "start": 235.01,
+      "end": 235.75,
+      "word": "Land",
+      "confidence": 0.68244
+    },
+    {
+      "start": 238.09,
+      "end": 239.15,
+      "word": "gezogen?",
+      "confidence": 0.95536
+    },
+    {
+      "start": 340.07,
+      "end": 340.67,
+      "word": "Hinauf",
+      "confidence": 0.99211
+    },
+    {
+      "start": 340.75,
+      "end": 340.99,
+      "word": "zur",
+      "confidence": 0.67006
+    },
+    {
+      "start": 341.03,
+      "end": 341.51,
+      "word": "Pate",
+      "confidence": 0.38989
+    },
+    {
+      "start": 341.55,
+      "end": 341.934,
+      "word": "doppelt.",
+      "confidence": 0.66343
+    },
+    {
+      "start": 341.982,
+      "end": 342.142,
+      "word": "Ob",
+      "confidence": 0.7829
+    },
+    {
+      "start": 342.166,
+      "end": 342.446,
+      "word": "ich",
+      "confidence": 0.99704
+    },
+    {
+      "start": 342.518,
+      "end": 342.966,
+      "word": "war",
+      "confidence": 0.66501
+    },
+    {
+      "start": 343.078,
+      "end": 343.374,
+      "word": "so",
+      "confidence": 0.88969
+    },
+    {
+      "start": 343.422,
+      "end": 344.142,
+      "word": "hell",
+      "confidence": 0.72212
+    },
+    {
+      "start": 344.206,
+      "end": 344.478,
+      "word": "und",
+      "confidence": 0.99944
+    },
+    {
+      "start": 344.534,
+      "end": 345.182,
+      "word": "licht?",
+      "confidence": 0.30775
+    },
+    {
+      "start": 345.246,
+      "end": 345.47,
+      "word": "Ich",
+      "confidence": 0.75742
+    },
+    {
+      "start": 345.51,
+      "end": 346.17,
+      "word": "ziel,",
+      "confidence": 0.43151
+    },
+    {
+      "start": 346.71,
+      "end": 347.038,
+      "word": "lass",
+      "confidence": 0.8973
+    },
+    {
+      "start": 347.054,
+      "end": 347.206,
+      "word": "uns",
+      "confidence": 0.511
+    },
+    {
+      "start": 347.238,
+      "end": 347.382,
+      "word": "dir",
+      "confidence": 0.45228
+    },
+    {
+      "start": 347.406,
+      "end": 347.566,
+      "word": "nicht",
+      "confidence": 0.99596
+    },
+    {
+      "start": 347.598,
+      "end": 348.57,
+      "word": "entgehen.",
+      "confidence": 0.45517
+    },
+    {
+      "start": 349.11,
+      "end": 349.702,
+      "word": "W\u00e4rst",
+      "confidence": 0.14651
+    },
+    {
+      "start": 349.726,
+      "end": 349.838,
+      "word": "du",
+      "confidence": 0.99931
+    },
+    {
+      "start": 349.854,
+      "end": 349.982,
+      "word": "mich",
+      "confidence": 0.77293
+    },
+    {
+      "start": 350.006,
+      "end": 350.358,
+      "word": "nicht",
+      "confidence": 0.55794
+    },
+    {
+      "start": 350.454,
+      "end": 350.686,
+      "word": "zur.",
+      "confidence": 0.59742
+    },
+    {
+      "start": 350.718,
+      "end": 351.702,
+      "word": "Warte",
+      "confidence": 0.69909
+    },
+    {
+      "start": 351.766,
+      "end": 352.374,
+      "word": "schnell",
+      "confidence": 0.81312
+    },
+    {
+      "start": 352.502,
+      "end": 352.91,
+      "word": "ein",
+      "confidence": 0.2758
+    },
+    {
+      "start": 352.99,
+      "end": 353.23,
+      "word": "bisschen.",
+      "confidence": 0.70332
+    },
+    {
+      "start": 353.27,
+      "end": 354.25,
+      "word": "Warte",
+      "confidence": 0.54649
+    },
+    {
+      "start": 354.87,
+      "end": 355.278,
+      "word": "nicht",
+      "confidence": 0.71502
+    },
+    {
+      "start": 355.334,
+      "end": 355.478,
+      "word": "zu",
+      "confidence": 0.2004
+    },
+    {
+      "start": 355.494,
+      "end": 356.13,
+      "word": "Tisch.",
+      "confidence": 0.14011
+    },
+    {
+      "start": 356.55,
+      "end": 356.862,
+      "word": "Das",
+      "confidence": 0.67796
+    },
+    {
+      "start": 356.886,
+      "end": 357.23,
+      "word": "Schiff.",
+      "confidence": 0.90691
+    },
+    {
+      "start": 357.31,
+      "end": 357.502,
+      "word": "Das",
+      "confidence": 0.61308
+    },
+    {
+      "start": 357.526,
+      "end": 357.934,
+      "word": "Schiff.",
+      "confidence": 0.52716
+    },
+    {
+      "start": 358.022,
+      "end": 358.222,
+      "word": "Die",
+      "confidence": 0.793
+    },
+    {
+      "start": 358.246,
+      "end": 359.47,
+      "word": "Sonne.",
+      "confidence": 0.19547
+    },
+    {
+      "start": 359.55,
+      "end": 360.046,
+      "word": "Schmied,",
+      "confidence": 0.04707
+    },
+    {
+      "start": 360.118,
+      "end": 360.302,
+      "word": "du",
+      "confidence": 0.99941
+    },
+    {
+      "start": 360.326,
+      "end": 360.51,
+      "word": "musst",
+      "confidence": 0.88041
+    },
+    {
+      "start": 360.55,
+      "end": 361.69,
+      "word": "besehen,",
+      "confidence": 0.53158
+    },
+    {
+      "start": 362.23,
+      "end": 364.398,
+      "word": "muss",
+      "confidence": 0.57278
+    },
+    {
+      "start": 364.454,
+      "end": 365.45,
+      "word": "versehen,",
+      "confidence": 0.55091
+    },
+    {
+      "start": 366.83,
+      "end": 367.19,
+      "word": "das",
+      "confidence": 0.47793
+    },
+    {
+      "start": 367.23,
+      "end": 367.966,
+      "word": "sieht",
+      "confidence": 0.18661
+    },
+    {
+      "start": 368.118,
+      "end": 368.598,
+      "word": "fest",
+      "confidence": 0.3419
+    },
+    {
+      "start": 368.694,
+      "end": 368.95,
+      "word": "und",
+      "confidence": 0.76523
+    },
+    {
+      "start": 368.99,
+      "end": 369.638,
+      "word": "doch",
+      "confidence": 0.45405
+    },
+    {
+      "start": 369.694,
+      "end": 369.79,
+      "word": "nicht.",
+      "confidence": 0.99385
+    }
+  ]
+}

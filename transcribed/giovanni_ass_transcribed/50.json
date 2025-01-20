@@ -1,0 +1,2809 @@
+{
+  "text": "Sulla sole, in buio luogo, albicato il cuor, io sento le massane d'un tal scoperto che mi sembra di morir, che mi sembra di morir. piu che cerco mi ritrovo questa porta, questa porta sciagurata piano, piano l'ho trovata, l'ho trovata ecco il tempo di riuscire Fuggire, ecco il tempo, ecco il tempo, ecco il tempo di fuggire. Perdici, oh vita mia, e da calma l'ombra o mai da genitore e ne avr\u00e0 dei tuoi martiri, dei tuoi martiri. Lasciala, mia bella, questo peggiol'amore solo, solo la morte, solo la morte, il mio tesoro. Il mio pianto va a finire. Il mio pianto va a finire. Ancora \u00e8 la sposa mia. Se mi tratti, Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? Che tu vuoi far fermo? E' mio marito! E' tua! E' tua! E' tua! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E' mia! E Piet\u00e0, piet\u00e0. Perdon, perdono, signori miei. Per carit\u00e0, per carit\u00e0, per carit\u00e0, per carit\u00e0. Stupidesco! Che malest\u00e0! Che malest\u00e0! mille torbi di pensieri mi s'aggirano per la testa. Che giocando sei! Se mi salvo, in tal tempesta, \u00e8 prodigio, in verit\u00e0, \u00e8 prodigio, in verit\u00e0, in verit\u00e0, in verit\u00e0, \u00e8 prodigio, in verit\u00e0. E' un prodigio in verit\u00e0, in verit\u00e0, in verit\u00e0, in verit\u00e0, \u00e8 un prodigio in verit\u00e0. Ah! Ah! Ah! Ah! Ah! Ah! Ah! Ah! ...se non sento il tuo amore. E mi sa quanto ti amo. E mi sa quanto ti amo. E mi sa quanto ti amo.",
+  "language": "it",
+  "duration": 508.1239909297052,
+  "words": [
+    {
+      "start": 4.61,
+      "end": 5.21,
+      "word": "Sulla",
+      "confidence": 0.619
+    },
+    {
+      "start": 5.23,
+      "end": 7.051,
+      "word": "sole,",
+      "confidence": 0.69
+    },
+    {
+      "start": 7.131,
+      "end": 7.171,
+      "word": "in",
+      "confidence": 0.01
+    },
+    {
+      "start": 7.231,
+      "end": 7.571,
+      "word": "buio",
+      "confidence": 0.515
+    },
+    {
+      "start": 7.851,
+      "end": 9.371,
+      "word": "luogo,",
+      "confidence": 0.387
+    },
+    {
+      "start": 9.812,
+      "end": 11.092,
+      "word": "albicato",
+      "confidence": 0.731
+    },
+    {
+      "start": 11.412,
+      "end": 11.552,
+      "word": "il",
+      "confidence": 0.701
+    },
+    {
+      "start": 11.672,
+      "end": 12.232,
+      "word": "cuor,",
+      "confidence": 0.564
+    },
+    {
+      "start": 12.512,
+      "end": 12.692,
+      "word": "io",
+      "confidence": 0.555
+    },
+    {
+      "start": 12.792,
+      "end": 13.913,
+      "word": "sento",
+      "confidence": 0.867
+    },
+    {
+      "start": 14.733,
+      "end": 15.013,
+      "word": "le",
+      "confidence": 0.698
+    },
+    {
+      "start": 15.053,
+      "end": 16.574,
+      "word": "massane",
+      "confidence": 0.807
+    },
+    {
+      "start": 16.974,
+      "end": 17.134,
+      "word": "d'un",
+      "confidence": 0.686
+    },
+    {
+      "start": 17.234,
+      "end": 17.454,
+      "word": "tal",
+      "confidence": 0.84
+    },
+    {
+      "start": 17.514,
+      "end": 19.134,
+      "word": "scoperto",
+      "confidence": 0.841
+    },
+    {
+      "start": 19.715,
+      "end": 19.835,
+      "word": "che",
+      "confidence": 0.66
+    },
+    {
+      "start": 20.215,
+      "end": 20.355,
+      "word": "mi",
+      "confidence": 0.933
+    },
+    {
+      "start": 20.395,
+      "end": 21.295,
+      "word": "sembra",
+      "confidence": 0.721
+    },
+    {
+      "start": 21.415,
+      "end": 21.495,
+      "word": "di",
+      "confidence": 0.238
+    },
+    {
+      "start": 21.535,
+      "end": 21.855,
+      "word": "morir,",
+      "confidence": 0.407
+    },
+    {
+      "start": 21.975,
+      "end": 22.055,
+      "word": "che",
+      "confidence": 0.22
+    },
+    {
+      "start": 22.075,
+      "end": 22.115,
+      "word": "mi",
+      "confidence": 0.07
+    },
+    {
+      "start": 22.135,
+      "end": 22.555,
+      "word": "sembra",
+      "confidence": 0.423
+    },
+    {
+      "start": 22.575,
+      "end": 22.615,
+      "word": "di",
+      "confidence": 0.054
+    },
+    {
+      "start": 22.695,
+      "end": 23.176,
+      "word": "morir.",
+      "confidence": 0.648
+    },
+    {
+      "start": 32.843,
+      "end": 33.023,
+      "word": "piu",
+      "confidence": 0.277
+    },
+    {
+      "start": 33.083,
+      "end": 33.183,
+      "word": "che",
+      "confidence": 0.771
+    },
+    {
+      "start": 33.243,
+      "end": 34.384,
+      "word": "cerco",
+      "confidence": 0.83
+    },
+    {
+      "start": 35.285,
+      "end": 35.365,
+      "word": "mi",
+      "confidence": 0.689
+    },
+    {
+      "start": 35.585,
+      "end": 36.946,
+      "word": "ritrovo",
+      "confidence": 0.751
+    },
+    {
+      "start": 37.706,
+      "end": 38.127,
+      "word": "questa",
+      "confidence": 0.829
+    },
+    {
+      "start": 38.287,
+      "end": 38.727,
+      "word": "porta,",
+      "confidence": 0.724
+    },
+    {
+      "start": 38.907,
+      "end": 39.468,
+      "word": "questa",
+      "confidence": 0.862
+    },
+    {
+      "start": 39.528,
+      "end": 40.048,
+      "word": "porta",
+      "confidence": 0.914
+    },
+    {
+      "start": 40.108,
+      "end": 41.709,
+      "word": "sciagurata",
+      "confidence": 0.756
+    },
+    {
+      "start": 47.693,
+      "end": 48.974,
+      "word": "piano,",
+      "confidence": 0.738
+    },
+    {
+      "start": 49.014,
+      "end": 49.154,
+      "word": "piano",
+      "confidence": 0.292
+    },
+    {
+      "start": 49.214,
+      "end": 49.294,
+      "word": "l'ho",
+      "confidence": 0.322
+    },
+    {
+      "start": 49.334,
+      "end": 49.694,
+      "word": "trovata,",
+      "confidence": 0.468
+    },
+    {
+      "start": 49.755,
+      "end": 49.815,
+      "word": "l'ho",
+      "confidence": 0.242
+    },
+    {
+      "start": 50.035,
+      "end": 50.895,
+      "word": "trovata",
+      "confidence": 0.747
+    },
+    {
+      "start": 50.915,
+      "end": 52.016,
+      "word": "ecco",
+      "confidence": 0.63
+    },
+    {
+      "start": 52.096,
+      "end": 52.136,
+      "word": "il",
+      "confidence": 0.045
+    },
+    {
+      "start": 52.276,
+      "end": 52.596,
+      "word": "tempo",
+      "confidence": 0.53
+    },
+    {
+      "start": 52.636,
+      "end": 52.717,
+      "word": "di",
+      "confidence": 0.482
+    },
+    {
+      "start": 52.757,
+      "end": 53.057,
+      "word": "riuscire",
+      "confidence": 0.459
+    },
+    {
+      "start": 59.915,
+      "end": 60.375,
+      "word": "Fuggire,",
+      "confidence": 0.301
+    },
+    {
+      "start": 60.475,
+      "end": 60.656,
+      "word": "ecco",
+      "confidence": 0.155
+    },
+    {
+      "start": 60.856,
+      "end": 61.276,
+      "word": "il",
+      "confidence": 0.625
+    },
+    {
+      "start": 61.516,
+      "end": 62.137,
+      "word": "tempo,",
+      "confidence": 0.702
+    },
+    {
+      "start": 62.217,
+      "end": 62.377,
+      "word": "ecco",
+      "confidence": 0.388
+    },
+    {
+      "start": 62.657,
+      "end": 62.717,
+      "word": "il",
+      "confidence": 0.494
+    },
+    {
+      "start": 62.797,
+      "end": 63.197,
+      "word": "tempo,",
+      "confidence": 0.793
+    },
+    {
+      "start": 63.498,
+      "end": 63.878,
+      "word": "ecco",
+      "confidence": 0.652
+    },
+    {
+      "start": 63.918,
+      "end": 63.958,
+      "word": "il",
+      "confidence": 0.44
+    },
+    {
+      "start": 64.018,
+      "end": 64.558,
+      "word": "tempo",
+      "confidence": 0.792
+    },
+    {
+      "start": 64.617,
+      "end": 64.819,
+      "word": "di",
+      "confidence": 0.892
+    },
+    {
+      "start": 64.998,
+      "end": 65.559,
+      "word": "fuggire.",
+      "confidence": 0.763
+    },
+    {
+      "start": 65.579,
+      "end": 66.2,
+      "word": "Perdici,",
+      "confidence": 0.627
+    },
+    {
+      "start": 75.726,
+      "end": 75.907,
+      "word": "oh",
+      "confidence": 0.764
+    },
+    {
+      "start": 75.927,
+      "end": 76.307,
+      "word": "vita",
+      "confidence": 0.578
+    },
+    {
+      "start": 76.367,
+      "end": 76.467,
+      "word": "mia,",
+      "confidence": 0.086
+    },
+    {
+      "start": 76.547,
+      "end": 76.787,
+      "word": "e",
+      "confidence": 0.912
+    },
+    {
+      "start": 76.807,
+      "end": 77.127,
+      "word": "da",
+      "confidence": 0.836
+    },
+    {
+      "start": 77.207,
+      "end": 78.548,
+      "word": "calma",
+      "confidence": 0.658
+    },
+    {
+      "start": 90.91,
+      "end": 93.691,
+      "word": "l'ombra",
+      "confidence": 0.581
+    },
+    {
+      "start": 93.791,
+      "end": 93.851,
+      "word": "o",
+      "confidence": 0.586
+    },
+    {
+      "start": 93.911,
+      "end": 94.171,
+      "word": "mai",
+      "confidence": 0.618
+    },
+    {
+      "start": 94.251,
+      "end": 94.351,
+      "word": "da",
+      "confidence": 0.619
+    },
+    {
+      "start": 94.411,
+      "end": 94.812,
+      "word": "genitore",
+      "confidence": 0.417
+    },
+    {
+      "start": 94.832,
+      "end": 94.852,
+      "word": "e",
+      "confidence": 0.003
+    },
+    {
+      "start": 94.912,
+      "end": 94.972,
+      "word": "ne",
+      "confidence": 0.28
+    },
+    {
+      "start": 94.992,
+      "end": 95.172,
+      "word": "avr\u00e0",
+      "confidence": 0.319
+    },
+    {
+      "start": 95.232,
+      "end": 95.312,
+      "word": "dei",
+      "confidence": 0.191
+    },
+    {
+      "start": 95.392,
+      "end": 95.692,
+      "word": "tuoi",
+      "confidence": 0.361
+    },
+    {
+      "start": 95.712,
+      "end": 96.052,
+      "word": "martiri,",
+      "confidence": 0.426
+    },
+    {
+      "start": 96.112,
+      "end": 96.192,
+      "word": "dei",
+      "confidence": 0.223
+    },
+    {
+      "start": 96.252,
+      "end": 96.512,
+      "word": "tuoi",
+      "confidence": 0.446
+    },
+    {
+      "start": 96.532,
+      "end": 96.932,
+      "word": "martiri.",
+      "confidence": 0.523
+    },
+    {
+      "start": 119.459,
+      "end": 120.239,
+      "word": "Lasciala,",
+      "confidence": 0.544
+    },
+    {
+      "start": 120.279,
+      "end": 120.98,
+      "word": "mia",
+      "confidence": 0.659
+    },
+    {
+      "start": 121.24,
+      "end": 121.68,
+      "word": "bella,",
+      "confidence": 0.548
+    },
+    {
+      "start": 121.76,
+      "end": 122.421,
+      "word": "questo",
+      "confidence": 0.603
+    },
+    {
+      "start": 123.061,
+      "end": 124.442,
+      "word": "peggiol'amore",
+      "confidence": 0.641
+    },
+    {
+      "start": 124.542,
+      "end": 124.742,
+      "word": "solo,",
+      "confidence": 0.528
+    },
+    {
+      "start": 124.782,
+      "end": 124.902,
+      "word": "solo",
+      "confidence": 0.317
+    },
+    {
+      "start": 124.942,
+      "end": 124.983,
+      "word": "la",
+      "confidence": 0.12
+    },
+    {
+      "start": 125.023,
+      "end": 125.223,
+      "word": "morte,",
+      "confidence": 0.379
+    },
+    {
+      "start": 125.323,
+      "end": 125.703,
+      "word": "solo",
+      "confidence": 0.549
+    },
+    {
+      "start": 125.963,
+      "end": 126.023,
+      "word": "la",
+      "confidence": 0.572
+    },
+    {
+      "start": 126.123,
+      "end": 126.524,
+      "word": "morte,",
+      "confidence": 0.489
+    },
+    {
+      "start": 126.624,
+      "end": 126.704,
+      "word": "il",
+      "confidence": 0.322
+    },
+    {
+      "start": 126.824,
+      "end": 126.904,
+      "word": "mio",
+      "confidence": 0.252
+    },
+    {
+      "start": 126.984,
+      "end": 127.344,
+      "word": "tesoro.",
+      "confidence": 0.507
+    },
+    {
+      "start": 143.243,
+      "end": 143.283,
+      "word": "Il",
+      "confidence": 0.051
+    },
+    {
+      "start": 143.303,
+      "end": 143.383,
+      "word": "mio",
+      "confidence": 0.109
+    },
+    {
+      "start": 143.403,
+      "end": 143.583,
+      "word": "pianto",
+      "confidence": 0.107
+    },
+    {
+      "start": 143.603,
+      "end": 143.643,
+      "word": "va",
+      "confidence": 0.062
+    },
+    {
+      "start": 143.663,
+      "end": 143.683,
+      "word": "a",
+      "confidence": 0.03
+    },
+    {
+      "start": 143.703,
+      "end": 143.843,
+      "word": "finire.",
+      "confidence": 0.099
+    },
+    {
+      "start": 143.883,
+      "end": 143.923,
+      "word": "Il",
+      "confidence": 0.122
+    },
+    {
+      "start": 143.943,
+      "end": 144.003,
+      "word": "mio",
+      "confidence": 0.058
+    },
+    {
+      "start": 144.023,
+      "end": 144.183,
+      "word": "pianto",
+      "confidence": 0.08
+    },
+    {
+      "start": 144.203,
+      "end": 144.243,
+      "word": "va",
+      "confidence": 0.079
+    },
+    {
+      "start": 144.283,
+      "end": 144.343,
+      "word": "a",
+      "confidence": 0.292
+    },
+    {
+      "start": 144.364,
+      "end": 144.584,
+      "word": "finire.",
+      "confidence": 0.273
+    },
+    {
+      "start": 144.624,
+      "end": 144.924,
+      "word": "Ancora",
+      "confidence": 0.301
+    },
+    {
+      "start": 144.944,
+      "end": 144.964,
+      "word": "\u00e8",
+      "confidence": 0.003
+    },
+    {
+      "start": 145.024,
+      "end": 145.064,
+      "word": "la",
+      "confidence": 0.11
+    },
+    {
+      "start": 145.124,
+      "end": 145.424,
+      "word": "sposa",
+      "confidence": 0.52
+    },
+    {
+      "start": 145.744,
+      "end": 145.804,
+      "word": "mia.",
+      "confidence": 0.06
+    },
+    {
+      "start": 145.944,
+      "end": 146.044,
+      "word": "Se",
+      "confidence": 0.514
+    },
+    {
+      "start": 146.064,
+      "end": 146.144,
+      "word": "mi",
+      "confidence": 0.436
+    },
+    {
+      "start": 146.184,
+      "end": 146.464,
+      "word": "tratti,",
+      "confidence": 0.374
+    },
+    {
+      "start": 174.833,
+      "end": 174.893,
+      "word": "Che",
+      "confidence": 0.015
+    },
+    {
+      "start": 174.913,
+      "end": 174.953,
+      "word": "tu",
+      "confidence": 0.002
+    },
+    {
+      "start": 174.973,
+      "end": 175.053,
+      "word": "vuoi",
+      "confidence": 0.006
+    },
+    {
+      "start": 175.073,
+      "end": 175.133,
+      "word": "far",
+      "confidence": 0.004
+    },
+    {
+      "start": 175.173,
+      "end": 175.413,
+      "word": "fermo?",
+      "confidence": 0.534
+    },
+    {
+      "start": 175.473,
+      "end": 175.553,
+      "word": "Che",
+      "confidence": 0.288
+    },
+    {
+      "start": 175.613,
+      "end": 175.673,
+      "word": "tu",
+      "confidence": 0.242
+    },
+    {
+      "start": 175.733,
+      "end": 175.914,
+      "word": "vuoi",
+      "confidence": 0.314
+    },
+    {
+      "start": 175.954,
+      "end": 176.054,
+      "word": "far",
+      "confidence": 0.296
+    },
+    {
+      "start": 176.134,
+      "end": 176.314,
+      "word": "fermo?",
+      "confidence": 0.425
+    },
+    {
+      "start": 176.394,
+      "end": 176.454,
+      "word": "Che",
+      "confidence": 0.202
+    },
+    {
+      "start": 176.494,
+      "end": 176.534,
+      "word": "tu",
+      "confidence": 0.056
+    },
+    {
+      "start": 176.614,
+      "end": 177.014,
+      "word": "vuoi",
+      "confidence": 0.51
+    },
+    {
+      "start": 177.034,
+      "end": 177.114,
+      "word": "far",
+      "confidence": 0.175
+    },
+    {
+      "start": 177.134,
+      "end": 177.334,
+      "word": "fermo?",
+      "confidence": 0.472
+    },
+    {
+      "start": 177.354,
+      "end": 177.615,
+      "word": "Che",
+      "confidence": 0.633
+    },
+    {
+      "start": 177.655,
+      "end": 177.695,
+      "word": "tu",
+      "confidence": 0.002
+    },
+    {
+      "start": 177.715,
+      "end": 177.795,
+      "word": "vuoi",
+      "confidence": 0.006
+    },
+    {
+      "start": 177.955,
+      "end": 178.015,
+      "word": "far",
+      "confidence": 0.016
+    },
+    {
+      "start": 178.055,
+      "end": 178.635,
+      "word": "fermo?",
+      "confidence": 0.583
+    },
+    {
+      "start": 178.675,
+      "end": 178.815,
+      "word": "Che",
+      "confidence": 0.395
+    },
+    {
+      "start": 178.835,
+      "end": 178.915,
+      "word": "tu",
+      "confidence": 0.308
+    },
+    {
+      "start": 178.935,
+      "end": 179.175,
+      "word": "vuoi",
+      "confidence": 0.43
+    },
+    {
+      "start": 179.275,
+      "end": 179.355,
+      "word": "far",
+      "confidence": 0.17
+    },
+    {
+      "start": 179.395,
+      "end": 179.556,
+      "word": "fermo?",
+      "confidence": 0.342
+    },
+    {
+      "start": 179.616,
+      "end": 179.696,
+      "word": "Che",
+      "confidence": 0.159
+    },
+    {
+      "start": 179.756,
+      "end": 179.816,
+      "word": "tu",
+      "confidence": 0.24
+    },
+    {
+      "start": 179.896,
+      "end": 179.996,
+      "word": "vuoi",
+      "confidence": 0.248
+    },
+    {
+      "start": 180.016,
+      "end": 180.096,
+      "word": "far",
+      "confidence": 0.171
+    },
+    {
+      "start": 180.156,
+      "end": 180.416,
+      "word": "fermo?",
+      "confidence": 0.526
+    },
+    {
+      "start": 180.436,
+      "end": 180.496,
+      "word": "Che",
+      "confidence": 0.126
+    },
+    {
+      "start": 180.516,
+      "end": 180.556,
+      "word": "tu",
+      "confidence": 0.004
+    },
+    {
+      "start": 180.576,
+      "end": 180.936,
+      "word": "vuoi",
+      "confidence": 0.384
+    },
+    {
+      "start": 181.176,
+      "end": 181.276,
+      "word": "far",
+      "confidence": 0.327
+    },
+    {
+      "start": 181.317,
+      "end": 181.477,
+      "word": "fermo?",
+      "confidence": 0.307
+    },
+    {
+      "start": 181.537,
+      "end": 181.677,
+      "word": "Che",
+      "confidence": 0.469
+    },
+    {
+      "start": 181.737,
+      "end": 181.837,
+      "word": "tu",
+      "confidence": 0.302
+    },
+    {
+      "start": 181.957,
+      "end": 182.097,
+      "word": "vuoi",
+      "confidence": 0.23
+    },
+    {
+      "start": 182.357,
+      "end": 182.437,
+      "word": "far",
+      "confidence": 0.164
+    },
+    {
+      "start": 182.457,
+      "end": 184.178,
+      "word": "fermo?",
+      "confidence": 0.324
+    },
+    {
+      "start": 184.238,
+      "end": 184.358,
+      "word": "Che",
+      "confidence": 0.367
+    },
+    {
+      "start": 184.378,
+      "end": 184.418,
+      "word": "tu",
+      "confidence": 0.014
+    },
+    {
+      "start": 184.458,
+      "end": 184.578,
+      "word": "vuoi",
+      "confidence": 0.174
+    },
+    {
+      "start": 184.678,
+      "end": 184.798,
+      "word": "far",
+      "confidence": 0.363
+    },
+    {
+      "start": 184.898,
+      "end": 185.039,
+      "word": "fermo?",
+      "confidence": 0.135
+    },
+    {
+      "start": 185.079,
+      "end": 185.179,
+      "word": "Che",
+      "confidence": 0.302
+    },
+    {
+      "start": 185.199,
+      "end": 185.279,
+      "word": "tu",
+      "confidence": 0.321
+    },
+    {
+      "start": 185.319,
+      "end": 185.499,
+      "word": "vuoi",
+      "confidence": 0.294
+    },
+    {
+      "start": 185.579,
+      "end": 185.739,
+      "word": "far",
+      "confidence": 0.614
+    },
+    {
+      "start": 185.759,
+      "end": 185.859,
+      "word": "fermo?",
+      "confidence": 0.021
+    },
+    {
+      "start": 185.879,
+      "end": 185.939,
+      "word": "Che",
+      "confidence": 0.061
+    },
+    {
+      "start": 185.999,
+      "end": 186.059,
+      "word": "tu",
+      "confidence": 0.258
+    },
+    {
+      "start": 186.119,
+      "end": 186.299,
+      "word": "vuoi",
+      "confidence": 0.368
+    },
+    {
+      "start": 186.359,
+      "end": 186.479,
+      "word": "far",
+      "confidence": 0.529
+    },
+    {
+      "start": 186.499,
+      "end": 186.699,
+      "word": "fermo?",
+      "confidence": 0.384
+    },
+    {
+      "start": 186.719,
+      "end": 186.779,
+      "word": "Che",
+      "confidence": 0.254
+    },
+    {
+      "start": 186.799,
+      "end": 186.84,
+      "word": "tu",
+      "confidence": 0.002
+    },
+    {
+      "start": 186.86,
+      "end": 186.94,
+      "word": "vuoi",
+      "confidence": 0.017
+    },
+    {
+      "start": 187.0,
+      "end": 187.08,
+      "word": "far",
+      "confidence": 0.172
+    },
+    {
+      "start": 187.28,
+      "end": 187.46,
+      "word": "fermo?",
+      "confidence": 0.377
+    },
+    {
+      "start": 187.48,
+      "end": 187.54,
+      "word": "Che",
+      "confidence": 0.004
+    },
+    {
+      "start": 187.56,
+      "end": 187.64,
+      "word": "tu",
+      "confidence": 0.33
+    },
+    {
+      "start": 187.66,
+      "end": 187.78,
+      "word": "vuoi",
+      "confidence": 0.312
+    },
+    {
+      "start": 187.8,
+      "end": 187.9,
+      "word": "far",
+      "confidence": 0.324
+    },
+    {
+      "start": 187.92,
+      "end": 188.04,
+      "word": "fermo?",
+      "confidence": 0.102
+    },
+    {
+      "start": 188.08,
+      "end": 188.14,
+      "word": "Che",
+      "confidence": 0.134
+    },
+    {
+      "start": 188.16,
+      "end": 188.24,
+      "word": "tu",
+      "confidence": 0.12
+    },
+    {
+      "start": 188.28,
+      "end": 188.38,
+      "word": "vuoi",
+      "confidence": 0.16
+    },
+    {
+      "start": 188.4,
+      "end": 188.5,
+      "word": "far",
+      "confidence": 0.482
+    },
+    {
+      "start": 188.52,
+      "end": 188.681,
+      "word": "fermo?",
+      "confidence": 0.211
+    },
+    {
+      "start": 188.721,
+      "end": 188.841,
+      "word": "Che",
+      "confidence": 0.442
+    },
+    {
+      "start": 188.941,
+      "end": 189.001,
+      "word": "tu",
+      "confidence": 0.229
+    },
+    {
+      "start": 189.021,
+      "end": 189.141,
+      "word": "vuoi",
+      "confidence": 0.256
+    },
+    {
+      "start": 189.161,
+      "end": 189.341,
+      "word": "far",
+      "confidence": 0.494
+    },
+    {
+      "start": 189.381,
+      "end": 189.701,
+      "word": "fermo?",
+      "confidence": 0.512
+    },
+    {
+      "start": 189.721,
+      "end": 190.061,
+      "word": "Che",
+      "confidence": 0.714
+    },
+    {
+      "start": 190.081,
+      "end": 190.301,
+      "word": "tu",
+      "confidence": 0.686
+    },
+    {
+      "start": 190.341,
+      "end": 190.542,
+      "word": "vuoi",
+      "confidence": 0.344
+    },
+    {
+      "start": 190.562,
+      "end": 190.642,
+      "word": "far",
+      "confidence": 0.364
+    },
+    {
+      "start": 190.662,
+      "end": 190.902,
+      "word": "fermo?",
+      "confidence": 0.439
+    },
+    {
+      "start": 190.942,
+      "end": 191.002,
+      "word": "Che",
+      "confidence": 0.045
+    },
+    {
+      "start": 191.022,
+      "end": 191.062,
+      "word": "tu",
+      "confidence": 0.008
+    },
+    {
+      "start": 191.102,
+      "end": 191.182,
+      "word": "vuoi",
+      "confidence": 0.005
+    },
+    {
+      "start": 191.202,
+      "end": 191.262,
+      "word": "far",
+      "confidence": 0.005
+    },
+    {
+      "start": 191.282,
+      "end": 191.482,
+      "word": "fermo?",
+      "confidence": 0.381
+    },
+    {
+      "start": 191.502,
+      "end": 191.642,
+      "word": "Che",
+      "confidence": 0.415
+    },
+    {
+      "start": 191.682,
+      "end": 191.802,
+      "word": "tu",
+      "confidence": 0.603
+    },
+    {
+      "start": 192.182,
+      "end": 192.803,
+      "word": "vuoi",
+      "confidence": 0.626
+    },
+    {
+      "start": 192.923,
+      "end": 193.003,
+      "word": "far",
+      "confidence": 0.222
+    },
+    {
+      "start": 193.043,
+      "end": 193.323,
+      "word": "fermo?",
+      "confidence": 0.264
+    },
+    {
+      "start": 193.383,
+      "end": 193.443,
+      "word": "Che",
+      "confidence": 0.131
+    },
+    {
+      "start": 193.463,
+      "end": 193.503,
+      "word": "tu",
+      "confidence": 0.002
+    },
+    {
+      "start": 193.523,
+      "end": 193.723,
+      "word": "vuoi",
+      "confidence": 0.48
+    },
+    {
+      "start": 193.803,
+      "end": 193.863,
+      "word": "far",
+      "confidence": 0.006
+    },
+    {
+      "start": 193.883,
+      "end": 194.224,
+      "word": "fermo?",
+      "confidence": 0.54
+    },
+    {
+      "start": 194.864,
+      "end": 195.504,
+      "word": "Che",
+      "confidence": 0.484
+    },
+    {
+      "start": 195.604,
+      "end": 195.684,
+      "word": "tu",
+      "confidence": 0.439
+    },
+    {
+      "start": 195.724,
+      "end": 195.804,
+      "word": "vuoi",
+      "confidence": 0.036
+    },
+    {
+      "start": 195.824,
+      "end": 195.924,
+      "word": "far",
+      "confidence": 0.355
+    },
+    {
+      "start": 195.944,
+      "end": 196.185,
+      "word": "fermo?",
+      "confidence": 0.426
+    },
+    {
+      "start": 196.225,
+      "end": 196.305,
+      "word": "Che",
+      "confidence": 0.192
+    },
+    {
+      "start": 196.325,
+      "end": 196.365,
+      "word": "tu",
+      "confidence": 0.003
+    },
+    {
+      "start": 196.385,
+      "end": 196.725,
+      "word": "vuoi",
+      "confidence": 0.4
+    },
+    {
+      "start": 196.745,
+      "end": 196.825,
+      "word": "far",
+      "confidence": 0.155
+    },
+    {
+      "start": 196.845,
+      "end": 197.005,
+      "word": "fermo?",
+      "confidence": 0.203
+    },
+    {
+      "start": 197.025,
+      "end": 197.225,
+      "word": "Che",
+      "confidence": 0.467
+    },
+    {
+      "start": 197.245,
+      "end": 197.285,
+      "word": "tu",
+      "confidence": 0.002
+    },
+    {
+      "start": 197.305,
+      "end": 197.765,
+      "word": "vuoi",
+      "confidence": 0.455
+    },
+    {
+      "start": 197.805,
+      "end": 197.926,
+      "word": "far",
+      "confidence": 0.211
+    },
+    {
+      "start": 197.946,
+      "end": 198.066,
+      "word": "fermo?",
+      "confidence": 0.082
+    },
+    {
+      "start": 198.106,
+      "end": 198.166,
+      "word": "Che",
+      "confidence": 0.304
+    },
+    {
+      "start": 198.186,
+      "end": 198.226,
+      "word": "tu",
+      "confidence": 0.006
+    },
+    {
+      "start": 198.246,
+      "end": 198.326,
+      "word": "vuoi",
+      "confidence": 0.024
+    },
+    {
+      "start": 198.386,
+      "end": 198.466,
+      "word": "far",
+      "confidence": 0.225
+    },
+    {
+      "start": 198.546,
+      "end": 198.786,
+      "word": "fermo?",
+      "confidence": 0.458
+    },
+    {
+      "start": 198.866,
+      "end": 199.386,
+      "word": "Che",
+      "confidence": 0.394
+    },
+    {
+      "start": 199.446,
+      "end": 199.506,
+      "word": "tu",
+      "confidence": 0.234
+    },
+    {
+      "start": 199.546,
+      "end": 199.827,
+      "word": "vuoi",
+      "confidence": 0.447
+    },
+    {
+      "start": 199.847,
+      "end": 200.327,
+      "word": "far",
+      "confidence": 0.445
+    },
+    {
+      "start": 200.367,
+      "end": 200.527,
+      "word": "fermo?",
+      "confidence": 0.32
+    },
+    {
+      "start": 200.567,
+      "end": 200.667,
+      "word": "Che",
+      "confidence": 0.269
+    },
+    {
+      "start": 200.687,
+      "end": 200.727,
+      "word": "tu",
+      "confidence": 0.014
+    },
+    {
+      "start": 200.747,
+      "end": 200.847,
+      "word": "vuoi",
+      "confidence": 0.114
+    },
+    {
+      "start": 200.867,
+      "end": 200.947,
+      "word": "far",
+      "confidence": 0.216
+    },
+    {
+      "start": 200.967,
+      "end": 201.087,
+      "word": "fermo?",
+      "confidence": 0.114
+    },
+    {
+      "start": 201.107,
+      "end": 201.187,
+      "word": "Che",
+      "confidence": 0.182
+    },
+    {
+      "start": 201.227,
+      "end": 201.267,
+      "word": "tu",
+      "confidence": 0.013
+    },
+    {
+      "start": 201.287,
+      "end": 201.367,
+      "word": "vuoi",
+      "confidence": 0.014
+    },
+    {
+      "start": 201.387,
+      "end": 201.467,
+      "word": "far",
+      "confidence": 0.137
+    },
+    {
+      "start": 201.487,
+      "end": 201.588,
+      "word": "fermo?",
+      "confidence": 0.023
+    },
+    {
+      "start": 201.608,
+      "end": 201.668,
+      "word": "Che",
+      "confidence": 0.016
+    },
+    {
+      "start": 201.708,
+      "end": 201.748,
+      "word": "tu",
+      "confidence": 0.01
+    },
+    {
+      "start": 201.768,
+      "end": 201.848,
+      "word": "vuoi",
+      "confidence": 0.017
+    },
+    {
+      "start": 201.868,
+      "end": 201.928,
+      "word": "far",
+      "confidence": 0.017
+    },
+    {
+      "start": 201.968,
+      "end": 202.068,
+      "word": "fermo?",
+      "confidence": 0.019
+    },
+    {
+      "start": 202.088,
+      "end": 202.148,
+      "word": "Che",
+      "confidence": 0.021
+    },
+    {
+      "start": 202.168,
+      "end": 202.208,
+      "word": "tu",
+      "confidence": 0.013
+    },
+    {
+      "start": 202.228,
+      "end": 202.308,
+      "word": "vuoi",
+      "confidence": 0.024
+    },
+    {
+      "start": 202.328,
+      "end": 202.388,
+      "word": "far",
+      "confidence": 0.02
+    },
+    {
+      "start": 202.408,
+      "end": 202.508,
+      "word": "fermo?",
+      "confidence": 0.032
+    },
+    {
+      "start": 205.765,
+      "end": 205.825,
+      "word": "E'",
+      "confidence": 0.737
+    },
+    {
+      "start": 205.865,
+      "end": 206.106,
+      "word": "mio",
+      "confidence": 0.621
+    },
+    {
+      "start": 206.186,
+      "end": 207.366,
+      "word": "marito!",
+      "confidence": 0.68
+    },
+    {
+      "start": 207.446,
+      "end": 207.486,
+      "word": "E'",
+      "confidence": 0.656
+    },
+    {
+      "start": 207.586,
+      "end": 207.686,
+      "word": "tua!",
+      "confidence": 0.345
+    },
+    {
+      "start": 207.786,
+      "end": 207.826,
+      "word": "E'",
+      "confidence": 0.562
+    },
+    {
+      "start": 207.867,
+      "end": 207.927,
+      "word": "tua!",
+      "confidence": 0.16
+    },
+    {
+      "start": 207.947,
+      "end": 207.987,
+      "word": "E'",
+      "confidence": 0.455
+    },
+    {
+      "start": 208.007,
+      "end": 208.067,
+      "word": "tua!",
+      "confidence": 0.135
+    },
+    {
+      "start": 208.107,
+      "end": 208.147,
+      "word": "E'",
+      "confidence": 0.473
+    },
+    {
+      "start": 208.167,
+      "end": 208.227,
+      "word": "mia!",
+      "confidence": 0.102
+    },
+    {
+      "start": 208.267,
+      "end": 208.287,
+      "word": "E'",
+      "confidence": 0.012
+    },
+    {
+      "start": 208.307,
+      "end": 208.387,
+      "word": "mia!",
+      "confidence": 0.188
+    },
+    {
+      "start": 210.728,
+      "end": 210.828,
+      "word": "E'",
+      "confidence": 0.75
+    },
+    {
+      "start": 210.928,
+      "end": 211.668,
+      "word": "mia!",
+      "confidence": 0.63
+    },
+    {
+      "start": 212.169,
+      "end": 212.229,
+      "word": "E'",
+      "confidence": 0.683
+    },
+    {
+      "start": 212.309,
+      "end": 212.909,
+      "word": "mia!",
+      "confidence": 0.728
+    },
+    {
+      "start": 213.469,
+      "end": 213.509,
+      "word": "E'",
+      "confidence": 0.602
+    },
+    {
+      "start": 213.549,
+      "end": 213.629,
+      "word": "mia!",
+      "confidence": 0.126
+    },
+    {
+      "start": 213.729,
+      "end": 213.79,
+      "word": "E'",
+      "confidence": 0.538
+    },
+    {
+      "start": 213.83,
+      "end": 213.93,
+      "word": "mia!",
+      "confidence": 0.216
+    },
+    {
+      "start": 214.05,
+      "end": 214.09,
+      "word": "E'",
+      "confidence": 0.479
+    },
+    {
+      "start": 214.11,
+      "end": 214.51,
+      "word": "mia!",
+      "confidence": 0.666
+    },
+    {
+      "start": 215.09,
+      "end": 215.21,
+      "word": "E'",
+      "confidence": 0.746
+    },
+    {
+      "start": 215.27,
+      "end": 215.47,
+      "word": "mia!",
+      "confidence": 0.559
+    },
+    {
+      "start": 215.63,
+      "end": 215.69,
+      "word": "E'",
+      "confidence": 0.677
+    },
+    {
+      "start": 215.75,
+      "end": 215.811,
+      "word": "mia!",
+      "confidence": 0.015
+    },
+    {
+      "start": 215.931,
+      "end": 215.971,
+      "word": "E'",
+      "confidence": 0.535
+    },
+    {
+      "start": 215.991,
+      "end": 216.251,
+      "word": "mia!",
+      "confidence": 0.44
+    },
+    {
+      "start": 216.411,
+      "end": 216.431,
+      "word": "E'",
+      "confidence": 0.168
+    },
+    {
+      "start": 216.511,
+      "end": 216.591,
+      "word": "mia!",
+      "confidence": 0.227
+    },
+    {
+      "start": 216.831,
+      "end": 216.871,
+      "word": "E'",
+      "confidence": 0.48
+    },
+    {
+      "start": 216.951,
+      "end": 217.051,
+      "word": "mia!",
+      "confidence": 0.406
+    },
+    {
+      "start": 217.071,
+      "end": 217.091,
+      "word": "E'",
+      "confidence": 0.004
+    },
+    {
+      "start": 217.111,
+      "end": 217.171,
+      "word": "mia!",
+      "confidence": 0.225
+    },
+    {
+      "start": 217.271,
+      "end": 217.291,
+      "word": "E'",
+      "confidence": 0.028
+    },
+    {
+      "start": 217.371,
+      "end": 217.451,
+      "word": "mia!",
+      "confidence": 0.397
+    },
+    {
+      "start": 217.792,
+      "end": 218.172,
+      "word": "E'",
+      "confidence": 0.916
+    },
+    {
+      "start": 218.352,
+      "end": 218.852,
+      "word": "mia!",
+      "confidence": 0.553
+    },
+    {
+      "start": 219.112,
+      "end": 219.552,
+      "word": "E'",
+      "confidence": 0.932
+    },
+    {
+      "start": 219.592,
+      "end": 219.773,
+      "word": "mia!",
+      "confidence": 0.49
+    },
+    {
+      "start": 220.413,
+      "end": 221.754,
+      "word": "E'",
+      "confidence": 0.972
+    },
+    {
+      "start": 222.094,
+      "end": 222.254,
+      "word": "mia!",
+      "confidence": 0.615
+    },
+    {
+      "start": 222.374,
+      "end": 222.414,
+      "word": "E'",
+      "confidence": 0.44
+    },
+    {
+      "start": 222.434,
+      "end": 222.534,
+      "word": "mia!",
+      "confidence": 0.236
+    },
+    {
+      "start": 222.734,
+      "end": 222.794,
+      "word": "E'",
+      "confidence": 0.6
+    },
+    {
+      "start": 222.834,
+      "end": 223.234,
+      "word": "mia!",
+      "confidence": 0.592
+    },
+    {
+      "start": 223.494,
+      "end": 223.795,
+      "word": "E'",
+      "confidence": 0.867
+    },
+    {
+      "start": 223.835,
+      "end": 224.335,
+      "word": "mia!",
+      "confidence": 0.674
+    },
+    {
+      "start": 224.795,
+      "end": 224.855,
+      "word": "E'",
+      "confidence": 0.607
+    },
+    {
+      "start": 224.875,
+      "end": 224.975,
+      "word": "mia!",
+      "confidence": 0.298
+    },
+    {
+      "start": 224.995,
+      "end": 225.015,
+      "word": "E'",
+      "confidence": 0.014
+    },
+    {
+      "start": 225.035,
+      "end": 225.115,
+      "word": "mia!",
+      "confidence": 0.156
+    },
+    {
+      "start": 225.135,
+      "end": 225.155,
+      "word": "E'",
+      "confidence": 0.015
+    },
+    {
+      "start": 225.175,
+      "end": 225.235,
+      "word": "mia!",
+      "confidence": 0.101
+    },
+    {
+      "start": 225.335,
+      "end": 225.535,
+      "word": "E'",
+      "confidence": 0.81
+    },
+    {
+      "start": 225.555,
+      "end": 225.636,
+      "word": "mia!",
+      "confidence": 0.131
+    },
+    {
+      "start": 225.756,
+      "end": 225.876,
+      "word": "E'",
+      "confidence": 0.684
+    },
+    {
+      "start": 225.916,
+      "end": 225.976,
+      "word": "mia!",
+      "confidence": 0.018
+    },
+    {
+      "start": 225.996,
+      "end": 226.016,
+      "word": "E'",
+      "confidence": 0.015
+    },
+    {
+      "start": 226.056,
+      "end": 226.116,
+      "word": "mia!",
+      "confidence": 0.059
+    },
+    {
+      "start": 226.176,
+      "end": 226.196,
+      "word": "E'",
+      "confidence": 0.192
+    },
+    {
+      "start": 226.216,
+      "end": 226.276,
+      "word": "mia!",
+      "confidence": 0.039
+    },
+    {
+      "start": 226.316,
+      "end": 226.356,
+      "word": "E'",
+      "confidence": 0.392
+    },
+    {
+      "start": 226.376,
+      "end": 226.436,
+      "word": "mia!",
+      "confidence": 0.027
+    },
+    {
+      "start": 226.556,
+      "end": 226.596,
+      "word": "E'",
+      "confidence": 0.444
+    },
+    {
+      "start": 226.636,
+      "end": 226.716,
+      "word": "mia!",
+      "confidence": 0.154
+    },
+    {
+      "start": 226.776,
+      "end": 226.836,
+      "word": "E'",
+      "confidence": 0.566
+    },
+    {
+      "start": 226.896,
+      "end": 226.956,
+      "word": "mia!",
+      "confidence": 0.224
+    },
+    {
+      "start": 226.996,
+      "end": 227.016,
+      "word": "E'",
+      "confidence": 0.006
+    },
+    {
+      "start": 227.096,
+      "end": 227.516,
+      "word": "mia!",
+      "confidence": 0.739
+    },
+    {
+      "start": 227.556,
+      "end": 227.596,
+      "word": "E'",
+      "confidence": 0.5
+    },
+    {
+      "start": 227.677,
+      "end": 227.737,
+      "word": "mia!",
+      "confidence": 0.024
+    },
+    {
+      "start": 227.757,
+      "end": 227.817,
+      "word": "E'",
+      "confidence": 0.523
+    },
+    {
+      "start": 227.877,
+      "end": 227.957,
+      "word": "mia!",
+      "confidence": 0.334
+    },
+    {
+      "start": 228.097,
+      "end": 228.157,
+      "word": "E'",
+      "confidence": 0.606
+    },
+    {
+      "start": 228.237,
+      "end": 228.317,
+      "word": "mia!",
+      "confidence": 0.362
+    },
+    {
+      "start": 228.337,
+      "end": 228.377,
+      "word": "E'",
+      "confidence": 0.569
+    },
+    {
+      "start": 228.477,
+      "end": 228.577,
+      "word": "mia!",
+      "confidence": 0.299
+    },
+    {
+      "start": 228.697,
+      "end": 229.177,
+      "word": "E'",
+      "confidence": 0.884
+    },
+    {
+      "start": 229.237,
+      "end": 229.397,
+      "word": "mia!",
+      "confidence": 0.416
+    },
+    {
+      "start": 229.598,
+      "end": 229.698,
+      "word": "E'",
+      "confidence": 0.914
+    },
+    {
+      "start": 229.818,
+      "end": 229.898,
+      "word": "mia!",
+      "confidence": 0.071
+    },
+    {
+      "start": 230.118,
+      "end": 230.158,
+      "word": "E'",
+      "confidence": 0.461
+    },
+    {
+      "start": 230.178,
+      "end": 230.238,
+      "word": "mia!",
+      "confidence": 0.015
+    },
+    {
+      "start": 230.278,
+      "end": 230.298,
+      "word": "E'",
+      "confidence": 0.052
+    },
+    {
+      "start": 230.338,
+      "end": 230.398,
+      "word": "mia!",
+      "confidence": 0.167
+    },
+    {
+      "start": 230.498,
+      "end": 230.518,
+      "word": "E'",
+      "confidence": 0.078
+    },
+    {
+      "start": 230.558,
+      "end": 230.978,
+      "word": "mia!",
+      "confidence": 0.554
+    },
+    {
+      "start": 230.998,
+      "end": 231.058,
+      "word": "E'",
+      "confidence": 0.815
+    },
+    {
+      "start": 231.098,
+      "end": 231.178,
+      "word": "mia!",
+      "confidence": 0.101
+    },
+    {
+      "start": 231.258,
+      "end": 231.298,
+      "word": "E'",
+      "confidence": 0.753
+    },
+    {
+      "start": 231.438,
+      "end": 232.179,
+      "word": "mia!",
+      "confidence": 0.643
+    },
+    {
+      "start": 232.199,
+      "end": 232.219,
+      "word": "E'",
+      "confidence": 0.007
+    },
+    {
+      "start": 232.759,
+      "end": 232.859,
+      "word": "mia!",
+      "confidence": 0.311
+    },
+    {
+      "start": 232.959,
+      "end": 232.979,
+      "word": "E'",
+      "confidence": 0.022
+    },
+    {
+      "start": 232.999,
+      "end": 233.199,
+      "word": "mia!",
+      "confidence": 0.353
+    },
+    {
+      "start": 233.219,
+      "end": 233.239,
+      "word": "E'",
+      "confidence": 0.025
+    },
+    {
+      "start": 233.259,
+      "end": 233.439,
+      "word": "mia!",
+      "confidence": 0.37
+    },
+    {
+      "start": 233.459,
+      "end": 233.479,
+      "word": "E'",
+      "confidence": 0.019
+    },
+    {
+      "start": 233.519,
+      "end": 233.58,
+      "word": "mia!",
+      "confidence": 0.047
+    },
+    {
+      "start": 233.74,
+      "end": 233.76,
+      "word": "E'",
+      "confidence": 0.038
+    },
+    {
+      "start": 233.78,
+      "end": 233.86,
+      "word": "mia!",
+      "confidence": 0.134
+    },
+    {
+      "start": 233.88,
+      "end": 233.9,
+      "word": "E'",
+      "confidence": 0.03
+    },
+    {
+      "start": 233.92,
+      "end": 233.98,
+      "word": "mia!",
+      "confidence": 0.022
+    },
+    {
+      "start": 234.0,
+      "end": 234.02,
+      "word": "E'",
+      "confidence": 0.024
+    },
+    {
+      "start": 234.08,
+      "end": 234.18,
+      "word": "mia!",
+      "confidence": 0.25
+    },
+    {
+      "start": 234.22,
+      "end": 234.24,
+      "word": "E'",
+      "confidence": 0.024
+    },
+    {
+      "start": 234.28,
+      "end": 234.34,
+      "word": "mia!",
+      "confidence": 0.068
+    },
+    {
+      "start": 234.36,
+      "end": 234.38,
+      "word": "E'",
+      "confidence": 0.011
+    },
+    {
+      "start": 234.4,
+      "end": 234.46,
+      "word": "mia!",
+      "confidence": 0.023
+    },
+    {
+      "start": 234.48,
+      "end": 234.5,
+      "word": "E",
+      "confidence": 0.052
+    },
+    {
+      "start": 251.837,
+      "end": 252.557,
+      "word": "Piet\u00e0,",
+      "confidence": 0.596
+    },
+    {
+      "start": 252.677,
+      "end": 253.137,
+      "word": "piet\u00e0.",
+      "confidence": 0.532
+    },
+    {
+      "start": 253.497,
+      "end": 253.837,
+      "word": "Perdon,",
+      "confidence": 0.556
+    },
+    {
+      "start": 253.977,
+      "end": 257.798,
+      "word": "perdono,",
+      "confidence": 0.789
+    },
+    {
+      "start": 261.738,
+      "end": 262.339,
+      "word": "signori",
+      "confidence": 0.599
+    },
+    {
+      "start": 262.379,
+      "end": 262.539,
+      "word": "miei.",
+      "confidence": 0.293
+    },
+    {
+      "start": 282.85,
+      "end": 282.97,
+      "word": "Per",
+      "confidence": 0.17
+    },
+    {
+      "start": 282.99,
+      "end": 283.15,
+      "word": "carit\u00e0,",
+      "confidence": 0.105
+    },
+    {
+      "start": 283.17,
+      "end": 283.23,
+      "word": "per",
+      "confidence": 0.082
+    },
+    {
+      "start": 283.25,
+      "end": 283.37,
+      "word": "carit\u00e0,",
+      "confidence": 0.038
+    },
+    {
+      "start": 283.39,
+      "end": 283.45,
+      "word": "per",
+      "confidence": 0.047
+    },
+    {
+      "start": 283.47,
+      "end": 283.59,
+      "word": "carit\u00e0,",
+      "confidence": 0.032
+    },
+    {
+      "start": 283.61,
+      "end": 283.67,
+      "word": "per",
+      "confidence": 0.05
+    },
+    {
+      "start": 283.69,
+      "end": 283.81,
+      "word": "carit\u00e0.",
+      "confidence": 0.037
+    },
+    {
+      "start": 314.963,
+      "end": 315.903,
+      "word": "Stupidesco!",
+      "confidence": 0.536
+    },
+    {
+      "start": 315.963,
+      "end": 316.464,
+      "word": "Che",
+      "confidence": 0.489
+    },
+    {
+      "start": 318.244,
+      "end": 320.485,
+      "word": "malest\u00e0!",
+      "confidence": 0.46
+    },
+    {
+      "start": 320.545,
+      "end": 320.625,
+      "word": "Che",
+      "confidence": 0.226
+    },
+    {
+      "start": 320.665,
+      "end": 321.426,
+      "word": "malest\u00e0!",
+      "confidence": 0.486
+    },
+    {
+      "start": 359.024,
+      "end": 360.825,
+      "word": "mille",
+      "confidence": 0.524
+    },
+    {
+      "start": 360.965,
+      "end": 361.565,
+      "word": "torbi",
+      "confidence": 0.664
+    },
+    {
+      "start": 361.625,
+      "end": 361.845,
+      "word": "di",
+      "confidence": 0.788
+    },
+    {
+      "start": 362.946,
+      "end": 365.447,
+      "word": "pensieri",
+      "confidence": 0.784
+    },
+    {
+      "start": 367.008,
+      "end": 367.808,
+      "word": "mi",
+      "confidence": 0.728
+    },
+    {
+      "start": 367.948,
+      "end": 369.749,
+      "word": "s'aggirano",
+      "confidence": 0.812
+    },
+    {
+      "start": 369.869,
+      "end": 369.989,
+      "word": "per",
+      "confidence": 0.509
+    },
+    {
+      "start": 370.349,
+      "end": 370.429,
+      "word": "la",
+      "confidence": 0.64
+    },
+    {
+      "start": 370.529,
+      "end": 370.87,
+      "word": "testa.",
+      "confidence": 0.416
+    },
+    {
+      "start": 370.89,
+      "end": 370.97,
+      "word": "Che",
+      "confidence": 0.17
+    },
+    {
+      "start": 371.01,
+      "end": 371.33,
+      "word": "giocando",
+      "confidence": 0.346
+    },
+    {
+      "start": 371.37,
+      "end": 371.61,
+      "word": "sei!",
+      "confidence": 0.562
+    },
+    {
+      "start": 383.512,
+      "end": 383.592,
+      "word": "Se",
+      "confidence": 0.642
+    },
+    {
+      "start": 383.632,
+      "end": 383.713,
+      "word": "mi",
+      "confidence": 0.616
+    },
+    {
+      "start": 383.773,
+      "end": 384.073,
+      "word": "salvo,",
+      "confidence": 0.752
+    },
+    {
+      "start": 384.393,
+      "end": 384.433,
+      "word": "in",
+      "confidence": 0.05
+    },
+    {
+      "start": 384.473,
+      "end": 384.553,
+      "word": "tal",
+      "confidence": 0.597
+    },
+    {
+      "start": 384.593,
+      "end": 385.033,
+      "word": "tempesta,",
+      "confidence": 0.588
+    },
+    {
+      "start": 385.433,
+      "end": 385.473,
+      "word": "\u00e8",
+      "confidence": 0.434
+    },
+    {
+      "start": 385.533,
+      "end": 385.993,
+      "word": "prodigio,",
+      "confidence": 0.809
+    },
+    {
+      "start": 386.333,
+      "end": 386.373,
+      "word": "in",
+      "confidence": 0.43
+    },
+    {
+      "start": 386.413,
+      "end": 386.833,
+      "word": "verit\u00e0,",
+      "confidence": 0.676
+    },
+    {
+      "start": 386.913,
+      "end": 386.953,
+      "word": "\u00e8",
+      "confidence": 0.13
+    },
+    {
+      "start": 386.993,
+      "end": 387.313,
+      "word": "prodigio,",
+      "confidence": 0.573
+    },
+    {
+      "start": 387.333,
+      "end": 387.373,
+      "word": "in",
+      "confidence": 0.068
+    },
+    {
+      "start": 387.393,
+      "end": 387.733,
+      "word": "verit\u00e0,",
+      "confidence": 0.711
+    },
+    {
+      "start": 387.813,
+      "end": 387.853,
+      "word": "in",
+      "confidence": 0.445
+    },
+    {
+      "start": 387.893,
+      "end": 388.214,
+      "word": "verit\u00e0,",
+      "confidence": 0.912
+    },
+    {
+      "start": 388.234,
+      "end": 388.274,
+      "word": "in",
+      "confidence": 0.019
+    },
+    {
+      "start": 388.394,
+      "end": 388.714,
+      "word": "verit\u00e0,",
+      "confidence": 0.806
+    },
+    {
+      "start": 388.734,
+      "end": 388.754,
+      "word": "\u00e8",
+      "confidence": 0.001
+    },
+    {
+      "start": 388.934,
+      "end": 389.434,
+      "word": "prodigio,",
+      "confidence": 0.353
+    },
+    {
+      "start": 389.494,
+      "end": 389.554,
+      "word": "in",
+      "confidence": 0.418
+    },
+    {
+      "start": 389.574,
+      "end": 389.854,
+      "word": "verit\u00e0.",
+      "confidence": 0.402
+    },
+    {
+      "start": 413.026,
+      "end": 413.046,
+      "word": "E'",
+      "confidence": 0.019
+    },
+    {
+      "start": 413.086,
+      "end": 413.146,
+      "word": "un",
+      "confidence": 0.214
+    },
+    {
+      "start": 413.186,
+      "end": 413.506,
+      "word": "prodigio",
+      "confidence": 0.225
+    },
+    {
+      "start": 413.546,
+      "end": 413.606,
+      "word": "in",
+      "confidence": 0.25
+    },
+    {
+      "start": 413.666,
+      "end": 414.246,
+      "word": "verit\u00e0,",
+      "confidence": 0.25
+    },
+    {
+      "start": 414.567,
+      "end": 414.627,
+      "word": "in",
+      "confidence": 0.287
+    },
+    {
+      "start": 414.667,
+      "end": 415.247,
+      "word": "verit\u00e0,",
+      "confidence": 0.578
+    },
+    {
+      "start": 415.267,
+      "end": 415.307,
+      "word": "in",
+      "confidence": 0.016
+    },
+    {
+      "start": 415.367,
+      "end": 415.967,
+      "word": "verit\u00e0,",
+      "confidence": 0.506
+    },
+    {
+      "start": 416.048,
+      "end": 416.088,
+      "word": "in",
+      "confidence": 0.136
+    },
+    {
+      "start": 416.128,
+      "end": 416.608,
+      "word": "verit\u00e0,",
+      "confidence": 0.485
+    },
+    {
+      "start": 416.628,
+      "end": 416.648,
+      "word": "\u00e8",
+      "confidence": 0.004
+    },
+    {
+      "start": 416.688,
+      "end": 416.768,
+      "word": "un",
+      "confidence": 0.174
+    },
+    {
+      "start": 416.848,
+      "end": 417.208,
+      "word": "prodigio",
+      "confidence": 0.314
+    },
+    {
+      "start": 417.629,
+      "end": 417.669,
+      "word": "in",
+      "confidence": 0.015
+    },
+    {
+      "start": 417.729,
+      "end": 418.009,
+      "word": "verit\u00e0.",
+      "confidence": 0.467
+    },
+    {
+      "start": 449.072,
+      "end": 449.352,
+      "word": "Ah!",
+      "confidence": 0.761
+    },
+    {
+      "start": 449.432,
+      "end": 450.213,
+      "word": "Ah!",
+      "confidence": 0.89
+    },
+    {
+      "start": 450.333,
+      "end": 450.653,
+      "word": "Ah!",
+      "confidence": 0.772
+    },
+    {
+      "start": 450.673,
+      "end": 451.114,
+      "word": "Ah!",
+      "confidence": 0.711
+    },
+    {
+      "start": 451.194,
+      "end": 451.474,
+      "word": "Ah!",
+      "confidence": 0.746
+    },
+    {
+      "start": 451.814,
+      "end": 452.515,
+      "word": "Ah!",
+      "confidence": 0.752
+    },
+    {
+      "start": 452.575,
+      "end": 452.695,
+      "word": "Ah!",
+      "confidence": 0.459
+    },
+    {
+      "start": 452.775,
+      "end": 452.895,
+      "word": "Ah!",
+      "confidence": 0.356
+    },
+    {
+      "start": 478.262,
+      "end": 480.683,
+      "word": "...se",
+      "confidence": 0.71
+    },
+    {
+      "start": 480.743,
+      "end": 480.823,
+      "word": "non",
+      "confidence": 0.266
+    },
+    {
+      "start": 480.883,
+      "end": 481.104,
+      "word": "sento",
+      "confidence": 0.464
+    },
+    {
+      "start": 481.144,
+      "end": 481.184,
+      "word": "il",
+      "confidence": 0.051
+    },
+    {
+      "start": 481.224,
+      "end": 481.284,
+      "word": "tuo",
+      "confidence": 0.199
+    },
+    {
+      "start": 481.304,
+      "end": 484.325,
+      "word": "amore.",
+      "confidence": 0.627
+    },
+    {
+      "start": 484.505,
+      "end": 484.986,
+      "word": "E",
+      "confidence": 0.949
+    },
+    {
+      "start": 485.006,
+      "end": 485.306,
+      "word": "mi",
+      "confidence": 0.664
+    },
+    {
+      "start": 485.346,
+      "end": 485.446,
+      "word": "sa",
+      "confidence": 0.528
+    },
+    {
+      "start": 485.566,
+      "end": 487.427,
+      "word": "quanto",
+      "confidence": 0.6
+    },
+    {
+      "start": 487.447,
+      "end": 487.527,
+      "word": "ti",
+      "confidence": 0.556
+    },
+    {
+      "start": 487.627,
+      "end": 488.107,
+      "word": "amo.",
+      "confidence": 0.642
+    },
+    {
+      "start": 488.167,
+      "end": 488.187,
+      "word": "E",
+      "confidence": 0.156
+    },
+    {
+      "start": 488.227,
+      "end": 488.287,
+      "word": "mi",
+      "confidence": 0.144
+    },
+    {
+      "start": 488.367,
+      "end": 488.427,
+      "word": "sa",
+      "confidence": 0.264
+    },
+    {
+      "start": 488.467,
+      "end": 489.168,
+      "word": "quanto",
+      "confidence": 0.501
+    },
+    {
+      "start": 489.208,
+      "end": 489.408,
+      "word": "ti",
+      "confidence": 0.656
+    },
+    {
+      "start": 489.528,
+      "end": 490.168,
+      "word": "amo.",
+      "confidence": 0.686
+    },
+    {
+      "start": 490.528,
+      "end": 491.149,
+      "word": "E",
+      "confidence": 0.939
+    },
+    {
+      "start": 491.209,
+      "end": 491.389,
+      "word": "mi",
+      "confidence": 0.635
+    },
+    {
+      "start": 491.429,
+      "end": 492.169,
+      "word": "sa",
+      "confidence": 0.662
+    },
+    {
+      "start": 492.209,
+      "end": 492.369,
+      "word": "quanto",
+      "confidence": 0.175
+    },
+    {
+      "start": 492.429,
+      "end": 492.489,
+      "word": "ti",
+      "confidence": 0.28
+    },
+    {
+      "start": 492.509,
+      "end": 492.61,
+      "word": "amo.",
+      "confidence": 0.222
+    }
+  ]
+}
