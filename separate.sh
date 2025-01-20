@@ -1,14 +1,15 @@
 #!/bin/bash
 
-if [ "$#" -ne 2 ]; then
-    echo "Usage: $0 <config.yaml> <youtube_url>"
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 <config.yaml>"
     exit 1
 fi
 
-# Extract file prefix from yaml config
-FILE_PREFIX=$(python parse_yaml.py "$1")
+# Extract file prefix and playlist URL from yaml config
+CONFIG_OUTPUT=$(python parse_yaml.py "$1")
+read -r FILE_PREFIX PLAYLIST_URL <<< "$CONFIG_OUTPUT"
 
-yt-dlp -x --audio-format m4a -o "audio/$FILE_PREFIX/%(playlist_index)s.m4a" "$2"
+yt-dlp -x --audio-format m4a -o "audio/$FILE_PREFIX/%(playlist_index)s.m4a" "$PLAYLIST_URL"
 demucs -d cpu -j 2 --two-stems=vocals audio/"$FILE_PREFIX"/*.m4a -o sep/"$FILE_PREFIX"_sep
 find . -type f -name "$FILE_PREFIX"_sep/htdemucs/*/*.wav -exec sh -c 'ffmpeg -i "$1"_sep "${1%.wav}.m4a" && rm "$1"_sep' _ {} \;
 

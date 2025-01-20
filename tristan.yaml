@@ -9,6 +9,7 @@ video_width: 3840
 video_height: 2160
 font_size: 96
 res_divisor: 1
+playlist_url: https://www.youtube.com/playlist?list=EXAMPLE
 
 characters:
   - Tristan
