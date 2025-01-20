@@ -23,7 +23,7 @@ config = aai.TranscriptionConfig(
     speech_model=aai.SpeechModel.best,
     language_code=language,
 )
-aai.settings.api_key = "d91d43fd2f754946859238338166242d"
+aai.settings.api_key = os.getenv("ASSEMBLYAI_API_KEY")
 transcriber = aai.Transcriber(config=config)
 
 in_dir = f"sep/{opera_name}_sep"

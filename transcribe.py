@@ -1,16 +1,14 @@
 from openai import OpenAI
 from openai.types.audio import TranscriptionVerbose, TranscriptionWord
 from dotenv import load_dotenv
-import openai
 import json
 import os
+from config_parser import parse_opera_config
+import sys
 
 load_dotenv()
 
 client = OpenAI()
-
-from config_parser import parse_opera_config
-import sys
 
 if len(sys.argv) != 2:
     print("Usage: python transcribe.py <config.md>")

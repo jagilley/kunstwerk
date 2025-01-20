@@ -23,7 +23,7 @@ A Python-based tool for generating parallel subtitle videos for opera performanc
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd opera-subtitle-generator
+cd gotterdammerung
 ```
 
 2. Install dependencies:
