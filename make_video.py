@@ -10,46 +10,29 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 from align import AlignedWord, deserialize_transcription_from_file, convert_file_times_to_absolute_times, word_similarity
 import copy
+from config_parser import parse_md_config
+import sys
 
+def main(config_file: str):
+    config = parse_md_config(config_file)
+    
+    TITLE = config.title
+    FILE_PREFIX = config.file_prefix
+    SECONDARY_COLOR_X11 = config.secondary_color
+    LANGUAGE_ID = config.language
+    START_IDX = config.start_idx
+    END_IDX = config.end_idx
+    OVERTURE_INDICES = config.overture_indices
 
-TITLE = "TRISTAN UND ISOLDE"
-FILE_PREFIX = "tristan"
-SECONDARY_COLOR_X11 = "Silver" # https://en.wikipedia.org/wiki/X11_color_names
-LANGUAGE_ID = "de"
-START_IDX = 1
-END_IDX = 33
-OVERTURE_INDICES = [1]
+    VIDEO_WIDTH = config.video_width
+    VIDEO_HEIGHT = config.video_height
+    UHD_FONT_SIZE = config.font_size
 
-VIDEO_WIDTH = 3840
-VIDEO_HEIGHT = 2160
-UHD_FONT_SIZE = 96
+    RES_DIVISOR = 1
 
-RES_DIVISOR = 1
-
-CHARACTER_NAMES = [
-    "Tristan",
-    "König Marke",
-    "Isolde",
-    "Kurwenal",
-    "Melot",
-    "Brangäne",
-    "Ein junger Seemann",
-    "Ein Hirt",
-    "Ein Steuermann",
-    "Schiffsvolk. Ritter und Knappen",
-    "King Mark",
-    "Isolde",
-    "Kurwenal",
-    "Melot",
-    "Brangäne",
-    "A young Saylor",
-    "A Shepherd",
-    "A Steersman",
-    "Saylors, Knights and Squires"
-]
-
-# for every character, ensure that the uppercase and lowercase versions are in the list
-CHARACTER_NAMES = [*CHARACTER_NAMES, *[name.lower() for name in CHARACTER_NAMES], *[name.upper() for name in CHARACTER_NAMES]]
+    CHARACTER_NAMES = config.character_names
+    # for every character, ensure that the uppercase and lowercase versions are in the list
+    CHARACTER_NAMES = [*CHARACTER_NAMES, *[name.lower() for name in CHARACTER_NAMES], *[name.upper() for name in CHARACTER_NAMES]]
 
 
 def plot_length_ratios(lines_de, lines_en):
