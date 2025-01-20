@@ -53,6 +53,79 @@ def plot_length_ratios(lines_de, lines_en, language_id):
     plt.grid(True)
     plt.show()
 
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python make_video.py <config.md>")
+        sys.exit(1)
+    
+    main(sys.argv[1])
+    
+    # Load libretto files
+    with open(f"libretti/{FILE_PREFIX}_{LANGUAGE_ID}.txt", "r", encoding="utf-8") as f:
+        libretto_de = f.read()
+
+    with open(f"libretti/{FILE_PREFIX}_en.txt", "r", encoding="utf-8") as f:
+        libretto_en = f.read()
+
+    pairs = pair_libretto_lines_simple(libretto_de, libretto_en)
+
+    # Load transcriptions
+    transcriptions: List[TranscriptionVerbose] = []
+    for i in range(START_IDX, END_IDX):
+        i_string = str(i).zfill(2)
+        transcription = deserialize_transcription_from_file(
+            f'transcribed/{FILE_PREFIX}_transcribed/{i_string}.json'
+        )
+        transcriptions.append(transcription)
+
+    for idx in OVERTURE_INDICES:
+        zero_idx = 0 if idx == 0 else idx - 1
+        transcriptions[zero_idx].words = []
+        transcriptions[zero_idx].text = ""
+        transcriptions[zero_idx].segments = []
+
+    transcriptions = convert_file_times_to_absolute_times(transcriptions)
+    all_words = [word for transcription in transcriptions for word in transcription.words]
+
+    # Load libretto
+    with open(f'libretti/{FILE_PREFIX}_{LANGUAGE_ID}.txt', 'r') as f:
+        libretto = f.read()
+
+    libretto = libretto.split()
+
+    # Create configuration
+    config = VideoConfig(
+        font_name="Baskerville",
+        text_2_color=SECONDARY_COLOR_X11,
+        font_size=UHD_FONT_SIZE // RES_DIVISOR,
+        video_width=VIDEO_WIDTH // RES_DIVISOR,
+        video_height=VIDEO_HEIGHT // RES_DIVISOR,
+        fps=4,
+        text_timeout=8.0
+    )
+
+    # Generate frames and data
+    frame_data = create_frames(
+        aligned_words=aligned_words,
+        line_pairs=pairs,
+        character_names=CHARACTER_NAMES,
+        audio_files=[f"audio/{FILE_PREFIX}/{str(i).zfill(2)}.m4a" for i in range(START_IDX, END_IDX)],
+        title=TITLE,
+        config=config
+    )
+
+    frame_data = enforce_monotonicity(frame_data)
+    frame_data.time_to_line_idx = interpolate_frames(frame_data.time_to_line_idx)
+
+    # Create the final video
+    create_parallel_text_video(
+        frame_data=frame_data,
+        output_filename=f'output/{FILE_PREFIX}-{RES_DIVISOR}.mp4',
+        config=config
+    )
+
+    print(generate_audio_timestamps([f"{FILE_PREFIX}/{str(i).zfill(2)}.m4a" for i in range(START_IDX, END_IDX)]))
+
     # Find the index where the length ratios start to deviate significantly
     threshold = 1.5  # Adjust this threshold as needed
     deviation_index = next((i for i, ratio in enumerate(length_ratios) if abs(ratio - 1) > threshold), None)
