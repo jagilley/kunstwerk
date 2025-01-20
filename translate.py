@@ -17,9 +17,7 @@ def chunk_text(text: str, chunk_size: int = 12) -> Iterator[Tuple[List[str], int
 def create_translation_prompt(text: str, source_lang: str, target_lang: str, opera_title: str) -> str:
     """Creates a prompt for Claude to translate opera text"""
     return f"""You are an expert translator of opera libretti from {source_lang} to {target_lang}.
-You are currently translating "{opera_title}". Please translate the following section of text,
-maintaining the poetic and dramatic qualities while ensuring accuracy. Preserve all line breaks
-and formatting exactly as in the original.
+You are currently translating "{opera_title}". Please translate the following section of text, maintaining the poetic and dramatic qualities while ensuring accuracy. It is imperative that you preserve all line breaks and formatting exactly as in the original. There should be a 1:1 correspondence between each line in the original and each line in the new language.
 
 Here is the text to translate:
 
