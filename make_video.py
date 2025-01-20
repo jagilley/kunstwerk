@@ -36,7 +36,7 @@ def plot_length_ratios(lines_de, lines_en):
     # Plot the length ratios
     plt.figure(figsize=(10, 5))
     plt.plot(length_ratios)
-    plt.title(f'Length Ratios of {LANGUAGE_ID} and en Lines')
+    plt.title(f'Length Ratios of {config.language} and en Lines')
     plt.xlabel('Line Number')
     plt.ylabel('Length Ratio')
     plt.grid(True)
@@ -48,7 +48,7 @@ def plot_length_ratios(lines_de, lines_en):
 
     if deviation_index is not None:
         print(f"Significant deviation starts at line {deviation_index}")
-        print(f"{LANGUAGE_ID} line: {lines_de[deviation_index]}")
+        print(f"{config.language} line: {lines_de[deviation_index]}")
         print(f"en line: {lines_en[deviation_index]}")
     else:
         print("No significant deviation found.")
@@ -432,12 +432,12 @@ def parse_timestamp_and_phrase(
 
 # Load transcriptions
 transcriptions: List[TranscriptionVerbose] = []
-for i in range(START_IDX, END_IDX):
+for i in range(config.start_idx, config.end_idx):
     i_string = str(i).zfill(2)
-    transcription = deserialize_transcription_from_file(f'transcribed/{FILE_PREFIX}_transcribed/{i_string}.json')
+    transcription = deserialize_transcription_from_file(f'transcribed/{config.file_prefix}_transcribed/{i_string}.json')
     transcriptions.append(transcription)
 
-for idx in OVERTURE_INDICES:
+for idx in config.overture_indices:
     zero_idx = 0 if idx == 0 else idx - 1
     transcriptions[zero_idx].words = []
     transcriptions[zero_idx].text = ""
@@ -448,7 +448,7 @@ transcriptions = convert_file_times_to_absolute_times(transcriptions)
 all_words: List[TranscriptionWord] = [word for transcription in transcriptions for word in transcription.words]
 
 # Load libretto
-with open(f'libretti/{FILE_PREFIX}_{LANGUAGE_ID}.txt', 'r') as f:
+with open(f'libretti/{config.file_prefix}_{config.language}.txt', 'r') as f:
     libretto = f.read()
 
 libretto = libretto.split()
@@ -563,11 +563,11 @@ def read_edited_aligned_words_from_csv(filename: str) -> List[AlignedWord]:
 
     return aligned_words
 
-write_aligned_words_to_csv(aligned_words, f'aligned_words_{FILE_PREFIX}.csv')
+write_aligned_words_to_csv(aligned_words, f'aligned_words_{config.file_prefix}.csv')
 
 
 # read aligned words from csv
-aligned_words = read_edited_aligned_words_from_csv(f'aligned_words_{FILE_PREFIX}.csv')
+aligned_words = read_edited_aligned_words_from_csv(f'aligned_words_{config.file_prefix}.csv')
 
 
 aligned_words = interpolate_word_timings(aligned_words, max_interpolation_window=20)
@@ -649,7 +649,7 @@ def create_title_clip(config: VideoConfig, title: str) -> np.ndarray:
         title,
         font=f"{config.font_name}-Bold",
         fontsize=config.font_size + 20,
-        color=SECONDARY_COLOR_X11,
+        color=config.secondary_color,
         size=(config.video_width // 2 - 80, None),
         method='caption',
         align='center'
