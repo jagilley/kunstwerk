@@ -1,0 +1,40 @@
+title: MADAMA BUTTERFLY
+file_prefix: butterfly
+language: it
+start_idx: 1
+end_idx: 42
+overture_indices: []
+secondary_color: LightBlue
+video_width: 3840
+video_height: 2160
+font_size: 96
+res_divisor: 4
+playlist_url: https://www.youtube.com/watch?v=MiRYJ_9FUvs&list=PLjCUNOTbkeqp7PPPSnSfgqftp5b42wehj
+
+characters:
+  # Italian
+  - Madama Butterfly
+  - Pinkerton
+  - Suzuki
+  - Sharpless
+  - Goro
+  - Lo zio Bonzo
+  - Il Principe Yamadori
+  - Kate Pinkerton
+  - Lo zio Yakusidé
+  - La zia
+  - La cugina
+  - Dolore
+  # English
+  - Cio-Cio San
+  - B. F. Pinkerton
+  - Prince Yamadori
+  - The Bonze
+  - Yakuside
+  - The Imperial Commissioner
+  - The Official Registrar
+  - Cio-Cio San's mother
+  - The aunt
+  - The cousin
+  - Dolore
+  - Cio-Cio San's relations and friends and servants
