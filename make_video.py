@@ -10,121 +10,60 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 from align import AlignedWord, deserialize_transcription_from_file, convert_file_times_to_absolute_times, word_similarity
 import copy
-from config_parser import parse_md_config
-import sys
-
-def main(config_file: str):
-    # Parse config and set up global variables
-    config = parse_md_config(config_file)
-    
-    global TITLE, FILE_PREFIX, SECONDARY_COLOR_X11, LANGUAGE_ID, START_IDX, END_IDX
-    global OVERTURE_INDICES, VIDEO_WIDTH, VIDEO_HEIGHT, UHD_FONT_SIZE, RES_DIVISOR
-    global CHARACTER_NAMES
-    
-    TITLE = config.title
-    FILE_PREFIX = config.file_prefix
-    SECONDARY_COLOR_X11 = config.secondary_color
-    LANGUAGE_ID = config.language
-    START_IDX = config.start_idx
-    END_IDX = config.end_idx
-    OVERTURE_INDICES = config.overture_indices
-
-    VIDEO_WIDTH = config.video_width
-    VIDEO_HEIGHT = config.video_height
-    UHD_FONT_SIZE = config.font_size
-
-    RES_DIVISOR = 1
-
-    CHARACTER_NAMES = config.character_names
-    # for every character, ensure that the uppercase and lowercase versions are in the list
-    CHARACTER_NAMES = [*CHARACTER_NAMES, *[name.lower() for name in CHARACTER_NAMES], *[name.upper() for name in CHARACTER_NAMES]]
 
 
-def plot_length_ratios(lines_de, lines_en, language_id):
+TITLE = "TRISTAN UND ISOLDE"
+FILE_PREFIX = "tristan"
+SECONDARY_COLOR_X11 = "Silver" # https://en.wikipedia.org/wiki/X11_color_names
+LANGUAGE_ID = "de"
+START_IDX = 1
+END_IDX = 33
+OVERTURE_INDICES = [1]
+
+VIDEO_WIDTH = 3840
+VIDEO_HEIGHT = 2160
+UHD_FONT_SIZE = 96
+
+RES_DIVISOR = 1
+
+CHARACTER_NAMES = [
+    "Tristan",
+    "König Marke",
+    "Isolde",
+    "Kurwenal",
+    "Melot",
+    "Brangäne",
+    "Ein junger Seemann",
+    "Ein Hirt",
+    "Ein Steuermann",
+    "Schiffsvolk. Ritter und Knappen",
+    "King Mark",
+    "Isolde",
+    "Kurwenal",
+    "Melot",
+    "Brangäne",
+    "A young Saylor",
+    "A Shepherd",
+    "A Steersman",
+    "Saylors, Knights and Squires"
+]
+
+# for every character, ensure that the uppercase and lowercase versions are in the list
+CHARACTER_NAMES = [*CHARACTER_NAMES, *[name.lower() for name in CHARACTER_NAMES], *[name.upper() for name in CHARACTER_NAMES]]
+
+
+def plot_length_ratios(lines_de, lines_en):
     length_ratios = [len(de) / len(en) for de, en in zip(lines_de, lines_en)]
     # print a chart of length_ratios
 
     # Plot the length ratios
     plt.figure(figsize=(10, 5))
     plt.plot(length_ratios)
-    plt.title(f'Length Ratios of {language_id} and en Lines')
+    plt.title(f'Length Ratios of {LANGUAGE_ID} and en Lines')
     plt.xlabel('Line Number')
     plt.ylabel('Length Ratio')
     plt.grid(True)
     plt.show()
-
-if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Usage: python make_video.py <config.md>")
-        sys.exit(1)
-    
-    main(sys.argv[1])
-    
-    # Load libretto files
-    with open(f"libretti/{FILE_PREFIX}_{LANGUAGE_ID}.txt", "r", encoding="utf-8") as f:
-        libretto_de = f.read()
-
-    with open(f"libretti/{FILE_PREFIX}_en.txt", "r", encoding="utf-8") as f:
-        libretto_en = f.read()
-
-    pairs = pair_libretto_lines_simple(libretto_de, libretto_en)
-
-    # Load transcriptions
-    transcriptions: List[TranscriptionVerbose] = []
-    for i in range(START_IDX, END_IDX):
-        i_string = str(i).zfill(2)
-        transcription = deserialize_transcription_from_file(
-            f'transcribed/{FILE_PREFIX}_transcribed/{i_string}.json'
-        )
-        transcriptions.append(transcription)
-
-    for idx in OVERTURE_INDICES:
-        zero_idx = 0 if idx == 0 else idx - 1
-        transcriptions[zero_idx].words = []
-        transcriptions[zero_idx].text = ""
-        transcriptions[zero_idx].segments = []
-
-    transcriptions = convert_file_times_to_absolute_times(transcriptions)
-    all_words = [word for transcription in transcriptions for word in transcription.words]
-
-    # Load libretto
-    with open(f'libretti/{FILE_PREFIX}_{LANGUAGE_ID}.txt', 'r') as f:
-        libretto = f.read()
-
-    libretto = libretto.split()
-
-    # Create configuration
-    config = VideoConfig(
-        font_name="Baskerville",
-        text_2_color=SECONDARY_COLOR_X11,
-        font_size=UHD_FONT_SIZE // RES_DIVISOR,
-        video_width=VIDEO_WIDTH // RES_DIVISOR,
-        video_height=VIDEO_HEIGHT // RES_DIVISOR,
-        fps=4,
-        text_timeout=8.0
-    )
-
-    # Generate frames and data
-    frame_data = create_frames(
-        aligned_words=aligned_words,
-        line_pairs=pairs,
-        character_names=CHARACTER_NAMES,
-        audio_files=[f"audio/{FILE_PREFIX}/{str(i).zfill(2)}.m4a" for i in range(START_IDX, END_IDX)],
-        title=TITLE,
-        config=config
-    )
-
-    frame_data = enforce_monotonicity(frame_data)
-    frame_data.time_to_line_idx = interpolate_frames(frame_data.time_to_line_idx)
-
-    # Create the final video
-    create_parallel_text_video(
-        frame_data=frame_data,
-        output_filename=f'output/{FILE_PREFIX}-{RES_DIVISOR}.mp4',
-        config=config
-    )
-
-    print(generate_audio_timestamps([f"{FILE_PREFIX}/{str(i).zfill(2)}.m4a" for i in range(START_IDX, END_IDX)]))
 
     # Find the index where the length ratios start to deviate significantly
     threshold = 1.5  # Adjust this threshold as needed
@@ -1105,3 +1044,13 @@ def generate_audio_timestamps(audio_files):
     return "\n".join(result)
 
 print(generate_audio_timestamps([f"{FILE_PREFIX}/{str(i).zfill(2)}.m4a" for i in range(START_IDX, END_IDX)]))
+
+
+for i in TextClip.list('font'):
+    if 'Garamond' in i:
+        print(i)
+
+
+TextClip.list('font')
+
+
