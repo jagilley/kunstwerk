@@ -17,7 +17,7 @@ def create_title_clip(config: VideoConfig, title: str) -> np.ndarray:
         title,
         font=f"{config.font_name}-Bold",
         fontsize=config.font_size + 20,
-        color=config.secondary_color,
+        color=config.text_2_color,
         size=(config.video_width // 2 - 80, None),
         method='caption',
         align='center'

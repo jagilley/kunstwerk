@@ -9,7 +9,7 @@ secondary_color: LightBlue
 video_width: 3840
 video_height: 2160
 font_size: 96
-res_divisor: 4
+res_divisor: 1
 playlist_url: https://www.youtube.com/watch?v=MiRYJ_9FUvs&list=PLjCUNOTbkeqp7PPPSnSfgqftp5b42wehj
 
 characters:

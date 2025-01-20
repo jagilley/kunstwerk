@@ -55,19 +55,14 @@ def translate_chunk(
         
         if validate_translation(chunk_text, translation):
             return translation
-            
-        if attempt < max_attempts - 1:
-            # Add more explicit instructions about newlines for retry
-            chunk_text += (
-                "\n\nIMPORTANT: Your translation MUST have exactly "
-                f"{chunk_text.count('\n')} newline characters, "
-                "matching the original text structure precisely."
-            )
+
+    print("Can't get valid translation:")
+    print(chunk_text)
+    print("Last translation:")
+    print(translation)
     
     raise ValueError(
-        f"Failed to get valid translation after {max_attempts} attempts. "
-        f"Source has {chunk_text.count('\n')} newlines, "
-        f"translation has {translation.count('\n')} newlines."
+        f"Failed to get valid translation after {max_attempts} attempts."
     )
 
 def translate_libretto(config: OperaConfig, target_lang: str, force: bool = False) -> List[Tuple[str, str]]:
