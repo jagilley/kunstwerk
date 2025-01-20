@@ -10,7 +10,12 @@ def run_command(cmd: str, error_msg: str) -> None:
     if result.returncode != 0:
         raise RuntimeError(f"{error_msg} (exit code: {result.returncode})")
 
-def process_opera(config_path: str, skip_download: bool = False, skip_transcribe: bool = False) -> None:
+def process_opera(
+    config_path: str, 
+    skip_download: bool = False, 
+    skip_transcribe: bool = False,
+    translate_to: Optional[str] = None
+) -> None:
     """Main function to process an opera from start to finish"""
     
     config_path = Path(config_path)
@@ -18,6 +23,14 @@ def process_opera(config_path: str, skip_download: bool = False, skip_transcribe
         raise FileNotFoundError(f"Config file not found: {config_path}")
 
     print(f"Processing opera using config: {config_path}")
+    
+    config = parse_opera_config(config_path)
+
+    # Optional translation step
+    if translate_to:
+        print(f"\n=== Translating to {translate_to} ===")
+        from translate import translate_libretto
+        translate_libretto(config, translate_to)
 
     # Step 1: Download and separate audio
     if not skip_download:
@@ -49,11 +62,18 @@ def main():
                       help="Skip downloading and separating audio (use existing files)")
     parser.add_argument("--skip-transcribe", action="store_true",
                       help="Skip transcription (use existing transcription files)")
+    parser.add_argument("--translate-to", type=str,
+                      help="Generate translation to specified language code (e.g., 'fr' for French)")
     
     args = parser.parse_args()
 
     try:
-        process_opera(args.config, args.skip_download, args.skip_transcribe)
+        process_opera(
+            args.config, 
+            args.skip_download, 
+            args.skip_transcribe,
+            args.translate_to
+        )
         print("\nSuccess! Opera processing completed.")
     except Exception as e:
         print(f"\nError: {str(e)}")
