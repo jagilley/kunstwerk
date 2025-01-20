@@ -38,6 +38,8 @@ export OPENAI_API_KEY='your-api-key'
 
 ## Usage
 
+Example output: [Tristan und Isolde with parallel subtitles](https://www.youtube.com/watch?v=2R6lTcdJoCk)
+
 1. Create a YAML configuration file for your opera (see example configs):
 
 ```yaml
