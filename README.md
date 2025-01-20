@@ -1,4 +1,4 @@
-# Opera Subtitle Generator
+# Kunstwerk
 
 A Python-based tool for generating parallel subtitle videos for opera performances, with synchronized original language and translated text.
 
@@ -109,11 +109,3 @@ python make_video.py your_config.yaml
 - Die Walküre: 28-70
 - Siegfried: 71-106
 - Götterdämmerung: 107-140
-
-## License
-
-[Your chosen license]
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
