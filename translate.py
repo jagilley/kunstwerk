@@ -35,7 +35,7 @@ def translate_chunk(
     """Translates a chunk of text using Claude"""
     chunk_text = "\n\n".join(chunk)
     message = client.messages.create(
-        model="claude-3-opus-20240229",
+        model="claude-3-5-sonnet-20241022",
         max_tokens=4096,
         messages=[
             {"role": "user", "content": create_translation_prompt(
