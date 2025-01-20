@@ -1,4 +1,5 @@
 
+import os
 from typing import List, Dict, Optional, Tuple
 import os
 import copy
@@ -76,7 +77,15 @@ def pair_libretto_lines_simple(german_text, english_text):
 with open(f"libretti/{config.file_prefix}_{config.language}.txt", "r", encoding="utf-8") as f:
     libretto_de = f.read()
 
-with open(f"libretti/{config.file_prefix}_en.txt", "r", encoding="utf-8") as f:
+# Get translation file path from config
+if not config.translation_file:
+    raise ValueError("No translation file specified in config")
+
+translation_path = f"libretti/{config.translation_file}"
+if not os.path.exists(translation_path):
+    raise FileNotFoundError(f"Translation file not found: {translation_path}")
+
+with open(translation_path, "r", encoding="utf-8") as f:
     libretto_en = f.read()
 
 pairs = pair_libretto_lines_simple(libretto_de, libretto_en)
