@@ -25,25 +25,48 @@ Here is the text to translate:
 
 Provide only the translation with the same line break structure, nothing else."""
 
+def validate_translation(source: str, translation: str) -> bool:
+    """Validates that translation has same number of newlines as source"""
+    return source.count('\n') == translation.count('\n')
+
 def translate_chunk(
     client: anthropic.Anthropic, 
     chunk: List[str], 
     source_lang: str, 
     target_lang: str,
-    opera_title: str
+    opera_title: str,
+    max_attempts: int = 3
 ) -> str:
     """Translates a chunk of text using Claude"""
-    chunk_text = "\n\n".join(chunk)
-    message = client.messages.create(
-        model="claude-3-5-sonnet-20241022",
-        max_tokens=4096,
-        messages=[
-            {"role": "user", "content": create_translation_prompt(
-                chunk_text, source_lang, target_lang, opera_title
-            )}
-        ]
+    # Join with double newlines and strip external whitespace
+    chunk_text = "\n\n".join(chunk).strip()
+    
+    for attempt in range(max_attempts):
+        message = client.messages.create(
+            model="claude-3-5-sonnet-20241022",
+            max_tokens=4096,
+            messages=[
+                {"role": "user", "content": create_translation_prompt(
+                    chunk_text, source_lang, target_lang, opera_title
+                )}
+            ]
+        )
+        translation = message.content[0].text.strip()
+        
+        if validate_translation(chunk_text, translation):
+            return translation
+            
+        if attempt < max_attempts - 1:
+            # Add more explicit instructions about newlines for retry
+            chunk_text += "\n\nIMPORTANT: Your translation MUST have exactly " + \
+                         f"{chunk_text.count('\n')} newline characters, " + \
+                         "matching the original text structure precisely."
+    
+    raise ValueError(
+        f"Failed to get valid translation after {max_attempts} attempts. " + \
+        f"Source has {chunk_text.count('\n')} newlines, " + \
+        f"translation has {translation.count('\n')} newlines."
     )
-    return message.content[0].text
 
 def translate_libretto(config: OperaConfig, target_lang: str, force: bool = False) -> List[Tuple[str, str]]:
     """Translates entire libretto and returns original/translation pairs"""
