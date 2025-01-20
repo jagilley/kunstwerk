@@ -2,6 +2,8 @@
 
 A Python-based tool for generating parallel subtitle videos for opera performances, with synchronized original language and translated text.
 
+This is the repo behind the [YouTube channel of the same name](https://www.youtube.com/@kunstwerk-opera)!
+
 ## Features
 
 - Automatic audio transcription using OpenAI's Whisper model
@@ -103,11 +105,3 @@ python make_video.py your_config.yaml
   - `frame/`: Frame generation
   - `text/`: Text formatting
   - `video/`: Video creation
-
-## Scene Indices Reference
-
-### Der Ring des Nibelungen
-- Das Rheingold: 1-27
-- Die Walküre: 28-70
-- Siegfried: 71-106
-- Götterdämmerung: 107-140
