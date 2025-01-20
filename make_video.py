@@ -14,7 +14,12 @@ from config_parser import parse_md_config
 import sys
 
 def main(config_file: str):
+    # Parse config and set up global variables
     config = parse_md_config(config_file)
+    
+    global TITLE, FILE_PREFIX, SECONDARY_COLOR_X11, LANGUAGE_ID, START_IDX, END_IDX
+    global OVERTURE_INDICES, VIDEO_WIDTH, VIDEO_HEIGHT, UHD_FONT_SIZE, RES_DIVISOR
+    global CHARACTER_NAMES
     
     TITLE = config.title
     FILE_PREFIX = config.file_prefix
@@ -35,14 +40,14 @@ def main(config_file: str):
     CHARACTER_NAMES = [*CHARACTER_NAMES, *[name.lower() for name in CHARACTER_NAMES], *[name.upper() for name in CHARACTER_NAMES]]
 
 
-def plot_length_ratios(lines_de, lines_en):
+def plot_length_ratios(lines_de, lines_en, language_id):
     length_ratios = [len(de) / len(en) for de, en in zip(lines_de, lines_en)]
     # print a chart of length_ratios
 
     # Plot the length ratios
     plt.figure(figsize=(10, 5))
     plt.plot(length_ratios)
-    plt.title(f'Length Ratios of {LANGUAGE_ID} and en Lines')
+    plt.title(f'Length Ratios of {language_id} and en Lines')
     plt.xlabel('Line Number')
     plt.ylabel('Length Ratio')
     plt.grid(True)
