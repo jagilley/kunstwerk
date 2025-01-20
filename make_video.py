@@ -125,8 +125,6 @@ print("First pair:", pairs[0])
 # print the last pair
 print("Last pair:", pairs[-1])
 
-plot_length_ratios([pair[0] for pair in pairs], [pair[1] for pair in pairs])
-
 
 def align_transcription_with_libretto(
     transcription: List[TranscriptionWord],
