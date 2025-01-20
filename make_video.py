@@ -1,5 +1,6 @@
 
 from typing import List, Dict, Optional, Tuple
+import os
 import copy
 from openai.types.audio import TranscriptionVerbose, TranscriptionWord
 from align import AlignedWord, deserialize_transcription_from_file, convert_file_times_to_absolute_times, word_similarity
@@ -586,16 +587,6 @@ import imageio
 from tqdm import tqdm
 from dataclasses import dataclass
 
-@dataclass
-class VideoConfig:
-    font_name: str = "Arial"
-    font_size: int = 40
-    text_1_color: str = "AliceBlue"
-    text_2_color: str = "LightGoldenrod"
-    video_width: int = 1920
-    video_height: int = 1080
-    fps: int = 24
-    text_timeout: float = 5.0
 
 @dataclass
 class FrameData:
@@ -790,8 +781,8 @@ def create_frames(
         right_text.close()
         composed.close()
 
-        with open(f'images/frame_{idx}.png', 'wb') as f:
-            f.write(imageio.imwrite('<bytes>', line_pair_clips[idx], format='png'))
+        os.makedirs('images', exist_ok=True)
+        imageio.imwrite(f'images/frame_{idx}.png', line_pair_clips[idx])
 
     line_pair_clips[-1] = create_title_clip(config, title)
     frame_order.insert(0, -1)  # Add title frame at the beginning
