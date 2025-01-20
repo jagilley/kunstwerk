@@ -9,9 +9,17 @@ load_dotenv()
 
 client = OpenAI()
 
-opera_name = "tristan"
-language = "de"
-end_idx = 33
+from config_parser import parse_opera_config
+import sys
+
+if len(sys.argv) != 2:
+    print("Usage: python transcribe.py <config.md>")
+    sys.exit(1)
+
+config = parse_opera_config(sys.argv[1])
+opera_name = config.file_prefix
+language = config.language
+end_idx = config.end_idx
 
 in_dir = f"sep/{opera_name}_sep"
 out_dir = f"transcribed/{opera_name}_transcribed"

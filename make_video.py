@@ -12,44 +12,21 @@ from align import AlignedWord, deserialize_transcription_from_file, convert_file
 import copy
 
 
-TITLE = "TRISTAN UND ISOLDE"
-FILE_PREFIX = "tristan"
-SECONDARY_COLOR_X11 = "Silver" # https://en.wikipedia.org/wiki/X11_color_names
-LANGUAGE_ID = "de"
-START_IDX = 1
-END_IDX = 33
-OVERTURE_INDICES = [1]
+from config_parser import parse_opera_config
+import sys
 
-VIDEO_WIDTH = 3840
-VIDEO_HEIGHT = 2160
-UHD_FONT_SIZE = 96
+if len(sys.argv) != 2:
+    print("Usage: python make_video.py <config.md>")
+    sys.exit(1)
 
-RES_DIVISOR = 1
+config = parse_opera_config(sys.argv[1])
 
+# Ensure all case variations of character names are included
 CHARACTER_NAMES = [
-    "Tristan",
-    "König Marke",
-    "Isolde",
-    "Kurwenal",
-    "Melot",
-    "Brangäne",
-    "Ein junger Seemann",
-    "Ein Hirt",
-    "Ein Steuermann",
-    "Schiffsvolk. Ritter und Knappen",
-    "King Mark",
-    "Isolde",
-    "Kurwenal",
-    "Melot",
-    "Brangäne",
-    "A young Saylor",
-    "A Shepherd",
-    "A Steersman",
-    "Saylors, Knights and Squires"
+    *config.character_names,
+    *[name.lower() for name in config.character_names],
+    *[name.upper() for name in config.character_names]
 ]
-
-# for every character, ensure that the uppercase and lowercase versions are in the list
-CHARACTER_NAMES = [*CHARACTER_NAMES, *[name.lower() for name in CHARACTER_NAMES], *[name.upper() for name in CHARACTER_NAMES]]
 
 
 def plot_length_ratios(lines_de, lines_en):
