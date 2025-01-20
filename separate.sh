@@ -1,12 +1,12 @@
 #!/bin/bash
 
 if [ "$#" -ne 2 ]; then
-    echo "Usage: $0 <config.md> <youtube_url>"
+    echo "Usage: $0 <config.yaml> <youtube_url>"
     exit 1
 fi
 
-# Extract file prefix from config
-FILE_PREFIX=$(grep "File Prefix:" "$1" | cut -d' ' -f3-)
+# Extract file prefix from yaml config
+FILE_PREFIX=$(python parse_yaml.py "$1")
 
 yt-dlp -x --audio-format m4a -o "audio/$FILE_PREFIX/%(playlist_index)s.m4a" "$2"
 demucs -d cpu -j 2 --two-stems=vocals audio/"$FILE_PREFIX"/*.m4a -o sep/"$FILE_PREFIX"_sep
