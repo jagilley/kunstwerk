@@ -58,9 +58,11 @@ def translate_chunk(
             
         if attempt < max_attempts - 1:
             # Add more explicit instructions about newlines for retry
-            chunk_text += "\n\nIMPORTANT: Your translation MUST have exactly " + \
-                         f"{chunk_text.count('\n')} newline characters, " + \
-                         "matching the original text structure precisely."
+            chunk_text += (
+                "\n\nIMPORTANT: Your translation MUST have exactly "
+                f"{chunk_text.count('\n')} newline characters, "
+                "matching the original text structure precisely."
+            )
     
     raise ValueError(
         f"Failed to get valid translation after {max_attempts} attempts. " + \
