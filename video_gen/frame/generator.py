@@ -1,4 +1,6 @@
-from typing import List, Tuple, Dict
+from typing import List, Tuple, Dict, Optional
+from moviepy.editor import TextClip
+from align import AlignedWord
 from moviepy.editor import AudioFileClip, ColorClip, CompositeVideoClip
 import numpy as np
 from tqdm import tqdm

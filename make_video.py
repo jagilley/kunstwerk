@@ -1,5 +1,8 @@
 
 from typing import List, Dict, Optional, Tuple
+import copy
+from openai.types.audio import TranscriptionVerbose, TranscriptionWord
+from align import AlignedWord, deserialize_transcription_from_file, convert_file_times_to_absolute_times, word_similarity
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
