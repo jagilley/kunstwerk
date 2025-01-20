@@ -47,6 +47,12 @@ def translate_chunk(
 
 def translate_libretto(config: OperaConfig, target_lang: str) -> List[Tuple[str, str]]:
     """Translates entire libretto and returns original/translation pairs"""
+    # Check if translation already exists
+    target_path = Path(f"libretti/{config.file_prefix}_{target_lang}.txt")
+    if target_path.exists():
+        print(f"Translation to {target_lang} already exists at {target_path}")
+        return []
+
     client = anthropic.Anthropic(
         api_key=os.getenv("ANTHROPIC_API_KEY")
     )
