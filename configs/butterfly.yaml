@@ -1,5 +1,6 @@
 title: MADAMA BUTTERFLY
 file_prefix: butterfly
+translation_file: butterfly_en.txt
 language: it
 start_idx: 1
 end_idx: 42

@@ -1,0 +1,35 @@
+title: TRISTAN UND ISOLDE
+file_prefix: tristan
+translation_file: tristan_Spanish.txt
+language: de
+start_idx: 1
+end_idx: 33
+overture_indices: [1]
+secondary_color: Silver
+video_width: 3840
+video_height: 2160
+font_size: 96
+res_divisor: 4
+playlist_url: https://www.youtube.com/playlist?list=EXAMPLE
+
+characters:
+  - Tristan
+  - TRISTÁN
+  - König Marke
+  - Isolde
+  - Kurwenal
+  - Melot
+  - Brangäne
+  - Ein junger Seemann
+  - Ein Hirt
+  - Ein Steuermann
+  - Schiffsvolk. Ritter und Knappen
+  - King Mark
+  - Isolde
+  - Kurwenal
+  - Melot
+  - Brangäne
+  - A young Saylor
+  - A Shepherd
+  - A Steersman
+  - Saylors, Knights and Squires

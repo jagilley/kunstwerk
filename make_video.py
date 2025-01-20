@@ -29,7 +29,6 @@ CHARACTER_NAMES = [
     *[name.upper() for name in config.character_names]
 ]
 
-
 def pair_libretto_lines_simple(source_text, target_text):
     """Pair corresponding lines from source and target texts."""
     lines_source = [line for line in source_text.split("\n\n") if line.strip()]
