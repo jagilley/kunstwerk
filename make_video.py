@@ -74,10 +74,10 @@ def pair_libretto_lines_simple(german_text, english_text):
     return list(zip(lines_de, lines_en))
 
 
-with open(f"libretti/{FILE_PREFIX}_{LANGUAGE_ID}.txt", "r", encoding="utf-8") as f:
+with open(f"libretti/{config.file_prefix}_{config.language}.txt", "r", encoding="utf-8") as f:
     libretto_de = f.read()
 
-with open(f"libretti/{FILE_PREFIX}_en.txt", "r", encoding="utf-8") as f:
+with open(f"libretti/{config.file_prefix}_en.txt", "r", encoding="utf-8") as f:
     libretto_en = f.read()
 
 pairs = pair_libretto_lines_simple(libretto_de, libretto_en)
@@ -868,13 +868,13 @@ def create_parallel_text_video(
     combined_audio.close()
 
 
-# Create configuration
-config = VideoConfig(
+# Create video configuration
+video_config = VideoConfig(
     font_name="Baskerville",
-    text_2_color=SECONDARY_COLOR_X11,
-    font_size=UHD_FONT_SIZE // RES_DIVISOR,
-    video_width=VIDEO_WIDTH // RES_DIVISOR,
-    video_height=VIDEO_HEIGHT // RES_DIVISOR,
+    text_2_color=config.secondary_color,
+    font_size=config.font_size // config.res_divisor,
+    video_width=config.video_width // config.res_divisor,
+    video_height=config.video_height // config.res_divisor,
     fps=4,
     text_timeout=8.0
 )
@@ -884,9 +884,9 @@ frame_data = create_frames(
     aligned_words=aligned_words,
     line_pairs=pairs,
     character_names=CHARACTER_NAMES,
-    audio_files=[f"audio/{FILE_PREFIX}/{str(i).zfill(2)}.m4a" for i in range(START_IDX, END_IDX)],
-    title=TITLE,
-    config=config
+    audio_files=[f"audio/{config.file_prefix}/{str(i).zfill(2)}.m4a" for i in range(config.start_idx, config.end_idx)],
+    title=config.title,
+    config=video_config
 )
 
 
@@ -969,8 +969,8 @@ frame_data.time_to_line_idx = interpolate_frames(frame_data.time_to_line_idx)
 # Create the final video when ready
 create_parallel_text_video(
     frame_data=frame_data,
-    output_filename=f'output/{FILE_PREFIX}-{RES_DIVISOR}.mp4',
-    config=config
+    output_filename=f'output/{config.file_prefix}-{config.res_divisor}.mp4',
+    config=video_config
 )
 
 
@@ -1020,7 +1020,7 @@ def generate_audio_timestamps(audio_files):
             
     return "\n".join(result)
 
-print(generate_audio_timestamps([f"{FILE_PREFIX}/{str(i).zfill(2)}.m4a" for i in range(START_IDX, END_IDX)]))
+print(generate_audio_timestamps([f"{config.file_prefix}/{str(i).zfill(2)}.m4a" for i in range(config.start_idx, config.end_idx)]))
 
 
 for i in TextClip.list('font'):
