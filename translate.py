@@ -35,7 +35,7 @@ def translate_chunk(
     source_lang: str, 
     target_lang: str,
     opera_title: str,
-    max_attempts: int = 3
+    max_attempts: int = 5
 ) -> str:
     """Translates a chunk of text using Claude"""
     # Join with double newlines and strip external whitespace
