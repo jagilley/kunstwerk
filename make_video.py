@@ -1,18 +1,14 @@
 
-from openai.types.audio import TranscriptionVerbose, TranscriptionWord
-from typing import List, Dict, Optional, Tuple, Union
-from dataclasses import dataclass
+from typing import List, Dict, Optional, Tuple
 import pandas as pd
-from Levenshtein import distance
-import json
-import re
-from tqdm import tqdm
 import matplotlib.pyplot as plt
-from align import AlignedWord, deserialize_transcription_from_file, convert_file_times_to_absolute_times, word_similarity
-import copy
-
-
+import numpy as np
+from tqdm import tqdm
+from align import AlignedWord, deserialize_transcription_from_file, convert_file_times_to_absolute_times
 from config_parser import parse_opera_config
+from video_gen.config.video_config import VideoConfig
+from video_gen.frame.generator import create_frames
+from video_gen.video.creator import create_parallel_text_video
 import sys
 
 if len(sys.argv) != 2:
