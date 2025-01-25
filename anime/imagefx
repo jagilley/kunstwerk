@@ -1,0 +1,17 @@
+curl 'https://aisandbox-pa.googleapis.com/v1:runImageFx' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.5' \
+  -H 'authorization: Bearer ya29.a0AXeO80TU_XrzpnmHRkrNW6BeYRat0U0sKX2BGQzWycRMTWTrJqE_TNeFnfrrID-UYQQV_Di41YV0grCYcLsIhAoHsmox1rhfLqUffpnceExQS_yGxcx1IPjYIn9f4bxWRE18TRFXu1CN7pdefQvQif6lAJdMGp4k5cXNLMnIMXjB3cBfg1DGoH8JQ_nXjh8gh5858g5Q5HyfvnZ0bHf7L7joAi0TGO8s6f50e5mIgefY6VMo0a9v5S612i1vABD2uJQu4i1Jl-8vfBTNw4cvAKTVCMX1ScfOZ7DNrP5UCdl9XwnL99lpP8ilNE8rp4HQgzFongnEd2pAlcpCO6UUptzqNppSLIC2RDHIqHTZUi7oOjW4E04ZaIzRU9ZWw4AGo0dKTqcFSPddJA8NTYNr8RDB3cnJnrse3LwaRlif9gaCgYKAc8SARASFQHGX2MiILgjM7vPf5PXRL5dpGeHTA0433' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'origin: https://labs.google' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://labs.google/' \
+  -H 'sec-ch-ua: "Not A(Brand";v="8", "Chromium";v="132", "Brave";v="132"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36' \
+  --data-raw '{"userInput":{"candidatesCount":4,"prompts":["Valhalla goes up in flames as the gods look on. Still from Götterdämmerung, cinematic artistic anime"],"seed":346593},"clientContext":{"sessionId":";1737827470214","tool":"IMAGE_FX"},"modelInput":{"modelNameType":"IMAGEN_3_1"},"aspectRatio":"IMAGE_ASPECT_RATIO_LANDSCAPE"}'
