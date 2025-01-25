@@ -79,20 +79,53 @@ def extract_images(response: requests.Response) -> List[Tuple[bytes, str]]:
     
     return images
 
+def read_prompts(filepath: str) -> List[str]:
+    """
+    Read prompts from a text file, one per line.
+    
+    Args:
+        filepath: Path to the prompts file
+        
+    Returns:
+        List of prompts
+    """
+    with open(filepath, 'r') as f:
+        return [line.strip() for line in f if line.strip()]
+
 if __name__ == "__main__":
-    # Example usage
-    prompt = "Valhalla goes up in flames as the gods look on. Still from Götterdämmerung, cinematic artistic anime"
-    response = generate_anime_image(prompt)
-    print(f"Status code: {response.status_code}")
+    # Read prompts from file
+    prompts_file = Path("anime/prompts.txt")
+    if not prompts_file.exists():
+        print(f"Error: {prompts_file} not found")
+        exit(1)
+        
+    prompts = read_prompts(prompts_file)
+    print(f"Loaded {len(prompts)} prompts")
     
     # Create output directory if it doesn't exist
     output_dir = Path("generated_images")
     output_dir.mkdir(exist_ok=True)
     
-    # Save generated images
-    images = extract_images(response)
-    for i, (image_bytes, gen_id) in enumerate(images):
-        output_path = output_dir / f"image_{i}_{gen_id[:8]}.jpg"
-        with open(output_path, 'wb') as f:
-            f.write(image_bytes)
-        print(f"Saved image to {output_path}")
+    # Process each prompt
+    for prompt_idx, prompt in enumerate(prompts):
+        print(f"\nProcessing prompt {prompt_idx + 1}/{len(prompts)}")
+        print(f"Prompt: {prompt}")
+        
+        response = generate_anime_image(prompt)
+        print(f"Status code: {response.status_code}")
+        
+        if response.status_code != 200:
+            print(f"Error generating images for prompt: {prompt}")
+            continue
+            
+        # Create prompt-specific directory
+        prompt_dir = output_dir / f"prompt_{prompt_idx + 1}"
+        prompt_dir.mkdir(exist_ok=True)
+        
+        # Save generated images
+        images = extract_images(response)
+        for i, (image_bytes, gen_id) in enumerate(images):
+            output_path = prompt_dir / f"image_{i}_{gen_id[:8]}.jpg"
+            with open(output_path, 'wb') as f:
+                f.write(image_bytes)
+            print(f"Saved image to {output_path}")
