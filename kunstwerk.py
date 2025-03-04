@@ -39,8 +39,12 @@ def process_opera(
     if not skip_transcribe:
         print("\n=== Transcribing audio ===")
         run_command(
+            f"python transcribe_elevenlabs.py {config_path}",
+            "Failed to transcribe audio using Elevenlabs"
+        )
+        run_command(
             f"python transcribe.py {config_path}",
-            "Failed to transcribe audio"
+            "Failed to transcribe audio using OpenAI"
         )
 
     # Step 3: Generate video

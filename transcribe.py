@@ -8,7 +8,15 @@ import sys
 
 load_dotenv()
 
-client = OpenAI()
+use_v3 = False
+
+if use_v3:
+    client = OpenAI(
+        api_key=os.getenv("DEEPINFRA_API_KEY"),
+        base_url="https://api.deepinfra.com/v1/openai",
+)
+else:
+    client = OpenAI()
 
 if len(sys.argv) != 2:
     print("Usage: python transcribe.py <config.md>")
@@ -34,7 +42,7 @@ for i in range(1, end_idx):
     transcript = client.audio.transcriptions.create(
         file=audio_file,
         language=language,
-        model="whisper-1",
+        model="whisper-1" if not use_v3 else "openai/whisper-large-v3",
         response_format="verbose_json",
         timestamp_granularities=["word"]
     )

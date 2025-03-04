@@ -1,0 +1,40 @@
+title: CARMEN
+file_prefix: carmen
+translation_file: butterfly_en.txt
+language: fr
+start_idx: 1
+end_idx: 35
+overture_indices: [1]
+secondary_color: LightBlue
+video_width: 3840
+video_height: 2160
+font_size: 96
+res_divisor: 4
+playlist_url: https://www.youtube.com/watch?v=hNOxoVZqf54&list=PLBrs-r77FPJLXd6rpW87w4YxGs7OZ_xI-
+
+# Carmen, bohémienne et cigarière (mezzo-soprano ou soprano dramatique)
+# Don José, brigadier (ténor)
+# Micaëla, jeune Navarraise (soprano lyrique)
+# Escamillo, torero (baryton ou baryton-basse)
+# Frasquita, bohémienne (mezzo-soprano léger ou soprano)
+# Mercédès, bohémienne (mezzo-soprano)
+# Le Dancaïre, contrebandier (baryton ou trial)
+# Le Remendado, contrebandier (ténor)
+# Zuniga, lieutenant (basse)
+# Moralès, brigadier (baryton)
+# Lillas Pastia, aubergiste (rôle parlé)
+# Un guide (rôle parlé)
+
+characters:
+  - Carmen
+  - Don José
+  - Micaëla
+  - Escamillo
+  - Frasquita
+  - Mercédès
+  - Le Dancaïre
+  - Le Remendado
+  - Zuniga
+  - Moralès
+  - Lillas Pastia
+  - Un guide

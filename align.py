@@ -27,7 +27,8 @@ def deserialize_transcription_from_file(file_path: str) -> TranscriptionVerbose:
     """
     with open(file_path, 'r') as f:
         data = json.load(f)
-    data['duration'] = str(data['duration'])
+    if 'duration' in data.keys():
+        data['duration'] = str(data['duration'])
     
     return TranscriptionVerbose.model_validate(data)
 

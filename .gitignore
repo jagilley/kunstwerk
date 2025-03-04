@@ -9,3 +9,6 @@ images
 *.csv
 .DS_Store
 **/.DS_Store
+anime/*
+transcribed
+*.mp4

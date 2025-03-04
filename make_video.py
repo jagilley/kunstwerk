@@ -45,85 +45,7 @@ def pair_libretto_lines_simple(source_text, target_text):
 with open(f"libretti/{config.file_prefix}_{config.language}.txt", "r", encoding="utf-8") as f:
     libretto_de = f.read()
 
-# Get translation file path from config
-if not config.translation_file:
-    raise ValueError("No translation file specified in config")
-
-translation_path = f"libretti/{config.translation_file}"
-if not os.path.exists(translation_path):
-    raise FileNotFoundError(f"Translation file not found: {translation_path}")
-
-with open(translation_path, "r", encoding="utf-8") as f:
-    libretto_en = f.read()
-
-pairs = pair_libretto_lines_simple(libretto_de, libretto_en)
-
-def is_safe_split_point(lines, index):
-    """Check if splitting at this line index would break any parentheses pairs"""
-    text_before = '\n'.join(lines[:index])
-    open_count = text_before.count('(') - text_before.count(')')
-    return open_count == 0
-
-def find_safe_split_point(lines):
-    """Find the closest safe split point to the middle"""
-    mid = len(lines) // 2
-    
-    # Try points progressively further from the middle
-    for offset in range(len(lines)):
-        # Try point after middle
-        if mid + offset < len(lines):
-            if is_safe_split_point(lines, mid + offset):
-                return mid + offset
-        # Try point before middle
-        if mid - offset >= 1:  # Ensure we don't split at 0
-            if is_safe_split_point(lines, mid - offset):
-                return mid - offset
-    
-    # If no safe point found, return middle as fallback
-    return mid
-
-def split_long_pairs(pairs, max_length=15):
-    need_another_pass = True
-    while need_another_pass:
-        need_another_pass = False
-        i = 0
-        while i < len(pairs):
-            de, en = pairs[i]
-            de_lines = de.split("\n")
-            en_lines = en.split("\n")
-            
-            if len(de_lines) > max_length:
-                need_another_pass = True
-                print(f"Splitting pair {i}")
-                
-                # Find safe split point based on German text
-                split_point = find_safe_split_point(de_lines)
-                
-                # Split both German and English at this point
-                pairs[i] = (
-                    "\n".join(de_lines[:split_point]),
-                    "\n".join(en_lines[:split_point])
-                )
-                pairs.insert(i+1, (
-                    "\n".join(de_lines[split_point:]),
-                    "\n".join(en_lines[split_point:])
-                ))
-            i += 1
-
-    return pairs
-
-# Apply the splitting
-pairs = split_long_pairs(pairs)
-
-# print the number of pairs
-print(f"Final number of pairs: {len(pairs)}")
-
-# print the first pair
-print("First pair:", pairs[0])
-
-# print the last pair
-print("Last pair:", pairs[-1])
-
+### Align libretto with transcription
 
 def align_transcription_with_libretto(
     transcription: List[TranscriptionWord],
@@ -472,7 +394,42 @@ def detect_low_alignment(smoothed: np.ndarray, overall_avg: float, threshold: fl
         
     return low_periods
 
+def plot_aligned_words(aligned_words: List[AlignedWord]):
+    aligned = [i.start is not None and i.end is not None for i in aligned_words]
+    aligned_int = [1 if x else 0 for x in aligned]
+    overall_avg = np.mean(aligned_int)
 
+    window_size = 20
+    smoothed = np.convolve(aligned_int, np.ones(window_size)/window_size, mode='valid')
+
+    low_periods = detect_low_alignment(smoothed, overall_avg)
+
+    plt.figure(figsize=(12, 6))
+    plt.plot(smoothed, label='Alignment Rate (Moving Average)')
+    plt.axhline(y=overall_avg, color='r', linestyle='--', label='Overall Average')
+    
+    for start, end in low_periods:
+        plt.axvspan(start, end, color='red', alpha=0.2)
+    
+    plt.fill_between(range(len(smoothed)), smoothed, alpha=0.3)
+    plt.ylim(0, 1.1)
+    plt.xlabel('Word Position')
+    plt.ylabel('Proportion Aligned')
+    plt.title('Word Alignment Distribution')
+    plt.legend()
+    plt.grid(True, alpha=0.3)
+    
+    if low_periods:
+        print(f"Warning: Found {len(low_periods)} periods of low alignment (>500 words below average)")
+        for start, end in low_periods:
+            print(f"Low alignment period: words {start} to {end}")
+
+            # print the first 20 words of the low alignment period
+            print(f"First 20 words: {[aligned_words[i].word for i in range(start, min(start+20, end))]}")
+    
+    plt.show()
+
+# plot_aligned_words(aligned_words)
 
 # write aligned words to csv
 
@@ -511,8 +468,92 @@ aligned_words = interpolate_word_timings(aligned_words, max_interpolation_window
 
 # give the percentage of AlignedWords that have a start and end time
 percentage_aligned = len([word for word in aligned_words if word.start is not None and word.end is not None]) / len(aligned_words)
-print(f"Percentage of aligned words: {percentage_aligned}")
+print(f"Percentage of aligned words after interpolation: {percentage_aligned}")
 
+# plot_aligned_words(aligned_words)
+
+### Add translation
+
+# Get translation file path from config
+if not config.translation_file:
+    raise ValueError("No translation file specified in config")
+
+translation_path = f"libretti/{config.translation_file}"
+if not os.path.exists(translation_path):
+    raise FileNotFoundError(f"Translation file not found: {translation_path}")
+
+with open(translation_path, "r", encoding="utf-8") as f:
+    libretto_en = f.read()
+
+pairs = pair_libretto_lines_simple(libretto_de, libretto_en)
+
+def is_safe_split_point(lines, index):
+    """Check if splitting at this line index would break any parentheses pairs"""
+    text_before = '\n'.join(lines[:index])
+    open_count = text_before.count('(') - text_before.count(')')
+    return open_count == 0
+
+def find_safe_split_point(lines):
+    """Find the closest safe split point to the middle"""
+    mid = len(lines) // 2
+    
+    # Try points progressively further from the middle
+    for offset in range(len(lines)):
+        # Try point after middle
+        if mid + offset < len(lines):
+            if is_safe_split_point(lines, mid + offset):
+                return mid + offset
+        # Try point before middle
+        if mid - offset >= 1:  # Ensure we don't split at 0
+            if is_safe_split_point(lines, mid - offset):
+                return mid - offset
+    
+    # If no safe point found, return middle as fallback
+    return mid
+
+def split_long_pairs(pairs, max_length=15):
+    need_another_pass = True
+    while need_another_pass:
+        need_another_pass = False
+        i = 0
+        while i < len(pairs):
+            de, en = pairs[i]
+            de_lines = de.split("\n")
+            en_lines = en.split("\n")
+            
+            if len(de_lines) > max_length:
+                need_another_pass = True
+                print(f"Splitting pair {i}")
+                
+                # Find safe split point based on German text
+                split_point = find_safe_split_point(de_lines)
+                
+                # Split both German and English at this point
+                pairs[i] = (
+                    "\n".join(de_lines[:split_point]),
+                    "\n".join(en_lines[:split_point])
+                )
+                pairs.insert(i+1, (
+                    "\n".join(de_lines[split_point:]),
+                    "\n".join(en_lines[split_point:])
+                ))
+            i += 1
+
+    return pairs
+
+# Apply the splitting
+pairs = split_long_pairs(pairs)
+
+# print the number of pairs
+print(f"Final number of pairs: {len(pairs)}")
+
+# print the first pair
+print("First pair:", pairs[0])
+
+# print the last pair
+print("Last pair:", pairs[-1])
+
+### Create the video
 
 from moviepy.editor import (
     AudioFileClip, TextClip, CompositeVideoClip, 
@@ -523,7 +564,6 @@ import numpy as np
 import imageio
 from tqdm import tqdm
 from dataclasses import dataclass
-
 
 @dataclass
 class FrameData:
