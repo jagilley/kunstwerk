@@ -14,7 +14,8 @@ def run_command(cmd: str, error_msg: str) -> None:
 def process_opera(
     config_path: str, 
     skip_download: bool = False, 
-    skip_transcribe: bool = False
+    skip_transcribe: bool = False,
+    copyright_test: bool = False
 ) -> None:
     """Main function to process an opera from start to finish"""
     
@@ -26,7 +27,6 @@ def process_opera(
     
     config = parse_opera_config(config_path)
 
-
     # Step 1: Download and separate audio
     if not skip_download:
         print("\n=== Downloading and separating audio ===")
@@ -34,6 +34,16 @@ def process_opera(
             f"./separate.sh {config_path}",
             "Failed to download/separate audio"
         )
+
+    # If copyright test mode is active, skip transcription and create copyright test video
+    if copyright_test:
+        print("\n=== Creating copyright test video ===")
+        print("Skipping transcription phase (not needed for copyright test)")
+        run_command(
+            f"python copyright_test.py {config_path}",
+            "Failed to generate copyright test video"
+        )
+        return
 
     # Step 2: Transcribe audio
     if not skip_transcribe:
@@ -61,15 +71,38 @@ def main():
                       help="Skip downloading and separating audio (use existing files)")
     parser.add_argument("--skip-transcribe", action="store_true",
                       help="Skip transcription (use existing transcription files)")
+    parser.add_argument("--copyright-test", action="store_true",
+                      help="Create a copyright test video without text, just combined audio (skips transcription)")
     
     args = parser.parse_args()
 
     try:
-        process_opera(
-            args.config, 
-            args.skip_download, 
-            args.skip_transcribe
-        )
+        # If copyright test mode is enabled with minimal flag, use minimal_copyright_test.py instead
+        if args.copyright_test and args.minimal:
+            config_path = Path(args.config)
+            if not config_path.exists():
+                raise FileNotFoundError(f"Config file not found: {config_path}")
+                
+            if not args.skip_download:
+                print("\n=== Downloading and separating audio ===")
+                run_command(
+                    f"./separate.sh {config_path}",
+                    "Failed to download/separate audio"
+                )
+                
+            print("\n=== Creating minimal copyright test video ===")
+            run_command(
+                f"python minimal_copyright_test.py {config_path}",
+                "Failed to generate minimal copyright test video"
+            )
+        else:
+            # Normal processing path
+            process_opera(
+                args.config, 
+                args.skip_download, 
+                args.skip_transcribe,
+                args.copyright_test
+            )
         print("\nSuccess! Opera processing completed.")
     except Exception as e:
         print(f"\nError: {str(e)}")

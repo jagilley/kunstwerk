@@ -20,6 +20,8 @@ if len(sys.argv) != 2:
     print("Usage: python make_video.py <config.md>")
     sys.exit(1)
 
+show_plots = True
+
 config = parse_opera_config(sys.argv[1])
 
 # Ensure all case variations of character names are included
@@ -265,8 +267,6 @@ def interpolate_word_timings(
     
     return result
 
-from typing import Dict, List
-
 def parse_timestamp_and_phrase(
     timestamp_str: str,
     phrase: str,
@@ -371,10 +371,8 @@ aligned_words = align_transcription_with_libretto(
 percentage_aligned = len([word for word in aligned_words if word.start is not None and word.end is not None]) / len(aligned_words)
 print(f"Percentage of aligned words: {percentage_aligned}")
 
-
 import matplotlib.pyplot as plt
 import numpy as np
-from typing import List
 
 def detect_low_alignment(smoothed: np.ndarray, overall_avg: float, threshold: float = 0.2, window: int = 500) -> List[tuple]:
     low_periods = []
@@ -429,7 +427,8 @@ def plot_aligned_words(aligned_words: List[AlignedWord]):
     
     plt.show()
 
-# plot_aligned_words(aligned_words)
+if show_plots:
+    plot_aligned_words(aligned_words)
 
 # write aligned words to csv
 
@@ -470,7 +469,8 @@ aligned_words = interpolate_word_timings(aligned_words, max_interpolation_window
 percentage_aligned = len([word for word in aligned_words if word.start is not None and word.end is not None]) / len(aligned_words)
 print(f"Percentage of aligned words after interpolation: {percentage_aligned}")
 
-# plot_aligned_words(aligned_words)
+if show_plots:
+    plot_aligned_words(aligned_words)
 
 ### Add translation
 
@@ -560,7 +560,6 @@ from moviepy.editor import (
     ColorClip, concatenate_audioclips, VideoClip
 )
 from typing import List, Tuple, Optional, Dict
-import numpy as np
 import imageio
 from tqdm import tqdm
 from dataclasses import dataclass
@@ -621,7 +620,6 @@ frame_data = create_frames(
     title=config.title,
     config=video_config
 )
-
 
 def enforce_monotonicity(frame_data: FrameData) -> FrameData:
     """
@@ -729,7 +727,6 @@ def generate_audio_timestamps(audio_files):
     
     # Process each audio file
     for i, file_path in enumerate(audio_files, 1):
-        # try:
         # Get duration of audio file
         duration = librosa.get_duration(path=file_path)
         
@@ -746,9 +743,6 @@ def generate_audio_timestamps(audio_files):
         # Update current time for next file
         current_time = end_time
             
-        # except Exception as e:
-        #     print(f"Error processing file {file_path}: {str(e)}")
-            
     return "\n".join(result)
 
-print(generate_audio_timestamps([f"{config.file_prefix}/{str(i).zfill(2)}.m4a" for i in range(config.start_idx, config.end_idx)]))
+print(generate_audio_timestamps([f"audio/{config.file_prefix}/{str(i).zfill(2)}.m4a" for i in range(config.start_idx, config.end_idx)]))

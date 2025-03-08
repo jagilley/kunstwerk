@@ -1,0 +1,42 @@
+title: DON GIOVANNI
+file_prefix: giovanni
+translation_file: giovanni_en.txt
+language: it
+start_idx: 1
+end_idx: 67
+overture_indices: [1]
+secondary_color: IndianRed # https://en.wikipedia.org/wiki/X11_color_names
+video_width: 3840
+video_height: 2160
+font_size: 96
+res_divisor: 1
+playlist_url: https://www.youtube.com/watch?v=MiRYJ_9FUvs&list=PLjCUNOTbkeqp7PPPSnSfgqftp5b42wehj
+
+# DON GIOVANNI, giovane cavaliere estremamente licenzioso (Baritono)
+# DONNA ANNA, dama promessa sposa di Don Ottavio (Soprano)
+# DON OTTAVIO (Tenore)
+# COMMENDATORE (Basso)
+# DONNA ELVIRA, dama di Burgos, abbandonata da Don Giovanni (Soprano)
+# LEPORELLO, servo di Don Giovanni (Basso)
+# MASETTO, contadino, amante di Zerlina (Basso)
+# ZERLINA, contadina (Soprano)
+# IL COMMENDATORE
+# THE STATUE
+# LA STATUA
+
+characters:
+  # Italian
+  - Don Giovanni
+  - Leporello
+  - Don Ottavio
+  - Commendatore
+  - The Commendatore
+  - Il Commendatore
+  - The Statue
+  - La Statua
+  - Donna Anna
+  - Donna Elvira
+  - Masetto
+  - Zerlina
+  - Chorus
+  - Il Coro
