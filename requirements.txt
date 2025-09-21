@@ -24,3 +24,6 @@ openai>=1.0.0
 
 # Download utilities
 yt-dlp>=2023.11.16
+# Spotify API support for fetching track lists and YouTube links
+spotipy>=2.25.0
+requests>=2.28.0

@@ -706,21 +706,49 @@ create_parallel_text_video(
 import librosa
 from datetime import datetime, timedelta
 
-def generate_audio_timestamps(audio_files):
+def generate_audio_timestamps(audio_files, aligned_words=None, character_names=None):
     """
     Generate timestamps for a list of audio files showing their start and end times.
     
     Args:
         audio_files (list): List of paths to audio files
-    
+        aligned_words (list, optional): List of AlignedWord objects to extract first lines
+        character_names (list, optional): List of character names to filter out from first lines
+        
     Returns:
-        str: Formatted string with timestamps and scene numbers
+        str: Formatted string with timestamps and scene descriptions
     """
     
     def format_timestamp(seconds):
         """Convert seconds to HH:MM:SS format"""
         stamp = str(timedelta(seconds=int(seconds))).zfill(8)
-        return stamp    
+        return stamp
+    
+    def get_first_sung_line(start_time, end_time, aligned_words, character_names):
+        """Find the first line of text at the given timestamp range"""
+        if aligned_words is None or not aligned_words:
+            return None
+            
+        # Find the words within this timestamp range
+        words_in_range = []
+        for word in aligned_words:
+            if word.start is not None and start_time <= word.start < end_time:
+                words_in_range.append(word.word)
+                
+        if not words_in_range:
+            return None
+            
+        # Build the first line (up to 8 words)
+        first_line = " ".join(words_in_range[:8])
+        
+        # Remove character name at the beginning if present
+        if character_names:
+            for name in character_names:
+                if first_line.startswith(f"{name}:") or first_line.startswith(f"{name.upper()}:"):
+                    first_line = first_line.split(":", 1)[1].strip()
+                    break
+        
+        return first_line if first_line else None
     
     current_time = 0
     result = []
@@ -734,8 +762,15 @@ def generate_audio_timestamps(audio_files):
         start_time = current_time
         end_time = current_time + duration
         
+        # Get the first line if possible
+        scene_description = f"Scene {i}"
+        first_line = get_first_sung_line(start_time, end_time, aligned_words, character_names)
+        
+        if first_line:
+            scene_description = f"{first_line}"
+        
         # Format the timestamp line
-        timestamp_line = f"{format_timestamp(start_time)} - Scene {i}"
+        timestamp_line = f"{format_timestamp(start_time)} - {scene_description}"
         while timestamp_line[0] == "0" or timestamp_line[0] == ":":
             timestamp_line = timestamp_line[1:]
         result.append(timestamp_line)
@@ -745,4 +780,8 @@ def generate_audio_timestamps(audio_files):
             
     return "\n".join(result)
 
-print(generate_audio_timestamps([f"audio/{config.file_prefix}/{str(i).zfill(2)}.m4a" for i in range(config.start_idx, config.end_idx)]))
+print(generate_audio_timestamps(
+    [f"audio/{config.file_prefix}/{str(i).zfill(2)}.m4a" for i in range(config.start_idx, config.end_idx)],
+    aligned_words=aligned_words,
+    character_names=CHARACTER_NAMES
+))

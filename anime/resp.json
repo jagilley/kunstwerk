@@ -1,0 +1,27 @@
+{
+    "imagePanels": [
+        {
+            "prompt": "Valhalla goes up in flames as the gods look on. Still from Götterdämmerung, cinematic artistic anime",
+            "generatedImages": [
+                {
+                    "encodedImage": "",
+                    "seed": 346593,
+                    "mediaGenerationId": "CAMaJDZkZDFjZTMzLWEzMmEtNDBmNS04ZTNmLTMzNDYyOTlkMmQzMCIDQ0FFKiQ3ZDU0OTBmMi03Y2MxLTQ0Y2QtOTA3ZS0wYTY5ZjRkOTA3OWM",
+                    "isMaskEditedImage": false,
+                    "modelNameType": "IMAGEN_3_1",
+                    "workflowId": "6dd1ce33-a32a-40f5-8e3f-3346299d2d30",
+                    "fingerprintLogRecordId": "6b3a82bdb00000000000000000000000"
+                },
+                {
+                    "encodedImage": "",
+                    "seed": 346593,
+                    "mediaGenerationId": "CAMaJDZkZDFjZTMzLWEzMmEtNDBmNS04ZTNmLTMzNDYyOTlkMmQzMCIDQ0FFKiRhYzBhNjdhZS02ZjMzLTRiZDctOGE4Ni05YjcxMjUxYzA2MDM",
+                    "isMaskEditedImage": false,
+                    "modelNameType": "IMAGEN_3_1",
+                    "workflowId": "6dd1ce33-a32a-40f5-8e3f-3346299d2d30",
+                    "fingerprintLogRecordId": "6eb302bdb00000000000000000000000"
+                }
+            ]
+        }
+    ]
+}
