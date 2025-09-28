@@ -16,7 +16,7 @@ import re
 import sys
 from dataclasses import dataclass, asdict
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional, Tuple
+from typing import Any, Iterable, List, Optional, Tuple
 import anthropic
 from dotenv import load_dotenv
 
@@ -135,6 +135,10 @@ PROMPT_TEMPLATE = (
     "- Return ONLY a JSON array of objects with keys: title, description, shot, time_of_day, lighting, palette, characters (array), tags (array), nsfw (boolean).\n"
     "- The 'description' must be one sentence that fully describes the frame. Do NOT include the opera title.\n"
     "- Avoid repeating essentially the same shot within this window.\n\n"
+    "Character cards (if provided):\n"
+    "- Available character reference images (by filename stem) will be listed below.\n"
+    "- When relevant, set the 'characters' array to the exact names from this list (match filename stem).\n"
+    "- The image generation stage will attach the matching reference images, so please adhere strictly to these character designs.\n\n"
     "Libretto fragment (blocks, preserve line breaks):\n"
     "---\n"
     "{fragment}\n"
@@ -147,6 +151,7 @@ def generate_prompts_for_window(
     window_index: int,
     opera_title: str,
     max_per_window: int,
+    available_characters: Optional[List[str]] = None,
 ) -> List[PromptSuggestion]:
     fragment = "\n\n".join(blocks)
     prompt = PROMPT_TEMPLATE.format(
@@ -154,6 +159,10 @@ def generate_prompts_for_window(
         max_per_window=max_per_window,
         fragment=fragment,
     )
+    # If character cards are available, append a short list the model can reference
+    if available_characters:
+        prompt += "\nAvailable character cards (filename stems):\n"
+        prompt += ", ".join(sorted(available_characters)) + "\n\n"
     raw = call_anthropic(prompt)
     data = _extract_json(raw)
     suggestions: List[PromptSuggestion] = []
@@ -225,6 +234,12 @@ def main() -> None:
     parser.add_argument("--start-line", type=int, default=None, help="Optional 1-based start line (inclusive) of libretto slice")
     parser.add_argument("--end-line", type=int, default=None, help="Optional 1-based end line (inclusive) of libretto slice")
     parser.add_argument("--dry-run", action="store_true", help="Print suggestions and exit (no files)")
+    parser.add_argument(
+        "--character-card-dir",
+        type=str,
+        default=None,
+        help="Directory containing character reference images (filenames indicate character names)",
+    )
 
     args = parser.parse_args()
 
@@ -262,13 +277,36 @@ def main() -> None:
     out_jsonl = Path(args.out_jsonl) if args.out_jsonl else out_dir / f"{base_name}.jsonl"
     out_txt = Path(args.out_txt) if args.out_txt else out_dir / f"{base_name}.txt"
 
+    # Optional: list available character cards (by filename stem)
+    available_characters: Optional[List[str]] = None
+    if args.character_card_dir:
+        card_dir = Path(args.character_card_dir)
+        if card_dir.exists() and card_dir.is_dir():
+            stems: List[str] = []
+            for fn in os.listdir(card_dir):
+                p = card_dir / fn
+                if not p.is_file():
+                    continue
+                ext = p.suffix.lower()
+                if ext in {".png", ".jpg", ".jpeg", ".webp"}:
+                    stems.append(p.stem)
+            if stems:
+                available_characters = sorted(set(stems))
+                print(f"Character cards found ({len(available_characters)}): {', '.join(available_characters)}")
+        else:
+            print(f"character-card-dir not found or not a dir: {card_dir}")
+
     print(f"Blocks: {len(blocks)} | window={args.window} stride={args.stride}")
 
     all_window_suggestions: List[List[PromptSuggestion]] = []
     for widx, win_blocks in sliding_windows(blocks, args.window, args.stride):
         try:
             suggestions = generate_prompts_for_window(
-                win_blocks, widx, opera_title, args.max_per_window
+                win_blocks,
+                widx,
+                opera_title,
+                args.max_per_window,
+                available_characters=available_characters,
             )
         except Exception as e:
             print(f"Window {widx}: LLM error: {e}")
