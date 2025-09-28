@@ -126,20 +126,41 @@ def call_anthropic(prompt: str, model: str = "claude-sonnet-4-20250514", max_tok
 
 
 PROMPT_TEMPLATE = (
-    "You are an expert storyboard artist for opera-to-anime adaptation. "
-    "Given a libretto fragment from the opera '{opera_title}', propose up to {max_per_window} visually distinct still-image ideas that would make compelling anime frames.\n\n"
-    "Requirements:\n"
-    "- Each idea must be a single, concrete cinematic moment (no sequences).\n"
-    "- Be literal to the text while compositing a strong shot (framing, action, mood).\n"
-    "- Prefer stage directions for visuals, but you may summarize dialogue into action.\n"
+    "You are composing frame-by-frame shot ideas for a single coherent anime film adaptation of the opera '{opera_title}'. "
+    "Given the libretto fragment, propose up to {max_per_window} plausible film stills — frames that look like they were captured mid-scene from one continuous production.\n\n"
+    "Global Film Style — apply consistently across ALL frames in this session:\n"
+    "{global_style}\n\n"
+    "Requirements (film stills, not posters):\n"
+    "- Each idea is a single captured frame (no multi-beat sequences, no montage).\n"
+    "- Be literal to the libretto; prefer stage directions and diegetic action over abstract symbolism.\n"
+    "- Favor grounded, production-plausible staging and camera work; avoid impossible physics or floating cameras.\n"
+    "- Describe the shot as it appears on screen (framing, action, mood), not as instructions.\n"
+    "- Keep continuity with the Global Film Style (palette, lighting character, lens feel, era, texture).\n"
     "- Return ONLY a JSON array of objects with keys: title, description, shot, time_of_day, lighting, palette, characters (array), tags (array), nsfw (boolean).\n"
-    "- The 'description' must be one sentence that fully describes the frame. Do NOT include the opera title.\n"
+    "- The 'description' must be ONE sentence that fully describes the frame. Do NOT include the opera title.\n"
     "- Avoid repeating essentially the same shot within this window.\n\n"
     "Character cards (if provided):\n"
     "- Available character reference images (by filename stem) will be listed below.\n"
-    "- When relevant, set the 'characters' array to the exact names from this list (match filename stem).\n"
-    "- The image generation stage will attach the matching reference images, so please adhere strictly to these character designs.\n\n"
+    "- When relevant, set the 'characters' array to the exact names from this list (filename stem).\n"
+    "- Downstream image generation will attach the matching references — keep designs consistent and avoid reinventing looks.\n\n"
     "Libretto fragment (blocks, preserve line breaks):\n"
+    "---\n"
+    "{fragment}\n"
+    "---\n"
+)
+
+# A separate prompt used to derive a single coherent style guide for all frames.
+STYLE_GUIDE_TEMPLATE = (
+    "You are the supervising art director for a single anime film adaptation of the opera '{opera_title}'. "
+    "From the libretto excerpt below, derive a cohesive visual style guide that keeps all generated frames looking like they belong to ONE movie.\n\n"
+    "Output STRICTLY a JSON object with keys:\n"
+    "- short_suffix: a concise one-line style tail to append to every image prompt (avoid artist names).\n"
+    "- guide: a compact paragraph (3–6 lines) describing the film's art direction: palette, lighting, lens/shot feel, texture/grain, era/format (e.g., 16:9 1080p), production vibe (generic, not name-dropping living artists), and any continuity notes.\n\n"
+    "Constraints:\n"
+    "- Do NOT reference specific living artists.\n"
+    "- Favor practical, production-plausible details (camera/lens feeling, color grading, film/scan texture, background style).\n"
+    "- Keep it applicable across the whole story; do not lock to a single scene.\n\n"
+    "Libretto excerpt for style inference:\n"
     "---\n"
     "{fragment}\n"
     "---\n"
@@ -152,12 +173,14 @@ def generate_prompts_for_window(
     opera_title: str,
     max_per_window: int,
     available_characters: Optional[List[str]] = None,
+    global_style: Optional[str] = None,
 ) -> List[PromptSuggestion]:
     fragment = "\n\n".join(blocks)
     prompt = PROMPT_TEMPLATE.format(
         opera_title=opera_title,
         max_per_window=max_per_window,
         fragment=fragment,
+        global_style=(global_style or "(No explicit style — keep continuity plausible and grounded)")
     )
     # If character cards are available, append a short list the model can reference
     if available_characters:
@@ -216,15 +239,51 @@ def derive_defaults_from_path(libretto_path: Path) -> Tuple[str, str]:
     name = libretto_path.stem  # e.g., gotterdammerung_en
     # Try to extract a nice title
     title = name.split("_")[0].replace("-", " ").title()
-    style_suffix = f"Still from {title}, cinematic artistic anime"
+    # Conservative, generic default; will be replaced by auto style if enabled
+    style_suffix = (
+        f"film still from a single {title} anime adaptation, 16:9, grounded composition, subtle film grain, cohesive palette, no text overlays, no credits"
+    )
     return title, style_suffix
+
+
+def generate_global_style(
+    all_blocks: List[str],
+    opera_title: str,
+    style_blocks: int,
+) -> Tuple[str, str]:
+    """Use the first N blocks to infer a global film style.
+
+    Returns (short_suffix, guide_paragraph).
+    """
+    if style_blocks <= 0:
+        style_blocks = min(12, len(all_blocks)) or len(all_blocks)
+    excerpt = "\n\n".join(all_blocks[:style_blocks])
+    style_prompt = STYLE_GUIDE_TEMPLATE.format(opera_title=opera_title, fragment=excerpt)
+    raw = call_anthropic(style_prompt, max_tokens=1000)
+    try:
+        obj = _extract_json(raw)
+        if isinstance(obj, dict):
+            short_suffix = str(obj.get("short_suffix") or "").strip()
+            guide = str(obj.get("guide") or "").strip()
+            if short_suffix and guide:
+                return short_suffix, guide
+    except Exception:
+        pass
+    # Fallback minimal style if parsing fails
+    return (
+        "cohesive anime film still, 16:9, grounded staging, subtle grain, consistent color grading",
+        "A single cohesive anime film look: 16:9 frame, neutral yet cinematic color grading, soft key with gentle fill, practical production staging, and subtle film-grain texture for continuity.",
+    )
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Generate anime image prompts from a libretto via sliding window LLM")
     parser.add_argument("libretto", type=str, help="Path to libretto text file (e.g., libretti/gotterdammerung_en.txt)")
     parser.add_argument("--opera-title", type=str, default=None, help="Opera title override for prompting")
-    parser.add_argument("--style-suffix", type=str, default=None, help="Suffix appended to each prompt (e.g., 'Still from …, cinematic artistic anime')")
+    parser.add_argument("--style-suffix", type=str, default=None, help="Suffix appended to each prompt (overrides auto style)")
+    parser.add_argument("--no-auto-style", action="store_true", help="Disable LLM-derived global style guide and use default/manual suffix")
+    parser.add_argument("--style-blocks", type=int, default=18, help="How many initial text blocks to sample for global style inference")
+    parser.add_argument("--style-out", type=str, default=None, help="Optional path to save the inferred style guide JSON")
     parser.add_argument("--window", type=int, default=10, help="Window size in blocks")
     parser.add_argument("--stride", type=int, default=6, help="Stride in blocks")
     parser.add_argument("--max-per-window", type=int, default=2, help="Max suggestions per window")
@@ -268,7 +327,18 @@ def main() -> None:
     blocks = split_into_blocks(text)
     opera_title, default_style_suffix = derive_defaults_from_path(libretto_path)
     opera_title = args.opera_title or opera_title
-    style_suffix = args.style_suffix or default_style_suffix
+
+    # Stage 1: derive a global style guide (unless disabled or manually provided)
+    short_style_suffix: Optional[str] = None
+    style_guide_paragraph: Optional[str] = None
+    if not args.no_auto_style and not args.style_suffix:
+        try:
+            short_style_suffix, style_guide_paragraph = generate_global_style(blocks, opera_title, args.style_blocks)
+            print("Inferred global style guide.")
+        except Exception as e:
+            print(f"Warning: failed to infer style guide, falling back to defaults: {e}")
+    # Final suffix applied to every prompt
+    style_suffix = args.style_suffix or short_style_suffix or default_style_suffix
 
     # Determine output paths
     out_dir = Path("output/prompts")
@@ -299,6 +369,9 @@ def main() -> None:
     print(f"Blocks: {len(blocks)} | window={args.window} stride={args.stride}")
 
     all_window_suggestions: List[List[PromptSuggestion]] = []
+    # Build a compact global style string for in-prompt continuity
+    global_style_for_prompt = style_guide_paragraph or style_suffix
+
     for widx, win_blocks in sliding_windows(blocks, args.window, args.stride):
         try:
             suggestions = generate_prompts_for_window(
@@ -307,6 +380,7 @@ def main() -> None:
                 opera_title,
                 args.max_per_window,
                 available_characters=available_characters,
+                global_style=global_style_for_prompt,
             )
         except Exception as e:
             print(f"Window {widx}: LLM error: {e}")
@@ -327,6 +401,10 @@ def main() -> None:
         for s in final_suggestions:
             rec = asdict(s)
             rec["final_prompt"] = s.to_prompt(style_suffix)
+            if style_guide_paragraph:
+                rec["global_style"] = style_guide_paragraph
+            elif style_suffix:
+                rec["global_style"] = style_suffix
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
     # Write TXT
@@ -336,6 +414,21 @@ def main() -> None:
 
     print(f"Wrote {out_jsonl}")
     print(f"Wrote {out_txt}")
+
+    # Optionally save the style guide separately for reference
+    if args.style_out:
+        style_out = Path(args.style_out)
+        style_out.parent.mkdir(parents=True, exist_ok=True)
+        style_payload = {
+            "opera_title": opera_title,
+            "short_suffix": style_suffix,
+            "guide": style_guide_paragraph or global_style_for_prompt,
+            "source": str(libretto_path),
+            "blocks_sampled": None if args.no_auto_style else args.style_blocks,
+        }
+        with open(style_out, "w", encoding="utf-8") as sf:
+            json.dump(style_payload, sf, ensure_ascii=False, indent=2)
+        print(f"Wrote {style_out}")
 
 
 if __name__ == "__main__":

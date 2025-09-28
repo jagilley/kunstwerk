@@ -40,8 +40,19 @@ def generate_for_prompt(
     prefix: str,
     index: int,
     ref_images: Optional[List[Path]] = None,
+    style_guide: Optional[str] = None,
 ) -> None:
-    parts: List[types.Part] = [types.Part.from_text(text=prompt)]
+    parts: List[types.Part] = []
+    # Prepend global style guide if provided, to push continuity across frames
+    if style_guide:
+        parts.append(
+            types.Part.from_text(
+                text=(
+                    "Global film style: apply consistently across this frame.\n" + style_guide
+                )
+            )
+        )
+    parts.append(types.Part.from_text(text=prompt))
     # Attach any provided reference images (character cards) as additional parts
     if ref_images:
         # Give the model an explicit instruction to honor attached references
@@ -95,12 +106,13 @@ def generate_for_prompt(
 def main() -> None:
     parser = argparse.ArgumentParser(description="Generate images from prompts using Gemini")
     parser.add_argument("--prompts", type=str, default=None, help="Path to prompts TXT (one per line)")
-    parser.add_argument("--jsonl", type=str, default=None, help="Path to JSONL with field 'final_prompt' and optional 'characters' array")
+    parser.add_argument("--jsonl", type=str, default=None, help="Path to JSONL with field 'final_prompt' and optional 'characters' and 'global_style' fields")
     parser.add_argument("--model", type=str, default="gemini-2.5-flash-image-preview", help="Gemini model name")
     parser.add_argument("--outdir", type=str, default="generated_images", help="Output directory")
     parser.add_argument("--prefix", type=str, default="frame", help="Filename prefix")
     parser.add_argument("--limit", type=int, default=None, help="Optional limit on number of prompts")
     parser.add_argument("--character-card-dir", type=str, default=None, help="Directory of character card images to attach by name (uses JSONL 'characters')")
+    parser.add_argument("--style-guide", type=str, default=None, help="Optional path to a style guide JSON or TXT; if JSONL is used, falls back to the record/global style")
 
     args = parser.parse_args()
 
@@ -161,6 +173,40 @@ def main() -> None:
             uniq.append(p)
         return uniq
 
+    def load_style_from_path(path: Path) -> Optional[str]:
+        try:
+            if path.suffix.lower() in {".json", ".jsonl"}:
+                # If JSON, expect keys short_suffix/guide or a JSONL with first line containing 'global_style'
+                if path.suffix.lower() == ".jsonl":
+                    with open(path, "r", encoding="utf-8") as f:
+                        for ln in f:
+                            ln = ln.strip()
+                            if not ln:
+                                continue
+                            try:
+                                obj = json.loads(ln)
+                                gs = obj.get("global_style") if isinstance(obj, dict) else None
+                                if isinstance(gs, str) and gs.strip():
+                                    return gs.strip()
+                            except Exception:
+                                continue
+                    return None
+                with open(path, "r", encoding="utf-8") as f:
+                    obj = json.load(f)
+                # Try common keys from libretto_promptgen style-out
+                for key in ("guide", "global_style", "short_suffix"):
+                    val = obj.get(key)
+                    if isinstance(val, str) and val.strip():
+                        return val.strip()
+            # Fallback: treat as plain text
+            return path.read_text(encoding="utf-8").strip()
+        except Exception:
+            return None
+
+    provided_style_guide: Optional[str] = None
+    if args.style_guide:
+        provided_style_guide = load_style_from_path(Path(args.style_guide))
+
     if args.jsonl:
         jsonl_path = Path(args.jsonl)
         if not jsonl_path.exists():
@@ -178,6 +224,14 @@ def main() -> None:
         if args.limit is not None:
             records = records[: args.limit]
         print(f"Loaded {len(records)} records from {jsonl_path}")
+        # Try to recover a style guide from the JSONL if none provided
+        jsonl_style_guide: Optional[str] = None
+        if not provided_style_guide:
+            for rec in records:
+                gs = rec.get("global_style") if isinstance(rec, dict) else None
+                if isinstance(gs, str) and gs.strip():
+                    jsonl_style_guide = gs.strip()
+                    break
         total = len(records)
         for i, rec in enumerate(records, 1):
             prompt = (
@@ -193,10 +247,24 @@ def main() -> None:
             if not isinstance(chars, list):
                 chars = None
             ref_imgs = pick_ref_images(chars)
+            style_for_this = provided_style_guide or jsonl_style_guide or rec.get("global_style")
+            if isinstance(style_for_this, str):
+                style_for_this = style_for_this.strip() or None
             print(f"\n[{i}/{total}] {prompt}")
             if ref_imgs:
                 print("  + attaching character cards: " + ", ".join(p.stem for p in ref_imgs))
-            generate_for_prompt(client, model, prompt, out_dir, args.prefix, i, ref_images=ref_imgs)
+            if style_for_this:
+                print("  + applying global style guide")
+            generate_for_prompt(
+                client,
+                model,
+                prompt,
+                out_dir,
+                args.prefix,
+                i,
+                ref_images=ref_imgs,
+                style_guide=style_for_this,  # may be None
+            )
         return
 
     # Fallback to plain TXT prompts
@@ -206,7 +274,15 @@ def main() -> None:
 
     for i, prompt in enumerate(prompts, 1):
         print(f"\n[{i}/{len(prompts)}] {prompt}")
-        generate_for_prompt(client, model, prompt, out_dir, args.prefix, i)
+        generate_for_prompt(
+            client,
+            model,
+            prompt,
+            out_dir,
+            args.prefix,
+            i,
+            style_guide=provided_style_guide,
+        )
 
 
 if __name__ == "__main__":
