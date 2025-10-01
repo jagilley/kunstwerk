@@ -16,8 +16,17 @@ import re
 import sys
 from dataclasses import dataclass, asdict
 from pathlib import Path
-from typing import Any, Iterable, List, Optional, Tuple
-import anthropic
+from typing import Any, Callable, Iterable, List, Optional, Tuple
+
+try:  # Optional: only needed when using Claude
+    import anthropic
+except ImportError:  # pragma: no cover - handled at runtime when Claude is unused
+    anthropic = None  # type: ignore[assignment]
+
+try:  # Optional: only needed when using Kimi
+    import requests
+except ImportError:  # pragma: no cover - handled at runtime when Kimi is unused
+    requests = None  # type: ignore[assignment]
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -110,61 +119,154 @@ def _extract_json(s: str) -> Any:
     return json.loads(s)
 
 
-def call_anthropic(prompt: str, model: str = "claude-sonnet-4-20250514", max_tokens: int = 2000) -> str:
+def call_anthropic(
+    prompt: str,
+    model: str = "claude-sonnet-4-20250514",
+    max_tokens: int = 2000,
+    temperature: Optional[float] = None,
+    top_p: Optional[float] = None,
+    top_k: Optional[int] = None,
+    presence_penalty: Optional[float] = None,
+    frequency_penalty: Optional[float] = None,
+) -> str:
     if anthropic is None:
         raise RuntimeError("anthropic package not installed. Please pip install anthropic.")
     client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
     if not client.api_key:
         raise RuntimeError("ANTHROPIC_API_KEY not set in environment")
-    msg = client.messages.create(
-        model=model,
-        max_tokens=max_tokens,
-        messages=[{"role": "user", "content": prompt}],
-    )
+    request_payload: dict[str, Any] = {
+        "model": model,
+        "max_tokens": max_tokens,
+        "messages": [{"role": "user", "content": prompt}],
+    }
+    if temperature is not None:
+        request_payload["temperature"] = temperature
+    if top_p is not None:
+        request_payload["top_p"] = top_p
+    if top_k is not None:
+        request_payload["top_k"] = top_k
+    if presence_penalty is not None:
+        request_payload["presence_penalty"] = presence_penalty
+    if frequency_penalty is not None:
+        request_payload["frequency_penalty"] = frequency_penalty
+    msg = client.messages.create(**request_payload)
     # anthropic SDK returns a list of content parts
     return msg.content[0].text  # type: ignore[index]
 
 
-PROMPT_TEMPLATE = (
-    "You are composing frame-by-frame shot ideas for a single coherent anime film adaptation of the opera '{opera_title}'. "
-    "Given the libretto fragment, propose up to {max_per_window} plausible film stills — frames that look like they were captured mid-scene from one continuous production.\n\n"
-    "Global Film Style — apply consistently across ALL frames in this session:\n"
-    "{global_style}\n\n"
-    "Requirements (film stills, not posters):\n"
-    "- Each idea is a single captured frame (no multi-beat sequences, no montage).\n"
-    "- Be literal to the libretto; prefer stage directions and diegetic action over abstract symbolism.\n"
-    "- Favor grounded, production-plausible staging and camera work; avoid impossible physics or floating cameras.\n"
-    "- Describe the shot as it appears on screen (framing, action, mood), not as instructions.\n"
-    "- Keep continuity with the Global Film Style (palette, lighting character, lens feel, era, texture).\n"
-    "- Return ONLY a JSON array of objects with keys: title, description, shot, time_of_day, lighting, palette, characters (array), tags (array), nsfw (boolean).\n"
-    "- The 'description' must be ONE sentence that fully describes the frame. Do NOT include the opera title.\n"
-    "- Avoid repeating essentially the same shot within this window.\n\n"
-    "Character cards (if provided):\n"
-    "- Available character reference images (by filename stem) will be listed below.\n"
-    "- When relevant, set the 'characters' array to the exact names from this list (filename stem).\n"
-    "- Downstream image generation will attach the matching references — keep designs consistent and avoid reinventing looks.\n\n"
-    "Libretto fragment (blocks, preserve line breaks):\n"
-    "---\n"
-    "{fragment}\n"
-    "---\n"
-)
+def call_kimi(
+    prompt: str,
+    model: str = "accounts/fireworks/models/kimi-k2-instruct-0905",
+    max_tokens: int = 2000,
+    temperature: Optional[float] = None,
+    top_p: Optional[float] = None,
+    top_k: Optional[int] = None,
+    presence_penalty: Optional[float] = None,
+    frequency_penalty: Optional[float] = None,
+) -> str:
+    if requests is None:
+        raise RuntimeError("requests package not installed. Please pip install requests.")
+    api_key = os.getenv("FIREWORKS_API_KEY")
+    if not api_key:
+        raise RuntimeError("FIREWORKS_API_KEY not set in environment")
+    headers = {
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {api_key}",
+    }
+    payload: dict[str, Any] = {
+        "model": model,
+        "max_tokens": max_tokens,
+        "messages": [{"role": "user", "content": prompt}],
+    }
+    payload["temperature"] = temperature if temperature is not None else 0.6
+    payload["top_p"] = top_p if top_p is not None else 1.0
+    if top_k is not None:
+        payload["top_k"] = top_k
+    if presence_penalty is not None:
+        payload["presence_penalty"] = presence_penalty
+    if frequency_penalty is not None:
+        payload["frequency_penalty"] = frequency_penalty
+    response = requests.post("https://api.fireworks.ai/inference/v1/chat/completions", headers=headers, json=payload, timeout=60)
+    response.raise_for_status()
+    data = response.json()
+    choices = data.get("choices")
+    if not choices:
+        raise RuntimeError("Kimi API returned no choices")
+    message = choices[0].get("message", {}) if isinstance(choices[0], dict) else {}
+    content = message.get("content") if isinstance(message, dict) else None
+    if isinstance(content, list):
+        text_parts = [str(part.get("text", "")) for part in content if isinstance(part, dict) and part.get("type") == "text"]
+        if text_parts:
+            return "".join(text_parts).strip()
+    if isinstance(content, str):
+        return content.strip()
+    # Fallback to top-level text field if present
+    first_choice = choices[0]
+    if isinstance(first_choice, dict) and "text" in first_choice:
+        return str(first_choice["text"]).strip()
+    raise RuntimeError("Unexpected response structure from Kimi API")
 
-# A separate prompt used to derive a single coherent style guide for all frames.
-STYLE_GUIDE_TEMPLATE = (
-    "You are the supervising art director for a single anime film adaptation of the opera '{opera_title}'. "
-    "From the libretto excerpt below, derive a cohesive visual style guide that keeps all generated frames looking like they belong to ONE movie.\n\n"
-    "Output STRICTLY a JSON object with keys:\n"
-    "- short_suffix: a concise one-line style tail to append to every image prompt (avoid artist names).\n"
-    "- guide: a compact paragraph (3–6 lines) describing the film's art direction: palette, lighting, lens/shot feel, texture/grain, era/format (e.g., 16:9 1080p), production vibe (generic, not name-dropping living artists), and any continuity notes.\n\n"
-    "Constraints:\n"
-    "- Do NOT reference specific living artists.\n"
-    "- Favor practical, production-plausible details (camera/lens feeling, color grading, film/scan texture, background style).\n"
-    "- Keep it applicable across the whole story; do not lock to a single scene.\n\n"
-    "Libretto excerpt for style inference:\n"
-    "---\n"
-    "{fragment}\n"
-    "---\n"
-)
+
+def call_llm(
+    prompt: str,
+    *,
+    provider: str,
+    model: str,
+    max_tokens: int,
+    temperature: Optional[float],
+    top_p: Optional[float],
+    top_k: Optional[int],
+    presence_penalty: Optional[float],
+    frequency_penalty: Optional[float],
+) -> str:
+    if provider == "claude":
+        return call_anthropic(
+            prompt,
+            model=model,
+            max_tokens=max_tokens,
+            temperature=temperature,
+            top_p=top_p,
+            top_k=top_k,
+            presence_penalty=presence_penalty,
+            frequency_penalty=frequency_penalty,
+        )
+    if provider == "kimi":
+        return call_kimi(
+            prompt,
+            model=model,
+            max_tokens=max_tokens,
+            temperature=temperature,
+            top_p=top_p,
+            top_k=top_k,
+            presence_penalty=presence_penalty,
+            frequency_penalty=frequency_penalty,
+        )
+    raise ValueError(f"Unsupported provider: {provider}")
+
+
+DEFAULT_STYLES_DIR = Path("anime/styles")
+
+def load_text_file(path: Path) -> str:
+    with open(path, "r", encoding="utf-8") as f:
+        return f.read()
+
+def load_or_default(path: Optional[Path], fallback: str) -> str:
+    try:
+        if path and path.exists():
+            return load_text_file(path)
+    except Exception:
+        pass
+    return fallback
+
+def load_first_existing(paths: List[Path], fallback: str) -> str:
+    for p in paths:
+        try:
+            if p.exists():
+                return load_text_file(p)
+        except Exception:
+            continue
+    return fallback
 
 
 def generate_prompts_for_window(
@@ -172,11 +274,14 @@ def generate_prompts_for_window(
     window_index: int,
     opera_title: str,
     max_per_window: int,
+    llm_call: Callable[[str, int], str],
     available_characters: Optional[List[str]] = None,
     global_style: Optional[str] = None,
+    frame_prompt_template: Optional[str] = None,
 ) -> List[PromptSuggestion]:
     fragment = "\n\n".join(blocks)
-    prompt = PROMPT_TEMPLATE.format(
+    prompt_template = frame_prompt_template or ""
+    prompt = prompt_template.format(
         opera_title=opera_title,
         max_per_window=max_per_window,
         fragment=fragment,
@@ -186,7 +291,7 @@ def generate_prompts_for_window(
     if available_characters:
         prompt += "\nAvailable character cards (filename stems):\n"
         prompt += ", ".join(sorted(available_characters)) + "\n\n"
-    raw = call_anthropic(prompt)
+    raw = llm_call(prompt, 2000)
     data = _extract_json(raw)
     suggestions: List[PromptSuggestion] = []
     if not isinstance(data, list):
@@ -235,14 +340,16 @@ def aggregate_suggestions(
     return out
 
 
-def derive_defaults_from_path(libretto_path: Path) -> Tuple[str, str]:
+def derive_defaults_from_path(libretto_path: Path, *, default_style_suffix_template: Optional[str] = None) -> Tuple[str, str]:
     name = libretto_path.stem  # e.g., gotterdammerung_en
     # Try to extract a nice title
     title = name.split("_")[0].replace("-", " ").title()
-    # Conservative, generic default; will be replaced by auto style if enabled
-    style_suffix = (
-        f"film still from a single {title} anime adaptation, 16:9, grounded composition, subtle film grain, cohesive palette, no text overlays, no credits"
-    )
+    # Conservative default from external template; replaced by auto style if enabled
+    tpl = default_style_suffix_template or "film still, 16:9, grounded composition"
+    try:
+        style_suffix = tpl.format(title=title)
+    except Exception:
+        style_suffix = tpl
     return title, style_suffix
 
 
@@ -250,6 +357,9 @@ def generate_global_style(
     all_blocks: List[str],
     opera_title: str,
     style_blocks: int,
+    llm_call: Callable[[str, int], str],
+    *,
+    style_guide_template: Optional[str] = None,
 ) -> Tuple[str, str]:
     """Use the first N blocks to infer a global film style.
 
@@ -258,8 +368,8 @@ def generate_global_style(
     if style_blocks <= 0:
         style_blocks = min(12, len(all_blocks)) or len(all_blocks)
     excerpt = "\n\n".join(all_blocks[:style_blocks])
-    style_prompt = STYLE_GUIDE_TEMPLATE.format(opera_title=opera_title, fragment=excerpt)
-    raw = call_anthropic(style_prompt, max_tokens=1000)
+    style_prompt = (style_guide_template or "").format(opera_title=opera_title, fragment=excerpt)
+    raw = llm_call(style_prompt, 1000)
     try:
         obj = _extract_json(raw)
         if isinstance(obj, dict):
@@ -277,13 +387,17 @@ def generate_global_style(
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Generate anime image prompts from a libretto via sliding window LLM")
+    parser = argparse.ArgumentParser(description="Generate image prompts from a libretto via sliding window LLM")
     parser.add_argument("libretto", type=str, help="Path to libretto text file (e.g., libretti/gotterdammerung_en.txt)")
     parser.add_argument("--opera-title", type=str, default=None, help="Opera title override for prompting")
     parser.add_argument("--style-suffix", type=str, default=None, help="Suffix appended to each prompt (overrides auto style)")
     parser.add_argument("--no-auto-style", action="store_true", help="Disable LLM-derived global style guide and use default/manual suffix")
     parser.add_argument("--style-blocks", type=int, default=18, help="How many initial text blocks to sample for global style inference")
     parser.add_argument("--style-out", type=str, default=None, help="Optional path to save the inferred style guide JSON")
+    parser.add_argument("--style", type=str, default="opera_anime", help="Style name or directory (e.g., opera_anime, photo_real, or a folder path)")
+    parser.add_argument("--prompt-template-path", type=str, default=None, help="Override: path to frame prompt template markdown")
+    parser.add_argument("--style-guide-template-path", type=str, default=None, help="Override: path to style guide template markdown")
+    parser.add_argument("--default-style-suffix-path", type=str, default=None, help="Override: path to default style suffix template")
     parser.add_argument("--window", type=int, default=10, help="Window size in blocks")
     parser.add_argument("--stride", type=int, default=6, help="Stride in blocks")
     parser.add_argument("--max-per-window", type=int, default=2, help="Max suggestions per window")
@@ -299,6 +413,48 @@ def main() -> None:
         default=None,
         help="Directory containing character reference images (filenames indicate character names)",
     )
+    parser.add_argument(
+        "--provider",
+        choices=["claude", "kimi"],
+        default="claude",
+        help="LLM provider to use for prompt generation",
+    )
+    parser.add_argument(
+        "--model",
+        type=str,
+        default=None,
+        help="Override the model identifier for the chosen provider",
+    )
+    parser.add_argument(
+        "--temperature",
+        type=float,
+        default=None,
+        help="Sampling temperature (if supported by the provider)",
+    )
+    parser.add_argument(
+        "--top-p",
+        type=float,
+        default=None,
+        help="Nucleus sampling parameter top_p (if supported)",
+    )
+    parser.add_argument(
+        "--top-k",
+        type=int,
+        default=None,
+        help="Top-k sampling parameter (if supported)",
+    )
+    parser.add_argument(
+        "--presence-penalty",
+        type=float,
+        default=None,
+        help="Presence penalty (if supported)",
+    )
+    parser.add_argument(
+        "--frequency-penalty",
+        type=float,
+        default=None,
+        help="Frequency penalty (if supported)",
+    )
 
     args = parser.parse_args()
 
@@ -307,7 +463,63 @@ def main() -> None:
         print(f"Libretto not found: {libretto_path}")
         sys.exit(1)
 
+    provider = args.provider.lower()
+    if provider == "claude":
+        default_model = "claude-sonnet-4-20250514"
+    elif provider == "kimi":
+        default_model = "accounts/fireworks/models/kimi-k2-instruct-0905"
+    else:
+        print(f"Unsupported provider: {args.provider}")
+        sys.exit(1)
+    model = args.model or default_model
+
+    def llm_call(prompt: str, max_tokens: int) -> str:
+        return call_llm(
+            prompt,
+            provider=provider,
+            model=model,
+            max_tokens=max_tokens,
+            temperature=args.temperature,
+            top_p=args.top_p,
+            top_k=args.top_k,
+            presence_penalty=args.presence_penalty,
+            frequency_penalty=args.frequency_penalty,
+        )
+
     text = read_text(libretto_path)
+
+    # Resolve style directory from --style (name or folder path)
+    style_dir: Optional[Path] = None
+    if args.style:
+        candidate = Path(args.style)
+        if candidate.exists() and candidate.is_dir():
+            style_dir = candidate
+        else:
+            named = DEFAULT_STYLES_DIR / args.style
+            if named.exists() and named.is_dir():
+                style_dir = named
+    if style_dir is None:
+        print(f"Warning: style '{args.style}' not found. Falling back to defaults in {DEFAULT_STYLES_DIR}.")
+        style_dir = DEFAULT_STYLES_DIR
+
+    # Determine template paths (overrides take precedence)
+    frame_prompt_path = Path(args.prompt_template_path) if args.prompt_template_path else style_dir / "frame_prompt.md"
+    style_guide_path = Path(args.style_guide_template_path) if args.style_guide_template_path else style_dir / "style_guide.md"
+    default_suffix_path = Path(args.default_style_suffix_path) if args.default_style_suffix_path else style_dir / "default_style_suffix.txt"
+
+    # Fallback search also checks top-level styles folder for legacy defaults
+    frame_prompt_template = load_first_existing(
+        [frame_prompt_path, DEFAULT_STYLES_DIR / "frame_prompt.md"],
+        "You are composing frame-by-frame shot ideas. Return a JSON array of objects with keys: title, description, shot, time_of_day, lighting, palette, characters, tags, nsfw. Libretto:\n---\n{fragment}\n---",
+    )
+    style_guide_template = load_first_existing(
+        [style_guide_path, DEFAULT_STYLES_DIR / "style_guide.md"],
+        "Output a JSON object with short_suffix and guide based on:\n---\n{fragment}\n---",
+    )
+    default_style_suffix_template = load_first_existing(
+        [default_suffix_path, DEFAULT_STYLES_DIR / "default_style_suffix.txt"],
+        "film still, 16:9, grounded composition",
+    )
 
     # Optional line slicing (1-based inclusive indices)
     if args.start_line is not None or args.end_line is not None:
@@ -325,7 +537,7 @@ def main() -> None:
         print(f"Slicing lines {start}..{end} of {total_lines}")
 
     blocks = split_into_blocks(text)
-    opera_title, default_style_suffix = derive_defaults_from_path(libretto_path)
+    opera_title, default_style_suffix = derive_defaults_from_path(libretto_path, default_style_suffix_template=default_style_suffix_template)
     opera_title = args.opera_title or opera_title
 
     # Stage 1: derive a global style guide (unless disabled or manually provided)
@@ -333,7 +545,13 @@ def main() -> None:
     style_guide_paragraph: Optional[str] = None
     if not args.no_auto_style and not args.style_suffix:
         try:
-            short_style_suffix, style_guide_paragraph = generate_global_style(blocks, opera_title, args.style_blocks)
+            short_style_suffix, style_guide_paragraph = generate_global_style(
+                blocks,
+                opera_title,
+                args.style_blocks,
+                llm_call,
+                style_guide_template=style_guide_template,
+            )
             print("Inferred global style guide.")
         except Exception as e:
             print(f"Warning: failed to infer style guide, falling back to defaults: {e}")
@@ -379,8 +597,10 @@ def main() -> None:
                 widx,
                 opera_title,
                 args.max_per_window,
+                llm_call,
                 available_characters=available_characters,
                 global_style=global_style_for_prompt,
+                frame_prompt_template=frame_prompt_template,
             )
         except Exception as e:
             print(f"Window {widx}: LLM error: {e}")
@@ -425,6 +645,8 @@ def main() -> None:
             "guide": style_guide_paragraph or global_style_for_prompt,
             "source": str(libretto_path),
             "blocks_sampled": None if args.no_auto_style else args.style_blocks,
+            "style": args.style,
+            "style_dir": str(style_dir) if style_dir else None,
         }
         with open(style_out, "w", encoding="utf-8") as sf:
             json.dump(style_payload, sf, ensure_ascii=False, indent=2)
