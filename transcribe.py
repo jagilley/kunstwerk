@@ -39,13 +39,22 @@ for i in range(1, end_idx):
     print(f"Transcribing {i_string}")
 
     audio_file = open(f"{in_dir}/htdemucs/{i_string}/vocals.m4a", "rb")
-    transcript = client.audio.transcriptions.create(
-        file=audio_file,
-        language=language,
-        model="whisper-1" if not use_v3 else "openai/whisper-large-v3",
-        response_format="verbose_json",
-        timestamp_granularities=["word"]
-    )
+    try:
+        transcript = client.audio.transcriptions.create(
+            file=audio_file,
+            language=language,
+            model="whisper-1" if not use_v3 else "openai/whisper-large-v3",
+            response_format="verbose_json",
+            timestamp_granularities=["word"]
+        )
+    except Exception as e:  # noqa: BLE001
+        msg = str(e)
+        if "insufficient_quota" in msg or "credit_balance_exhausted" in msg or "no credits" in msg.lower():
+            print(f"ERROR: the OpenAI key has no credits, so {i_string} (which ElevenLabs did not transcribe) "
+                  f"cannot be transcribed. Add credits at https://platform.openai.com/settings/organization/billing/ "
+                  f"or re-run transcribe_elevenlabs.py; make_video.py needs a JSON for every track.", file=sys.stderr)
+            sys.exit(1)
+        raise
 
     # if transcribed directory does not exist, make it
     if not os.path.exists(out_dir):
