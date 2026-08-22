@@ -23,8 +23,11 @@ pyyaml>=6.0.0
 python-dotenv>=1.0.0
 
 # AI/ML
-openai>=1.0.0
+openai>=1.60.0   # older SDKs break with httpx>=0.28 (Client() got unexpected kwarg proxies)
 elevenlabs>=1.50.0
+
+# GPU separation on Modal (optional; separate.sh falls back to local demucs)
+modal>=1.0
 
 # Download utilities
 yt-dlp>=2025.1.1

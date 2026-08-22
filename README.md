@@ -7,7 +7,7 @@ Tooling for generating parallel-subtitle videos of full-length operas — origin
 One YAML config in, one video out:
 
 1. **Libretto** — `fetch_libretto.py` pulls the libretto (and its translation, when available) from librettoarchive.com into a simple blank-line-separated text format; `translate.py` fills in a missing translation with Claude, block-for-block.
-2. **Audio** — `download_album.py` resolves a recording to its YouTube Music album (auto-generated art-tracks, in order) and downloads it with yt-dlp; `demucs` separates the vocals.
+2. **Audio** — `download_album.py` resolves a recording to its YouTube Music album (auto-generated art-tracks, in order) and downloads it with yt-dlp; `demucs` separates the vocals — on a Modal GPU (`separate_modal.py`, minutes and cents per opera) or locally on CPU.
 3. **Transcription** — ElevenLabs Scribe (with OpenAI Whisper as fallback) transcribes the vocal stems with word timestamps; `detect_instrumental.py` flags purely orchestral tracks so their hallucinated transcripts get ignored.
 4. **Alignment + render** — `make_video.py` aligns the transcript to the libretto (Needleman-Wunsch over Levenshtein similarity), interpolates timings, pairs source/translation blocks and renders the video with moviepy; it also prints YouTube chapter markers.
 
@@ -16,6 +16,7 @@ One YAML config in, one video out:
 - Python 3.10+, `ffmpeg`, ImageMagick (`convert`)
 - The [Claude Code CLI](https://claude.com/claude-code) (`claude`), logged in — translation runs through it
 - `.env` with `ELEVENLABS_API_KEY` and `OPENAI_API_KEY`
+- Optional: a [Modal](https://modal.com) account (`modal token new`) for GPU vocal separation; without it, demucs runs locally on CPU (slow)
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
@@ -52,7 +53,7 @@ Outputs land in `output/<prefix>-<res_divisor>.mp4`.
 - `kunstwerk.py` — orchestrator
 - `config_parser.py` — config loading and derived fields
 - `fetch_libretto.py`, `translate.py` — libretto acquisition
-- `download_album.py`, `separate.sh`, `detect_instrumental.py` — audio acquisition and separation
+- `download_album.py`, `separate.sh`, `separate_modal.py`, `detect_instrumental.py` — audio acquisition and separation
 - `transcribe_elevenlabs.py`, `transcribe.py` — transcription
 - `align.py` — transcript ↔ libretto alignment
 - `make_video.py`, `video_gen/` — frame generation and rendering

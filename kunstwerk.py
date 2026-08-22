@@ -5,6 +5,8 @@
     python kunstwerk.py configs/carmen.yaml --skip-download --skip-transcribe   # just re-render
     python kunstwerk.py configs/carmen.yaml --stop-after libretto               # fetch + translate, then stop
     python kunstwerk.py configs/carmen.yaml --copyright-test                    # audio-only probe for Content ID
+    python kunstwerk.py configs/carmen.yaml --skip-download --skip-transcribe --stop-after align   # just the alignment check
+    python kunstwerk.py configs/carmen.yaml --strict-alignment                  # refuse to render a bad alignment
 
 Stages, in order (each is its own script and idempotent — it skips work whose
 output already exists — so re-running after a failure is safe):
@@ -14,12 +16,15 @@ output already exists — so re-running after a failure is safe):
   download    separate.sh            -> audio/<prefix>/NN.m4a (download_album.py) and sep/<prefix>_sep/ (demucs)
               detect_instrumental.py -> sep/<prefix>_sep/instrumental.json (which tracks are purely orchestral)
   transcribe  transcribe_elevenlabs.py, transcribe.py -> transcribed/<prefix>_transcribed/NN.json
+  align       make_video.py --align-only -> aligned_words_<prefix>.csv + output/<prefix>-alignment-report.json;
+              prints a loud REVIEW NEEDED when the alignment looks bad (--strict-alignment makes that fatal)
   video       make_video.py          -> output/<prefix>-<res_divisor>.mp4 + YouTube chapter list on stdout
 
 The cheap, most-likely-to-fail stages (libretto lookup, translation, album
 resolution) run before the expensive ones (demucs, transcription, render).
 """
 import argparse
+import json
 import os
 import subprocess
 import sys
@@ -27,7 +32,7 @@ from pathlib import Path
 
 from config_parser import parse_opera_config
 
-STAGES = ["libretto", "download", "transcribe", "video"]
+STAGES = ["libretto", "download", "transcribe", "align", "video"]
 
 
 def _env() -> dict:
@@ -48,6 +53,33 @@ def run(cmd: str, error_msg: str) -> None:
 
 def py(script: str) -> str:
     return f"{sys.executable} {script}"
+
+
+def check_alignment(config, strict: bool) -> None:
+    """Read make_video.py --align-only's report and shout if it needs review."""
+    path = f"output/{config.file_prefix}-alignment-report.json"
+    if not os.path.exists(path):
+        print(f"WARNING: no alignment report at {path}", flush=True)
+        return
+    with open(path, "r", encoding="utf-8") as f:
+        report = json.load(f)
+    reasons = report.get("review_reasons", [])
+    summary = (f"{report['coverage_raw_alnum']:.0%} of words timed, "
+               f"{report['black_frac']:.0%} of sung time blank, "
+               f"longest gap {report['longest_gap_s'] / 60:.1f} min, "
+               f"anchors on {report['tracks_anchored']}/{report['tracks_sung']} sung tracks")
+    if not reasons:
+        print(f"Alignment OK: {summary}", flush=True)
+        return
+    banner = "!" * 78
+    print(f"\n{banner}\n!!! REVIEW NEEDED: alignment for {config.title} looks bad ({summary})", flush=True)
+    for r in reasons:
+        print(f"!!!   - {r}", flush=True)
+    for n in report.get("notes", []):
+        print(f"!!!   note: {n}", flush=True)
+    print(f"!!!   details: {path}; fix with markers in make_video.py or re-transcribe the listed tracks\n{banner}\n", flush=True)
+    if strict:
+        raise RuntimeError("alignment needs review and --strict-alignment is set: " + "; ".join(reasons))
 
 
 def process_opera(config_path: Path, args) -> None:
@@ -91,6 +123,13 @@ def process_opera(config_path: Path, args) -> None:
     if args.stop_after == "transcribe":
         return
 
+    # --- align (cheap; the tripwire runs before the expensive render) --------
+    print("\n=== Aligning transcript with libretto ===")
+    run(f"{py('make_video.py')} {config_path} --align-only", "Failed to align transcript with libretto")
+    check_alignment(config, strict=args.strict_alignment)
+    if args.stop_after == "align":
+        return
+
     # --- video ---------------------------------------------------------------
     print("\n=== Generating video ===")
     run(f"{py('make_video.py')} {config_path}", "Failed to generate video")
@@ -106,6 +145,8 @@ def main():
     parser.add_argument("--stop-after", choices=STAGES, help="Stop after this stage")
     parser.add_argument("--copyright-test", action="store_true",
                         help="Download the audio and build a black-screen video to probe YouTube Content ID; no separation/transcription/render")
+    parser.add_argument("--strict-alignment", action="store_true",
+                        help="Fail instead of just warning when the alignment report says REVIEW NEEDED")
     args = parser.parse_args()
 
     config_path = Path(args.config)
