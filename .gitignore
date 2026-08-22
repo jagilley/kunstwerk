@@ -14,3 +14,11 @@ images
 transcribed
 *.mp4
 libretti/i_dont_trust_myself.txt
+# Private image-generation side project — lives outside this public repo
+anime/
+stories/
+generated_images/
+seedream_playground_outputs/
+pyproject.toml
+*.egg-info/
+.claude/settings.local.json
