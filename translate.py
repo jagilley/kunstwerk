@@ -130,18 +130,31 @@ def translate_chunk(
     except ValueError:
         pass
     # Fallback: block by block. Smaller units make line parity far easier to hit.
+    # Blocks can carry leading/trailing newlines (from runs of 3+ newlines in the source);
+    # translate the stripped core and re-attach them so the structure is preserved exactly.
     print(f"  chunk failed parity check; retrying its {len(chunk)} blocks individually", file=sys.stderr)
-    return [
-        translate_text(client, block, source_lang, target_lang, opera_title, max_attempts) if block.strip() else block
-        for block in chunk
-    ]
+    out = []
+    for block in chunk:
+        core = block.strip()
+        if not core:
+            out.append(block)
+            continue
+        lead = block[: len(block) - len(block.lstrip())]
+        trail = block[len(block.rstrip()):]
+        out.append(lead + translate_text(client, core, source_lang, target_lang, opera_title, max_attempts) + trail)
+    return out
 
 
 def translate_libretto(
     config: OperaConfig, target_lang: str, force: bool = False, model: str = DEFAULT_MODEL, workers: int = DEFAULT_WORKERS
 ) -> Path:
     source_path = Path(config.libretto_path)
-    target_path = Path(f"libretti/{config.file_prefix}_{target_lang}.txt")
+    # The configured translation file for the default target language (so a custom
+    # `translation_file:` is honoured); <prefix>_<lang>.txt for any other language.
+    if target_lang == config.translation_language:
+        target_path = Path(config.translation_path)
+    else:
+        target_path = Path(f"libretti/{config.file_prefix}_{target_lang}.txt")
     if target_path.exists() and not force:
         print(f"Translation already exists at {target_path}. Use --force to overwrite.")
         return target_path

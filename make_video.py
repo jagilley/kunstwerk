@@ -4,12 +4,11 @@ from typing import List, Dict, Optional, Tuple
 import os
 import copy
 from openai.types.audio import TranscriptionVerbose, TranscriptionWord
-from align import AlignedWord, deserialize_transcription_from_file, convert_file_times_to_absolute_times, word_similarity, align_transcription_with_libretto
+from align import AlignedWord, deserialize_transcription_from_file, convert_file_times_to_absolute_times, align_transcription_with_libretto
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 from tqdm import tqdm
-from align import AlignedWord, deserialize_transcription_from_file, convert_file_times_to_absolute_times
 from config_parser import parse_opera_config
 from video_gen.config.video_config import VideoConfig
 from video_gen.frame.generator import create_frames
@@ -46,7 +45,7 @@ def pair_libretto_lines_simple(source_text, target_text):
     return list(zip(lines_source, lines_target))
 
 
-with open(f"libretti/{config.file_prefix}_{config.language}.txt", "r", encoding="utf-8") as f:
+with open(config.libretto_path, "r", encoding="utf-8") as f:
     libretto_de = f.read()
 
 ### Align libretto with transcription
@@ -220,18 +219,22 @@ for i in range(config.start_idx, config.end_idx):
     transcription = deserialize_transcription_from_file(f'transcribed/{config.file_prefix}_transcribed/{i_string}.json')
     transcriptions.append(transcription)
 
+# Blank purely instrumental tracks (derived indices may cover tracks outside the
+# configured range, e.g. a partial render with a smaller end_idx).
 for idx in config.overture_indices:
-    zero_idx = 0 if idx == 0 else idx - 1
-    transcriptions[zero_idx].words = []
-    transcriptions[zero_idx].text = ""
-    transcriptions[zero_idx].segments = []
+    if not (config.start_idx <= idx < config.end_idx):
+        continue
+    t = transcriptions[idx - config.start_idx]
+    t.words = []
+    t.text = ""
+    t.segments = []
 
 transcriptions = convert_file_times_to_absolute_times(transcriptions)
 
 all_words: List[TranscriptionWord] = [word for transcription in transcriptions for word in transcription.words]
 
 # Load libretto
-with open(f'libretti/{config.file_prefix}_{config.language}.txt', 'r') as f:
+with open(config.libretto_path, 'r', encoding='utf-8') as f:
     libretto = f.read()
 
 libretto = libretto.split()
@@ -362,11 +365,7 @@ if show_plots:
 
 ### Add translation
 
-# Get translation file path from config
-if not config.translation_file:
-    raise ValueError("No translation file specified in config")
-
-translation_path = f"libretti/{config.translation_file}"
+translation_path = config.translation_path
 if not os.path.exists(translation_path):
     raise FileNotFoundError(f"Translation file not found: {translation_path}")
 
@@ -504,7 +503,7 @@ frame_data = create_frames(
     aligned_words=aligned_words,
     line_pairs=pairs,
     character_names=CHARACTER_NAMES,
-    audio_files=[f"audio/{config.file_prefix}/{str(i).zfill(2)}.m4a" for i in range(config.start_idx, config.end_idx)],
+    audio_files=config.audio_files(),
     title=config.title,
     config=video_config
 )
@@ -669,7 +668,7 @@ def generate_audio_timestamps(audio_files, aligned_words=None, character_names=N
     return "\n".join(result)
 
 print(generate_audio_timestamps(
-    [f"audio/{config.file_prefix}/{str(i).zfill(2)}.m4a" for i in range(config.start_idx, config.end_idx)],
+    config.audio_files(),
     aligned_words=aligned_words,
     character_names=CHARACTER_NAMES
 ))

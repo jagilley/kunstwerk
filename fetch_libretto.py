@@ -670,7 +670,8 @@ def lang_name(code: str) -> str:
 
 def write_text(path: Path, blocks: List[str], force: bool) -> None:
     if path.exists() and not force:
-        raise SystemExit(f"Refusing to overwrite {path} (use --force)")
+        log(f"  keeping existing {path} (use --force to overwrite)")
+        return
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n\n".join(blocks), encoding="utf-8")
     log(f"  wrote {path}  ({len(blocks)} blocks)")
@@ -738,11 +739,20 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     tr_name = lang_name(tr_code)
     out_dir = Path(args.out_dir)
     src_path = out_dir / f"{prefix}_{src_code}.txt"
-    tr_path = out_dir / f"{prefix}_{tr_code}.txt"
+    # Honour an explicit translation_file from the config (config_parser.py's default is
+    # <prefix>_<translation_language>.txt, which is what we use otherwise).
+    if cfg.get("translation_file") and not args.translation_language:
+        tr_path = out_dir / str(cfg["translation_file"])
+    else:
+        tr_path = out_dir / f"{prefix}_{tr_code}.txt"
     if not args.force:
-        for p in ([src_path] + ([] if args.no_translation else [tr_path])):
+        wanted = [src_path] + ([] if args.no_translation else [tr_path])
+        if all(p.exists() for p in wanted):
+            log(f"Nothing to do: {', '.join(p.name for p in wanted)} already exist (use --force to refetch).")
+            return 0
+        for p in wanted:
             if p.exists():
-                raise SystemExit(f"{p} already exists; use --force to overwrite")
+                log(f"{p} already exists and will be kept (use --force to overwrite).")
 
     page, explicit_src_url = resolve_opera(fetcher, cfg)
     if page is not None:

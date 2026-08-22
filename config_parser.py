@@ -150,14 +150,25 @@ class OperaConfig:
         neither exists."""
         if "overture_indices" in self._raw and self._raw["overture_indices"] is not None:
             return list(self._raw["overture_indices"])
-        try:
-            from detect_instrumental import load_instrumental_indices
-        except ImportError:
-            load_instrumental_indices = None  # type: ignore
-        if load_instrumental_indices is not None:
-            cached = load_instrumental_indices(self.file_prefix)
-            if cached is not None:
-                return list(cached)
+        cache_path = f"{self.sep_dir}/instrumental.json"
+        if os.path.exists(cache_path):
+            import json
+            with open(cache_path, "r", encoding="utf-8") as f:
+                cache = json.load(f)
+            scored = {int(k) for k in (cache.get("tracks") or {})}
+            try:
+                wanted = set(range(self.start_idx, self.end_idx))
+            except ValueError:
+                wanted = set()
+            missing = sorted(wanted - scored)
+            if missing:
+                warnings.warn(
+                    f"{cache_path} covers {len(scored)} track(s) but not {len(missing)} in the configured range "
+                    f"(e.g. {missing[:6]}) — separation/detection was incomplete; those tracks are treated as sung. "
+                    f"Re-run separate.sh and detect_instrumental.py to fix this.",
+                    stacklevel=2,
+                )
+            return [int(i) for i in cache.get("indices", [])]
         warnings.warn(
             f"No overture_indices in {self.path} and no instrumental-track cache under "
             f"{self.sep_dir}/ — treating every track as sung. Run detect_instrumental.py "

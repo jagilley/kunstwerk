@@ -28,8 +28,7 @@ def create_copyright_test_audio(
     print(f"Creating copyright test audio for {config.title}...")
     
     # Load audio files
-    audio_files = [f"audio/{config.file_prefix}/{str(i).zfill(2)}.m4a" 
-                   for i in range(config.start_idx, config.end_idx)]
+    audio_files = config.audio_files()
     
     # Verify audio files exist
     for audio_file in audio_files:

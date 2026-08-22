@@ -604,6 +604,22 @@ def existing_track_files(out_dir: str) -> list[str]:
 # main
 # ----------------------------------------------------------------------------
 
+def purge_derived(prefix: str, index: int) -> None:
+    """Drop the demucs stems and transcripts of track `index` — every downstream stage
+    skips work whose output exists, so stale derived files would silently be aligned
+    against the replacement audio."""
+    import shutil
+    stem_dir = os.path.join("sep", f"{prefix}_sep", "htdemucs", f"{index:02d}")
+    transcript = os.path.join("transcribed", f"{prefix}_transcribed", f"{index:02d}.json")
+    for p in (stem_dir, transcript):
+        if os.path.isdir(p):
+            shutil.rmtree(p)
+            print(f"--replace: removed derived {p}/")
+        elif os.path.exists(p):
+            os.remove(p)
+            print(f"--replace: removed derived {p}")
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("config", help="configs/<opera>.yaml")
@@ -716,9 +732,11 @@ def main(argv: list[str] | None = None) -> int:
         for t in stale:
             print(f"--replace: removing stale {t.index:02d}.m4a (was {prev_ids[t.index]}, now {t.video_id})")
             os.remove(track_path(out_dir, t.index))
+            purge_derived(prefix, t.index)
         for f in extra_now:
             print(f"--replace: removing extra {f}")
             os.remove(os.path.join(out_dir, f))
+            purge_derived(prefix, int(f[:2]))
     write_tracks_json(tracks_json, prefix, source_kind, source_value, album, complete=False)
 
     # ---- download ----------------------------------------------------------

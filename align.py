@@ -112,7 +112,9 @@ def align_transcription_with_libretto(
             # seeded with cur[0]
             shifted = np.concatenate(([cur[0]], tmp - gap_j[1:]))
             cur[1:] = (np.maximum.accumulate(shifted)[1:] + gap_j[1:])
-            # same tie-breaking as the scalar version: match >= delete > insert
+            # tie-breaking as in the scalar version (match >= delete, insert only if strictly
+            # better) — up to floating-point rounding of the prefix-max, which flips a handful
+            # of exact ties per opera (~0.1% of words, never the coverage)
             left = cur[:-1] + gap_penalty
             row_bt = np.where(match >= delete, MATCH, DELETE).astype(np.int8)
             row_bt[left > tmp] = INSERT
