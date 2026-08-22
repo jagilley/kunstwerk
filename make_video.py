@@ -4,7 +4,7 @@ from typing import List, Dict, Optional, Tuple
 import os
 import copy
 from openai.types.audio import TranscriptionVerbose, TranscriptionWord
-from align import AlignedWord, deserialize_transcription_from_file, convert_file_times_to_absolute_times, word_similarity
+from align import AlignedWord, deserialize_transcription_from_file, convert_file_times_to_absolute_times, word_similarity, align_transcription_with_libretto
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -20,7 +20,9 @@ if len(sys.argv) != 2:
     print("Usage: python make_video.py <config.md>")
     sys.exit(1)
 
-show_plots = True
+# Blocking matplotlib windows of alignment coverage — off by default so the
+# pipeline can run unattended; set KUNSTWERK_SHOW_PLOTS=1 to get them back.
+show_plots = os.getenv("KUNSTWERK_SHOW_PLOTS", "").lower() in ("1", "true", "yes")
 
 config = parse_opera_config(sys.argv[1])
 
@@ -48,120 +50,6 @@ with open(f"libretti/{config.file_prefix}_{config.language}.txt", "r", encoding=
     libretto_de = f.read()
 
 ### Align libretto with transcription
-
-def align_transcription_with_libretto(
-    transcription: List[TranscriptionWord],
-    libretto: List[str],
-    ground_truth_timestamps: Dict[int, float] = None,  # Maps libretto index to timestamp
-    ground_truth_duration: float = 1.0,
-    min_similarity: float = 0.5
-) -> List[AlignedWord]:
-    """
-    Align transcription with libretto using dynamic programming.
-    Returns list of aligned words with timing information where available.
-    Assumes ground truth words are 1 second in duration.
-    
-    Args:
-        transcription: List of TranscriptionWord objects
-        libretto: List of ground truth words
-        ground_truth_timestamps: Dictionary mapping libretto indices to known timestamps
-        min_similarity: Minimum similarity score to consider words as matching
-    """
-    
-    ground_truth_timestamps = ground_truth_timestamps or {}
-    
-    # Initialize scoring matrix
-    m, n = len(transcription), len(libretto)
-    score_matrix = [[0.0] * (n + 1) for _ in range(m + 1)]
-    backtrack = [[None] * (n + 1) for _ in range(m + 1)]
-    
-    gap_penalty = -0.5
-    timestamp_bonus = 2.0  # Bonus score for matching known timestamps
-    
-    # Fill scoring matrix
-    for i in range(m + 1):
-        score_matrix[i][0] = i * gap_penalty
-    for j in range(n + 1):
-        score_matrix[0][j] = j * gap_penalty
-        
-    for i in range(1, m + 1):
-        for j in range(1, n + 1):
-            similarity = word_similarity(transcription[i-1].word, libretto[j-1])
-            
-            # Add bonus if this alignment matches a known timestamp
-            if j-1 in ground_truth_timestamps:
-                known_time = ground_truth_timestamps[j-1]
-                trans_time = transcription[i-1].start
-                # If transcription time is close to known time, add bonus
-                if abs(known_time - trans_time) < 1.0:  # Within 1 second
-                    similarity += timestamp_bonus
-            
-            match_score = score_matrix[i-1][j-1] + similarity
-            delete_score = score_matrix[i-1][j] + gap_penalty
-            insert_score = score_matrix[i][j-1] + gap_penalty
-            
-            best_score = max(match_score, delete_score, insert_score)
-            score_matrix[i][j] = best_score
-            
-            if best_score == match_score:
-                backtrack[i][j] = 'match'
-            elif best_score == delete_score:
-                backtrack[i][j] = 'delete'
-            else:
-                backtrack[i][j] = 'insert'
-    
-    # Backtrack to build alignment
-    aligned_words: List[AlignedWord] = []
-    i, j = m, n
-    
-    while i > 0 or j > 0:
-        if i > 0 and j > 0 and backtrack[i][j] == 'match':
-            similarity = word_similarity(transcription[i-1].word, libretto[j-1])
-            
-            # If we have a ground truth timestamp for this word
-            if j-1 in ground_truth_timestamps:
-                start_time = ground_truth_timestamps[j-1]
-                aligned_words.append(AlignedWord(
-                    word=libretto[j-1],
-                    start=start_time,
-                    end=start_time + 1.0  # Assume 1 second duration
-                ))
-            elif similarity >= min_similarity:
-                # Regular good match - use transcription timing
-                aligned_words.append(AlignedWord(
-                    word=libretto[j-1],
-                    start=transcription[i-1].start,
-                    end=transcription[i-1].end
-                ))
-            else:
-                # Poor match - include word without timing
-                aligned_words.append(AlignedWord(
-                    word=libretto[j-1],
-                    start=None,
-                    end=None
-                ))
-            i -= 1
-            j -= 1
-        elif i > 0 and (j == 0 or backtrack[i][j] == 'delete'):
-            i -= 1
-        else:
-            # For inserted words, if we have a ground truth timestamp, use it
-            start_time = ground_truth_timestamps.get(j-1)
-            if start_time is not None:
-                aligned_words.append(AlignedWord(
-                    word=libretto[j-1],
-                    start=start_time,
-                    end=start_time + ground_truth_duration
-                ))
-            else:
-                aligned_words.append(AlignedWord(
-                    word=libretto[j-1],
-                    start=None,
-                    end=None
-                ))
-            j -= 1
-    
-    return list(reversed(aligned_words))
 
 def enforce_monotonicity(aligned_words: List[AlignedWord]) -> List[AlignedWord]:
     """

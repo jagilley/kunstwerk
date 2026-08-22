@@ -1,109 +1,59 @@
 # Kunstwerk
 
-A Python-based tool for generating parallel subtitle videos for opera performances, with synchronized original language and translated text.
+Tooling for generating parallel-subtitle videos of full-length operas — original language on the left, translation on the right, word-synced to the singing. This is the repo behind the [YouTube channel of the same name](https://www.youtube.com/@kunstwerk-opera); example output: [Tristan und Isolde with parallel subtitles](https://www.youtube.com/watch?v=2R6lTcdJoCk).
 
-This is the repo behind the [YouTube channel of the same name](https://www.youtube.com/@kunstwerk-opera)!
+## How it works
 
-## Features
+One YAML config in, one video out:
 
-- Automatic audio transcription using OpenAI's Whisper model
-- Vocal separation using Demucs
-- Text alignment between transcribed audio and libretto
-- Parallel subtitle video generation with original and translated text
-- Support for multiple languages
-- Configurable video output settings
+1. **Libretto** — `fetch_libretto.py` pulls the libretto (and its translation, when available) from librettoarchive.com into a simple blank-line-separated text format; `translate.py` fills in a missing translation with Claude, block-for-block.
+2. **Audio** — `download_album.py` resolves a recording to its YouTube Music album (auto-generated art-tracks, in order) and downloads it with yt-dlp; `demucs` separates the vocals.
+3. **Transcription** — ElevenLabs Scribe (with OpenAI Whisper as fallback) transcribes the vocal stems with word timestamps; `detect_instrumental.py` flags purely orchestral tracks so their hallucinated transcripts get ignored.
+4. **Alignment + render** — `make_video.py` aligns the transcript to the libretto (Needleman-Wunsch over Levenshtein similarity), interpolates timings, pairs source/translation blocks and renders the video with moviepy; it also prints YouTube chapter markers.
 
 ## Prerequisites
 
-- Python 3.8+
-- FFmpeg
-- yt-dlp
-- OpenAI API key
+- Python 3.10+, `ffmpeg`, ImageMagick (`convert`)
+- The [Claude Code CLI](https://claude.com/claude-code) (`claude`), logged in — translation runs through it
+- `.env` with `ELEVENLABS_API_KEY` and `OPENAI_API_KEY`
 
-## Installation
-
-1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd kunstwerk
-```
-
-2. Install dependencies:
-```bash
+python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-```
-
-3. Set up your OpenAI API key:
-```bash
-export OPENAI_API_KEY='your-api-key'
 ```
 
 ## Usage
 
-Example output: [Tristan und Isolde with parallel subtitles](https://www.youtube.com/watch?v=2R6lTcdJoCk)
-
-1. Create a YAML configuration file for your opera (see example configs):
+A minimal config (`configs/<opera>.yaml`):
 
 ```yaml
-title: TRISTAN UND ISOLDE
-file_prefix: tristan
-language: de
-start_idx: 1
-end_idx: 33
-overture_indices: [1]
-secondary_color: Silver
-video_width: 3840
-video_height: 2160
-font_size: 96
-res_divisor: 1
-playlist_url: https://www.youtube.com/playlist?list=EXAMPLE
-
-characters:
-  - Tristan
-  - Isolde
-  # Add other characters...
+title: CARMEN
+file_prefix: carmen
+language: fr                      # language sung (ISO-639-1)
+album_query: Bizet Carmen Abbado London Symphony Orchestra   # or album_url: https://music.youtube.com/browse/MPREb_...
+res_divisor: 4                    # 4 = quick 960x540 preview, 1 = final 4K
 ```
 
-2. Process the opera:
+Everything else — number of tracks, which tracks are instrumental, character names for bold formatting, the translation file — is derived automatically; see `CLAUDE.md` for the full field list and how each is derived. Any field can still be set explicitly.
+
 ```bash
-python kunstwerk.py configs/your_config.yaml
+python kunstwerk.py configs/carmen.yaml                       # the whole pipeline
+python kunstwerk.py configs/carmen.yaml --stop-after libretto # fetch + translate, then stop to eyeball the text
+python kunstwerk.py configs/carmen.yaml --skip-download --skip-transcribe   # re-render only
+python kunstwerk.py configs/carmen.yaml --copyright-test      # download the audio and make a black-screen video to test YouTube Content ID before investing in the full render
 ```
 
-You can also skip certain steps if you've already completed them:
-```bash
-# Skip download/separation if you already have the audio files:
-python kunstwerk.py configs/your_config.yaml --skip-download
+Every stage is idempotent — it skips work whose output already exists — so re-running after a failure picks up where it left off. Each stage is also its own script (`fetch_libretto.py`, `translate.py`, `separate.sh`, `download_album.py`, `detect_instrumental.py`, `transcribe_elevenlabs.py`, `transcribe.py`, `make_video.py`); run them individually when you want to intervene, e.g. hand-edit `aligned_words_<prefix>.csv` between alignment and render.
 
-# Skip transcription if you already have the transcriptions:
-python kunstwerk.py configs/your_config.yaml --skip-transcribe
+Outputs land in `output/<prefix>-<res_divisor>.mp4`.
 
-# Skip both download and transcription:
-python kunstwerk.py configs/your_config.yaml --skip-download --skip-transcribe
-```
+## Project structure
 
-## Configuration Options
-
-- `title`: Opera title displayed in the video
-- `file_prefix`: Prefix for generated files
-- `language`: Source language code (e.g., 'de' for German)
-- `start_idx`/`end_idx`: Range of scenes to process
-- `overture_indices`: List of instrumental sections to skip
-- `secondary_color`: Color for translated text
-- `video_width`/`video_height`: Output video dimensions
-- `font_size`: Base font size
-- `res_divisor`: Resolution scaling factor
-- `playlist_url`: YouTube playlist URL for downloading
-- `characters`: List of character names for formatting
-
-## Project Structure
-
-- `separate.sh`: Downloads and separates audio
-- `transcribe.py`: Handles audio transcription
-- `make_video.py`: Generates the final video
-- `align.py`: Aligns transcribed text with libretto
-- `config_parser.py`: Parses YAML configuration
-- `video_gen/`: Video generation modules
-  - `config/`: Configuration classes
-  - `frame/`: Frame generation
-  - `text/`: Text formatting
-  - `video/`: Video creation
+- `kunstwerk.py` — orchestrator
+- `config_parser.py` — config loading and derived fields
+- `fetch_libretto.py`, `translate.py` — libretto acquisition
+- `download_album.py`, `separate.sh`, `detect_instrumental.py` — audio acquisition and separation
+- `transcribe_elevenlabs.py`, `transcribe.py` — transcription
+- `align.py` — transcript ↔ libretto alignment
+- `make_video.py`, `video_gen/` — frame generation and rendering
+- `libretti/`, `configs/` — per-opera inputs

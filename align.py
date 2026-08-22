@@ -49,6 +49,104 @@ def convert_file_times_to_absolute_times(transcriptions: List[TranscriptionVerbo
 
     return transcriptions
 
+def align_transcription_with_libretto(
+    transcription: List[TranscriptionWord],
+    libretto: List[str],
+    ground_truth_timestamps: Optional[Dict[int, float]] = None,  # libretto index -> known timestamp
+    ground_truth_duration: float = 1.0,
+    min_similarity: float = 0.5,
+    gap_penalty: float = -0.5,
+    timestamp_bonus: float = 2.0,
+    chunk_rows: int = 512,
+) -> List[AlignedWord]:
+    """Needleman–Wunsch-style alignment of transcript words to libretto words.
+
+    Scores: Levenshtein similarity for a match (plus `timestamp_bonus` when the
+    libretto word has a ground-truth timestamp within 1 s of the transcript
+    word), `gap_penalty` for skipping a word on either side. Libretto words get
+    the timing of their matched transcript word when the similarity is at least
+    `min_similarity`, otherwise None; ground-truth words get their known time.
+
+    Vectorised: similarities come from rapidfuzz in row chunks, each DP row is a
+    numpy prefix-max, and only an int8 backtrack matrix is kept — so a full
+    opera (30k x 10k words) takes well under a minute and < 1 GB instead of the
+    pure-Python version's tens of minutes and ~10 GB.
+    """
+    import numpy as np
+    from rapidfuzz.distance import Levenshtein as _Lev
+    from rapidfuzz.process import cdist
+
+    ground_truth_timestamps = ground_truth_timestamps or {}
+    m, n = len(transcription), len(libretto)
+    trans_words = [w.word.lower() for w in transcription]
+    trans_starts = np.array([w.start for w in transcription], dtype=np.float64)
+    lib_words = [w.lower() for w in libretto]
+
+    # Per-column ground-truth data (column j of the DP = libretto word j-1)
+    gt_cols = np.array(sorted(ground_truth_timestamps.keys()), dtype=np.int64)
+    gt_times = np.array([ground_truth_timestamps[int(j)] for j in gt_cols], dtype=np.float64)
+
+    MATCH, DELETE, INSERT = 0, 1, 2
+    backtrack = np.full((m + 1, n + 1), INSERT, dtype=np.int8)  # row 0 / col 0 are never read as 'match'
+    backtrack[1:, 0] = DELETE
+    j_idx = np.arange(n + 1, dtype=np.float64)
+    prev = j_idx * gap_penalty  # score row 0
+    gap_j = j_idx * gap_penalty  # for the prefix-max trick
+
+    for i0 in range(1, m + 1, chunk_rows):
+        i1 = min(i0 + chunk_rows, m + 1)
+        # similarity[r, j-1] for transcript words i0-1 .. i1-2 (rows) vs all libretto words
+        sim = cdist(trans_words[i0 - 1:i1 - 1], lib_words, scorer=_Lev.normalized_similarity,
+                    dtype=np.float64, workers=-1)
+        if len(gt_cols):
+            # bonus where the transcript word is within 1 s of a ground-truth libretto word
+            close = np.abs(trans_starts[i0 - 1:i1 - 1, None] - gt_times[None, :]) < 1.0
+            sim[:, gt_cols] += timestamp_bonus * close
+        for r, i in enumerate(range(i0, i1)):
+            cur = np.empty(n + 1, dtype=np.float64)
+            cur[0] = i * gap_penalty
+            match = prev[:-1] + sim[r]          # diag
+            delete = prev[1:] + gap_penalty      # up
+            tmp = np.maximum(match, delete)
+            # insert (left) dependency: cur[j] = max(tmp[j], cur[j-1] + gap) == gap*j + cummax(tmp - gap*j),
+            # seeded with cur[0]
+            shifted = np.concatenate(([cur[0]], tmp - gap_j[1:]))
+            cur[1:] = (np.maximum.accumulate(shifted)[1:] + gap_j[1:])
+            # same tie-breaking as the scalar version: match >= delete > insert
+            left = cur[:-1] + gap_penalty
+            row_bt = np.where(match >= delete, MATCH, DELETE).astype(np.int8)
+            row_bt[left > tmp] = INSERT
+            backtrack[i, 1:] = row_bt
+            prev = cur
+
+    # Backtrack
+    aligned: List[AlignedWord] = []
+    i, j = m, n
+    while i > 0 or j > 0:
+        if i > 0 and j > 0 and backtrack[i, j] == MATCH:
+            jj = j - 1
+            if jj in ground_truth_timestamps:
+                t = ground_truth_timestamps[jj]
+                aligned.append(AlignedWord(libretto[jj], t, t + 1.0))
+            elif word_similarity(transcription[i - 1].word, libretto[jj]) >= min_similarity:
+                aligned.append(AlignedWord(libretto[jj], transcription[i - 1].start, transcription[i - 1].end))
+            else:
+                aligned.append(AlignedWord(libretto[jj], None, None))
+            i -= 1
+            j -= 1
+        elif i > 0 and (j == 0 or backtrack[i, j] == DELETE):
+            i -= 1
+        else:
+            jj = j - 1
+            t = ground_truth_timestamps.get(jj)
+            if t is not None:
+                aligned.append(AlignedWord(libretto[jj], t, t + ground_truth_duration))
+            else:
+                aligned.append(AlignedWord(libretto[jj], None, None))
+            j -= 1
+    return list(reversed(aligned))
+
+
 def align_texts(transcription: List[TranscriptionWord], libretto: str) -> List[AlignedWord]:
     """Align transcription with libretto and transfer timestamps."""
     # Split libretto into words

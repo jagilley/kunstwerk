@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 import json
 import os
 import requests
+import time
 from config_parser import parse_opera_config
 import sys
 import librosa
@@ -10,9 +11,9 @@ from dataclasses import asdict
 from classes import TranscriptionVerbose, TranscriptionWord
 
 def get_audio_duration(file_path):
-    audio, sr = librosa.load(file_path)
-    duration = librosa.get_duration(y=audio, sr=sr)
-    return duration
+    # Header-only; decoding a whole 20-minute track just to get its length
+    # was the slowest part of this script.
+    return librosa.get_duration(path=file_path)
 
 load_dotenv()
 
@@ -76,8 +77,13 @@ for i in range(1, end_idx):
                 diarize=False,
             )
         except Exception as e:
-            # retry it
-            print(e)
+            # Count API failures against the retry budget too — otherwise a
+            # persistent error (network down, bad key) loops forever.
+            retry_count += 1
+            print(f"ElevenLabs error on {i_string} (attempt {retry_count}/{max_retries}): {e}")
+            time.sleep(5 * retry_count)
+            if retry_count >= max_retries:
+                print(f"Warning: Max retries reached for {i_string}. Skipping file.")
             continue
         
         # Check if we got the expected language or if words are missing

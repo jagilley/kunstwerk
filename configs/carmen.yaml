@@ -4,13 +4,50 @@ translation_file: carmen_en.txt
 language: fr
 start_idx: 1
 end_idx: 35
-overture_indices: [1]
+# overture_indices: derived by detect_instrumental.py (prelude + 3 entr'actes = [1, 13, 23, 30]); set explicitly to override
 secondary_color: LightBlue
 video_width: 3840
 video_height: 2160
 font_size: 96
 res_divisor: 4
-playlist_url: https://www.youtube.com/watch?v=hNOxoVZqf54&list=PLBrs-r77FPJLXd6rpW87w4YxGs7OZ_xI-
+playlist_url: https://www.youtube.com/watch?v=hNOxoVZqf54&list=PLBrs-r77FPJLXd6rpW87w4YxGs7OZ_xI-   # legacy; 3 of its videos are gone
+# Pinned videos of the Abbado/LSO 1978 recording (the complete set is not on YouTube Music as an
+# album; the PL playlist below lost 3 entries). track_urls takes priority over playlist_url.
+track_urls:
+  - hNOxoVZqf54   # 01 Bizet: Carmen: Prelude. Allegro giocoso – Andante moderato (
+  - fpjTn1v_qRc   # 02 Bizet: Carmen, Act I: Scene & Chorus. Sur la place chacun pa
+  - dXEEUQvhM8U   # 03 Bizet: Carmen, Act I: Chorus of Street-Boys. Avec la garde m
+  - MbV-iRd-BrI   # 04 Bizet: Carmen, Act I: Chorus of Cigarette Girls. La cloche a
+  - 1dCt-ifwDEM   # 05 Bizet: Carmen, Act I: Habanera. L'amour est un oiseau rebell
+  - TK4tGImm7dA   # 06 Bizet: Carmen, WD 31, Act I: Carmen, sur tes pas  (dead entry ZkFSWV-Hh0M replaced 2026-08-22)
+  - POLnrrNhsFc   # 07 Bizet: Carmen, Act I: Monsieur le brigadier?... Duet. Parle-
+  - EPbzYEizWRE   # 08 Bizet: Carmen, Act I: Au secours!
+  - RguS996qTWo   # 09 Bizet: Carmen, Act I: Voyons, brigadier – Tra la la la
+  - qOr3mBGBWkc   # 10 Bizet: Carmen, Act I: Dialogue. Dites-moi, brigadier
+  - XaJP85B3Oj4   # 11 Bizet: Carmen, Act I: Seguidilla. Près des remparts de Sévil
+  - S2K0d1UpN78   # 12 Bizet: Carmen, WD 31, Act I: Le lieutenant! Prenez garde!  (dead entry yDqUXcCgrBQ replaced 2026-08-22)
+  - P-4BpbkSoIQ   # 13 Bizet: Carmen: Les dragons d'Alcala (Entracte After Act I)
+  - laLy53G3tog   # 14 Bizet: Carmen, Act II: Chanson bohème. Les tringles des sist
+  - O09YzH52YMw   # 15 Bizet: Carmen, WD 31, Act II: Vivat le toréro!  (dead entry X-8YgJFZwE4 replaced 2026-08-22)
+  - C5MaULgwwEE   # 16 Bizet: Carmen, WD 31, Act II: Toreador's Song. Votre toast,
+  - VYG96_w9d3s   # 17 Bizet: Carmen, Act II: Quintet. Nous avons en tête une affai
+  - AbT2f_hvQCA   # 18 Bizet: Carmen, Act II: Halte-là! Qui va là?
+  - UHc_0AQ4a9E   # 19 Bizet: Carmen, Act II: Je vais danser en votre honneur
+  - ZQCD0zrTkNg   # 20 Bizet: Carmen, Act II: La fleur que tu m'avais jetée "Flower
+  - 0MZQWBddlnM   # 21 Bizet: Carmen, Act II: Non, tu ne m'aimes pas!
+  - neM8vpK5qYc   # 22 Bizet: Carmen, Act II: Finale. Holà! Carmen! Holà!
+  - GVWPz2_UGWA   # 23 Bizet: Carmen: Intermezzo (Entracte After Act II)
+  - Aaq2iUOn428   # 24 Bizet: Carmen, Act III: Sextet & Chorus. Ecoute, compagnons,
+  - 6Nseax0W5SQ   # 25 Bizet: Carmen, Act III: Trio. Mêlons! Coupons!
+  - 7MiUVRBh964   # 26 Bizet: Carmen, Act III: Ensemble. Quant au douanier, c'est n
+  - HAiFVkmuFrc   # 27 Bizet: Carmen, Act III: Je dis que rien ne m'épouvante "Mica
+  - IMWWihgCpl0   # 28 Bizet: Carmen, Act III: Duet. Je suis Escamillo
+  - 6xd0iJo5EqA   # 29 Bizet: Carmen, Act III: Finale. Holà, holà José!
+  - izixs4cEni0   # 30 Bizet: Carmen: Aragonaise (Entracte After Act III)
+  - Zv101G5J5cE   # 31 Bizet: Carmen, Act IV: Chorus. A deux cuartos!
+  - _lpG1sfbA2w   # 32 Bizet: Carmen, Act IV: March & Chorus. Les voici!
+  - sGMzPSNn320   # 33 Bizet: Carmen, Act IV: Si tu m'aimes, Carmen
+  - F_JmUOrKtOo   # 34 Bizet: Carmen, Act IV: Finale. Duet & Final Chorus. C'est to
 
 # Carmen, bohémienne et cigarière (mezzo-soprano ou soprano dramatique)
 # Don José, brigadier (ténor)
