@@ -12,8 +12,11 @@ demucs>=4.0.0
 moviepy>=1.0.3
 imageio>=2.31.0
 
-# Text processing
+# Text processing / alignment
 python-Levenshtein>=0.21.0
+rapidfuzz>=3.0.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
 
 # Configuration and data handling
 pyyaml>=6.0.0
@@ -21,10 +24,8 @@ python-dotenv>=1.0.0
 
 # AI/ML
 openai>=1.0.0
-anthropic>=0.34.0
+elevenlabs>=1.50.0
 
 # Download utilities
-yt-dlp>=2023.11.16
-# Spotify API support for fetching track lists and YouTube links
-spotipy>=2.25.0
+yt-dlp>=2025.1.1
 requests>=2.28.0
