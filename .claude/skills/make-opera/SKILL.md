@@ -34,6 +34,15 @@ The two halves are independent; run them concurrently:
 
 As soon as `audio/<prefix>/tracks.json` says `complete: true`, build the probe: `python kunstwerk.py configs/<prefix>.yaml --copyright-test --skip-libretto --skip-download` → `output/<prefix>_copyright_test.mp4`. Tell Jasper it's ready so he can upload it privately and check Content ID while the rest runs — that's the whole point of the probe: learn about a block before an hour of rendering.
 
+**Count the transcripts before you trust the gate.** `transcribe_tracks.py` prints `N/N tracks pass the gate`, but N counts only tracks that *have* a transcript — a track the ASR never returned at all is invisible to the check meant to catch it. On Figaro the ElevenLabs quota ran out at track 74 and the gate cheerfully reported `73/73` with the last 17 minutes of the opera missing. So:
+
+```bash
+ls transcribed/<prefix>_transcribed/[0-9][0-9].json | wc -l    # must equal end_idx - start_idx
+grep -c "quota_exceeded\|failed after" <your transcribe log>
+```
+
+Fill anything missing with Modal Whisper, which needs no credits: `python transcribe_modal.py configs/<prefix>.yaml --out-dir transcribed/<prefix>_transcribed --tracks 74-79`. It writes into the same directory and skips tracks whose JSON exists, so it only fills the holes; then `python transcribe_tracks.py configs/<prefix>.yaml --assess` to re-grade.
+
 When both halves are done: `python kunstwerk.py configs/<prefix>.yaml --skip-libretto --skip-download --skip-transcribe`. That runs the `align` stage (tripwire) and then the render. 4K (`res_divisor: 1`, the deliverable) takes ~30 min and ~1.5 GB; a `res_divisor: 4` preview takes ~7 min if you want eyes on it first. Don't run two renders of the same prefix at once (they share the CSV and output paths).
 
 ## 4. Read the tripwire before you spend the render
@@ -48,6 +57,8 @@ When both halves are done: `python kunstwerk.py configs/<prefix>.yaml --skip-lib
 - **`display_title` and `credits:` in the config.** They are editorial facts, not derivable — YouTube tags a track with a featured artist, not a role. Look the recording's cast up (a web search on conductor + label + year is enough) rather than guessing from the `- Topic` channel names, which only tell you who is featured on each track. Get the roles right; this goes out under Jasper's channel name.
 - **Wrong or ugly chapter names.** YouTube truncates long titles and the script only repairs what it can prove was cut. If a name still reads badly, just fix it by hand in `output/<prefix>-youtube.txt` before handing over — but say so, because re-running the stage regenerates the file.
 
+Validate the list rather than assuming it: YouTube needs the first timestamp to be `0:00`, at least 3 of them, ascending, and **every chapter at least 10 seconds long** — a recording that gives each recitative its own track gets close to that floor (Figaro's shortest chapter is 16 s). Check too that nothing *above* the chapter list is timestamp-shaped, since YouTube scans the whole description and would take a stray `\d+:\d\d` in the credits as the first timestamp. When any rule fails YouTube silently builds no chapters at all rather than flagging the bad entry.
+
 ## 6. Hand over
 
 Tell Jasper: the files (including the paste-ready `output/<prefix>-youtube.txt`); the recording (cast/conductor/year, track count) and libretto edition; the alignment summary (coverage, black %, longest gap, weak tracks); the chapter list; what's manual (upload probe privately → check claims → upload the final, paste chapters into the description); time and cost actually used; anything you'd do differently. Then open and merge a PR per `/open-pr-and-merge` with `configs/<prefix>.yaml` and `libretti/<prefix>_*.txt`.
@@ -57,5 +68,7 @@ Tell Jasper: the files (including the paste-ready `output/<prefix>-youtube.txt`)
 - `end_idx` is exclusive; tracks are 1-based `NN`; `config_parser.py` derives `end_idx`, `overture_indices`, `characters`, `translation_file` — don't hand-type them.
 - Modal must see `MODAL_PROFILE=chromatic` (the scripts set it themselves). `ELEVENLABS_API_KEY` is the only paid API the pipeline needs; the OpenAI key is optional and currently has no credits; Claude runs via the CLI on the subscription.
 - yt-dlp needs this Mac's residential IP; it deprecated Python 3.10 (warnings are fine).
+- **`detect_instrumental.py` can miss an overture.** Its thresholds were calibrated on Carmen's brass-heavy prelude; a Mozart overture full of high woodwind and violin lines leaks into the demucs vocals stem and scores just over them (Figaro's: `vocal_frac` 0.129 / 32.0 s against limits of 0.10 / 30 s). Don't take `instrumental indices: []` at face value when you know the recording opens with an overture — sort `sep/<prefix>_sep/instrumental.json` by `rms_ratio_db` and look for the outlier, which is unambiguous where `vocal_frac` is marginal (−27.2 dB against a next-quietest of −17.2). Pin it with `overture_indices:` and say why in a comment. An unblanked overture means the ASR hallucinates fluent text over minutes of orchestra and the DP matches it to the opening scene.
+- **librettoarchive injects "related work" cruft** into some libretti — Figaro's Italian text arrived with two Mozart symphony movement listings in it, which `fetch_libretto.py` merged into neighbouring blocks to keep parity, so they would have rendered on screen. After the libretto stage, skim the fetch log for `needed block-level repair` and grep the text for anything that isn't the libretto. Delete whole lines only, then re-check that both files still have the same block count.
 - Everything is idempotent: re-running a stage after a failure resumes. `--force` exists where overwriting matters (`fetch_libretto.py`, `translate.py`, `transcribe_tracks.py`).
 - `KUNSTWERK_MAX_DURATION=600 python make_video.py …` renders only the first 10 minutes — handy to check typography at 4K without the full encode.
