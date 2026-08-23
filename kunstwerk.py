@@ -15,7 +15,8 @@ output already exists — so re-running after a failure is safe):
               translate.py           -> libretti/<prefix>_<translation_language>.txt (Claude), if still missing
   download    separate.sh            -> audio/<prefix>/NN.m4a (download_album.py) and sep/<prefix>_sep/ (demucs)
               detect_instrumental.py -> sep/<prefix>_sep/instrumental.json (which tracks are purely orchestral)
-  transcribe  transcribe_elevenlabs.py, transcribe.py -> transcribed/<prefix>_transcribed/NN.json
+  transcribe  transcribe_tracks.py   -> transcribed/<prefix>_transcribed/NN.json (+ quality.json); ElevenLabs Scribe,
+              quality gate (coverage vs detected singing, loops), Modal Whisper / whisper-1 fallback fused into gaps
   align       make_video.py --align-only -> aligned_words_<prefix>.csv + output/<prefix>-alignment-report.json;
               prints a loud REVIEW NEEDED when the alignment looks bad (--strict-alignment makes that fatal)
   video       make_video.py          -> output/<prefix>-<res_divisor>.mp4 + YouTube chapter list on stdout
@@ -44,11 +45,12 @@ def _env() -> dict:
     return env
 
 
-def run(cmd: str, error_msg: str) -> None:
+def run(cmd: str, error_msg: str, ok_codes=(0,)) -> int:
     print(f"\n$ {cmd}", flush=True)
     result = subprocess.run(cmd, shell=True, env=_env())
-    if result.returncode != 0:
+    if result.returncode not in ok_codes:
         raise RuntimeError(f"{error_msg} (exit code {result.returncode})")
+    return result.returncode
 
 
 def py(script: str) -> str:
@@ -118,8 +120,11 @@ def process_opera(config_path: Path, args) -> None:
     # --- transcribe ----------------------------------------------------------
     if not args.skip_transcribe:
         print("\n=== Transcribing audio ===")
-        run(f"{py('transcribe_elevenlabs.py')} {config_path}", "Failed to transcribe audio using ElevenLabs")
-        run(f"{py('transcribe.py')} {config_path}", "Failed to transcribe audio using OpenAI")
+        # exit 2 = some sung tracks still fail the quality gate after the fallback; the
+        # alignment tripwire will name them, so warn and carry on.
+        rc = run(f"{py('transcribe_tracks.py')} {config_path}", "Failed to transcribe audio", ok_codes=(0, 2))
+        if rc == 2:
+            print("WARNING: some tracks still have poor transcripts (see transcribed/<prefix>_transcribed/quality.json)", flush=True)
     if args.stop_after == "transcribe":
         return
 

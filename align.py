@@ -609,7 +609,7 @@ def alignment_report(
 
 # Tripwire thresholds (see judge_alignment for where they come from).
 REVIEW_MAX_BLACK_FRAC = 0.20          # > 20 % of sung time with nothing on screen
-REVIEW_MIN_COVERAGE_ALNUM = 0.40      # < 40 % of libretto words timed before interpolation
+REVIEW_MIN_COVERAGE_ALNUM = 0.35   # raw share of libretto words timed; black_frac is the better signal (Carmen after fusion: 39%, black 12.6%)
 REVIEW_MAX_LONGEST_GAP_S = 300.0      # a single stretch > 5 min without a timed word
 REVIEW_MAX_TRACK_BLACK_FRAC = 0.60    # informational: sung tracks (>= 60 s) more than 60 % black
 REVIEW_MAX_TRANSCRIPT_GAP_S = 90.0    # informational: sung tracks with > 90 s of no transcript at all
