@@ -1,0 +1,69 @@
+title: LE NOZZE DI FIGARO
+display_title: Le nozze di Figaro
+file_prefix: figaro
+language: it
+
+credits:
+  composer: Wolfgang Amadeus Mozart
+  librettist: Lorenzo Da Ponte
+  conductor: Claudio Abbado
+  orchestra: Wiener Philharmoniker
+  chorus: Konzertvereinigung Wiener Staatsopernchor
+  label: Deutsche Grammophon
+  recorded: recorded at the Musikverein, Vienna, January–February 1994
+  cast:
+    - role: Figaro
+      singer: Lucio Gallo
+    - role: Susanna
+      singer: Sylvia McNair
+    - role: Il Conte di Almaviva
+      singer: Bo Skovhus
+    - role: La Contessa di Almaviva
+      singer: Cheryl Studer
+    - role: Cherubino
+      singer: Cecilia Bartoli
+    - role: Marcellina
+      singer: Anna Caterina Antonacci
+    - role: Bartolo
+      singer: Ildebrando D'Arcangelo
+    - role: Basilio
+      singer: Carlo Allemano
+    - role: Don Curzio
+      singer: Peter Jelosits
+    - role: Antonio
+      singer: István Gáti
+    - role: Barbarina
+      singer: Andrea Rost
+libretto_url: https://www.librettoarchive.com/Le_nozze_di_Figaro
+
+# Claudio Abbado / Wiener Philharmoniker, DG 1994.
+#   Figaro     Lucio Gallo          Countess   Cheryl Studer
+#   Susanna    Sylvia McNair        Cherubino  Cecilia Bartoli
+#   Count      Bo Skovhus           Marcellina Anna Caterina Antonacci
+#   Barbarina  Andrea Rost          Basilio    Carlo Allemano
+# 81 tracks / 2:49:41. Every recitative is its own track with its incipit in the
+# title, which is what find_track_anchors wants; textually complete, including
+# Marcellina's No. 24 "Il capro e la capretta" and Basilio's No. 25 "In quegli anni".
+album_url: https://music.youtube.com/browse/MPREb_relL9n5US66
+
+# Tracks 80 and 81 are the appendix replacement arias (K. 579 "Un moto di gioia",
+# K. 577 "Al desio di chi t'adora") — not in the standard libretto, so they are
+# excluded from the video.  end_idx is EXCLUSIVE: range(1, 80) = tracks 01..79,
+# which ends on the No. 29 Finale (e-g), i.e. "Contessa, perdono".
+start_idx: 1
+end_idx: 80
+
+secondary_color: PaleGoldenrod   # https://en.wikipedia.org/wiki/X11_color_names
+video_width: 3840
+video_height: 2160
+font_size: 96
+res_divisor: 1
+
+# detect_instrumental.py misses the Overture on this recording: it lands at
+# vocal_frac 0.129 / 32.0 s of "vocals", just over both thresholds (0.10, 30 s),
+# because demucs leaks the presto's high woodwind and violin lines into the vocals
+# stem.  The whole-track cross-check is unambiguous — track 01 is -27.2 dB where the
+# next-quietest track is -17.2 and the median is -1.7 — so pin it by hand.  Without
+# this, Scribe hallucinates fluent Italian over 4 minutes of orchestra and the DP
+# matches it against the opening of Act I.
+overture_indices: [1]

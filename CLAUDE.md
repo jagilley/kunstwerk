@@ -36,6 +36,7 @@ python transcribe_modal.py configs/carmen.yaml --out-dir transcribed/carmen_whis
 python make_video.py configs/carmen.yaml --align-only   # alignment + CSV + output/<prefix>-alignment-report.json, no render (~20 s)
 python make_video.py configs/carmen.yaml            # align + render → output/<prefix>-<res_divisor>.mp4
 python kunstwerk.py configs/carmen.yaml --skip-download --skip-transcribe --stop-after align   # just the alignment check
+python publish_metadata.py configs/carmen.yaml      # → output/<prefix>-youtube.txt (title, credits, cast, named chapters) + <prefix>-chapters.txt
 python config_parser.py configs/carmen.yaml         # show what a config resolves to (derived fields included)
 ```
 
@@ -55,6 +56,8 @@ A config needs only `title`, `file_prefix`, `language` (ISO-639-1 of the sung la
 | `overture_indices` | `sep/<prefix>_sep/instrumental.json` written by `detect_instrumental.py`; `[]` with a warning if neither exists |
 | `characters` | ALL-CAPS first lines of blocks in **both** libretti (speaker labels and act headings), plus anything listed — the old hand lists missed e.g. `JOSÉ`, `CHŒUR`, `SOLDIERS` |
 | `secondary_color`, `video_width`/`video_height`, `font_size`, `res_divisor` | `Silver`, 3840×2160, 96, 1 |
+| `display_title` | the work in prose ("Le nozze di Figaro"); derived from ALL-CAPS `title` and only ever *close*, so set it |
+| `credits` | `composer`/`librettist`/`conductor`/`orchestra`/`chorus`/`label`/`recorded`/`year` + `cast:` (`- role:`/`singer:`). Not derivable — YouTube tags a track with a featured artist, not a role. Absent = no credits section |
 
 Explicit values always win, so the older configs keep working unchanged.
 
@@ -72,7 +75,8 @@ configs/<opera>.yaml
   ├─ detect_instrumental.py ─► sep/<prefix>_sep/instrumental.json
   ├─ transcribe_tracks.py ───► transcribed/<prefix>_transcribed/NN.json + quality.json (Scribe → gate → Modal Whisper / whisper-1 fallback fused into the gaps; raw provider outputs under providers/)
   ├─ make_video.py --align-only ─► aligned_words_<prefix>.csv, output/<prefix>-alignment-report.json (tripwire: kunstwerk prints REVIEW NEEDED; --strict-alignment fails)
-  └─ make_video.py ─────────► output/<prefix>-<res>.mp4, YouTube chapter list (stdout)
+  ├─ make_video.py ─────────► output/<prefix>-<res>.mp4 (+ <prefix>-chapters-firstline.txt, an alignment cross-check)
+  └─ publish_metadata.py ───► output/<prefix>-youtube.txt + <prefix>-chapters.txt (the paste-into-YouTube package)
 ```
 
 **Audio sourcing.** There is no Spotify/Odesli any more. `download_album.py` takes, in priority order, `track_urls` (a YAML list of video URLs/ids in track order — for hand-assembled recordings; survives playlist rot), `album_url` (a `music.youtube.com/browse/MPREb_…`, `OLAK5uy_…` playlist, or ordinary YouTube playlist URL), `album_query` (free text → YouTube Music album search via yt-dlp, no API keys; candidates are scored — penalising highlights/excerpts/suites/"sung in X", preferring complete-opera durations/track counts and title matches — the table and pick are printed; `--dry-run` to audit, `--pick N` to override, `--strict` to fail if any query word is absent from the pick), or legacy `playlist_url`. It writes `audio/<prefix>/tracks.json` (ids, titles, durations, `complete`), skips files already on disk, refuses to mix recordings (a file is stale if `tracks.json` recorded a different video id for that index; `--replace` re-fetches only those) and exits non-zero on any unavailable track or count mismatch — downstream assumes a contiguous, complete set. Caveats: among complete recordings of one opera the scores are close and the tie-break is popularity, so put conductor/singer surnames in `album_query` (orchestra names rarely appear in YT Music metadata) or pin `album_url`; different editions (e.g. Carmen with dialogue vs. Guiraud recitatives) won't match a given libretto. The complete Abbado/LSO Carmen doesn't exist on YouTube Music as an album, hence `track_urls` in `configs/carmen.yaml`. `tracks.json` keeps the track titles; they contain each number's incipit and are the intended source of automatic alignment anchors (not wired up yet). yt-dlp must run from a residential IP (this Mac) — cloud runners get bot-checked. `separate.sh` separates only tracks without a `vocals.{m4a,wav}` yet, so restarts are cheap. Separation runs on Modal by default (`separate_modal.py`: one L4 container per ~3 tracks, weights baked into the image, same htdemucs model/defaults as the CLI so `detect_instrumental.py`'s calibration holds; audio goes up as arguments and only the vocals stem comes back — nothing is stored on Modal); `KUNSTWERK_SEPARATOR=local` or a missing Modal setup falls back to CPU demucs at ~1× realtime (3–4 h per opera).
