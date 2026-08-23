@@ -6,7 +6,7 @@ description: Produce a new Kunstwerk opera video from just the opera's name — 
 
 You're producing a finished parallel-subtitle video (original language left, translation right, word-synced) for an opera, end to end. Read `CLAUDE.md` first — it documents every stage, config field, derived value and gotcha; this skill is about the judgment calls around that machinery, and what to do while it runs. Everything runs from the repo root with `.venv/bin/python`. Budget: ~1 hour wall clock, well under $1 of API + Modal (profile `chromatic`).
 
-**Deliverables:** `configs/<prefix>.yaml`; `libretti/<prefix>_<lang>.txt` + translation; `output/<prefix>_copyright_test.mp4` (early); `output/<prefix>-1.mp4` (4K); `output/<prefix>-alignment-report.json`; `output/<prefix>-chapters.txt`; a short handover; a merged PR with the config + libretti (audio/stems/transcripts/video are gitignored data).
+**Deliverables:** `configs/<prefix>.yaml`; `libretti/<prefix>_<lang>.txt` + translation; `output/<prefix>_copyright_test.mp4` (early); `output/<prefix>-1.mp4` (4K); `output/<prefix>-alignment-report.json`; `output/<prefix>-youtube.txt` (paste-ready title/description/chapters) + `output/<prefix>-chapters.txt`; a short handover; a merged PR with the config + libretti (audio/stems/transcripts/video are gitignored data).
 
 ## 1. Pin the opera down (minutes, do this before spending anything)
 
@@ -42,11 +42,15 @@ When both halves are done: `python kunstwerk.py configs/<prefix>.yaml --skip-lib
 
 ## 5. QA the video
 
-`ffprobe` duration ≈ sum of track durations, 3840×2160. Grab frames with `ffmpeg -ss <t> -frames:v 1` at the title card (≈5 s), three or four sung moments (take timestamps from `output/<prefix>-chapters.txt` + 30–60 s), and near the end; look at them: two columns, speaker names bold, stage directions italic, text fits the frame, the translation is the matching passage. Skim `chapters.txt` — each line should read like a number's first words, not a stage direction.
+`ffprobe` duration ≈ sum of track durations, 3840×2160. Grab frames with `ffmpeg -ss <t> -frames:v 1` at the title card (≈5 s), three or four sung moments (take timestamps from `output/<prefix>-chapters.txt` + 30–60 s), and near the end; look at them: two columns, speaker names bold, stage directions italic, text fits the frame, the translation is the matching passage. Skim `chapters.txt` — each line should read like a number's name, not a stage direction, and the first must be `0:00` (YouTube rejects a list that doesn't start there).
+
+**Publish package.** The `publish` stage (`publish_metadata.py`, run automatically by `kunstwerk.py` after the render) writes `output/<prefix>-youtube.txt`: the title (`<Work> - full opera with <Translation>/<Source> libretto`), then the description with the recording credits, cast and named chapters. Chapters come from the recording's own track titles, so they name each number. Two things need you:
+- **`display_title` and `credits:` in the config.** They are editorial facts, not derivable — YouTube tags a track with a featured artist, not a role. Look the recording's cast up (a web search on conductor + label + year is enough) rather than guessing from the `- Topic` channel names, which only tell you who is featured on each track. Get the roles right; this goes out under Jasper's channel name.
+- **Wrong or ugly chapter names.** YouTube truncates long titles and the script only repairs what it can prove was cut. If a name still reads badly, just fix it by hand in `output/<prefix>-youtube.txt` before handing over — but say so, because re-running the stage regenerates the file.
 
 ## 6. Hand over
 
-Tell Jasper: the files; the recording (cast/conductor/year, track count) and libretto edition; the alignment summary (coverage, black %, longest gap, weak tracks); the chapter list; what's manual (upload probe privately → check claims → upload the final, paste chapters into the description); time and cost actually used; anything you'd do differently. Then open and merge a PR per `/open-pr-and-merge` with `configs/<prefix>.yaml` and `libretti/<prefix>_*.txt`.
+Tell Jasper: the files (including the paste-ready `output/<prefix>-youtube.txt`); the recording (cast/conductor/year, track count) and libretto edition; the alignment summary (coverage, black %, longest gap, weak tracks); the chapter list; what's manual (upload probe privately → check claims → upload the final, paste chapters into the description); time and cost actually used; anything you'd do differently. Then open and merge a PR per `/open-pr-and-merge` with `configs/<prefix>.yaml` and `libretti/<prefix>_*.txt`.
 
 ## Things that bite
 

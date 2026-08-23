@@ -30,6 +30,31 @@ def _natural_track_indices(paths: List[str]) -> List[int]:
     return sorted(idxs)
 
 
+# Particles that stay lowercase inside a work's title, across the languages we set.
+_TITLE_PARTICLES = {
+    "di", "de", "del", "della", "dei", "da", "il", "la", "le", "lo", "gli", "un", "una", "e", "in", "ossia",
+    "der", "die", "das", "des", "dem", "den", "von", "vom", "zu", "zur", "und", "aus", "im",
+    "du", "des", "les", "au", "aux", "et", "el", "y", "of", "the", "and", "a", "an",
+}
+
+
+def _prose_title(title: str) -> str:
+    """Fallback for `display_title`: turn an ALL-CAPS config title into something
+    printable ("LE NOZZE DI FIGARO" -> "Le Nozze di Figaro"). A title that is not
+    all-caps is already prose and is left exactly as written. This only ever gets
+    close — set `display_title` in the config when the house style differs (Italian
+    and German sentence-case most words that this capitalises)."""
+    letters = [c for c in title if c.isalpha()]
+    if not letters or not all(c.isupper() for c in letters):
+        return title
+    words = title.split()
+    out = []
+    for i, w in enumerate(words):
+        low = w.lower()
+        out.append(low if i and low.strip(",.:;") in _TITLE_PARTICLES else low.capitalize())
+    return " ".join(out)
+
+
 def derive_character_names(text: str) -> List[str]:
     """Speaker labels from a libretto in our text format: the first line of a
     blank-line-separated block when it is (essentially) all caps. Act headings
@@ -71,6 +96,13 @@ class OperaConfig:
         self.file_prefix: str = raw["file_prefix"]
         self.language: str = raw["language"]
         self.translation_language: str = raw.get("translation_language", "en")
+
+        # Publishing metadata (publish_metadata.py). `title` is ALL CAPS because it
+        # doubles as the on-screen title card; `display_title` is how the work is
+        # written in prose ("Le nozze di Figaro"), and `credits` is the editorial
+        # record of *which* recording this is — neither is derivable from the audio.
+        self.display_title: str = raw.get("display_title") or _prose_title(raw["title"])
+        self.credits: dict = raw.get("credits") or {}
 
         # Audio sources (download_album.py picks the first one present)
         self.album_url: Optional[str] = raw.get("album_url")

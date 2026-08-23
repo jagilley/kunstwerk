@@ -788,7 +788,12 @@ chapters = generate_audio_timestamps(
     character_names=CHARACTER_NAMES
 )
 print(chapters)
-# Also keep them next to the video for the YouTube description.
-with open(f"output/{config.file_prefix}-chapters.txt", "w", encoding="utf-8") as f:
+# First-sung-line-per-track. Kept as an alignment cross-check (it shows what the
+# aligner thinks is being sung when each track opens), NOT as the chapter list:
+# publish_metadata.py owns output/<prefix>-chapters.txt and names chapters after
+# the recording's track titles, which beat a first line that is as often a stage
+# direction or the tail of the previous recitative.
+with open(f"output/{config.file_prefix}-chapters-firstline.txt", "w", encoding="utf-8") as f:
     f.write(chapters + "\n")
-print(f"(chapter list saved to output/{config.file_prefix}-chapters.txt)")
+print(f"(first-line-per-track saved to output/{config.file_prefix}-chapters-firstline.txt; "
+      f"run publish_metadata.py for the YouTube chapter list)")

@@ -19,7 +19,9 @@ output already exists — so re-running after a failure is safe):
               quality gate (coverage vs detected singing, loops), Modal Whisper / whisper-1 fallback fused into gaps
   align       make_video.py --align-only -> aligned_words_<prefix>.csv + output/<prefix>-alignment-report.json;
               prints a loud REVIEW NEEDED when the alignment looks bad (--strict-alignment makes that fatal)
-  video       make_video.py          -> output/<prefix>-<res_divisor>.mp4 + YouTube chapter list on stdout
+  video       make_video.py          -> output/<prefix>-<res_divisor>.mp4
+  publish     publish_metadata.py    -> output/<prefix>-youtube.txt (title, credits, cast, named chapters)
+              and output/<prefix>-chapters.txt — everything the YouTube upload form asks for
 
 The cheap, most-likely-to-fail stages (libretto lookup, translation, album
 resolution) run before the expensive ones (demucs, transcription, render).
@@ -33,7 +35,7 @@ from pathlib import Path
 
 from config_parser import parse_opera_config
 
-STAGES = ["libretto", "download", "transcribe", "align", "video"]
+STAGES = ["libretto", "download", "transcribe", "align", "video", "publish"]
 
 
 def _env() -> dict:
@@ -139,6 +141,13 @@ def process_opera(config_path: Path, args) -> None:
     print("\n=== Generating video ===")
     run(f"{py('make_video.py')} {config_path}", "Failed to generate video")
     print(f"\nOutput: output/{config.file_prefix}-{config.res_divisor}.mp4")
+    if args.stop_after == "video":
+        return
+
+    # --- publish metadata (cheap; the last thing standing between an mp4 and an upload)
+    print("\n=== Publish metadata ===")
+    run(f"{py('publish_metadata.py')} {config_path}", "Failed to write publish metadata")
+    print(f"Paste-ready title/description/chapters: output/{config.file_prefix}-youtube.txt")
 
 
 def main():
