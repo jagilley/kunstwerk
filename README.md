@@ -8,7 +8,7 @@ One YAML config in, one video out:
 
 1. **Libretto** — `fetch_libretto.py` pulls the libretto (and its translation, when available) from librettoarchive.com into a simple blank-line-separated text format; `translate.py` fills in a missing translation with Claude, block-for-block.
 2. **Audio** — `download_album.py` resolves a recording to its YouTube Music album (auto-generated art-tracks, in order) and downloads it with yt-dlp; `demucs` separates the vocals — on a Modal GPU (`separate_modal.py`, minutes and cents per opera) or locally on CPU.
-3. **Transcription** — ElevenLabs Scribe (with OpenAI Whisper as fallback) transcribes the vocal stems with word timestamps; `detect_instrumental.py` flags purely orchestral tracks so their hallucinated transcripts get ignored.
+3. **Transcription** — ElevenLabs Scribe transcribes the vocal stems with word timestamps; each track is graded against how much singing the stem actually contains, and tracks with holes or hallucination loops are filled in from Whisper running on a Modal GPU; `detect_instrumental.py` flags purely orchestral tracks so their transcripts get ignored.
 4. **Alignment + render** — `make_video.py` aligns the transcript to the libretto (Needleman-Wunsch over Levenshtein similarity), interpolates timings, pairs source/translation blocks and renders the video with moviepy; it also prints YouTube chapter markers.
 
 ## Prerequisites
@@ -44,7 +44,7 @@ python kunstwerk.py configs/carmen.yaml --skip-download --skip-transcribe   # re
 python kunstwerk.py configs/carmen.yaml --copyright-test      # download the audio and make a black-screen video to test YouTube Content ID before investing in the full render
 ```
 
-Every stage is idempotent — it skips work whose output already exists — so re-running after a failure picks up where it left off. Each stage is also its own script (`fetch_libretto.py`, `translate.py`, `separate.sh`, `download_album.py`, `detect_instrumental.py`, `transcribe_elevenlabs.py`, `transcribe.py`, `make_video.py`); run them individually when you want to intervene, e.g. hand-edit `aligned_words_<prefix>.csv` between alignment and render.
+Every stage is idempotent — it skips work whose output already exists — so re-running after a failure picks up where it left off. Each stage is also its own script (`fetch_libretto.py`, `translate.py`, `separate.sh`, `download_album.py`, `detect_instrumental.py`, `transcribe_tracks.py`, `make_video.py`); run them individually when you want to intervene, e.g. hand-edit `aligned_words_<prefix>.csv` between alignment and render.
 
 Outputs land in `output/<prefix>-<res_divisor>.mp4`.
 
@@ -54,7 +54,7 @@ Outputs land in `output/<prefix>-<res_divisor>.mp4`.
 - `config_parser.py` — config loading and derived fields
 - `fetch_libretto.py`, `translate.py` — libretto acquisition
 - `download_album.py`, `separate.sh`, `separate_modal.py`, `detect_instrumental.py` — audio acquisition and separation
-- `transcribe_elevenlabs.py`, `transcribe.py` — transcription
+- `transcribe_tracks.py`, `transcribe_modal.py` — transcription (ElevenLabs Scribe, quality gate, Whisper-on-Modal fallback)
 - `align.py` — transcript ↔ libretto alignment
 - `make_video.py`, `video_gen/` — frame generation and rendering
 - `libretti/`, `configs/` — per-opera inputs

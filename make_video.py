@@ -224,7 +224,7 @@ def parse_timestamp_and_phrase(
 transcriptions: List[TranscriptionVerbose] = []
 for i in range(config.start_idx, config.end_idx):
     i_string = str(i).zfill(2)
-    transcription = deserialize_transcription_from_file(f'transcribed/{config.file_prefix}_transcribed/{i_string}.json')
+    transcription = deserialize_transcription_from_file(f'{config.transcribed_dir}/{i_string}.json')
     transcriptions.append(transcription)
 
 # Blank purely instrumental tracks (derived indices may cover tracks outside the

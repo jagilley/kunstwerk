@@ -101,7 +101,9 @@ class OperaConfig:
 
     @property
     def transcribed_dir(self) -> str:
-        return f"transcribed/{self.file_prefix}_transcribed"
+        # KUNSTWERK_TRANSCRIBED_DIR lets experiments align an alternative transcript set
+        # (e.g. transcribed/carmen_whisper_transcribed) without touching the config.
+        return os.getenv("KUNSTWERK_TRANSCRIBED_DIR") or f"transcribed/{self.file_prefix}_transcribed"
 
     @property
     def libretto_path(self) -> str:
