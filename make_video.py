@@ -782,8 +782,13 @@ def generate_audio_timestamps(audio_files, aligned_words=None, character_names=N
             
     return "\n".join(result)
 
-print(generate_audio_timestamps(
+chapters = generate_audio_timestamps(
     config.audio_files(),
     aligned_words=aligned_words,
     character_names=CHARACTER_NAMES
-))
+)
+print(chapters)
+# Also keep them next to the video for the YouTube description.
+with open(f"output/{config.file_prefix}-chapters.txt", "w", encoding="utf-8") as f:
+    f.write(chapters + "\n")
+print(f"(chapter list saved to output/{config.file_prefix}-chapters.txt)")
