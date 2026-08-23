@@ -1,5 +1,5 @@
 ---
-description: Instructions for writing a SPEC.md file or prompt for another agent
+description: Instructions for writing a SPEC.md file or prompt for another agent. Invoke this before prompting a subagent.
 ---
 
 Here are some instructions for writing SPECs or prompts for other agents!
